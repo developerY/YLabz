@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="web_standard" name="shell-type"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}
+::-webkit-scrollbar{display:none;}
+</style>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-primary": "#93ccff",
+          "error": "#ba1a1a",
+          "secondary-fixed-dim": "#7bd0ff",
+          "secondary": "#00668a",
+          "outline": "#707881",
+          "tertiary-fixed": "#cde5ff",
+          "inverse-surface": "#283044",
+          "primary-fixed-dim": "#93ccff",
+          "secondary-fixed": "#c4e7ff",
+          "surface-container-low": "#f2f3ff",
+          "on-tertiary": "#ffffff",
+          "outline-variant": "#bfc7d2",
+          "surface-container-lowest": "#ffffff",
+          "on-primary": "#ffffff",
+          "on-primary-fixed-variant": "#004b73",
+          "on-surface": "#131b2e",
+          "on-secondary-fixed-variant": "#004c69",
+          "surface-variant": "#dae2fd",
+          "background": "#faf8ff",
+          "surface-container-high": "#e2e7ff",
+          "inverse-on-surface": "#eef0ff",
+          "on-tertiary-container": "#fdfcff",
+          "on-primary-container": "#fdfcff",
+          "surface-container": "#eaedff",
+          "secondary-container": "#40c2fd",
+          "on-surface-variant": "#3f4850",
+          "tertiary-container": "#287ab3",
+          "primary": "#006194",
+          "on-secondary-container": "#004d6a",
+          "on-tertiary-fixed-variant": "#004b74",
+          "error-container": "#ffdad6",
+          "on-error": "#ffffff",
+          "on-secondary": "#ffffff",
+          "tertiary": "#006195",
+          "surface-bright": "#faf8ff",
+          "on-error-container": "#93000a",
+          "surface-tint": "#006398",
+          "on-background": "#131b2e",
+          "on-tertiary-fixed": "#001d32",
+          "primary-container": "#007bb9",
+          "tertiary-fixed-dim": "#94ccff",
+          "surface-container-highest": "#dae2fd",
+          "surface-dim": "#d2d9f4",
+          "primary-fixed": "#cce5ff",
+          "on-secondary-fixed": "#001e2c",
+          "surface": "#faf8ff",
+          "on-primary-fixed": "#001d31"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.125rem",
+          "lg": "0.25rem",
+          "xl": "0.5rem",
+          "full": "0.75rem"
+        },
+        "spacing": {
+          "margin-lg": "3rem",
+          "space-xs": "0.25rem",
+          "margin-md": "2rem",
+          "margin": "1rem",
+          "space-sm": "0.5rem",
+          "gutter": "1rem",
+          "gutter-md": "1.5rem",
+          "space-md": "1rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "gutter-lg": "2rem",
+          "space-2xl": "4rem",
+          "space-3xl": "6rem"
+        },
+        "fontFamily": {
+          "headline-sm": ["Space Grotesk"],
+          "body-md": ["Inter"],
+          "label-md": ["JetBrains Mono"],
+          "display-lg-mobile": ["Space Grotesk"],
+          "body-sm": ["Inter"],
+          "headline-lg": ["Space Grotesk"],
+          "display-md": ["Space Grotesk"],
+          "code-inline": ["JetBrains Mono"],
+          "label-sm": ["JetBrains Mono"],
+          "headline-md": ["Space Grotesk"],
+          "label-lg": ["JetBrains Mono"],
+          "display-lg": ["Space Grotesk"],
+          "headline-lg-mobile": ["Space Grotesk"],
+          "body-lg": ["Inter"],
+          "display-md-mobile": ["Space Grotesk"]
+        },
+        "fontSize": {
+          "headline-sm": ["20px", { lineHeight: "28px", letterSpacing: "0em", fontWeight: "500" }],
+          "body-md": ["15px", { lineHeight: "24px", letterSpacing: "-0.005em", fontWeight: "400" }],
+          "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "500" }],
+          "display-lg-mobile": ["36px", { lineHeight: "44px", letterSpacing: "-0.02em", fontWeight: "700" }],
+          "body-sm": ["13px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "400" }],
+          "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.015em", fontWeight: "600" }],
+          "display-md": ["40px", { lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "600" }],
+          "code-inline": ["13px", { lineHeight: "18px", letterSpacing: "0em", fontWeight: "400" }],
+          "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "400" }],
+          "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "500" }],
+          "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0.02em", fontWeight: "500" }],
+          "display-lg": ["56px", { lineHeight: "64px", letterSpacing: "-0.03em", fontWeight: "700" }],
+          "headline-lg-mobile": ["24px", { lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "600" }],
+          "body-lg": ["18px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "400" }],
+          "display-md-mobile": ["28px", { lineHeight: "36px", letterSpacing: "-0.02em", fontWeight: "600" }]
+        }
+      },
+    },
+  }
+</script>
+</head>
+<body class="bg-[#f8fafc] font-body-md text-slate-800 antialiased selection:bg-sky-100 selection:text-sky-900">
+<!-- Top Navigation Header -->
+<header class="fixed top-0 left-0 right-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/80 shadow-[0_2px_12px_rgba(15,23,42,0.04)]">
+<div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6">
+<div class="flex items-center gap-4 shrink-0">
+<div class="w-9 h-9 rounded-lg bg-sky-50 border border-sky-100 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">science</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-slate-900 tracking-tight font-semibold">Y? Lab Z</span>
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase font-semibold">v2.5 // FRONTIER LAB</span>
+</div>
+</div>
+<nav class="hidden xl:flex items-center gap-1">
+<a class="px-3.5 py-1.5 font-body-sm text-body-sm text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded transition-colors" data-path="overview" href="#">Overview</a>
+<a class="px-3.5 py-1.5 font-body-sm text-body-sm text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded transition-colors" data-path="platforms" href="#">Platforms</a>
+<a aria-current="page" class="px-3.5 py-1.5 font-headline-sm text-body-sm bg-primary text-white rounded font-medium shadow-sm shadow-sky-600/20" data-path="projects-and-blueprints" href="#">Projects &amp; Blueprints</a>
+<a class="px-3.5 py-1.5 font-body-sm text-body-sm text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded transition-colors" data-path="research-and-insights" href="#">Research &amp; Insights</a>
+<a class="px-3.5 py-1.5 font-body-sm text-body-sm text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded transition-colors" data-path="about-and-updates" href="#">About &amp; Updates</a>
+</nav>
+<div class="flex items-center gap-3 shrink-0">
+<a class="hidden sm:flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-slate-100 border border-slate-200/80 hover:bg-slate-200 text-slate-700 transition-all" data-path="collaborate" href="#">
+<span class="material-symbols-outlined text-[16px] text-slate-600">terminal</span>
+<span class="font-label-md text-label-md font-medium">gh/developerY</span>
+</a>
+<a class="px-4 py-2 rounded-lg bg-primary hover:bg-sky-700 text-white font-headline-sm text-body-sm tracking-wide transition-all shadow-sm shadow-sky-500/25 flex items-center gap-1.5" data-path="collaborate" href="#">
+        Collaborate
+      </a>
+<div class="w-8 h-8 rounded-full bg-sky-100 text-primary border border-sky-200 flex items-center justify-center font-medium">
+<span class="material-symbols-outlined text-[18px]">person</span>
+</div>
+</div>
+</div>
+</header>
+<main class="w-full pt-20 bg-[#f8fafc] min-h-screen">
+<div class="flex flex-col w-full">
+<!-- Atmospheric Ambient Backdrop Element -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[350px] bg-gradient-to-b from-sky-200/40 via-cyan-100/20 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+<!-- Section Header Block -->
+<div class="max-w-7xl mx-auto px-6 lg:px-12 pt-12 pb-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-8 border-b border-slate-200/70">
+<div class="flex flex-col max-w-3xl">
+<div class="flex items-center gap-2 mb-3">
+<span class="inline-block w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase text-primary font-semibold tracking-widest">REGISTRY // ARTIFACT ARCHIVE v2.5</span>
+<span class="font-label-sm text-label-sm text-slate-600 px-2 py-0.5 rounded bg-slate-100 border border-slate-200 ml-2">ENV: PRODUCTION</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg lg:text-display-lg text-slate-900 tracking-tight font-bold">Featured Lab Implementations &amp; Blueprints</h1>
+<p class="font-body-lg text-body-lg text-slate-600 mt-3 max-w-2xl leading-relaxed">
+              Audited repositories, active deployments, and architecture reference templates created by <span class="text-primary font-medium">developerY</span> for next-generation computing surfaces.
+            </p>
+</div>
+<!-- Telemetry Pill / Lab Stats -->
+<div class="flex flex-row md:flex-col items-center md:items-end gap-3 shrink-0">
+<div class="flex items-center gap-4 bg-white border border-slate-200 px-4 py-2.5 rounded-xl shadow-sm">
+<div class="flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-slate-500 font-medium">ACTIVE BLUEPRINTS</span>
+<span class="font-headline-sm text-headline-sm text-slate-900 font-bold">48 NODES</span>
+</div>
+<div class="w-px h-7 bg-slate-200"></div>
+<div class="flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-primary font-medium">SYSTEM INTEGRITY</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">99.99%</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-slate-500">ZERO-DAY AUDIT PASSED: 2025-Q1</span>
+</div>
+</div>
+<!-- Search & Category Filter Section -->
+<div class="mt-6 flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4 p-2.5 bg-white border border-slate-200/90 rounded-2xl shadow-sm">
+<!-- Interactive Search Bar -->
+<div class="relative flex-1">
+<div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-slate-400 text-[18px]">search</span>
+</div>
+<input class="w-full pl-10 pr-24 py-2.5 bg-slate-50 text-slate-900 font-body-sm text-body-sm placeholder:text-slate-400 placeholder:font-label-sm rounded-xl focus:outline-none focus:ring-2 focus:ring-sky-500/40 border border-slate-200/80 transition-all" id="blueprint-search" placeholder="Search blueprints, algorithms, protocols, or frameworks..." type="text"/>
+<div class="absolute inset-y-0 right-0 pr-3 flex items-center gap-1 pointer-events-none">
+<kbd class="px-1.5 py-0.5 rounded bg-white border border-slate-200 text-slate-500 font-label-sm text-label-sm text-[10px]">CTRL</kbd>
+<kbd class="px-1.5 py-0.5 rounded bg-white border border-slate-200 text-slate-500 font-label-sm text-label-sm text-[10px]">K</kbd>
+</div>
+</div>
+<!-- Filter Chips Matrix -->
+<div class="flex items-center gap-1.5 overflow-x-auto pb-1 lg:pb-0 scrollbar-none" id="category-filter-bar">
+<button class="filter-btn active-filter px-3.5 py-2 rounded-xl font-label-md text-label-md font-semibold tracking-wide bg-primary text-white transition-all whitespace-nowrap shadow-sm shadow-sky-600/20" data-category="all">
+              ALL (24)
+            </button>
+<button class="filter-btn px-3.5 py-2 rounded-xl font-label-md text-label-md font-medium tracking-wide bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200 transition-all whitespace-nowrap" data-category="wearables">
+              WEARABLES
+            </button>
+<button class="filter-btn px-3.5 py-2 rounded-xl font-label-md text-label-md font-medium tracking-wide bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200 transition-all whitespace-nowrap" data-category="edge-ai">
+              EDGE AI
+            </button>
+<button class="filter-btn px-3.5 py-2 rounded-xl font-label-md text-label-md font-medium tracking-wide bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200 transition-all whitespace-nowrap" data-category="spatial-xr">
+              SPATIAL XR
+            </button>
+<button class="filter-btn px-3.5 py-2 rounded-xl font-label-md text-label-md font-medium tracking-wide bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200 transition-all whitespace-nowrap" data-category="post-quantum">
+              POST-QUANTUM
+            </button>
+<button class="filter-btn px-3.5 py-2 rounded-xl font-label-md text-label-md font-medium tracking-wide bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200 transition-all whitespace-nowrap" data-category="open-source">
+              OPEN SOURCE
+            </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Blueprint Catalog Grid (Bento Matrix) -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-6 w-full">
+<div class="flex items-center justify-between mb-6">
+<div class="flex items-center gap-2.5">
+<span class="font-headline-sm text-headline-sm text-slate-900 font-semibold">Audited Systems</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold bg-sky-50 border border-sky-200 px-2 py-0.5 rounded-full">04 PINNED</span>
+</div>
+<div class="hidden sm:flex items-center gap-4 text-slate-500 font-label-sm text-label-sm">
+<span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span> VERIFIED KERNEL</span>
+<span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> NIST PQC PENDING</span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6" id="projects-grid">
+<!-- PROJECT 1: Android WearOS & watchOS Sync (Span 7) -->
+<article class="lg:col-span-7 blueprint-card group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl bg-white border border-slate-200/90 hover:border-sky-300 hover:shadow-xl hover:shadow-sky-500/5 transition-all duration-300 shadow-sm overflow-hidden" data-category="wearables open-source">
+<div class="absolute -right-16 -top-16 w-56 h-56 bg-sky-100/60 rounded-full blur-3xl pointer-events-none group-hover:bg-sky-200/50 transition-all duration-500"></div>
+<div class="relative z-10">
+<div class="flex items-start justify-between gap-4 mb-4">
+<div class="flex items-center gap-2.5">
+<span class="w-8 h-8 rounded-lg bg-sky-50 border border-sky-100 flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[18px]">watch</span>
+</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">LAB_REF::MOD_092</span>
+<span class="px-2 py-0.5 rounded-md font-label-sm text-label-sm uppercase bg-slate-100 text-slate-700 font-semibold border border-slate-200/60">WEARABLES</span>
+</div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-slate-500">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">history</span> v1.8.4</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+</div>
+</div>
+<h3 class="font-headline-md text-headline-md text-slate-900 group-hover:text-primary transition-colors tracking-tight mb-2 font-semibold">
+              Android WearOS &amp; watchOS Companion Sync
+            </h3>
+<p class="font-body-md text-body-md text-slate-600 leading-relaxed mb-6">
+              Low-energy background sync daemon communicating biosensors between Kotlin Compose Wear OS devices and Apple watchOS Swift targets. Eliminates multi-protocol serialization latency via zero-copy flatbuffers across asymmetric BLE sockets.
+            </p>
+<!-- Interactive Visualization: Biosensor Frequency Telemetry Waveform (Crisp Light Surface) -->
+<div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 shadow-inner mb-6">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-slate-500 font-medium">SUBSURFACE PPG &amp; ACCELEROMETER STREAM (60Hz)</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">BLE RSSI: -42 dBm [STABLE]</span>
+</div>
+<div class="w-full h-14 flex items-end gap-1 overflow-hidden py-1 border-b border-slate-200">
+<div class="flex-1 bg-slate-200 h-[40%] rounded-t"></div>
+<div class="flex-1 bg-slate-200 h-[60%] rounded-t"></div>
+<div class="flex-1 bg-sky-300 h-[80%] rounded-t"></div>
+<div class="flex-1 bg-primary h-[95%] rounded-t"></div>
+<div class="flex-1 bg-sky-400 h-[70%] rounded-t"></div>
+<div class="flex-1 bg-sky-300 h-[45%] rounded-t"></div>
+<div class="flex-1 bg-slate-200 h-[35%] rounded-t"></div>
+<div class="flex-1 bg-slate-200 h-[50%] rounded-t"></div>
+<div class="flex-1 bg-sky-400 h-[85%] rounded-t"></div>
+<div class="flex-1 bg-primary h-[100%] rounded-t"></div>
+<div class="flex-1 bg-sky-500 h-[75%] rounded-t"></div>
+<div class="flex-1 bg-sky-300 h-[40%] rounded-t"></div>
+<div class="flex-1 bg-slate-200 h-[30%] rounded-t"></div>
+<div class="flex-1 bg-slate-200 h-[55%] rounded-t"></div>
+<div class="flex-1 bg-sky-400 h-[90%] rounded-t"></div>
+<div class="flex-1 bg-primary h-[85%] rounded-t"></div>
+<div class="flex-1 bg-secondary h-[65%] rounded-t"></div>
+<div class="flex-1 bg-slate-200 h-[40%] rounded-t"></div>
+<div class="flex-1 bg-slate-200 h-[25%] rounded-t"></div>
+<div class="flex-1 bg-slate-200 h-[48%] rounded-t"></div>
+<div class="flex-1 bg-sky-400 h-[92%] rounded-t"></div>
+<div class="flex-1 bg-primary h-[98%] rounded-t"></div>
+<div class="flex-1 bg-sky-300 h-[60%] rounded-t"></div>
+<div class="flex-1 bg-slate-200 h-[35%] rounded-t"></div>
+</div>
+<div class="flex justify-between items-center text-slate-500 font-label-sm text-label-sm text-[11px] mt-2">
+<span>LATENCY: <strong class="text-slate-700">4.2ms</strong></span>
+<span>PACKET LOSS: <strong class="text-slate-700">&lt; 0.001%</strong></span>
+<span>BATTERY IMPACT: <strong class="text-slate-700">0.14%/HR</strong></span>
+</div>
+</div>
+</div>
+<div class="relative z-10 pt-2 flex flex-wrap items-center justify-between gap-4 border-t border-slate-100">
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>
+                KMP (Kotlin Multiplatform)
+              </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                SwiftUI / Combine
+              </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-teal-600"></span>
+                Bluetooth LE 5.3
+              </span>
+</div>
+<a class="px-3.5 py-1.5 rounded-lg bg-slate-100 hover:bg-sky-50 text-slate-800 hover:text-primary border border-slate-200 hover:border-sky-300 font-headline-sm text-body-sm transition-all flex items-center gap-1 font-medium" href="#">
+<span>Inspect Rig</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</article>
+<!-- PROJECT 2: PyTorch & TF Edge Tensor Runtime (Span 5) -->
+<article class="lg:col-span-5 blueprint-card group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl bg-white border border-slate-200/90 hover:border-sky-300 hover:shadow-xl hover:shadow-sky-500/5 transition-all duration-300 shadow-sm overflow-hidden" data-category="edge-ai open-source">
+<div class="absolute -right-12 -bottom-12 w-48 h-48 bg-sky-100/60 rounded-full blur-3xl pointer-events-none group-hover:bg-sky-200/50 transition-all duration-500"></div>
+<div class="relative z-10">
+<div class="flex items-start justify-between gap-4 mb-4">
+<div class="flex items-center gap-2.5">
+<span class="w-8 h-8 rounded-lg bg-sky-50 border border-sky-100 flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[18px]">memory</span>
+</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">LAB_REF::MOD_104</span>
+<span class="px-2 py-0.5 rounded-md font-label-sm text-label-sm uppercase bg-slate-100 text-slate-700 font-semibold border border-slate-200/60">EDGE AI</span>
+</div>
+<span class="font-label-sm text-label-sm text-slate-500 flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">speed</span> 0.8ms INT8
+              </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-slate-900 group-hover:text-primary transition-colors tracking-tight mb-2 font-semibold">
+              PyTorch &amp; TF Edge Tensor Runtime
+            </h3>
+<p class="font-body-md text-body-md text-slate-600 leading-relaxed mb-6">
+              Sub-millisecond machine perception using INT8 quantized neural pipelines integrated natively with mobile camera buffers and neural accelerators (NPU).
+            </p>
+<!-- NPU Engine Status Visual Display -->
+<div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 shadow-inner mb-6">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-sm text-label-sm text-slate-500 font-medium">QUANTIZATION TOPOLOGY</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">QUALCOMM HTP / APPLE NE</span>
+</div>
+<div class="grid grid-cols-3 gap-2.5 text-center">
+<div class="p-2.5 rounded-lg bg-white border border-slate-200 flex flex-col shadow-xs">
+<span class="font-headline-sm text-headline-sm text-slate-900 font-bold">940</span>
+<span class="font-label-sm text-label-sm text-slate-500 text-[10px]">FPS PEAK</span>
+</div>
+<div class="p-2.5 rounded-lg bg-white border border-slate-200 flex flex-col shadow-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">14.2 MB</span>
+<span class="font-label-sm text-label-sm text-slate-500 text-[10px]">WEIGHT FOOTPRINT</span>
+</div>
+<div class="p-2.5 rounded-lg bg-white border border-slate-200 flex flex-col shadow-xs">
+<span class="font-headline-sm text-headline-sm text-sky-700 font-bold">0.68 ms</span>
+<span class="font-label-sm text-label-sm text-slate-500 text-[10px]">INFERENCE AVG</span>
+</div>
+</div>
+<div class="mt-3 pt-2 border-t border-slate-200 flex items-center justify-between font-label-sm text-label-sm text-[11px] text-slate-500">
+<span>ZERO MEMCPY POOL</span>
+<span class="text-primary font-semibold">AVX-512 + NEON VECTORIZED</span>
+</div>
+</div>
+</div>
+<div class="relative z-10 pt-2 flex flex-wrap items-center justify-between gap-4 border-t border-slate-100">
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>
+                PyTorch Mobile
+              </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                TensorFlow Lite
+              </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-teal-600"></span>
+                C++ NDK / Metal
+              </span>
+</div>
+<a class="px-3.5 py-1.5 rounded-lg bg-slate-100 hover:bg-sky-50 text-slate-800 hover:text-primary border border-slate-200 hover:border-sky-300 font-headline-sm text-body-sm transition-all flex items-center gap-1 font-medium" href="#">
+<span>Weights</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</article>
+<!-- PROJECT 3: Android XR & visionOS Spatial Meshing (Span 5) -->
+<article class="lg:col-span-5 blueprint-card group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl bg-white border border-slate-200/90 hover:border-sky-300 hover:shadow-xl hover:shadow-sky-500/5 transition-all duration-300 shadow-sm overflow-hidden" data-category="spatial-xr">
+<div class="absolute -left-12 -top-12 w-48 h-48 bg-sky-100/60 rounded-full blur-3xl pointer-events-none group-hover:bg-sky-200/50 transition-all duration-500"></div>
+<div class="relative z-10">
+<div class="flex items-start justify-between gap-4 mb-4">
+<div class="flex items-center gap-2.5">
+<span class="w-8 h-8 rounded-lg bg-sky-50 border border-sky-100 flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[18px]">view_in_ar</span>
+</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">LAB_REF::MOD_211</span>
+<span class="px-2 py-0.5 rounded-md font-label-sm text-label-sm uppercase bg-slate-100 text-slate-700 font-semibold border border-slate-200/60">SPATIAL XR</span>
+</div>
+<span class="font-label-sm text-label-sm text-slate-500 flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">grid_4x4</span> 90 FPS SYNC
+              </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-slate-900 group-hover:text-primary transition-colors tracking-tight mb-2 font-semibold">
+              Android XR &amp; visionOS Spatial Meshing
+            </h3>
+<p class="font-body-md text-body-md text-slate-600 leading-relaxed mb-6">
+              Stereoscopic interface orchestrating high-fidelity physics objects across Meta Quest and Apple Vision Pro spatial environments. Bridges OpenXR runtime anchors with reality-kit scene graphs in unified real-time spatial coordinate planes.
+            </p>
+<!-- Spatial Coordinate Map Inline Visual -->
+<div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 shadow-inner mb-6 relative overflow-hidden">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-slate-500 font-medium">STEREO ANCHOR MATRIX // 6DoF</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">OCTREE DEPTH: 14</span>
+</div>
+<div class="w-full h-24 flex items-center justify-center relative bg-white rounded-lg border border-slate-200/70">
+<svg class="w-full h-full text-slate-300" fill="none" viewbox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+<line stroke="currentColor" stroke-dasharray="3 3" x1="20" x2="280" y1="20" y2="20"></line>
+<line stroke="currentColor" stroke-dasharray="3 3" x1="20" x2="280" y1="50" y2="50"></line>
+<line stroke="currentColor" stroke-dasharray="3 3" x1="20" x2="280" y1="80" y2="80"></line>
+<line stroke="currentColor" stroke-dasharray="3 3" x1="60" x2="60" y1="10" y2="90"></line>
+<line stroke="currentColor" stroke-dasharray="3 3" x1="150" x2="150" y1="10" y2="90"></line>
+<line stroke="currentColor" stroke-dasharray="3 3" x1="240" x2="240" y1="10" y2="90"></line>
+<!-- Spatial Mesh Point Cluster -->
+<circle cx="150" cy="50" fill="rgba(2, 132, 199, 0.12)" r="18" stroke="#0284c7" stroke-width="1.5"></circle>
+<circle cx="150" cy="50" fill="#0284c7" r="4"></circle>
+<circle cx="100" cy="35" fill="#006194" r="3"></circle>
+<circle cx="200" cy="65" fill="#006194" r="3"></circle>
+<circle cx="80" cy="70" fill="#94a3b8" r="2.5"></circle>
+<circle cx="220" cy="30" fill="#94a3b8" r="2.5"></circle>
+<path d="M100 35 L150 50 L200 65" stroke="#006194" stroke-linecap="round" stroke-width="1.25"></path>
+<path d="M80 70 L150 50 L220 30" stroke="#94a3b8" stroke-linecap="round" stroke-width="1"></path>
+</svg>
+<div class="absolute bottom-1 right-2 font-label-sm text-label-sm text-[10px] text-primary font-semibold">
+                  COLLISION: DYNAMIC MESH
+                </div>
+</div>
+<div class="flex justify-between items-center text-slate-500 font-label-sm text-label-sm text-[11px] mt-2">
+<span>LATENCY: <strong class="text-slate-700">11.2ms M2P</strong></span>
+<span>FOV OCCLUSION: <strong class="text-slate-700">REAL-TIME</strong></span>
+</div>
+</div>
+</div>
+<div class="relative z-10 pt-2 flex flex-wrap items-center justify-between gap-4 border-t border-slate-100">
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                visionOS RealityKit
+              </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>
+                Meta Quest 3 OpenXR
+              </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-slate-400"></span>
+                ZoeWare Core
+              </span>
+</div>
+<a class="px-3.5 py-1.5 rounded-lg bg-slate-100 hover:bg-sky-50 text-slate-800 hover:text-primary border border-slate-200 hover:border-sky-300 font-headline-sm text-body-sm transition-all flex items-center gap-1 font-medium" href="#">
+<span>Spatial SDK</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</article>
+<!-- PROJECT 4: Quantum State Vector Simulator (Span 7) -->
+<article class="lg:col-span-7 blueprint-card group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl bg-white border border-slate-200/90 hover:border-sky-300 hover:shadow-xl hover:shadow-sky-500/5 transition-all duration-300 shadow-sm overflow-hidden" data-category="post-quantum open-source">
+<div class="absolute -right-20 top-10 w-64 h-64 bg-sky-100/60 rounded-full blur-3xl pointer-events-none group-hover:bg-sky-200/50 transition-all duration-500"></div>
+<div class="relative z-10">
+<div class="flex items-start justify-between gap-4 mb-4">
+<div class="flex items-center gap-2.5">
+<span class="w-8 h-8 rounded-lg bg-sky-50 border border-sky-100 flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[18px]">grain</span>
+</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">LAB_REF::MOD_340</span>
+<span class="px-2 py-0.5 rounded-md font-label-sm text-label-sm uppercase bg-slate-100 text-slate-700 font-semibold border border-slate-200/60">POST-QUANTUM</span>
+</div>
+<span class="font-label-sm text-label-sm text-slate-500 flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-[14px] text-teal-600">verified</span> KYBER / DILITHIUM TESTED
+              </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-slate-900 group-hover:text-primary transition-colors tracking-tight mb-2 font-semibold">
+              Quantum State Vector Simulator
+            </h3>
+<p class="font-body-md text-body-md text-slate-600 leading-relaxed mb-6">
+              Open-source browser &amp; native simulator for n-qubit entanglement registers with post-quantum lattice verification. Simulates Grover search and Shor step-transforms up to 34 qubits on SIMD and WebAssembly compute backends.
+            </p>
+<!-- Quantum Entanglement Circuit Telemetry -->
+<div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 shadow-inner mb-6">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-sm text-label-sm text-slate-500 font-medium">34-QUBIT BLOCH PROJECTION &amp; ENTANGLEMENT REGISTER</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">FIDELITY: 99.982%</span>
+</div>
+<div class="flex flex-col gap-2 font-label-md text-label-md text-xs">
+<!-- Qubit Wire 0 -->
+<div class="flex items-center gap-3">
+<span class="text-slate-500 font-medium w-6">|q₀⟩</span>
+<div class="flex-1 flex items-center bg-white border border-slate-200 px-3 py-1.5 rounded-lg relative">
+<div class="h-0.5 w-full bg-slate-200 absolute left-0 right-0"></div>
+<div class="relative z-10 flex items-center gap-3">
+<span class="px-2 py-0.5 rounded bg-primary text-white font-bold text-[11px] shadow-xs">H</span>
+<span class="w-2 h-2 rounded-full bg-sky-500"></span>
+<span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-800 text-[11px]">R_z(π/4)</span>
+<span class="w-3.5 h-3.5 rounded-full bg-sky-700 text-white flex items-center justify-center text-[8px] font-bold">●</span>
+</div>
+<span class="relative z-10 ml-auto text-primary font-mono text-[11px] font-semibold">α|0⟩ + β|1⟩</span>
+</div>
+</div>
+<!-- Qubit Wire 1 -->
+<div class="flex items-center gap-3">
+<span class="text-slate-500 font-medium w-6">|q₁⟩</span>
+<div class="flex-1 flex items-center bg-white border border-slate-200 px-3 py-1.5 rounded-lg relative">
+<div class="h-0.5 w-full bg-slate-200 absolute left-0 right-0"></div>
+<div class="relative z-10 flex items-center gap-3">
+<span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-800 text-[11px]">X</span>
+<span class="w-3.5 h-3.5 rounded-full bg-sky-700 text-white flex items-center justify-center text-[8px] font-bold">⊕</span>
+<span class="px-2 py-0.5 rounded bg-sky-100 border border-sky-200 text-sky-900 font-medium text-[11px]">L-512</span>
+<span class="w-2 h-2 rounded-full bg-sky-500"></span>
+</div>
+<span class="relative z-10 ml-auto text-slate-500 font-mono text-[11px]">Ψ⁺ = (|00⟩+|11⟩)/√2</span>
+</div>
+</div>
+</div>
+<div class="flex justify-between items-center text-slate-500 font-label-sm text-label-sm text-[11px] mt-3 pt-2 border-t border-slate-200">
+<span>WASM SIMD ACCELERATED</span>
+<span>MEMORY CONSUMPTION: <strong class="text-slate-700">128 MB</strong></span>
+<span class="text-primary font-semibold">POST-QUANTUM: LATTICE-512 PASS</span>
+</div>
+</div>
+</div>
+<div class="relative z-10 pt-2 flex flex-wrap items-center justify-between gap-4 border-t border-slate-100">
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                Rust 1.82 Core
+              </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>
+                WebAssembly / WebGPU
+              </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 font-label-sm text-label-sm text-slate-700">
+<span class="w-1.5 h-1.5 rounded-full bg-teal-600"></span>
+                Lattice-512 Verification
+              </span>
+</div>
+<a class="px-3.5 py-1.5 rounded-lg bg-slate-100 hover:bg-sky-50 text-slate-800 hover:text-primary border border-slate-200 hover:border-sky-300 font-headline-sm text-body-sm transition-all flex items-center gap-1 font-medium" href="#">
+<span>Run Circuit</span>
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+</a>
+</div>
+</article>
+</div>
+</section>
+<!-- Interactive Terminal & Developer Console Section (Obsidian Quantum Lab Light Style) -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-8 w-full">
+<div class="rounded-2xl bg-white border border-slate-200/90 p-6 sm:p-8 shadow-sm relative overflow-hidden">
+<!-- Top Window Titlebar -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-200/80">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1.5">
+<div class="w-3 h-3 rounded-full bg-red-400"></div>
+<div class="w-3 h-3 rounded-full bg-amber-400"></div>
+<div class="w-3 h-3 rounded-full bg-emerald-400"></div>
+</div>
+<span class="font-label-sm text-label-sm text-slate-500 ml-2 font-medium">dev-terminal // developerY@quantum-rig-04:~/lab-registry</span>
+</div>
+<!-- Telemetry & Metrics Badges -->
+<div class="flex flex-wrap items-center gap-2.5 font-label-sm text-label-sm">
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 hover:bg-slate-200/70 text-slate-700 transition-all font-medium" href="#">
+<span class="material-symbols-outlined text-[16px] text-amber-500">star</span>
+<span>4.8k stars</span>
+</a>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-700 font-medium">
+<span class="material-symbols-outlined text-[16px] text-primary">sell</span>
+<span>release v2.5.2-pqc</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-700 font-medium">
+<span class="material-symbols-outlined text-[16px] text-sky-600">download</span>
+<span>182.4k installs/mo</span>
+</div>
+</div>
+</div>
+<!-- Terminal Body Content -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-6">
+<div class="lg:col-span-8 flex flex-col gap-4 font-label-md text-body-sm">
+<div class="flex items-center gap-2 text-slate-600">
+<span class="text-primary font-bold">❯</span>
+<span class="text-slate-500"># Quickstart: clone the frontier monorepo with verified submodules</span>
+</div>
+<!-- Command Box with One-Click Copy -->
+<div class="flex items-center justify-between p-4 rounded-xl bg-slate-900 text-slate-100 shadow-md">
+<div class="flex items-center gap-3 overflow-x-auto">
+<span class="text-sky-400 font-bold select-none">$</span>
+<code class="text-slate-100 font-label-md text-body-sm whitespace-nowrap" id="clone-command">git clone --recurse-submodules https://github.com/developerY/core.git</code>
+</div>
+<button class="ml-3 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white transition-all flex items-center gap-1.5 shrink-0 border border-slate-700" id="copy-cmd-btn" title="Copy to clipboard">
+<span class="material-symbols-outlined text-[16px]" id="copy-icon">content_copy</span>
+<span class="text-xs font-label-md font-semibold" id="copy-text">COPY</span>
+</button>
+</div>
+<!-- Shell Output Stream Simulation -->
+<div class="text-slate-500 text-xs space-y-1.5 pl-2 font-mono">
+<p class="text-slate-600">&gt; Checking host hardware acceleration... [AVX-512 detected, Apple Metal NE ready]</p>
+<p>&gt; Validating NIST Round-4 signature on origin tree...</p>
+<p class="text-primary font-semibold">&gt; Verification successful: SHA256:4f8e21a... OK</p>
+<p>&gt; Workspace configuration: 4 platforms, 12 SIMD pipelines loaded.</p>
+</div>
+</div>
+<!-- Package Registry Ecosystem Quick Links -->
+<div class="lg:col-span-4 flex flex-col gap-3 p-4 rounded-xl bg-slate-50 border border-slate-200">
+<span class="font-label-sm text-label-sm text-slate-500 font-semibold tracking-wider">PACKAGE REGISTRIES &amp; CDN</span>
+<div class="flex items-center justify-between p-3 rounded-lg bg-white border border-slate-200 hover:border-sky-300 hover:shadow-sm transition-all cursor-pointer">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">terminal</span>
+<div class="flex flex-col">
+<span class="font-label-md text-xs text-slate-900 font-semibold">brew install developerY/tap/core</span>
+<span class="font-label-sm text-[10px] text-slate-500">Homebrew Formula</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-400 text-[16px]">chevron_right</span>
+</div>
+<div class="flex items-center justify-between p-3 rounded-lg bg-white border border-slate-200 hover:border-sky-300 hover:shadow-sm transition-all cursor-pointer">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sky-600 text-[20px]">inventory_2</span>
+<div class="flex flex-col">
+<span class="font-label-md text-xs text-slate-900 font-semibold">cargo install quantum-sim-core</span>
+<span class="font-label-sm text-[10px] text-slate-500">Crates.io</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-400 text-[16px]">chevron_right</span>
+</div>
+<div class="flex items-center justify-between p-3 rounded-lg bg-white border border-slate-200 hover:border-sky-300 hover:shadow-sm transition-all cursor-pointer">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-teal-600 text-[20px]">deployed_code</span>
+<div class="flex flex-col">
+<span class="font-label-md text-xs text-slate-900 font-semibold">pip install y-edge-tensor</span>
+<span class="font-label-sm text-[10px] text-slate-500">PyPI</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-400 text-[16px]">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Laboratory Architecture Reference Matrix Section -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-6 w-full mb-12">
+<div class="p-8 rounded-2xl bg-white border border-slate-200/90 shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-6 border-b border-slate-200/80">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-semibold">STANDARDS &amp; HARDWARE TARGETS</span>
+<h2 class="font-headline-lg text-headline-lg text-slate-900 mt-1 font-bold">Cross-Surface Benchmark Specifications</h2>
+</div>
+<div class="flex items-center gap-3">
+<button class="px-4 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 font-headline-sm text-body-sm transition-all flex items-center gap-2 font-medium">
+<span class="material-symbols-outlined text-[18px] text-slate-600">description</span>
+<span>Download Spec (PDF)</span>
+</button>
+</div>
+</div>
+<!-- Data Table for Hardware Deployment Matrix -->
+<div class="overflow-x-auto mt-6">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="font-label-sm text-label-sm text-slate-500 uppercase bg-slate-50 border-y border-slate-200">
+<th class="py-3 px-4 font-semibold">TARGET ARCHITECTURE</th>
+<th class="py-3 px-4 font-semibold">MINIMUM KERNEL / OS</th>
+<th class="py-3 px-4 font-semibold">SYNC CYCLE</th>
+<th class="py-3 px-4 font-semibold">ENCRYPTION LEVEL</th>
+<th class="py-3 px-4 font-semibold">DEPLOYMENT STATUS</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-100 text-slate-700">
+<tr class="hover:bg-slate-50/70 transition-colors">
+<td class="py-4 px-4 flex items-center gap-2.5 font-medium text-slate-900">
+<span class="material-symbols-outlined text-primary text-[18px]">watch</span>
+<span>WearOS 4.0+ (ARM Cortex-A55)</span>
+</td>
+<td class="py-4 px-4 font-label-md text-label-md text-slate-600">Android API 33 / Kotlin 2.0</td>
+<td class="py-4 px-4 font-label-md text-label-md text-slate-600">4.2 ms BLE DMA</td>
+<td class="py-4 px-4 font-label-md text-label-md text-primary font-semibold">ChaCha20-Poly1305</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-sky-50 border border-sky-200 text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> PRODUCTION
+                  </span>
+</td>
+</tr>
+<tr class="hover:bg-slate-50/70 transition-colors">
+<td class="py-4 px-4 flex items-center gap-2.5 font-medium text-slate-900">
+<span class="material-symbols-outlined text-sky-600 text-[18px]">memory</span>
+<span>Qualcomm Hexagon DSP &amp; Apple NE</span>
+</td>
+<td class="py-4 px-4 font-label-md text-label-md text-slate-600">C++20 NDK r26 / Metal 3</td>
+<td class="py-4 px-4 font-label-md text-label-md text-slate-600">0.68 ms INT8 Pipeline</td>
+<td class="py-4 px-4 font-label-md text-label-md text-primary font-semibold">Hardware TEE Enclave</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-sky-50 border border-sky-200 text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> AUDITED
+                  </span>
+</td>
+</tr>
+<tr class="hover:bg-slate-50/70 transition-colors">
+<td class="py-4 px-4 flex items-center gap-2.5 font-medium text-slate-900">
+<span class="material-symbols-outlined text-primary text-[18px]">view_in_ar</span>
+<span>Apple Vision Pro / Meta Quest 3</span>
+</td>
+<td class="py-4 px-4 font-label-md text-label-md text-slate-600">visionOS 2.0 / OpenXR 1.1</td>
+<td class="py-4 px-4 font-label-md text-label-md text-slate-600">90 FPS Stereoscopic</td>
+<td class="py-4 px-4 font-label-md text-label-md text-primary font-semibold">Zero-Trust Local Bus</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-teal-50 border border-teal-200 text-teal-700 font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-teal-600"></span> ACTIVE LAB
+                  </span>
+</td>
+</tr>
+<tr class="hover:bg-slate-50/70 transition-colors">
+<td class="py-4 px-4 flex items-center gap-2.5 font-medium text-slate-900">
+<span class="material-symbols-outlined text-primary text-[18px]">grain</span>
+<span>Rust SIMD / WASM Multi-thread</span>
+</td>
+<td class="py-4 px-4 font-label-md text-label-md text-slate-600">LLVM 18 / Wasm-bindgen</td>
+<td class="py-4 px-4 font-label-md text-label-md text-slate-600">Synchronous Gate Pulse</td>
+<td class="py-4 px-4 font-label-md text-label-md text-primary font-semibold">Kyber-1024 / Dilithium-5</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-sky-50 border border-sky-200 text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> NIST VERIFIED
+                  </span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- Interactive Logic for Search, Category Filtering, and Terminal Copy -->
+<script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // 1. One-click Git Clone Terminal Command Copy
+        const copyBtn = document.getElementById('copy-cmd-btn');
+        const copyText = document.getElementById('copy-text');
+        const copyIcon = document.getElementById('copy-icon');
+        const cmdText = document.getElementById('clone-command').innerText;
+
+        if (copyBtn) {
+          copyBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText(cmdText).then(() => {
+              copyText.innerText = 'COPIED!';
+              copyText.classList.add('text-sky-400');
+              copyIcon.innerText = 'done';
+              copyIcon.classList.add('text-sky-400');
+              setTimeout(() => {
+                copyText.innerText = 'COPY';
+                copyText.classList.remove('text-sky-400');
+                copyIcon.innerText = 'content_copy';
+                copyIcon.classList.remove('text-sky-400');
+              }, 2200);
+            });
+          });
+        }
+
+        // 2. Category Filtering Matrix
+        const filterButtons = document.querySelectorAll('#category-filter-bar .filter-btn');
+        const cards = document.querySelectorAll('.blueprint-card');
+        const searchInput = document.getElementById('blueprint-search');
+
+        function filterCards() {
+          const activeCategory = document.querySelector('.active-filter')?.getAttribute('data-category') || 'all';
+          const query = searchInput.value.toLowerCase().trim();
+
+          cards.forEach(card => {
+            const cardCategory = card.getAttribute('data-category') || '';
+            const cardText = card.innerText.toLowerCase();
+
+            const matchesCategory = (activeCategory === 'all') || cardCategory.includes(activeCategory);
+            const matchesQuery = query === '' || cardText.includes(query);
+
+            if (matchesCategory && matchesQuery) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        }
+
+        filterButtons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            filterButtons.forEach(b => {
+              b.classList.remove('active-filter', 'bg-primary', 'text-white', 'shadow-sm', 'shadow-sky-600/20');
+              b.classList.add('bg-slate-100', 'text-slate-600');
+            });
+            btn.classList.add('active-filter', 'bg-primary', 'text-white', 'shadow-sm', 'shadow-sky-600/20');
+            btn.classList.remove('bg-slate-100', 'text-slate-600');
+            filterCards();
+          });
+        });
+
+        if (searchInput) {
+          searchInput.addEventListener('input', filterCards);
+          
+          // Keyboard Shortcut CTRL/CMD + K Focus
+          window.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+              e.preventDefault();
+              searchInput.focus();
+            }
+          });
+        }
+      });
+    </script>
+</div>
+</main>
+<!-- Light Laboratory Footer -->
+<footer class="w-full bg-white border-t border-slate-200 mt-space-3xl">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 pt-space-2xl pb-space-xl">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-xl border-b border-slate-200/80">
+<div class="lg:col-span-2 flex flex-col gap-space-sm">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-sky-50 border border-sky-100 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[18px]">deployed_code</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-slate-900 font-bold">Y? Lab Z</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-md bg-slate-100 text-primary font-semibold border border-slate-200">CRYO-RIG 04</span>
+</div>
+<p class="font-body-sm text-body-sm text-slate-600 max-w-sm">
+          High-performance computing laboratory architecting spatial computing substrates, neural runtime fabrics, distributed ledgers, and quantum algorithm simulations.
+        </p>
+<div class="flex items-center gap-4 pt-space-xs">
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-slate-500">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span>SYSTEM: OPTIMAL (12.4 mK)</span>
+</div>
+<div class="font-label-sm text-label-sm text-slate-500">Q-FIDELITY: <strong class="text-slate-700">99.982%</strong></div>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-slate-900 tracking-wider uppercase mb-space-xs font-semibold">Frontier Platforms</span>
+<a class="font-body-sm text-body-sm text-slate-600 hover:text-primary transition-colors" data-path="platforms" href="#">Spatial XR &amp; VisionOS</a>
+<a class="font-body-sm text-body-sm text-slate-600 hover:text-primary transition-colors" data-path="platforms" href="#">Machine Learning &amp; PyTorch</a>
+<a class="font-body-sm text-body-sm text-slate-600 hover:text-primary transition-colors" data-path="platforms" href="#">Quantum Simulation (Qiskit)</a>
+<a class="font-body-sm text-body-sm text-slate-600 hover:text-primary transition-colors" data-path="platforms" href="#">Distributed Consensus</a>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-slate-900 tracking-wider uppercase mb-space-xs font-semibold">Laboratory</span>
+<a class="font-body-sm text-body-sm text-slate-600 hover:text-primary transition-colors" data-path="projects-and-blueprints" href="#">Active Blueprints</a>
+<a class="font-body-sm text-body-sm text-slate-600 hover:text-primary transition-colors" data-path="research-and-insights" href="#">Lewis Thomas Archive</a>
+<a class="font-body-sm text-body-sm text-slate-600 hover:text-primary transition-colors" data-path="research-and-insights" href="#">Technical Whitepapers</a>
+<a class="font-body-sm text-body-sm text-slate-600 hover:text-primary transition-colors" data-path="about-and-updates" href="#">Benchmarking Suites</a>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-slate-900 tracking-wider uppercase mb-space-xs font-semibold">Governance &amp; Telemetry</span>
+<div class="font-label-sm text-label-sm text-slate-500">ISO/IEC 27001 COMPLIANT</div>
+<div class="font-label-sm text-label-sm text-slate-500">NIST PQC ROUND 4 READY</div>
+<div class="font-label-sm text-label-sm text-slate-500">ZERO-TRUST ENCLAVE</div>
+<div class="font-label-sm text-label-sm text-primary font-semibold mt-space-xs">LAB_ID: YZ-QX-8819</div>
+</div>
+</div>
+<div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-slate-500 font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span>© 2025 Y? Lab Z Research Group. All rights reserved.</span>
+</div>
+<div class="flex items-center gap-6 font-label-sm text-label-sm">
+<span class="hover:text-slate-800 transition-colors cursor-pointer">SECURITY PROTOCOL v4</span>
+<span class="hover:text-slate-800 transition-colors cursor-pointer">ETHICS MANIFESTO</span>
+<span class="hover:text-slate-800 transition-colors cursor-pointer">SYSTEM STATUS: NOMINAL</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

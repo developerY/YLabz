@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-primary": "#93ccff",
+          "error": "#ba1a1a",
+          "secondary-fixed-dim": "#7bd0ff",
+          "secondary": "#00668a",
+          "outline": "#707881",
+          "tertiary-fixed": "#cde5ff",
+          "inverse-surface": "#283044",
+          "primary-fixed-dim": "#93ccff",
+          "secondary-fixed": "#c4e7ff",
+          "surface-container-low": "#f2f3ff",
+          "on-tertiary": "#ffffff",
+          "outline-variant": "#bfc7d2",
+          "surface-container-lowest": "#ffffff",
+          "on-primary": "#ffffff",
+          "on-primary-fixed-variant": "#004b73",
+          "on-surface": "#0f172a",
+          "on-secondary-fixed-variant": "#004c69",
+          "surface-variant": "#e2e8f0",
+          "background": "#f8fafc",
+          "surface-container-high": "#e2e7ff",
+          "inverse-on-surface": "#eef0ff",
+          "on-tertiary-container": "#fdfcff",
+          "on-primary-container": "#fdfcff",
+          "surface-container": "#f1f5f9",
+          "secondary-container": "#e0f2fe",
+          "on-surface-variant": "#64748b",
+          "tertiary-container": "#bae6fd",
+          "primary": "#0284c7",
+          "on-secondary-container": "#0369a1",
+          "on-tertiary-fixed-variant": "#004b74",
+          "error-container": "#ffdad6",
+          "on-error": "#ffffff",
+          "on-secondary": "#ffffff",
+          "tertiary": "#0284c7",
+          "surface-bright": "#ffffff",
+          "on-error-container": "#93000a",
+          "surface-tint": "#0284c7",
+          "on-background": "#0f172a",
+          "on-tertiary-fixed": "#001d32",
+          "primary-container": "#0284c7",
+          "tertiary-fixed-dim": "#94ccff",
+          "surface-container-highest": "#dae2fd",
+          "surface-dim": "#e2e8f0",
+          "primary-fixed": "#e0f2fe",
+          "on-secondary-fixed": "#001e2c",
+          "surface": "#ffffff",
+          "on-primary-fixed": "#001d31"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.125rem",
+          "lg": "0.25rem",
+          "xl": "0.5rem",
+          "full": "0.75rem"
+        },
+        "spacing": {
+          "margin-lg": "3rem",
+          "space-xs": "0.25rem",
+          "margin-md": "2rem",
+          "margin": "1rem",
+          "space-sm": "0.5rem",
+          "gutter": "1rem",
+          "gutter-md": "1.5rem",
+          "space-md": "1rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "gutter-lg": "2rem"
+        },
+        "fontFamily": {
+          "headline-sm": ["Space Grotesk"],
+          "body-md": ["Inter"],
+          "label-md": ["JetBrains Mono"],
+          "display-lg-mobile": ["Space Grotesk"],
+          "body-sm": ["Inter"],
+          "headline-lg": ["Space Grotesk"],
+          "display-md": ["Space Grotesk"],
+          "code-inline": ["JetBrains Mono"],
+          "label-sm": ["JetBrains Mono"],
+          "headline-md": ["Space Grotesk"],
+          "label-lg": ["JetBrains Mono"],
+          "display-lg": ["Space Grotesk"],
+          "headline-lg-mobile": ["Space Grotesk"],
+          "body-lg": ["Inter"],
+          "display-md-mobile": ["Space Grotesk"]
+        },
+        "fontSize": {
+          "headline-sm": ["20px", {lineHeight: "28px", letterSpacing: "0em", fontWeight: "500"}],
+          "body-md": ["15px", {lineHeight: "24px", letterSpacing: "-0.005em", fontWeight: "400"}],
+          "label-md": ["12px", {lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "500"}],
+          "display-lg-mobile": ["36px", {lineHeight: "44px", letterSpacing: "-0.02em", fontWeight: "700"}],
+          "body-sm": ["13px", {lineHeight: "20px", letterSpacing: "0em", fontWeight: "400"}],
+          "headline-lg": ["32px", {lineHeight: "40px", letterSpacing: "-0.015em", fontWeight: "600"}],
+          "display-md": ["40px", {lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "600"}],
+          "code-inline": ["13px", {lineHeight: "18px", letterSpacing: "0em", fontWeight: "400"}],
+          "label-sm": ["11px", {lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "400"}],
+          "headline-md": ["24px", {lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "500"}],
+          "label-lg": ["14px", {lineHeight: "20px", letterSpacing: "0.02em", fontWeight: "500"}],
+          "display-lg": ["56px", {lineHeight: "64px", letterSpacing: "-0.03em", fontWeight: "700"}],
+          "headline-lg-mobile": ["24px", {lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "600"}],
+          "body-lg": ["18px", {lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "400"}],
+          "display-md-mobile": ["28px", {lineHeight: "36px", letterSpacing: "-0.02em", fontWeight: "600"}]
+        }
+      }
+    }
+  }
+</script></head><body class="bg-[#f8fafc] font-body-md text-[#0f172a] antialiased selection:bg-sky-500 selection:text-white"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-white/85 backdrop-blur-xl border-b border-[#e2e8f0] shadow-sm"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6"><div class="flex items-center gap-4 shrink-0"><div class="w-9 h-9 rounded bg-[#f1f5f9] border border-[#e2e8f0] flex items-center justify-center"><span class="material-symbols-outlined text-sky-600 text-[20px]">science</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-[#0f172a] font-bold tracking-tight">Y? Lab Z</span><span class="font-label-sm text-[10px] text-sky-600 tracking-widest uppercase font-semibold">v2.5 // FRONTIER LAB</span></div></div><nav class="hidden xl:flex items-center gap-1"><a class="px-3 py-1.5 font-body-sm text-body-sm text-[#64748b] hover:text-[#0f172a] hover:bg-[#f1f5f9] rounded transition-colors" data-path="overview" href="#">Overview</a><a class="px-3 py-1.5 font-body-sm text-body-sm text-[#64748b] hover:text-[#0f172a] hover:bg-[#f1f5f9] rounded transition-colors" data-path="platforms" href="#">Platforms</a><a class="px-3 py-1.5 font-body-sm text-body-sm text-[#64748b] hover:text-[#0f172a] hover:bg-[#f1f5f9] rounded transition-colors" data-path="projects-and-blueprints" href="#">Projects &amp; Blueprints</a><a aria-current="page" class="px-3 py-1.5 transition-colors bg-sky-600 text-white rounded font-headline-sm text-body-sm font-medium shadow-sm" data-path="research-and-insights" href="#">Research &amp; Insights</a><a class="px-3 py-1.5 font-body-sm text-body-sm text-[#64748b] hover:text-[#0f172a] hover:bg-[#f1f5f9] rounded transition-colors" data-path="about-and-updates" href="#">About &amp; Updates</a></nav><div class="flex items-center gap-3 shrink-0"><a class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded bg-[#f1f5f9] border border-[#e2e8f0] hover:bg-[#e2e8f0] text-[#475569] transition-all" data-path="collaborate" href="#"><span class="material-symbols-outlined text-[16px] text-sky-600">terminal</span><span class="font-label-sm text-[12px]">gh/developerY</span></a><a class="px-4 py-2 rounded bg-sky-600 hover:bg-sky-700 text-white font-headline-sm text-body-sm tracking-wide transition-all shadow-[0_2px_10px_rgba(2,132,199,0.3)]" data-path="collaborate" href="#">Collaborate</a><div class="w-8 h-8 rounded-full bg-sky-600 text-white flex items-center justify-center font-bold shadow-sm"><span class="material-symbols-outlined text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-[#f8fafc] min-h-screen"><div class="flex flex-col w-full">
+<!-- Atmospheric Top Glow Canvas -->
+<div class="relative w-full overflow-hidden border-b border-[#e2e8f0]/80">
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[350px] bg-gradient-to-b from-sky-200/50 via-sky-100/30 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+<div class="absolute top-20 right-10 w-96 h-96 bg-cyan-200/40 blur-3xl pointer-events-none rounded-full"></div>
+<!-- Header Section -->
+<div class="max-w-7xl mx-auto px-6 lg:px-12 pt-12 pb-16 relative z-10">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded bg-sky-50 text-sky-700 border border-sky-200 font-label-sm text-[11px] tracking-widest uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-sky-500 animate-ping"></span>
+            DISPATCH ARCHIVE • VOL 09
+          </span>
+<span class="font-label-sm text-[12px] text-[#64748b]">DOC_REF::LT-2025-AX</span>
+</div>
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8">
+<div class="max-w-3xl">
+<h1 class="font-display-md text-display-md text-[#0f172a] font-bold tracking-tight">
+              Research, Philosophy &amp; Lab Updates
+            </h1>
+<p class="font-body-lg text-body-lg text-[#475569] mt-4 leading-relaxed">
+              Deconstructing computing primitives through systematic fragmentation, open algorithmic proofs, and empirical prototypes across spatial canvas, low-latency neural fabrics, and distributed zero-knowledge runtimes.
+            </p>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-[12px] text-sky-600 font-semibold">NODE: CRYPTO-US-EAST</span>
+<span class="font-label-sm text-[11px] text-[#64748b] uppercase">SYS EPOCH: 8,421,093</span>
+</div>
+<div class="w-12 h-12 rounded bg-white border border-[#e2e8f0] shadow-sm flex items-center justify-center text-sky-600">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 1: THE LEWIS THOMAS THESIS -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-10 w-full relative">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Primary Thesis Narrative Block -->
+<div class="lg:col-span-7 flex flex-col gap-8">
+<div class="bg-white border border-[#e2e8f0] rounded-xl p-8 lg:p-10 shadow-sm relative overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-sky-500 to-transparent"></div>
+<div class="flex items-center justify-between mb-8 pb-4 border-b border-[#f1f5f9]">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sky-600 text-[20px]">auto_stories</span>
+<span class="font-label-sm text-[12px] text-sky-700 font-semibold tracking-widest uppercase">EPISTEMOLOGICAL FOUNDATION</span>
+</div>
+<span class="font-label-sm text-[12px] text-[#64748b]">ESSAY_ID::0xTHOMAS</span>
+</div>
+<!-- The Lewis Thomas Quote Callout -->
+<blockquote class="bg-gradient-to-br from-sky-50/70 to-slate-50 border border-sky-100 rounded-lg p-6 lg:p-8 mb-8 relative">
+<div class="text-sky-300 opacity-60 absolute top-2 left-3 font-display-md text-6xl leading-none select-none">“</div>
+<p class="font-headline-sm text-headline-sm text-[#0f172a] italic leading-relaxed pl-6 relative z-10 font-normal">
+              The invention of a mechanism for the systematic publication of fragments of scientific work may well have been the key event in the history of modern science.
+            </p>
+<div class="mt-4 pl-6 flex items-center justify-between flex-wrap gap-2">
+<cite class="not-italic font-label-md text-label-md text-sky-700 font-semibold">— Dr. Lewis Thomas (1913–1993)</cite>
+<span class="font-label-sm text-[11px] text-[#64748b] uppercase">The Lives of a Cell (1974)</span>
+</div>
+</blockquote>
+<!-- Analytical Essay -->
+<div class="flex flex-col gap-5 text-[#334155] font-body-md text-body-md leading-relaxed">
+<p>
+              In seventeenth-century natural philosophy, scientific discovery was often jealously guarded in alchemical ciphers or posthumously revealed in monolithic treatises. The revolutionary catalyst that accelerated European science was not a sudden spike in human cognition, but an institutional substrate: the philosophical journal and the rapid distribution of verified, reproducible <em class="text-[#0f172a] font-medium not-italic bg-sky-100/70 px-1 rounded">fragments</em>.
+            </p>
+<p>
+              At <strong class="text-[#0f172a] font-semibold">Y? Lab Z</strong>, we assert that the modern lineage of Thomas's fragment mechanism is found neither in paywalled academic journals nor proprietary corporate slide decks. It thrives in the open git commit, the verified reproducible repository, the self-contained container image, and the public cryptographic artifact.
+            </p>
+<p>
+              When a spatial matrix transformation or an INT8 quantized weight loader is pushed as an open repository, it is immediately absorbed by thousands of concurrent compilers worldwide. It is tested against strange edge architectures, pruned of parasitic cycles, and recombined into novel primitives within hours. The git diff is our peer review; deterministic compilation is our empirical verification.
+            </p>
+</div>
+<div class="mt-8 pt-6 border-t border-[#f1f5f9] grid grid-cols-3 gap-4 text-center">
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-4 rounded flex flex-col items-center justify-center">
+<span class="font-headline-md text-headline-md text-sky-600 font-bold tracking-tight">100%</span>
+<span class="font-label-sm text-[11px] text-[#64748b] uppercase mt-1">Open Artifacts</span>
+</div>
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-4 rounded flex flex-col items-center justify-center">
+<span class="font-headline-md text-headline-md text-sky-600 font-bold tracking-tight">&lt; 14ms</span>
+<span class="font-label-sm text-[11px] text-[#64748b] uppercase mt-1">Spatial Sync TTF</span>
+</div>
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-4 rounded flex flex-col items-center justify-center">
+<span class="font-headline-md text-headline-md text-sky-700 font-bold tracking-tight">Zero-Paywall</span>
+<span class="font-label-sm text-[11px] text-[#64748b] uppercase mt-1">Public Domain MIT</span>
+</div>
+</div>
+</div>
+<!-- Philosophical Fragment Diagram -->
+<div class="bg-white border border-[#e2e8f0] rounded-xl p-6 shadow-sm">
+<div class="flex items-center justify-between mb-4 pb-3 border-b border-[#f1f5f9]">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sky-600 text-[18px]">schema</span>
+<span class="font-label-sm text-[12px] text-[#0f172a] uppercase tracking-wider font-semibold">FRAGMENTATION RUNTIME PIPELINE</span>
+</div>
+<span class="font-label-sm text-[12px] text-[#64748b]">STATE: CONTINUOUS</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-3">
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-4 rounded flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-[11px] text-sky-600 font-semibold">STAGE 01</span>
+<span class="material-symbols-outlined text-[#94a3b8] text-[16px]">psychology_alt</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-[#0f172a] text-[15px] font-semibold">Inquiry ‘?’</span>
+<p class="font-body-sm text-body-sm text-[#64748b] text-[12px] leading-snug">Empirical question framed around limits of current hardware/substrate.</p>
+</div>
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-4 rounded flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-[11px] text-sky-600 font-semibold">STAGE 02</span>
+<span class="material-symbols-outlined text-[#94a3b8] text-[16px]">code</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-[#0f172a] text-[15px] font-semibold">Fragment Code</span>
+<p class="font-body-sm text-body-sm text-[#64748b] text-[12px] leading-snug">Deconstructed single-purpose kernel published directly to Git upstream.</p>
+</div>
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-4 rounded flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-[11px] text-sky-600 font-semibold">STAGE 03</span>
+<span class="material-symbols-outlined text-[#94a3b8] text-[16px]">analytics</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-[#0f172a] text-[15px] font-semibold">Peer Telemetry</span>
+<p class="font-body-sm text-body-sm text-[#64748b] text-[12px] leading-snug">Global benchmark cluster records latency, power draw, and precision.</p>
+</div>
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-4 rounded flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-[11px] text-sky-600 font-semibold">STAGE 04</span>
+<span class="material-symbols-outlined text-[#94a3b8] text-[16px]">check_circle</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-[#0f172a] text-[15px] font-semibold">Exhaustion ‘Z’</span>
+<p class="font-body-sm text-body-sm text-[#64748b] text-[12px] leading-snug">Formal proof settled; archived in persistent distributed ledger.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Oscilloscope / Telemetry Monitor Widget -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<div class="bg-white border border-[#e2e8f0] rounded-xl p-6 lg:p-7 shadow-sm relative overflow-hidden">
+<div class="flex items-center justify-between pb-4 border-b border-[#f1f5f9]">
+<div class="flex items-center gap-2.5">
+<span class="w-2.5 h-2.5 rounded-full bg-sky-500 animate-ping"></span>
+<span class="font-label-sm text-[12px] text-[#0f172a] uppercase tracking-wider font-semibold">LIVE TELEMETRY MONITOR</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-label-sm text-[11px] text-sky-700 font-medium">FREQ: 142.8 MHz</span>
+<button class="p-1.5 rounded bg-[#f1f5f9] border border-[#e2e8f0] hover:bg-[#e2e8f0] text-[#64748b] hover:text-sky-600 transition-colors" id="oscilloscope-toggle-btn" title="Toggle Sampling Frequency">
+<span class="material-symbols-outlined text-[16px]">sync</span>
+</button>
+</div>
+</div>
+<!-- Oscilloscope Visual Display Container -->
+<div class="relative w-full h-56 bg-slate-900 rounded-lg p-3 overflow-hidden flex flex-col justify-between mt-4 shadow-inner">
+<!-- Background Matrix Grid Lines -->
+<div class="absolute inset-0 bg-[radial-gradient(circle,rgba(56,189,248,0.15)_1px,transparent_1px)] bg-[size:16px_16px] pointer-events-none"></div>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
+<div class="w-full h-[1px] bg-sky-400"></div>
+</div>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
+<div class="h-full w-[1px] bg-sky-400"></div>
+</div>
+<!-- Header HUD -->
+<div class="relative z-10 flex items-center justify-between text-slate-400 font-label-sm text-[11px]">
+<span class="text-sky-300">CHAN A: FRAGMENT_FLUX</span>
+<span class="text-slate-300 font-mono" id="flux-amplitude">AMP: 0.942 Vpp</span>
+</div>
+<!-- Dynamic SVG Oscilloscope Waveform -->
+<div class="relative z-10 w-full h-32 flex items-center">
+<svg class="w-full h-full overflow-visible" id="oscilloscope-svg" preserveaspectratio="none" viewbox="0 0 500 100">
+<defs>
+<lineargradient id="waveGrad" x1="0%" x2="100%" y1="0%" y2="0%">
+<stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"></stop>
+<stop offset="50%" stop-color="#38bdf8" stop-opacity="1"></stop>
+<stop offset="100%" stop-color="#0284c7" stop-opacity="0.8"></stop>
+</lineargradient>
+<filter id="waveGlow">
+<fegaussianblur result="coloredBlur" stddeviation="2"></fegaussianblur>
+<femerge>
+<femergenode in="coloredBlur"></femergenode>
+<femergenode in="SourceGraphic"></femergenode>
+</femerge></filter>
+</defs>
+<!-- Ghost trails for phosphorescent screen feel -->
+<path d="M 0 50 Q 60 20 125 50 T 250 50 T 375 50 T 500 50" fill="none" id="wave-trail" opacity="0.3" stroke="#38bdf8" stroke-width="1"></path>
+<!-- Main signal line -->
+<path d="M 0 50 Q 62.5 15 125 50 T 250 50 T 375 50 T 500 50" fill="none" filter="url(#waveGlow)" id="wave-primary" stroke="url(#waveGrad)" stroke-width="2.5"></path>
+</svg>
+</div>
+<!-- Footer HUD -->
+<div class="relative z-10 flex items-center justify-between text-slate-400 font-label-sm text-[11px]">
+<span class="font-mono text-slate-300" id="timebase-label">TIMEBASE: 5.0μs/div</span>
+<span class="text-sky-400 flex items-center gap-1 font-mono">
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-sky-400 animate-pulse"></span>
+                TRIG: POSITIVE_EDGE
+              </span>
+</div>
+</div>
+<!-- Parameter Modifiers -->
+<div class="mt-5 grid grid-cols-2 gap-3">
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-3 rounded flex flex-col gap-1">
+<span class="font-label-sm text-[11px] text-[#64748b]">DISCOVERY FLUX INDEX</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-[#0f172a] font-bold" id="flux-index-val">87.4%</span>
+<span class="font-label-sm text-[12px] text-sky-600 font-semibold">+3.2Δ</span>
+</div>
+<div class="w-full bg-[#e2e8f0] h-1.5 rounded-full overflow-hidden mt-1">
+<div class="bg-sky-500 h-full w-[87%] rounded-full"></div>
+</div>
+</div>
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-3 rounded flex flex-col gap-1">
+<span class="font-label-sm text-[11px] text-[#64748b]">REPRODUCTIVE FIDELITY</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-[#0f172a] font-bold" id="fidelity-val">99.8%</span>
+<span class="font-label-sm text-[11px] text-emerald-600 font-semibold">NOMINAL</span>
+</div>
+<div class="w-full bg-[#e2e8f0] h-1.5 rounded-full overflow-hidden mt-1">
+<div class="bg-sky-600 h-full w-[99%] rounded-full"></div>
+</div>
+</div>
+</div>
+<!-- Oscilloscope interactive control knobs -->
+<div class="mt-4 pt-4 border-t border-[#f1f5f9] flex items-center justify-between text-[#64748b]">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-[11px] text-[#64748b] uppercase">MODE:</span>
+<span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-700 font-label-sm text-[11px] font-medium">CONTINUOUS_SAMPLING</span>
+</div>
+<button class="px-3 py-1.5 rounded bg-[#f1f5f9] hover:bg-[#e2e8f0] text-[#0f172a] font-label-sm text-[12px] font-medium flex items-center gap-1.5 transition-colors border border-[#e2e8f0]" id="perturb-btn">
+<span class="material-symbols-outlined text-[15px] text-sky-600">tune</span>
+<span>Inject Perturbation</span>
+</button>
+</div>
+</div>
+<!-- Archival Lab Imagery / Visual Artifact -->
+<div class="bg-white border border-[#e2e8f0] rounded-xl p-5 shadow-sm flex flex-col gap-3">
+<div class="relative w-full h-44 rounded-lg overflow-hidden group border border-[#e2e8f0]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="High precision quantum computing cryogenic dilution refrigerator rig suspended in an obsidian dark room with glowing cyan and electric indigo fiber optic telemetry leads, ultra-fine technical details, ambient glass reflection, moody futuristic cybernetic research environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxSBNZkYOC6iwJExEB1sCzXMVbxaJdaJGsFmradi6YrNEbZv8YtdtxbXKMNGIC1KxxBdmCx4xYJmNglPJo5LdxwIxWvbKtaNmiDqpVm7Ebh4RfaHBeIE5xINx3ANV9W7BHoV9xfiZ-jvyTZtMKBZ7zeWUK_8zZ8yGad5DSZFefA6qt5HRLa-co4U6QA49Twu2f0SWn_zaA-VQpN0IcOLjY6SvuRmVV-cl9SDw_4D1n"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-label-sm text-[11px]">
+<span class="bg-slate-900/80 px-2 py-0.5 rounded backdrop-blur-sm border border-slate-700">CRYO-BAY 02 // RIG α</span>
+<span class="text-sky-300 font-semibold">STABLE 11.2 mK</span>
+</div>
+</div>
+<span class="font-body-sm text-body-sm text-[#64748b] px-1">
+            Physical substrate bench where zero-knowledge fragments and quantum circuit simulators undergo continuous validation loops.
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: CHRONOLOGICAL CHANGELOG & LAB DISPATCHES -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-16 w-full">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-sky-600 text-[20px]">history_edu</span>
+<span class="font-label-sm text-[12px] text-sky-700 font-semibold tracking-widest uppercase">DISPATCH RECORD</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-[#0f172a] font-bold tracking-tight">
+          Lab Timeline &amp; Recent Dispatches
+        </h2>
+</div>
+<p class="font-body-md text-body-md text-[#64748b] max-w-md">
+        Granular record of architecture releases, peer-reviewed technical whitepapers, and verifiable benchmarking suites.
+      </p>
+</div>
+<!-- Timeline Grid / Asymmetric Bento Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Dispatch 1: visionOS 2.0 Spatial Toolkit -->
+<div class="bg-white border border-[#e2e8f0] rounded-xl p-6 lg:p-7 shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-label-sm text-[11px] text-sky-700 font-semibold uppercase">Q1 2025 • RELEASE</span>
+<span class="font-label-sm text-[12px] text-[#64748b]">REV::v2.4.0</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-[#0f172a] group-hover:text-sky-600 font-bold transition-colors mb-3">
+            Spatial XR &amp; visionOS 2.0 Polyhedron Engine
+          </h3>
+<p class="font-body-md text-body-md text-[#475569] leading-relaxed mb-6">
+            Released a zero-latency volumetric mesh transformation bridge supporting bi-directional gaze synchronization between visionOS RealityKit and Android OpenXR runtime layers.
+          </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2 py-0.5 rounded bg-[#f1f5f9] border border-[#e2e8f0] font-label-sm text-[11px] text-[#475569]">Swift 6.0</span>
+<span class="px-2 py-0.5 rounded bg-[#f1f5f9] border border-[#e2e8f0] font-label-sm text-[11px] text-[#475569]">Metal 3</span>
+<span class="px-2 py-0.5 rounded bg-[#f1f5f9] border border-[#e2e8f0] font-label-sm text-[11px] text-[#475569]">RealityKit</span>
+<span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-label-sm text-[11px] text-sky-700 font-medium">OpenXR</span>
+</div>
+</div>
+<div class="pt-4 border-t border-[#f1f5f9] flex items-center justify-between">
+<div class="flex items-center gap-2 text-[#64748b] font-label-sm text-[12px]">
+<span class="material-symbols-outlined text-[16px] text-sky-600">folder_zip</span>
+<span>tar.gz (42.8 MB)</span>
+</div>
+<a class="inline-flex items-center gap-1 font-body-sm text-body-sm text-sky-600 hover:text-sky-800 font-semibold transition-colors" href="#">
+<span>Inspect Blueprint</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Dispatch 2: WearOS Compose Sync Whitepaper -->
+<div class="bg-white border border-[#e2e8f0] rounded-xl p-6 lg:p-7 shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-label-sm text-[11px] text-sky-700 font-semibold uppercase">Q4 2024 • WHITEPAPER</span>
+<span class="font-label-sm text-[12px] text-[#64748b]">PUB::YZ-WP-99</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-[#0f172a] group-hover:text-sky-600 font-bold transition-colors mb-3">
+            WearOS Compose Sub-Millisecond Heartbeat Fabric
+          </h3>
+<p class="font-body-md text-body-md text-[#475569] leading-relaxed mb-6">
+            Published empirical thesis on deterministic state replication across wearable low-power microcontrollers and edge compute nodes utilizing custom protobuf over BLE 5.4.
+          </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2 py-0.5 rounded bg-[#f1f5f9] border border-[#e2e8f0] font-label-sm text-[11px] text-[#475569]">Jetpack Compose</span>
+<span class="px-2 py-0.5 rounded bg-[#f1f5f9] border border-[#e2e8f0] font-label-sm text-[11px] text-[#475569]">BLE 5.4</span>
+<span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-label-sm text-[11px] text-sky-700 font-medium">Protobuf v4</span>
+</div>
+</div>
+<div class="pt-4 border-t border-[#f1f5f9] flex items-center justify-between">
+<div class="flex items-center gap-2 text-[#64748b] font-label-sm text-[12px]">
+<span class="material-symbols-outlined text-[16px] text-sky-600">picture_as_pdf</span>
+<span>PDF (18 Pages)</span>
+</div>
+<a class="inline-flex items-center gap-1 font-body-sm text-body-sm text-sky-600 hover:text-sky-800 font-semibold transition-colors" href="#">
+<span>Read Manuscript</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Dispatch 3: INT8 Edge Quantization -->
+<div class="bg-white border border-[#e2e8f0] rounded-xl p-6 lg:p-7 shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-label-sm text-[11px] text-sky-700 font-semibold uppercase">Q3 2024 • BENCHMARK</span>
+<span class="font-label-sm text-[12px] text-[#64748b]">SUITE::INT8-EDGE</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-[#0f172a] group-hover:text-sky-600 font-bold transition-colors mb-3">
+            Sub-Watt INT8 Neural Matrix Benchmarks
+          </h3>
+<p class="font-body-md text-body-md text-[#475569] leading-relaxed mb-6">
+            Comparative performance telemetry across Apple Neural Engine, Snapdragon NPU, and Coral Tensor chips executing 7B parameter reasoning graphs at 2.4 watts dissipation.
+          </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2 py-0.5 rounded bg-[#f1f5f9] border border-[#e2e8f0] font-label-sm text-[11px] text-[#475569]">PyTorch 2.4</span>
+<span class="px-2 py-0.5 rounded bg-[#f1f5f9] border border-[#e2e8f0] font-label-sm text-[11px] text-[#475569]">ONNX Runtime</span>
+<span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-label-sm text-[11px] text-sky-700 font-medium">CoreML</span>
+</div>
+</div>
+<div class="pt-4 border-t border-[#f1f5f9] flex items-center justify-between">
+<div class="flex items-center gap-2 text-[#64748b] font-label-sm text-[12px]">
+<span class="material-symbols-outlined text-[16px] text-sky-600">query_stats</span>
+<span>CSV Raw Datasets</span>
+</div>
+<a class="inline-flex items-center gap-1 font-body-sm text-body-sm text-sky-600 hover:text-sky-800 font-semibold transition-colors" href="#">
+<span>Query Datasets</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Extra Changelog Compact Stream -->
+<div class="mt-8 bg-white border border-[#e2e8f0] rounded-xl p-6 shadow-sm">
+<div class="flex items-center justify-between mb-4 pb-3 border-b border-[#f1f5f9]">
+<span class="font-label-sm text-[12px] text-[#64748b] uppercase tracking-wider font-semibold">PREVIOUS CONTINUOUS DEPLOYS</span>
+<span class="font-label-sm text-[12px] text-[#64748b]">HASH: b9e1a8..4f2</span>
+</div>
+<div class="divide-y divide-[#f1f5f9] flex flex-col gap-2">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-2.5 rounded hover:bg-[#f8fafc] transition-colors">
+<div class="flex items-center gap-3">
+<span class="font-label-sm text-[12px] text-[#64748b]">2024-08-14</span>
+<span class="font-body-sm text-body-sm text-[#0f172a] font-medium">Qiskit Hamiltonian simulation module merged to main branch</span>
+</div>
+<span class="font-label-sm text-[11px] text-sky-600 font-semibold">v1.9.4 • COMMITTED</span>
+</div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-2.5 rounded hover:bg-[#f8fafc] transition-colors">
+<div class="flex items-center gap-3">
+<span class="font-label-sm text-[12px] text-[#64748b]">2024-06-02</span>
+<span class="font-body-sm text-body-sm text-[#0f172a] font-medium">Post-Quantum Lattice Kyber key exchange integration validated</span>
+</div>
+<span class="font-label-sm text-[11px] text-sky-700 font-semibold bg-sky-50 px-2 py-0.5 rounded border border-sky-200">NIST ROUND 4</span>
+</div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-2.5 rounded hover:bg-[#f8fafc] transition-colors">
+<div class="flex items-center gap-3">
+<span class="font-label-sm text-[12px] text-[#64748b]">2024-03-29</span>
+<span class="font-body-sm text-body-sm text-[#0f172a] font-medium">Initial Genesis Commit for Y? Lab Z cross-platform spatial substrate</span>
+</div>
+<span class="font-label-sm text-[11px] text-[#475569] font-semibold">GENESIS-01</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: ABOUT THE LABORATORY & FACULTY (ETHOS & 'developerY') -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-12 w-full">
+<div class="bg-white border border-[#e2e8f0] rounded-2xl p-8 lg:p-12 shadow-sm relative overflow-hidden">
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-sky-100/60 blur-3xl pointer-events-none rounded-full"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Left: Philosophy & Core Narrative -->
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-sky-600"></span>
+<span class="font-label-sm text-[12px] text-sky-700 tracking-widest uppercase font-semibold">LABORATORY MANIFESTO</span>
+</div>
+<h2 class="font-display-lg text-display-lg text-[#0f172a] tracking-tight leading-tight font-bold">
+            Asking questions <span class="text-sky-600">‘?’</span><br/>
+            till the end <span class="text-sky-700">‘Z’!</span>
+</h2>
+<p class="font-body-lg text-body-lg text-[#475569] leading-relaxed">
+            The lab name embodies our unyielding investigative doctrine. The question mark (<strong class="text-[#0f172a] font-semibold">‘?’</strong>) is our perpetual state of skepticism toward dogmatic consensus in hardware architecture and software runtimes. The letter (<strong class="text-[#0f172a] font-semibold">‘Z’</strong>) represents the terminal frontier—the final layer of the stack where quantum uncertainty and physical hardware limits collide.
+          </p>
+<!-- Ethos Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-5 rounded-lg flex flex-col gap-2">
+<div class="flex items-center gap-2 text-sky-600">
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+<span class="font-headline-sm text-headline-sm text-[16px] text-[#0f172a] font-bold">Radical Inquiry</span>
+</div>
+<p class="font-body-sm text-body-sm text-[#64748b] leading-normal">
+                Never accept an abstraction layer as immutable. We profile downwards through compilers to the silicon level.
+              </p>
+</div>
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-5 rounded-lg flex flex-col gap-2">
+<div class="flex items-center gap-2 text-sky-600">
+<span class="material-symbols-outlined text-[20px]">share</span>
+<span class="font-headline-sm text-headline-sm text-[16px] text-[#0f172a] font-bold">Sovereign Reproducibility</span>
+</div>
+<p class="font-body-sm text-body-sm text-[#64748b] leading-normal">
+                Every benchmark published must run deterministically on another machine without hidden telemetry secrets.
+              </p>
+</div>
+</div>
+<!-- Principal Investigator Signature Capsule -->
+<div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-[#f8fafc] border border-[#e2e8f0] p-4 rounded-lg">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded bg-sky-100 border border-sky-200 flex items-center justify-center text-sky-700">
+<span class="material-symbols-outlined text-[26px]">terminal</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-[#0f172a] font-bold">developerY</span>
+<span class="font-label-sm text-[12px] text-[#64748b]">Lead Architect &amp; Research Faculty • Y? Lab Z</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-[11px] text-sky-700 bg-sky-50 border border-sky-200 px-2.5 py-1 rounded font-semibold">KEY: 0x9B28...12F</span>
+</div>
+</div>
+</div>
+<!-- Right: Faculty Image & Visual Identity -->
+<div class="lg:col-span-5 flex flex-col gap-4">
+<div class="relative w-full h-80 rounded-xl overflow-hidden group shadow-md border border-[#e2e8f0]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Futuristic software research scientist in high-tech laboratory surrounded by holographic spatial computing interfaces and multi-screen code editors running high-performance C++ and Swift runtimes, electric blue and ice cyan rim lighting, dark obsidian room aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwSwsKHHNdZBPaXz0yorygwsyGLz6DjP9eYEbrcJMY1bDu2-P3ovu-49q3gPiN-T21tHCcChtVV-fKasvro_z0WG15qLjwCVhh2yUFSZezbFpvcBEk4IA_BsNlAc4XSOe4II3K4phFJ45TAhVCgnSx1lcaZoJQEkbiLbfdsPsf8Ld91pj8eFY2reC041MvVIv7imVyNRsauhBpm_Y6rbd5GJc_OZHVr0q6jRk7FkH"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="px-2.5 py-1 rounded bg-white/90 backdrop-blur-md font-label-sm text-[11px] text-sky-700 uppercase font-bold border border-slate-200">
+                FACULTY HEAD // developerY
+              </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-lg flex items-center justify-between border border-[#e2e8f0] shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-[12px] text-[#0f172a] font-bold">COLLABORATIVE MODEL</span>
+<span class="font-body-sm text-body-sm text-[#64748b] text-[11px]">Async RFCs • GitHub Monorepo • Public Benchmarks</span>
+</div>
+<span class="material-symbols-outlined text-sky-600 text-[20px]">handshake</span>
+</div>
+</div>
+<!-- Secondary Metric Strip -->
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-3 rounded text-center">
+<span class="font-headline-sm text-headline-sm text-[#0f172a] font-bold">48+</span>
+<span class="block font-label-sm text-[11px] text-[#64748b] uppercase">Verified Blueprints</span>
+</div>
+<div class="bg-[#f8fafc] border border-[#e2e8f0] p-3 rounded text-center">
+<span class="font-headline-sm text-headline-sm text-sky-600 font-bold">3.8M</span>
+<span class="block font-label-sm text-[11px] text-[#64748b] uppercase">Runtime Invocations</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: DIRECT LAB CONTACT & COLLABORATION MATRIX -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-16 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Collaboration Inquiry Form -->
+<div class="lg:col-span-7 bg-white border border-[#e2e8f0] rounded-xl p-8 lg:p-10 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-6 mb-6 border-b border-[#f1f5f9]">
+<div>
+<span class="font-label-sm text-[12px] text-sky-700 tracking-widest uppercase font-semibold">DISCOVERY PROTOCOL</span>
+<h3 class="font-headline-lg text-headline-lg text-[#0f172a] font-bold tracking-tight mt-1">
+                Collaborative Research Inquiry
+              </h3>
+</div>
+<div class="w-10 h-10 rounded bg-sky-50 border border-sky-100 flex items-center justify-center text-sky-600">
+<span class="material-symbols-outlined text-[20px]">send</span>
+</div>
+</div>
+<form class="flex flex-col gap-5" id="collab-form">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-[12px] text-[#475569] font-medium" for="researcher-name">
+                  RESEARCHER / ORG IDENTITY *
+                </label>
+<input class="bg-[#f8fafc] text-[#0f172a] font-body-md text-body-md px-4 py-3 rounded border border-[#e2e8f0] outline-none focus:border-sky-500 focus:bg-white transition-all placeholder:text-[#94a3b8] placeholder:font-label-sm" id="researcher-name" placeholder="e.g. Dr. A. Vance // Max Planck" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-[12px] text-[#475569] font-medium" for="researcher-email">
+                  SECURE CONTACT ENDPOINT *
+                </label>
+<input class="bg-[#f8fafc] text-[#0f172a] font-body-md text-body-md px-4 py-3 rounded border border-[#e2e8f0] outline-none focus:border-sky-500 focus:bg-white transition-all placeholder:text-[#94a3b8] placeholder:font-label-sm" id="researcher-email" placeholder="vance@frontier-inst.org" required="" type="email"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-[12px] text-[#475569] font-medium" for="research-domain">
+                TARGET RESEARCH DOMAIN
+              </label>
+<select class="bg-[#f8fafc] text-[#0f172a] font-body-md text-body-md px-4 py-3 rounded border border-[#e2e8f0] outline-none focus:border-sky-500 focus:bg-white transition-all" id="research-domain">
+<option value="spatial">Spatial Computing (visionOS / Android XR Substrates)</option>
+<option value="wearables">Wearables &amp; Micro-Telemetry Synchrony (WearOS / BLE)</option>
+<option value="neural">Sub-Watt Edge Neural Quantization (PyTorch / Metal)</option>
+<option value="quantum">Quantum Algorithm Simulation &amp; Hamiltonians (Qiskit)</option>
+<option value="other">Cryptographic Verification &amp; ZK Fabrics</option>
+</select>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-[12px] text-[#475569] font-medium" for="research-hypothesis">
+                FRAGMENT HYPOTHESIS ‘?’ OR PROPOSAL BRIEF *
+              </label>
+<textarea class="bg-[#f8fafc] text-[#0f172a] font-body-md text-body-md px-4 py-3 rounded border border-[#e2e8f0] outline-none focus:border-sky-500 focus:bg-white transition-all placeholder:text-[#94a3b8] placeholder:font-label-sm resize-none" id="research-hypothesis" placeholder="Outline the specific experimental bottleneck or compute fragment you want to co-investigate with Y? Lab Z..." required="" rows="4"></textarea>
+</div>
+<div class="flex items-center gap-3 pt-2">
+<input class="w-4 h-4 rounded border-[#e2e8f0] text-sky-600 accent-sky-600" id="sign-proposal" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-[#64748b]" for="sign-proposal">
+                Request dual-signed PGP cryptographic receipt for shared disclosures
+              </label>
+</div>
+<div class="pt-2">
+<button class="w-full sm:w-auto px-8 py-3.5 rounded bg-sky-600 hover:bg-sky-700 text-white font-headline-sm text-body-md font-medium tracking-wide transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2" type="submit">
+<span>Transmit Inquiry to developerY</span>
+<span class="material-symbols-outlined text-[18px]">lock</span>
+</button>
+</div>
+</form>
+<div class="hidden mt-4 p-4 rounded bg-sky-50 border border-sky-200 font-label-sm text-[12px] text-sky-800" id="form-feedback">
+            &gt; PACKET ENCRYPTED &amp; DISPATCHED. HASH: 0x81FA...289C. AWAITING PEER REVIEW.
+          </div>
+</div>
+</div>
+<!-- Right Column: Signed Keys & Whitepaper Downloads -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- Cryptographic Signed Key Card -->
+<div class="bg-white border border-[#e2e8f0] rounded-xl p-6 shadow-sm">
+<div class="flex items-center justify-between pb-4 border-b border-[#f1f5f9]">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sky-600 text-[20px]">key</span>
+<span class="font-label-sm text-[12px] text-[#0f172a] uppercase tracking-wider font-semibold">CRYPTOGRAPHIC ATTESTATION</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-label-sm text-[11px] text-sky-700 font-medium">ED25519</span>
+</div>
+<div class="flex flex-col gap-2 font-label-sm text-[11px] leading-relaxed bg-[#f8fafc] border border-[#e2e8f0] p-4 rounded overflow-x-auto text-[#334155] mt-4">
+<span class="text-[#64748b] font-semibold">-----BEGIN PGP PUBLIC KEY BLOCK-----</span>
+<span class="text-[#0f172a]">mQGNBF+b8WkBDADsR8/12...YZ-LAB-Z-MASTER-ED25519</span>
+<span>FINGERPRINT: 4A91 8E3B F721 00C8 92DE CC81 B901 developerY</span>
+<span class="text-sky-700 font-medium">TELEMETRY-AUTH: VALID THROUGH 2029-12-31</span>
+<span class="text-[#64748b] font-semibold">-----END PGP PUBLIC KEY BLOCK-----</span>
+</div>
+<div class="mt-4 flex items-center justify-between">
+<button class="px-3 py-1.5 rounded bg-[#f1f5f9] hover:bg-[#e2e8f0] border border-[#e2e8f0] text-[#0f172a] font-label-sm text-[12px] font-medium flex items-center gap-1.5 transition-colors" id="copy-key-btn">
+<span class="material-symbols-outlined text-[14px] text-sky-600">content_copy</span>
+<span id="copy-key-text">Copy Master Key</span>
+</button>
+<span class="font-label-sm text-[11px] text-emerald-600 font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+              SIG: NOMINAL
+            </span>
+</div>
+</div>
+<!-- Curated Whitepaper Downloads -->
+<div class="bg-white border border-[#e2e8f0] rounded-xl p-6 shadow-sm flex flex-col gap-4">
+<div class="flex items-center justify-between pb-2 border-b border-[#f1f5f9]">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sky-600 text-[20px]">download</span>
+<span class="font-label-sm text-[12px] text-[#0f172a] uppercase tracking-wider font-semibold">CORE MANUSCRIPTS</span>
+</div>
+<span class="font-label-sm text-[11px] text-sky-700 bg-sky-50 px-2 py-0.5 rounded border border-sky-200 font-semibold">OPEN ACCESS</span>
+</div>
+<!-- Whitepaper item 1 -->
+<a class="p-3.5 rounded-lg bg-[#f8fafc] border border-[#e2e8f0] hover:border-sky-300 hover:bg-sky-50/40 transition-all flex items-center justify-between group" href="#">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-white border border-[#e2e8f0] flex items-center justify-center text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[16px]">article</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-[#0f172a] font-semibold text-[14px] group-hover:text-sky-600 transition-colors">
+                  The Systematic Fragment Manifesto
+                </span>
+<span class="font-label-sm text-[11px] text-[#64748b]">YZ-WP-01 • 2.4 MB PDF • Lewis Thomas Thesis</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[#94a3b8] group-hover:text-sky-600 text-[18px] transition-colors">file_download</span>
+</a>
+<!-- Whitepaper item 2 -->
+<a class="p-3.5 rounded-lg bg-[#f8fafc] border border-[#e2e8f0] hover:border-sky-300 hover:bg-sky-50/40 transition-all flex items-center justify-between group" href="#">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-white border border-[#e2e8f0] flex items-center justify-center text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[16px]">memory</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-[#0f172a] font-semibold text-[14px] group-hover:text-sky-600 transition-colors">
+                  Spatial Volumetric Matrix Sync in visionOS 2
+                </span>
+<span class="font-label-sm text-[11px] text-[#64748b]">YZ-WP-04 • 5.1 MB PDF • RealityKit &amp; OpenXR</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[#94a3b8] group-hover:text-sky-600 text-[18px] transition-colors">file_download</span>
+</a>
+<!-- Whitepaper item 3 -->
+<a class="p-3.5 rounded-lg bg-[#f8fafc] border border-[#e2e8f0] hover:border-sky-300 hover:bg-sky-50/40 transition-all flex items-center justify-between group" href="#">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-white border border-[#e2e8f0] flex items-center justify-center text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[16px]">device_thermostat</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-[#0f172a] font-semibold text-[14px] group-hover:text-sky-600 transition-colors">
+                  Sub-Watt Neural Quantization at Silicon Limit
+                </span>
+<span class="font-label-sm text-[11px] text-[#64748b]">YZ-WP-08 • 3.8 MB PDF • Edge Benchmarks</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[#94a3b8] group-hover:text-sky-600 text-[18px] transition-colors">file_download</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Script for Oscilloscope and Form Behaviors -->
+<script>
+    (function initOscilloscope() {
+      const primaryPath = document.getElementById('wave-primary');
+      const trailPath = document.getElementById('wave-trail');
+      const ampLabel = document.getElementById('flux-amplitude');
+      const fluxIndex = document.getElementById('flux-index-val');
+      const perturbBtn = document.getElementById('perturb-btn');
+      const syncBtn = document.getElementById('oscilloscope-toggle-btn');
+      const copyKeyBtn = document.getElementById('copy-key-btn');
+      const copyKeyText = document.getElementById('copy-key-text');
+      const collabForm = document.getElementById('collab-form');
+      const formFeedback = document.getElementById('form-feedback');
+
+      let phase = 0;
+      let amplitude = 32;
+      let frequency = 0.035;
+      let perturbEnergy = 0;
+
+      function renderFrame() {
+        phase += 0.06;
+        if (perturbEnergy > 0) {
+          perturbEnergy *= 0.94;
+        }
+
+        const effectiveAmp = amplitude + Math.sin(phase * 0.5) * 8 + (perturbEnergy * 20);
+        const points = [];
+        const trailPoints = [];
+        const width = 500;
+        const baseline = 50;
+
+        for (let x = 0; x <= width; x += 10) {
+          const yOffset = Math.sin((x * frequency) + phase) * effectiveAmp
+                        + Math.cos((x * frequency * 2) - phase * 0.8) * (effectiveAmp * 0.3)
+                        + (Math.random() - 0.5) * (perturbEnergy * 6);
+          const y = baseline + yOffset;
+          const trailY = baseline + (yOffset * 0.7);
+
+          points.push(`${x === 0 ? 'M' : 'L'} ${x.toFixed(1)} ${y.toFixed(1)}`);
+          trailPoints.push(`${x === 0 ? 'M' : 'L'} ${x.toFixed(1)} ${trailY.toFixed(1)}`);
+        }
+
+        if (primaryPath) primaryPath.setAttribute('d', points.join(' '));
+        if (trailPath) trailPath.setAttribute('d', trailPoints.join(' '));
+
+        requestAnimationFrame(renderFrame);
+      }
+
+      requestAnimationFrame(renderFrame);
+
+      if (perturbBtn) {
+        perturbBtn.addEventListener('click', () => {
+          perturbEnergy = 1.0;
+          if (ampLabel) ampLabel.textContent = `AMP: ${(1.2 + Math.random() * 0.4).toFixed(3)} Vpp`;
+          if (fluxIndex) fluxIndex.textContent = `${(88 + Math.random() * 8).toFixed(1)}%`;
+        });
+      }
+
+      if (syncBtn) {
+        syncBtn.addEventListener('click', () => {
+          frequency = frequency === 0.035 ? 0.065 : 0.035;
+          const timeLabel = document.getElementById('timebase-label');
+          if (timeLabel) {
+            timeLabel.textContent = frequency === 0.035 ? 'TIMEBASE: 5.0μs/div' : 'TIMEBASE: 2.5μs/div';
+          }
+        });
+      }
+
+      if (copyKeyBtn) {
+        copyKeyBtn.addEventListener('click', () => {
+          const keyString = "4A91 8E3B F721 00C8 92DE CC81 B901 developerY // ED25519";
+          navigator.clipboard?.writeText(keyString).then(() => {
+            if (copyKeyText) copyKeyText.textContent = "Copied to Clipboard!";
+            setTimeout(() => {
+              if (copyKeyText) copyKeyText.textContent = "Copy Master Key";
+            }, 2500);
+          }).catch(() => {
+            if (copyKeyText) copyKeyText.textContent = "Key: 4A91..B901";
+          });
+        });
+      }
+
+      if (collabForm) {
+        collabForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          if (formFeedback) {
+            formFeedback.classList.remove('hidden');
+            formFeedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+          collabForm.reset();
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-white border-t border-[#e2e8f0] mt-16"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-12"><div class="lg:col-span-2 flex flex-col gap-3"><div class="flex items-center gap-3"><div class="w-7 h-7 rounded bg-sky-50 border border-sky-200 flex items-center justify-center"><span class="material-symbols-outlined text-sky-600 text-[16px]">deployed_code</span></div><span class="font-headline-sm text-headline-sm text-[#0f172a] font-bold">Y? Lab Z</span><span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-700 font-semibold">CRYO-RIG 04</span></div><p class="font-body-sm text-body-sm text-[#64748b] max-w-sm">High-performance computing laboratory architecting spatial computing substrates, neural runtime fabrics, distributed ledgers, and quantum algorithm simulations.</p><div class="flex items-center gap-4 pt-1"><div class="flex items-center gap-2 font-label-sm text-[12px] text-[#475569]"><span class="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></span><span>SYSTEM: OPTIMAL (12.4 mK)</span></div><div class="font-label-sm text-[12px] text-[#64748b]">Q-FIDELITY: 99.982%</div></div></div><div class="flex flex-col gap-2"><span class="font-label-sm text-[12px] text-[#0f172a] font-bold tracking-wider uppercase mb-1">Frontier Platforms</span><a class="font-body-sm text-body-sm text-[#64748b] hover:text-sky-600 transition-colors" data-path="platforms" href="#">Spatial XR &amp; VisionOS</a><a class="font-body-sm text-body-sm text-[#64748b] hover:text-sky-600 transition-colors" data-path="platforms" href="#">Machine Learning &amp; PyTorch</a><a class="font-body-sm text-body-sm text-[#64748b] hover:text-sky-600 transition-colors" data-path="platforms" href="#">Quantum Simulation (Qiskit)</a><a class="font-body-sm text-body-sm text-[#64748b] hover:text-sky-600 transition-colors" data-path="platforms" href="#">Distributed Consensus</a></div><div class="flex flex-col gap-2"><span class="font-label-sm text-[12px] text-[#0f172a] font-bold tracking-wider uppercase mb-1">Laboratory</span><a class="font-body-sm text-body-sm text-[#64748b] hover:text-sky-600 transition-colors" data-path="projects-and-blueprints" href="#">Active Blueprints</a><a class="font-body-sm text-body-sm text-[#64748b] hover:text-sky-600 transition-colors" data-path="research-and-insights" href="#">Lewis Thomas Archive</a><a class="font-body-sm text-body-sm text-[#64748b] hover:text-sky-600 transition-colors" data-path="research-and-insights" href="#">Technical Whitepapers</a><a class="font-body-sm text-body-sm text-[#64748b] hover:text-sky-600 transition-colors" data-path="about-and-updates" href="#">Benchmarking Suites</a></div><div class="flex flex-col gap-2"><span class="font-label-sm text-[12px] text-[#0f172a] font-bold tracking-wider uppercase mb-1">Governance &amp; Telemetry</span><div class="font-label-sm text-[11px] text-[#64748b]">ISO/IEC 27001 COMPLIANT</div><div class="font-label-sm text-[11px] text-[#64748b]">NIST PQC ROUND 4 READY</div><div class="font-label-sm text-[11px] text-[#64748b]">ZERO-TRUST ENCLAVE</div><div class="font-label-sm text-[11px] text-sky-700 font-semibold mt-1">LAB_ID: YZ-QX-8819</div></div></div><div class="pt-6 border-t border-[#f1f5f9] flex flex-col md:flex-row items-center justify-between gap-4 text-[#64748b] font-body-sm text-body-sm"><div class="flex items-center gap-2"><span>© 2025 Y? Lab Z Research Group. All rights reserved.</span></div><div class="flex items-center gap-6 font-label-sm text-[12px]"><span class="hover:text-[#0f172a] transition-colors cursor-pointer">SECURITY PROTOCOL v4</span><span class="hover:text-[#0f172a] transition-colors cursor-pointer">ETHICS MANIFESTO</span><span class="hover:text-sky-600 transition-colors cursor-pointer">SYSTEM STATUS: NOMINAL</span></div></div></div></footer></body></html>

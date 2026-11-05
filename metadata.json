@@ -1,0 +1,6 @@
+{
+  "name": "Y? Lab Z // Frontier Computing Laboratory",
+  "description": "High-performance computing laboratory architecting spatial computing substrates, neural runtime fabrics, distributed ledgers, and quantum algorithm simulations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
