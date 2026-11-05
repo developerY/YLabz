@@ -27,30 +27,30 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             </p>
           </div>
 
-          <!-- Palo Alto Lab Facility Visual Showcase -->
-          <div class="mt-8 relative w-full h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden border border-slate-200 shadow-xl group">
+          <!-- Palo Alto Lab Facility Visual Showcase (Soft Coral Pastel Palette) -->
+          <div class="mt-8 relative w-full h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden border border-[#fed7cc] shadow-xl group bg-[#fff0eb]">
             <img
-              src="/assets/images/hero_frontier_lab_1793913625544.jpg"
+              src="/assets/images/coral_frontier_lab_1793915443237.jpg"
               alt="Y? Lab Z Frontier Computing Lab in Palo Alto, California"
               referrerpolicy="no-referrer"
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/90 via-[#ffebe6]/40 to-transparent"></div>
             
-            <div class="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4 text-white">
+            <div class="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4 text-slate-900">
               <div>
-                <span class="px-3 py-1 rounded-full bg-sky-500/80 backdrop-blur-md text-white font-mono text-xs font-semibold">
+                <span class="px-3 py-1 rounded-full bg-[#ea580c] text-white font-mono text-xs font-semibold shadow-xs">
                   PALO ALTO R&amp;D HEADQUARTERS
                 </span>
-                <h3 class="text-2xl sm:text-3xl font-bold font-display mt-2 text-white">
+                <h3 class="text-2xl sm:text-3xl font-bold font-display mt-2 text-slate-900 drop-shadow-sm">
                   Where Science Questions Meet Silicon Reality
                 </h3>
-                <p class="text-slate-300 text-xs sm:text-sm max-w-xl mt-1">
+                <p class="text-slate-700 text-xs sm:text-sm max-w-xl mt-1 font-medium">
                   Palo Alto, CA facility housing cryogenic quantum testbeds, battery stress telemetry benches, and on-device ML evaluation clusters.
                 </p>
               </div>
 
               <div class="flex items-center gap-3 shrink-0 font-mono text-xs">
-                <span class="px-3 py-1.5 rounded-xl bg-black/60 backdrop-blur-md border border-white/20">
+                <span class="px-3 py-1.5 rounded-xl bg-white/90 backdrop-blur-md border border-[#fed7cc] text-[#9a3412] font-bold shadow-xs">
                   EST. PALO ALTO, CA
                 </span>
               </div>
@@ -174,15 +174,15 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
           </div>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm flex flex-col group">
-              <div class="aspect-[16/10] overflow-hidden relative">
+            <div class="rounded-3xl overflow-hidden border border-[#fed7cc] bg-white shadow-sm flex flex-col group">
+              <div class="aspect-[16/10] overflow-hidden relative bg-[#fff0eb]">
                 <img
-                  src="/assets/images/ashbike_showcase_1793913626360.jpg"
+                  src="/assets/images/coral_ashbike_1793915441529.jpg"
                   alt="AshBike e-bike prototype"
                   referrerpolicy="no-referrer"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
-                <span class="absolute bottom-3 left-3 px-2.5 py-0.5 rounded bg-sky-500 text-white font-mono text-[10px] font-bold">
+                <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/80 via-transparent to-transparent"></div>
+                <span class="absolute bottom-3 left-3 px-2.5 py-0.5 rounded bg-[#ea580c] text-white font-mono text-[10px] font-bold shadow-xs">
                   G.N.SEVEN DESIGN
                 </span>
               </div>
@@ -194,15 +194,15 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
             </div>
 
-            <div class="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm flex flex-col group">
-              <div class="aspect-[16/10] overflow-hidden relative">
+            <div class="rounded-3xl overflow-hidden border border-[#fed7cc] bg-white shadow-sm flex flex-col group">
+              <div class="aspect-[16/10] overflow-hidden relative bg-[#fff0eb]">
                 <img
-                  src="/assets/images/zoewear_apparel_1793913626652.jpg"
+                  src="/assets/images/coral_zoewear_1793915441647.jpg"
                   alt="ZoeWear intelligent clothing"
                   referrerpolicy="no-referrer"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
-                <span class="absolute bottom-3 left-3 px-2.5 py-0.5 rounded bg-purple-500 text-white font-mono text-[10px] font-bold">
+                <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/80 via-transparent to-transparent"></div>
+                <span class="absolute bottom-3 left-3 px-2.5 py-0.5 rounded bg-purple-600 text-white font-mono text-[10px] font-bold shadow-xs">
                   BIO-WEARABLES
                 </span>
               </div>
@@ -214,15 +214,15 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
             </div>
 
-            <div class="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm flex flex-col group">
-              <div class="aspect-[16/10] overflow-hidden relative">
+            <div class="rounded-3xl overflow-hidden border border-[#fed7cc] bg-white shadow-sm flex flex-col group">
+              <div class="aspect-[16/10] overflow-hidden relative bg-[#fff0eb]">
                 <img
-                  src="/assets/images/zoerobo_robot_1793913627219.jpg"
+                  src="/assets/images/coral_zoerobo_1793915442432.jpg"
                   alt="ZoeRobo autonomous robot"
                   referrerpolicy="no-referrer"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
-                <span class="absolute bottom-3 left-3 px-2.5 py-0.5 rounded bg-emerald-500 text-white font-mono text-[10px] font-bold">
+                <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/80 via-transparent to-transparent"></div>
+                <span class="absolute bottom-3 left-3 px-2.5 py-0.5 rounded bg-emerald-600 text-white font-mono text-[10px] font-bold shadow-xs">
                   PHYSICAL AI
                 </span>
               </div>

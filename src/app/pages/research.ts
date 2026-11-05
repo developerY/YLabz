@@ -1,4 +1,5 @@
-import {ChangeDetectionStrategy, Component, signal, OnDestroy} from '@angular/core';
+import {ChangeDetectionStrategy, Component, signal, OnDestroy, PLATFORM_ID, inject} from '@angular/core';
+import {isPlatformBrowser} from '@angular/common';
 import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/forms';
 import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-data';
 
@@ -176,20 +177,20 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                 </div>
               </div>
 
-              <!-- Oscilloscope Visual Display Container -->
-              <div class="relative w-full h-56 bg-slate-900 rounded-xl p-4 overflow-hidden flex flex-col justify-between mt-4 shadow-inner">
-                <div class="absolute inset-0 bg-[radial-gradient(circle,rgba(56,189,248,0.15)_1px,transparent_1px)] bg-[size:16px_16px] pointer-events-none"></div>
-                <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
-                  <div class="w-full h-[1px] bg-sky-400"></div>
+              <!-- Oscilloscope Visual Display Container (Soft Coral Pastel Palette) -->
+              <div class="relative w-full h-56 bg-gradient-to-br from-[#fff4f1] via-[#ffebe6] to-[#feddd4] border border-[#fed7cc] rounded-xl p-4 overflow-hidden flex flex-col justify-between mt-4 shadow-sm">
+                <div class="absolute inset-0 bg-[radial-gradient(circle,rgba(234,88,12,0.15)_1px,transparent_1px)] bg-[size:16px_16px] pointer-events-none"></div>
+                <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-25">
+                  <div class="w-full h-[1px] bg-[#ea580c]"></div>
                 </div>
-                <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
-                  <div class="h-full w-[1px] bg-sky-400"></div>
+                <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-25">
+                  <div class="h-full w-[1px] bg-[#ea580c]"></div>
                 </div>
 
                 <!-- Header HUD -->
-                <div class="relative z-10 flex items-center justify-between text-slate-400 font-mono text-[11px]">
-                  <span class="text-sky-300">CHAN A: FRAGMENT_FLUX</span>
-                  <span class="text-slate-200 font-mono">AMP: {{ amplitudeValue() }} Vpp</span>
+                <div class="relative z-10 flex items-center justify-between text-[#9a3412] font-mono text-[11px] font-semibold">
+                  <span class="text-[#c2410c]">CHAN A: FRAGMENT_FLUX</span>
+                  <span class="text-slate-700 font-mono">AMP: {{ amplitudeValue() }} Vpp</span>
                 </div>
 
                 <!-- Waveform SVG -->
@@ -197,16 +198,16 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                   <svg class="w-full h-full overflow-visible" preserveAspectRatio="none" viewBox="0 0 500 100">
                     <defs>
                       <linearGradient id="researchWaveGrad" x1="0%" x2="100%" y1="0%" y2="0%">
-                        <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"></stop>
-                        <stop offset="50%" stop-color="#38bdf8" stop-opacity="1"></stop>
+                        <stop offset="0%" stop-color="#ea580c" stop-opacity="0.4"></stop>
+                        <stop offset="50%" stop-color="#ea580c" stop-opacity="1"></stop>
                         <stop offset="100%" stop-color="#0284c7" stop-opacity="0.8"></stop>
                       </linearGradient>
                     </defs>
                     <path
                       [attr.d]="waveTrailPath()"
                       fill="none"
-                      opacity="0.3"
-                      stroke="#38bdf8"
+                      opacity="0.25"
+                      stroke="#ea580c"
                       stroke-width="1"></path>
                     <path
                       [attr.d]="wavePrimaryPath()"
@@ -217,10 +218,10 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                 </div>
 
                 <!-- Footer HUD -->
-                <div class="relative z-10 flex items-center justify-between text-slate-400 font-mono text-[11px]">
-                  <span class="font-mono text-slate-300">TIMEBASE: {{ isHighFreq() ? '2.5μs/div' : '5.0μs/div' }}</span>
-                  <span class="text-sky-400 flex items-center gap-1 font-mono">
-                    <span class="inline-block w-1.5 h-1.5 rounded-full bg-sky-400 animate-pulse"></span>
+                <div class="relative z-10 flex items-center justify-between text-slate-700 font-mono text-[11px]">
+                  <span class="font-mono text-slate-700 font-medium">TIMEBASE: {{ isHighFreq() ? '2.5μs/div' : '5.0μs/div' }}</span>
+                  <span class="text-[#c2410c] flex items-center gap-1 font-mono font-semibold">
+                    <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
                     TRIG: POSITIVE_EDGE
                   </span>
                 </div>
@@ -275,10 +276,10 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                   alt="High precision quantum computing cryogenic dilution refrigerator rig suspended in an obsidian dark room"
                   referrerpolicy="no-referrer"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxSBNZkYOC6iwJExEB1sCzXMVbxaJdaJGsFmradi6YrNEbZv8YtdtxbXKMNGIC1KxxBdmCx4xYJmNglPJo5LdxwIxWvbKtaNmiDqpVm7Ebh4RfaHBeIE5xINx3ANV9W7BHoV9xfiZ-jvyTZtMKBZ7zeWUK_8zZ8yGad5DSZFefA6qt5HRLa-co4U6QA49Twu2f0SWn_zaA-VQpN0IcOLjY6SvuRmVV-cl9SDw_4D1n" />
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
-                <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-[11px]">
-                  <span class="bg-slate-900/80 px-2.5 py-0.5 rounded-md backdrop-blur-sm border border-slate-700">PALO ALTO BENCH // RIG α</span>
-                  <span class="text-sky-300 font-semibold">STABLE 11.2 mK</span>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/90 via-[#ffebe6]/30 to-transparent"></div>
+                <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-slate-900 font-mono text-[11px]">
+                  <span class="bg-[#fff0eb]/90 px-2.5 py-0.5 rounded-md backdrop-blur-sm border border-[#fed7cc] text-[#9a3412] font-semibold shadow-xs">PALO ALTO BENCH // RIG α</span>
+                  <span class="text-[#c2410c] font-bold">STABLE 11.2 mK</span>
                 </div>
               </div>
               <span class="text-xs text-slate-500 px-1 leading-relaxed">
@@ -310,16 +311,16 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
           @for (art of articles; track art.id) {
             <div class="bg-white border border-slate-200 rounded-3xl overflow-hidden shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-xl transition-all">
               @if (art.imageUrl) {
-                <div class="relative w-full aspect-[16/9] overflow-hidden bg-slate-900">
+                <div class="relative w-full aspect-[16/9] overflow-hidden bg-[#fff0eb]">
                   <img
                     [src]="art.imageUrl"
                     [alt]="art.title"
                     referrerpolicy="no-referrer"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                  <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
-                  <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white font-mono text-[11px]">
-                    <span class="px-2 py-0.5 rounded bg-black/60 backdrop-blur-md border border-white/20 text-sky-300">{{ art.category }}</span>
-                    <span>{{ art.date }}</span>
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/85 via-transparent to-transparent"></div>
+                  <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-slate-900 font-mono text-[11px]">
+                    <span class="px-2 py-0.5 rounded bg-[#fff4f1]/90 backdrop-blur-md border border-[#fed7cc] text-[#9a3412] font-semibold">{{ art.category }}</span>
+                    <span class="text-slate-800 font-semibold">{{ art.date }}</span>
                   </div>
                 </div>
               }
@@ -439,7 +440,7 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                   alt="Futuristic software research scientist in high-tech laboratory surrounded by holographic spatial computing interfaces"
                   referrerpolicy="no-referrer"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwSwsKHHNdZBPaXz0yorygwsyGLz6DjP9eYEbrcJMY1bDu2-P3ovu-49q3gPiN-T21tHCcChtVV-fKasvro_z0WG15qLjwCVhh2yUFSZezbFpvcBEk4IA_BsNlAc4XSOe4II3K4phFJ45TAhVCgnSx1lcaZoJQEkbiLbfdsPsf8Ld91pj8eFY2reC041MvVIv7imVyNRsauhBpm_Y6rbd5GJc_OZHVr0q6jRk7FkH" />
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/70 via-transparent to-transparent"></div>
                 <div class="absolute top-4 left-4">
                   <span class="px-2.5 py-1 rounded-md bg-white/95 backdrop-blur-md font-label-caps text-sky-700 uppercase font-bold border border-slate-200">
                     FACULTY HEAD // developerY
@@ -653,16 +654,19 @@ export class ResearchComponent implements OnDestroy {
   wavePrimaryPath = signal<string>('M 0 50 Q 62.5 15 125 50 T 250 50 T 375 50 T 500 50');
   waveTrailPath = signal<string>('M 0 50 Q 60 20 125 50 T 250 50 T 375 50 T 500 50');
 
+  private isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
   private animFrameId: number | null = null;
   private phase = 0;
   private perturbEnergy = 0;
 
   constructor() {
-    this.startOscilloscope();
+    if (this.isBrowser && typeof requestAnimationFrame !== 'undefined') {
+      this.startOscilloscope();
+    }
   }
 
   ngOnDestroy() {
-    if (this.animFrameId) {
+    if (this.animFrameId && typeof cancelAnimationFrame !== 'undefined') {
       cancelAnimationFrame(this.animFrameId);
     }
   }

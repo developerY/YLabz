@@ -246,7 +246,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Kotlin NDK", "Swift CoreBluetooth", "Rust Embedded", "Python PyTorch"],
     partnerOrEcosystem: "ZoeWave Mobility & G.N.Seven",
     status: "Active R&D",
-    imageUrl: "/assets/images/ashbike_showcase_1793913626360.jpg",
+    imageUrl: "/assets/images/coral_ashbike_1793915441529.jpg",
     badge: "G.N.Seven Carbon Chassis"
   },
   {
@@ -265,7 +265,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["WearOS Health Tiles", "watchOS CoreMotion", "TensorFlow Lite", "BLE DMA"],
     partnerOrEcosystem: "ZoeWave Health & G.N.Seven",
     status: "Pilot Live",
-    imageUrl: "/assets/images/zoewear_apparel_1793913626652.jpg",
+    imageUrl: "/assets/images/coral_zoewear_1793915441647.jpg",
     badge: "Conductive Smart Knit"
   },
   {
@@ -303,7 +303,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Rust Robotics RS", "Python ROS2", "PyTorch Vision", "C++ Direct"],
     partnerOrEcosystem: "ZoeWave Robotics R&D",
     status: "Alpha Prototype",
-    imageUrl: "/assets/images/zoerobo_robot_1793913627219.jpg",
+    imageUrl: "/assets/images/coral_zoerobo_1793915442432.jpg",
     badge: "Autonomous Physical AI"
   },
   {
@@ -398,7 +398,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Modular MAX Engine", "Mojo Compiler", "PyTorch 2.4", "Heterogeneous Metal/ROCm"],
     partnerOrEcosystem: "Modular & Y? LabZ AI Core",
     status: "In Production",
-    imageUrl: "/assets/images/modular_max_chip_1793913627933.jpg",
+    imageUrl: "/assets/images/coral_modular_max_1793915442661.jpg",
     badge: "Modular MAX Silicon"
   },
   {
@@ -433,7 +433,8 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     date: "2025 // Q1",
     url: "https://medium.com/@zoewave",
     tags: ["Kotlin", "Swift", "Architecture", "Compose", "SwiftUI"],
-    keyTakeaway: "Decouple business models into pure language abstractions; map declarative UI paradigms 1:1 between Jetpack Compose and SwiftUI."
+    keyTakeaway: "Decouple business models into pure language abstractions; map declarative UI paradigms 1:1 between Jetpack Compose and SwiftUI.",
+    imageUrl: "/public/assets/aistudio/Image_1_bf091442.png"
   },
   {
     id: "art-02",
@@ -445,7 +446,8 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     date: "2024 // Q4",
     url: "https://medium.com/@zoewave",
     tags: ["Mobile Future", "KMP", "Swift Concurrency", "Zero-Serialization"],
-    keyTakeaway: "The winning paradigm avoids sluggish JavaScript bridges in favor of direct C++ JSI host objects or Kotlin Multiplatform native artifacts."
+    keyTakeaway: "The winning paradigm avoids sluggish JavaScript bridges in favor of direct C++ JSI host objects or Kotlin Multiplatform native artifacts.",
+    imageUrl: "/public/assets/aistudio/Image_3_51c9b753.png"
   },
   {
     id: "art-03",
@@ -457,7 +459,8 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     date: "2024 // Q3",
     url: "https://ylabz.com",
     tags: ["MAD", "Jetpack Compose", "Hilt", "RoomDB", "Architecture"],
-    keyTakeaway: "Modularize by feature; keep ViewModels lean and UI state immutable via Kotlin StateFlow."
+    keyTakeaway: "Modularize by feature; keep ViewModels lean and UI state immutable via Kotlin StateFlow.",
+    imageUrl: "/assets/images/coral_frontier_lab_1793915443237.jpg"
   },
   {
     id: "art-04",
@@ -469,7 +472,8 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     date: "2024 // Q3",
     url: "https://medium.com/@zoewave",
     tags: ["PyTorch", "CoreML", "TFLite", "INT8 Quantization", "NPU"],
-    keyTakeaway: "Do not ship FP32 weights to mobile phones. Quantize to INT8 with post-training calibration to drop latency by 80% with negligible loss in accuracy."
+    keyTakeaway: "Do not ship FP32 weights to mobile phones. Quantize to INT8 with post-training calibration to drop latency by 80% with negligible loss in accuracy.",
+    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCo4YGQDwQgCctU4rVz4Mxqdls2j21Zgcqkyb436jyB1r3S59CIrOpgwUa27U1s_sdlfDIvYiOk2fl5JcVdLW3Slu0CIKUzKFz2svrdQJFEeFU5nOHoRtJhSR5JhL6zYqRKt5289LMaIkHBw3dGJa-NuWruX1QNkxoIgjATJL_WL4rnS8IOH26hu7bHzjmf_8KgFtge3w23eKDTLcA34P-S4EZJiJoZw-AM6kWY49j_"
   },
   {
     id: "art-05",
@@ -481,7 +485,8 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     date: "2024 // Q2",
     url: "https://medium.com/@zoewave",
     tags: ["visionOS", "RealityKit", "Spatial Computing", "SwiftUI", "Polyspatial"],
-    keyTakeaway: "Spatial interfaces must respect human eye biomechanics; never lock windows rigidly to head orientation."
+    keyTakeaway: "Spatial interfaces must respect human eye biomechanics; never lock windows rigidly to head orientation.",
+    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-cGUs8k1pMh-_wypCoxaV01wEkoGReFg1dXRJfDY9FW3_gyiLCF4R0E7Yc-TWcIm-tPIlb9rJRQ03KAjCYEGBPZzFxZqXkSwM3Pm6P8_TjhKzqD-5RRcR8tpZvQYd2maVrxgXUkr_95sJyb4RhzvSDoXy1aCbOcXkfwdzMnuy5F1zNLLH89aFpeB_TBNLH0F5740RzvoA-AmaTtDxn4MOixwtj3pA-97hz1sb5j7O"
   },
   {
     id: "art-06",
@@ -493,7 +498,8 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     date: "2024 // Q1",
     url: "https://medium.com/@zoewave",
     tags: ["WearOS", "watchOS", "BLE", "Biosensors", "Battery Optimization"],
-    keyTakeaway: "Use asynchronous hardware interrupts rather than continuous polling loops to achieve sub-0.2% battery drain per hour."
+    keyTakeaway: "Use asynchronous hardware interrupts rather than continuous polling loops to achieve sub-0.2% battery drain per hour.",
+    imageUrl: "/assets/images/coral_zoewear_1793915441647.jpg"
   },
   {
     id: "art-07",
@@ -505,7 +511,8 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     date: "2025 // Q2",
     url: "https://medium.com/@zoewave",
     tags: ["Mojo", "Modular MAX", "CUDA Alternative", "Python Replacement", "MLIR"],
-    keyTakeaway: "Stop prototyping in Python and rewriting in CUDA. Mojo and MAX deliver Python-tier readability with bare-metal C/CUDA execution speed across heterogeneous hardware."
+    keyTakeaway: "Stop prototyping in Python and rewriting in CUDA. Mojo and MAX deliver Python-tier readability with bare-metal C/CUDA execution speed across heterogeneous hardware.",
+    imageUrl: "/assets/images/coral_modular_max_1793915442661.jpg"
   },
   {
     id: "art-08",
@@ -517,6 +524,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     date: "2025 // Q1",
     url: "https://medium.com/@zoewave",
     tags: ["MAX Engine", "CUDA", "Apple Silicon", "AMD ROCm", "Hardware Agnostic"],
-    keyTakeaway: "MAX graph compilation delivers 2.8x to 4.2x higher throughput by auto-fusing memory-bound kernels, completely eliminating custom C++ CUDA boilerplate."
+    keyTakeaway: "MAX graph compilation delivers 2.8x to 4.2x higher throughput by auto-fusing memory-bound kernels, completely eliminating custom C++ CUDA boilerplate.",
+    imageUrl: "/assets/images/coral_modular_max_1793915442661.jpg"
   }
 ];

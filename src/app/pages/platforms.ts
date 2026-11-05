@@ -252,31 +252,31 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                     </div>
                   </div>
 
-                  <!-- Physical Hardware Incubations: AshBike & ZoeWear -->
+                  <!-- Physical Hardware Incubations: AshBike & ZoeWear (Coral Palette) -->
                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div class="rounded-xl overflow-hidden border border-slate-200 relative group aspect-[16/9]">
+                    <div class="rounded-xl overflow-hidden border border-[#fed7cc] relative group aspect-[16/9] bg-[#fff0eb]">
                       <img
-                        src="/assets/images/ashbike_showcase_1793913626360.jpg"
+                        src="/assets/images/coral_ashbike_1793915441529.jpg"
                         alt="AshBike e-bike prototype"
                         referrerpolicy="no-referrer"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
-                      <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-xs">
+                      <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/80 via-transparent to-transparent"></div>
+                      <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-slate-900 font-mono text-xs">
                         <span class="font-bold">AshBike E-Mobility</span>
-                        <span class="text-sky-300">Kotlin NDK</span>
+                        <span class="text-[#c2410c] font-semibold">Kotlin NDK</span>
                       </div>
                     </div>
 
-                    <div class="rounded-xl overflow-hidden border border-slate-200 relative group aspect-[16/9]">
+                    <div class="rounded-xl overflow-hidden border border-[#fed7cc] relative group aspect-[16/9] bg-[#fff0eb]">
                       <img
-                        src="/assets/images/zoewear_apparel_1793913626652.jpg"
+                        src="/assets/images/coral_zoewear_1793915441647.jpg"
                         alt="ZoeWear intelligent clothing with biosensors"
                         referrerpolicy="no-referrer"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
-                      <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-xs">
+                      <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/80 via-transparent to-transparent"></div>
+                      <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-slate-900 font-mono text-xs">
                         <span class="font-bold">ZoeWear PIC Apparel</span>
-                        <span class="text-sky-300">WearOS &amp; watchOS</span>
+                        <span class="text-[#c2410c] font-semibold">WearOS &amp; watchOS</span>
                       </div>
                     </div>
                   </div>
@@ -308,18 +308,18 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                     </div>
                   </div>
 
-                  <!-- Code block -->
-                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-slate-900 text-slate-100 ring-2 ring-sky-400 font-code-badge overflow-x-auto shadow-sm' : 'p-5 rounded-xl bg-slate-900 text-slate-100 font-code-badge overflow-x-auto shadow-sm'" class="transition-all">
-                    <div class="flex items-center justify-between text-slate-400 pb-2 border-b border-slate-800">
-                      <span class="text-sky-400 font-semibold">// KotlinActorBridge.kt</span>
-                      <span class="text-[11px]">THREAD: PINNED_CORE</span>
+                  <!-- Code block (Soft Coral Pastel Palette) -->
+                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] ring-2 ring-orange-400 font-code-badge overflow-x-auto shadow-sm' : 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] font-code-badge overflow-x-auto shadow-sm'" class="transition-all">
+                    <div class="flex items-center justify-between text-[#9a3412] pb-2 border-b border-[#fed7cc] font-semibold">
+                      <span class="text-[#ea580c]">// KotlinActorBridge.kt</span>
+                      <span class="text-[11px] text-slate-500">THREAD: PINNED_CORE</span>
                     </div>
-                    <pre class="mt-2 text-xs leading-relaxed"><code><span class="text-sky-400 font-semibold">&#64;OptIn</span>(DelicateCoroutinesApi::class)
-<span class="text-cyan-300 font-semibold">class</span> <span class="text-white font-semibold">TelemetryStreamer</span>(
-    <span class="text-slate-400">private val</span> nativeBridge: <span class="text-sky-400">CppJsiDirectTunnel</span>
+                    <pre class="mt-2 text-xs leading-relaxed font-mono"><code><span class="text-[#ea580c] font-semibold">&#64;OptIn</span>(DelicateCoroutinesApi::class)
+<span class="text-indigo-600 font-semibold">class</span> <span class="text-slate-900 font-bold">TelemetryStreamer</span>(
+    <span class="text-slate-500">private val</span> nativeBridge: <span class="text-[#c2410c] font-semibold">CppJsiDirectTunnel</span>
 ) &#123;
-    <span class="text-sky-400 font-semibold">val</span> sharedBuffer = <span class="text-sky-400">PinnedByteArray</span>(capacity = 4096)
-    <span class="text-sky-400 font-semibold">suspend fun</span> dispatchFrame(data: <span class="text-cyan-300">SensorPacket</span>) &#123;
+    <span class="text-[#ea580c] font-semibold">val</span> sharedBuffer = <span class="text-[#c2410c]">PinnedByteArray</span>(capacity = 4096)
+    <span class="text-[#ea580c] font-semibold">suspend fun</span> dispatchFrame(data: <span class="text-indigo-600">SensorPacket</span>) &#123;
         nativeBridge.zeroCopyDispatch(
             handle = sharedBuffer.address,
             vectorLength = data.tensorStride
@@ -373,26 +373,26 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                 </div>
               </div>
 
-              <!-- Silicon Hardware Hero Banner for Modular MAX -->
-              <div class="relative w-full h-56 sm:h-72 overflow-hidden bg-slate-950 border-b border-slate-200 group">
+              <!-- Silicon Hardware Hero Banner for Modular MAX (Soft Coral Pastel Palette) -->
+              <div class="relative w-full h-56 sm:h-72 overflow-hidden bg-gradient-to-r from-[#fff4f1] via-[#ffebe5] to-[#feddd4] border-b border-[#fed7cc] group">
                 <img
-                  src="/assets/images/modular_max_chip_1793913627933.jpg"
+                  src="/assets/images/coral_modular_max_1793915442661.jpg"
                   alt="Modular MAX and Mojo laser etched glowing silicon chip processor"
                   referrerpolicy="no-referrer"
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90" />
-                <div class="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/50 to-transparent"></div>
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-80" />
+                <div class="absolute inset-0 bg-gradient-to-r from-[#fff7f5]/95 via-[#ffece6]/65 to-transparent"></div>
                 <div class="absolute inset-0 flex items-center p-6 sm:p-10">
                   <div class="max-w-xl flex flex-col gap-2">
-                    <span class="px-2.5 py-1 rounded bg-orange-500 text-white font-mono text-xs font-semibold self-start shadow-md shadow-orange-500/30">
+                    <span class="px-2.5 py-1 rounded bg-[#ea580c] text-white font-mono text-xs font-semibold self-start shadow-md shadow-orange-500/25">
                       SILICON COMPILER REVOLUTION
                     </span>
-                    <h3 class="text-2xl sm:text-3xl font-bold text-white font-display">
+                    <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 font-display">
                       Unified Heterogeneous Acceleration
                     </h3>
-                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+                    <p class="text-slate-700 text-xs sm:text-sm leading-relaxed">
                       Compiling PyTorch, ONNX, and Mojo graphs directly down to bare metal across NVIDIA Tensor Cores, AMD ROCm/CDNA, Apple Silicon Metal/ANE, and ARM CPUs.
                     </p>
-                    <div class="flex items-center gap-4 mt-2 text-xs font-mono text-orange-400">
+                    <div class="flex items-center gap-4 mt-2 text-xs font-mono text-[#c2410c] font-semibold">
                       <span>• ZERO CUDA LOCK-IN</span>
                       <span>• 68,420x SIMD SPEEDUP</span>
                       <span>• MLIR CODEGEN</span>
@@ -564,51 +564,51 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                       </div>
                     </div>
 
-                    <!-- Interactive Mojo Code Block -->
-                    <div class="p-5 rounded-xl bg-slate-900 text-slate-100 font-code-badge shadow-sm flex flex-col justify-between">
-                      <div class="flex items-center justify-between text-slate-400 pb-2 border-b border-slate-800">
-                        <span class="text-orange-400 font-semibold flex items-center gap-1.5">
-                          <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                    <!-- Interactive Mojo Code Block (Soft Coral Pastel Palette) -->
+                    <div class="p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] font-code-badge shadow-sm flex flex-col justify-between">
+                      <div class="flex items-center justify-between text-[#9a3412] pb-2 border-b border-[#fed7cc] font-semibold">
+                        <span class="text-[#ea580c] font-semibold flex items-center gap-1.5">
+                          <span class="w-2 h-2 rounded-full bg-[#ea580c]"></span>
                           {{ modularData.mojo.codeSample.filename }}
                         </span>
                         <button
                           type="button"
                           (click)="copyCode('mojo', modularData.mojo.codeSample.code)"
-                          class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 hover:text-white flex items-center gap-1 transition-colors">
-                          <span class="material-symbols-outlined text-[14px] text-orange-400">
+                          class="px-2.5 py-1 rounded bg-white hover:bg-[#fff0eb] text-xs text-[#9a3412] border border-[#fed7cc] flex items-center gap-1 transition-colors shadow-xs">
+                          <span class="material-symbols-outlined text-[14px] text-[#ea580c]">
                             {{ copiedCodeKey() === 'mojo' ? 'check' : 'content_copy' }}
                           </span>
                           <span>{{ copiedCodeKey() === 'mojo' ? 'Copied!' : 'Copy Mojo' }}</span>
                         </button>
                       </div>
 
-                      <pre class="mt-3 text-xs leading-relaxed overflow-x-auto text-slate-200"><code><span class="text-purple-400 font-semibold">from</span> algorithm <span class="text-purple-400 font-semibold">import</span> vectorize, parallelize
-<span class="text-purple-400 font-semibold">from</span> sys.info <span class="text-purple-400 font-semibold">import</span> simdwidthof
+                      <pre class="mt-3 text-xs leading-relaxed overflow-x-auto text-slate-800 font-mono"><code><span class="text-indigo-600 font-semibold">from</span> algorithm <span class="text-indigo-600 font-semibold">import</span> vectorize, parallelize
+<span class="text-indigo-600 font-semibold">from</span> sys.info <span class="text-indigo-600 font-semibold">import</span> simdwidthof
 
-<span class="text-slate-400"># Direct SIMD vector mapping in Mojo (replaces slow Python loops)</span>
-<span class="text-orange-400 font-semibold">alias</span> type = DType.float32
-<span class="text-orange-400 font-semibold">alias</span> nelts = simdwidthof[type]()
+<span class="text-slate-500"># Direct SIMD vector mapping in Mojo (replaces slow Python loops)</span>
+<span class="text-[#ea580c] font-semibold">alias</span> type = DType.float32
+<span class="text-[#ea580c] font-semibold">alias</span> nelts = simdwidthof[type]()
 
-<span class="text-orange-400 font-semibold">fn</span> <span class="text-yellow-300 font-semibold">fast_matmul_kernel</span>[M: Int, N: Int, K: Int](
+<span class="text-[#ea580c] font-semibold">fn</span> <span class="text-[#c2410c] font-bold">fast_matmul_kernel</span>[M: Int, N: Int, K: Int](
     C: UnsafePointer[Scalar[type]],
     A: UnsafePointer[Scalar[type]],
     B: UnsafePointer[Scalar[type]]
 ):
-    <span class="text-purple-400 font-semibold">&#64;parameter</span>
-    <span class="text-orange-400 font-semibold">fn</span> calc_row(m: Int):
-        <span class="text-purple-400 font-semibold">for</span> k <span class="text-purple-400 font-semibold">in</span> range(K):
-            <span class="text-purple-400 font-semibold">&#64;parameter</span>
-            <span class="text-orange-400 font-semibold">fn</span> calc_tile[simd_width: Int](n: Int):
-                <span class="text-orange-400 font-semibold">var</span> a_val = A.load(m * K + k)
-                <span class="text-orange-400 font-semibold">var</span> b_vec = B.load[width=simd_width](k * N + n)
-                <span class="text-orange-400 font-semibold">var</span> c_vec = C.load[width=simd_width](m * N + n)
+    <span class="text-purple-600 font-semibold">&#64;parameter</span>
+    <span class="text-[#ea580c] font-semibold">fn</span> calc_row(m: Int):
+        <span class="text-purple-600 font-semibold">for</span> k <span class="text-purple-600 font-semibold">in</span> range(K):
+            <span class="text-purple-600 font-semibold">&#64;parameter</span>
+            <span class="text-[#ea580c] font-semibold">fn</span> calc_tile[simd_width: Int](n: Int):
+                <span class="text-[#ea580c] font-semibold">var</span> a_val = A.load(m * K + k)
+                <span class="text-[#ea580c] font-semibold">var</span> b_vec = B.load[width=simd_width](k * N + n)
+                <span class="text-[#ea580c] font-semibold">var</span> c_vec = C.load[width=simd_width](m * N + n)
                 C.store(m * N + n, c_vec + a_val * b_vec)
             vectorize[calc_tile, nelts](N)
     parallelize[calc_row](M, M)</code></pre>
 
-                      <div class="mt-3 pt-2 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
+                      <div class="mt-3 pt-2 border-t border-[#fed7cc] flex items-center justify-between text-[11px] text-slate-600">
                         <span>TARGET: MLIR VECTOR REGISTER</span>
-                        <span class="text-emerald-400 font-semibold">NO GIL • 1,565x FASTER</span>
+                        <span class="text-emerald-700 font-bold">NO GIL • 1,565x FASTER</span>
                       </div>
                     </div>
                   </div>
@@ -728,49 +728,49 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                       </div>
                     </div>
 
-                    <!-- Interactive MAX Pipeline Code Block -->
-                    <div class="p-5 rounded-xl bg-slate-900 text-slate-100 font-code-badge shadow-sm flex flex-col justify-between">
-                      <div class="flex items-center justify-between text-slate-400 pb-2 border-b border-slate-800">
-                        <span class="text-purple-400 font-semibold flex items-center gap-1.5">
-                          <span class="w-2 h-2 rounded-full bg-purple-500"></span>
+                    <!-- Interactive MAX Pipeline Code Block (Soft Coral Pastel Palette) -->
+                    <div class="p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] font-code-badge shadow-sm flex flex-col justify-between">
+                      <div class="flex items-center justify-between text-[#9a3412] pb-2 border-b border-[#fed7cc] font-semibold">
+                        <span class="text-purple-700 font-semibold flex items-center gap-1.5">
+                          <span class="w-2 h-2 rounded-full bg-purple-600"></span>
                           {{ modularData.max.codeSample.filename }}
                         </span>
                         <button
                           type="button"
                           (click)="copyCode('max', modularData.max.codeSample.code)"
-                          class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 hover:text-white flex items-center gap-1 transition-colors">
-                          <span class="material-symbols-outlined text-[14px] text-purple-400">
+                          class="px-2.5 py-1 rounded bg-white hover:bg-[#fff0eb] text-xs text-[#9a3412] border border-[#fed7cc] flex items-center gap-1 transition-colors shadow-xs">
+                          <span class="material-symbols-outlined text-[14px] text-purple-700">
                             {{ copiedCodeKey() === 'max' ? 'check' : 'content_copy' }}
                           </span>
                           <span>{{ copiedCodeKey() === 'max' ? 'Copied!' : 'Copy MAX' }}</span>
                         </button>
                       </div>
 
-                      <pre class="mt-3 text-xs leading-relaxed overflow-x-auto text-slate-200"><code><span class="text-purple-400 font-semibold">from</span> max.engine <span class="text-purple-400 font-semibold">import</span> InferenceSession, Model
-<span class="text-purple-400 font-semibold">from</span> max.graph <span class="text-purple-400 font-semibold">import</span> Graph, Tensor, Type, ops
+                      <pre class="mt-3 text-xs leading-relaxed overflow-x-auto text-slate-800 font-mono"><code><span class="text-indigo-600 font-semibold">from</span> max.engine <span class="text-indigo-600 font-semibold">import</span> InferenceSession, Model
+<span class="text-indigo-600 font-semibold">from</span> max.graph <span class="text-indigo-600 font-semibold">import</span> Graph, Tensor, Type, ops
 
-<span class="text-slate-400"># Compiles deep learning graphs directly without NVIDIA CUDA</span>
-<span class="text-purple-400 font-semibold">fn</span> <span class="text-yellow-300 font-semibold">build_max_graph</span>() -> Graph:
-    <span class="text-orange-400 font-semibold">var</span> graph = Graph(<span class="text-emerald-300">"ylabz_vision_transformer"</span>)
-    <span class="text-orange-400 font-semibold">var</span> input_tensor = graph.add_input(Type(DType.float32, 1, 3, 224, 224))
+<span class="text-slate-500"># Compiles deep learning graphs directly without NVIDIA CUDA</span>
+<span class="text-purple-700 font-semibold">fn</span> <span class="text-[#c2410c] font-bold">build_max_graph</span>() -> Graph:
+    <span class="text-[#ea580c] font-semibold">var</span> graph = Graph(<span class="text-emerald-700 font-medium">"ylabz_vision_transformer"</span>)
+    <span class="text-[#ea580c] font-semibold">var</span> input_tensor = graph.add_input(Type(DType.float32, 1, 3, 224, 224))
     
-    <span class="text-slate-400"># Auto-fused attention &amp; layer norm across any target silicon</span>
-    <span class="text-orange-400 font-semibold">var</span> normalized = ops.layer_norm(input_tensor, epsilon=1e-5)
-    <span class="text-orange-400 font-semibold">var</span> attention = ops.scaled_dot_product_attention(
+    <span class="text-slate-500"># Auto-fused attention &amp; layer norm across any target silicon</span>
+    <span class="text-[#ea580c] font-semibold">var</span> normalized = ops.layer_norm(input_tensor, epsilon=1e-5)
+    <span class="text-[#ea580c] font-semibold">var</span> attention = ops.scaled_dot_product_attention(
         query=normalized, key=normalized, value=normalized
     )
-    <span class="text-orange-400 font-semibold">var</span> logits = ops.dense(attention, out_features=1000)
+    <span class="text-[#ea580c] font-semibold">var</span> logits = ops.dense(attention, out_features=1000)
     graph.output(logits)
-    <span class="text-purple-400 font-semibold">return</span> graph
+    <span class="text-purple-700 font-semibold">return</span> graph
 
-<span class="text-purple-400 font-semibold">fn</span> <span class="text-yellow-300 font-semibold">main</span>() raises:
-    <span class="text-orange-400 font-semibold">var</span> session = InferenceSession()
-    <span class="text-orange-400 font-semibold">var</span> model = session.load(build_max_graph())
-    print(<span class="text-emerald-300">"MAX: Compiled to native silicon without CUDA"</span>)</code></pre>
+<span class="text-purple-700 font-semibold">fn</span> <span class="text-[#c2410c] font-bold">main</span>() raises:
+    <span class="text-[#ea580c] font-semibold">var</span> session = InferenceSession()
+    <span class="text-[#ea580c] font-semibold">var</span> model = session.load(build_max_graph())
+    print(<span class="text-emerald-700 font-medium">"MAX: Compiled to native silicon without CUDA"</span>)</code></pre>
 
-                      <div class="mt-3 pt-2 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
+                      <div class="mt-3 pt-2 border-t border-[#fed7cc] flex items-center justify-between text-[11px] text-slate-600">
                         <span>TARGET: HETEROGENEOUS ACCELERATOR</span>
-                        <span class="text-purple-400 font-semibold">ZERO CUDA BOILERPLATE</span>
+                        <span class="text-purple-700 font-bold">ZERO CUDA BOILERPLATE</span>
                       </div>
                     </div>
                   </div>
@@ -845,16 +845,16 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                     </div>
                   </div>
 
-                  <!-- Deep Dive Narrative -->
-                  <div class="p-6 rounded-xl bg-slate-900 text-slate-200 font-mono text-xs leading-relaxed">
-                    <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-800 text-slate-400">
-                      <span class="text-sky-400 font-semibold">ARCHITECTURAL INSIGHT // CHRIS LATTNER &amp; TIM DAVIS</span>
+                  <!-- Deep Dive Narrative (Soft Coral Pastel Palette) -->
+                  <div class="p-6 rounded-xl bg-gradient-to-br from-[#fff7f5] via-[#ffebe6] to-[#feddd4] text-slate-800 border border-[#fed7cc] font-mono text-xs leading-relaxed shadow-sm">
+                    <div class="flex items-center justify-between pb-3 mb-3 border-b border-[#fed7cc] text-[#9a3412] font-semibold">
+                      <span class="text-[#c2410c] font-bold">ARCHITECTURAL INSIGHT // CHRIS LATTNER &amp; TIM DAVIS</span>
                       <span>COMPILER REVOLUTION</span>
                     </div>
-                    <p class="mb-3">
+                    <p class="mb-3 text-slate-700">
                       “Compilers historically suffered from the O(M × N) problem: M source languages translating to N target chips required M × N compilers. LLVM solved this for classic CPU compilation via a single universal IR. But AI models have complex tensor semantics (shapes, strides, dynamic batching) that LLVM IR cannot represent without destroying structure.”
                     </p>
-                    <p class="text-slate-400">
+                    <p class="text-slate-600">
                       MLIR in Modular Mojo &amp; MAX preserves domain semantics across compiler levels, making it trivial to fuse memory-bound operations, tile for hardware cache lines, and emit peak-performance kernels for any silicon architecture without human intervention.
                     </p>
                   </div>
@@ -943,32 +943,32 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                       </div>
                     </div>
 
-                    <!-- Net Improvement Card -->
-                    <div class="p-6 rounded-2xl bg-slate-900 text-slate-100 shadow-sm flex flex-col justify-between font-mono">
+                    <!-- Net Improvement Card (Soft Coral Pastel Palette) -->
+                    <div class="p-6 rounded-2xl bg-gradient-to-br from-[#fff4f1] via-[#ffebe5] to-[#feddd4] text-slate-900 border border-[#fed7cc] shadow-sm flex flex-col justify-between font-mono">
                       <div>
-                        <span class="font-label-caps text-orange-400 font-bold uppercase text-[10px]">PRODUCTION DELTA</span>
-                        <h4 class="font-headline-sm text-white text-base font-semibold mt-1">Verified Acceleration</h4>
-                        <p class="text-xs text-slate-400 mt-1">Tested on real YLabZ model graphs</p>
+                        <span class="font-label-caps text-[#c2410c] font-bold uppercase text-[10px]">PRODUCTION DELTA</span>
+                        <h4 class="font-headline-sm text-slate-900 text-base font-bold mt-1">Verified Acceleration</h4>
+                        <p class="text-xs text-slate-600 mt-1">Tested on real YLabZ model graphs</p>
                       </div>
 
                       <div class="my-6">
-                        <div class="font-display-hero text-orange-400 text-5xl font-bold">
+                        <div class="font-display-hero text-[#ea580c] text-5xl font-extrabold">
                           {{ calculatedSpeedupRatio() }}
                         </div>
-                        <span class="text-xs text-slate-300 block mt-1">Throughput multiplier at batch {{ batchSize() }}</span>
+                        <span class="text-xs text-slate-600 block mt-1">Throughput multiplier at batch {{ batchSize() }}</span>
                       </div>
 
-                      <div class="pt-4 border-t border-slate-800 space-y-2 text-xs text-slate-300">
+                      <div class="pt-4 border-t border-[#fed7cc] space-y-2 text-xs text-slate-700 font-medium">
                         <div class="flex items-center gap-2">
-                          <span class="material-symbols-outlined text-emerald-400 text-[16px]">check</span>
+                          <span class="material-symbols-outlined text-emerald-600 text-[16px]">check</span>
                           <span>Zero proprietary CUDA drivers</span>
                         </div>
                         <div class="flex items-center gap-2">
-                          <span class="material-symbols-outlined text-emerald-400 text-[16px]">check</span>
+                          <span class="material-symbols-outlined text-emerald-600 text-[16px]">check</span>
                           <span>No CPython GIL contention</span>
                         </div>
                         <div class="flex items-center gap-2">
-                          <span class="material-symbols-outlined text-emerald-400 text-[16px]">check</span>
+                          <span class="material-symbols-outlined text-emerald-600 text-[16px]">check</span>
                           <span>100% portable hardware execution</span>
                         </div>
                       </div>
@@ -1103,19 +1103,19 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                     </div>
                   </div>
 
-                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-slate-900 text-slate-100 ring-2 ring-sky-400 font-code-badge shadow-sm' : 'p-5 rounded-xl bg-slate-900 text-slate-100 font-code-badge shadow-sm'" class="transition-all">
-                    <div class="flex items-center justify-between text-slate-400 pb-1 border-b border-slate-800">
-                      <span class="text-cyan-400 font-semibold">// quantize_onnx_pipeline.py</span>
-                      <span class="text-[11px]">RUNTIME: EXECUTORCH</span>
+                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] ring-2 ring-sky-400 font-code-badge shadow-sm' : 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] font-code-badge shadow-sm'" class="transition-all">
+                    <div class="flex items-center justify-between text-[#9a3412] pb-1 border-b border-[#fed7cc] font-semibold">
+                      <span class="text-[#c2410c]">// quantize_onnx_pipeline.py</span>
+                      <span class="text-[11px] text-slate-500">RUNTIME: EXECUTORCH</span>
                     </div>
-                    <pre class="mt-2 text-xs leading-relaxed"><code><span class="text-cyan-300 font-semibold">import</span> torch
-<span class="text-cyan-300 font-semibold">from</span> executorch.extension.pybindings <span class="text-cyan-300 font-semibold">import</span> _export
+                    <pre class="mt-2 text-xs leading-relaxed font-mono"><code><span class="text-indigo-600 font-semibold">import</span> torch
+<span class="text-indigo-600 font-semibold">from</span> executorch.extension.pybindings <span class="text-indigo-600 font-semibold">import</span> _export
 
-<span class="text-slate-400"># Lowering model to hardware NPU delegate</span>
-model = <span class="text-white font-semibold">VisionBackboneTransformer</span>()
+<span class="text-slate-500"># Lowering model to hardware NPU delegate</span>
+model = <span class="text-slate-900 font-bold">VisionBackboneTransformer</span>()
 quantized_prog = torch.export.export(model, example_inputs)
 edge_program = _export.to_edge(quantized_prog)
-edge_program.tune_for_target(<span class="text-sky-400 font-semibold">"qualcomm_htp"</span>, int8_relaxed=<span class="text-sky-400">True</span>)</code></pre>
+edge_program.tune_for_target(<span class="text-[#ea580c] font-semibold">"qualcomm_htp"</span>, int8_relaxed=<span class="text-[#ea580c]">True</span>)</code></pre>
                   </div>
                 </div>
               </div>
@@ -1235,20 +1235,20 @@ edge_program.tune_for_target(<span class="text-sky-400 font-semibold">"qualcomm_
                     </div>
                   </div>
 
-                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-slate-900 text-slate-100 ring-2 ring-sky-400 font-code-badge shadow-sm' : 'p-5 rounded-xl bg-slate-900 text-slate-100 font-code-badge shadow-sm'" class="transition-all">
-                    <div class="flex items-center justify-between text-slate-400 pb-1 border-b border-slate-800">
-                      <span class="text-sky-400 font-semibold">// RealitySpatialAnchor.swift</span>
-                      <span class="text-[11px]">REALITYKIT 4</span>
+                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] ring-2 ring-sky-400 font-code-badge shadow-sm' : 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] font-code-badge shadow-sm'" class="transition-all">
+                    <div class="flex items-center justify-between text-[#9a3412] pb-1 border-b border-[#fed7cc] font-semibold">
+                      <span class="text-[#c2410c]">// RealitySpatialAnchor.swift</span>
+                      <span class="text-[11px] text-slate-500">REALITYKIT 4</span>
                     </div>
-                    <pre class="mt-2 text-xs leading-relaxed"><code><span class="text-cyan-300 font-semibold">import</span> RealityKit
-<span class="text-cyan-300 font-semibold">import</span> SpatialPhysicsEngine
+                    <pre class="mt-2 text-xs leading-relaxed font-mono"><code><span class="text-indigo-600 font-semibold">import</span> RealityKit
+<span class="text-indigo-600 font-semibold">import</span> SpatialPhysicsEngine
 
-<span class="text-sky-400 font-semibold">&#64;MainActor</span>
-<span class="text-cyan-300 font-semibold">public struct</span> <span class="text-white font-semibold">VolumetricMeshSystem</span>: System &#123;
-    <span class="text-sky-400 font-semibold">public func</span> update(context: <span class="text-cyan-300">SceneUpdateContext</span>) &#123;
-        <span class="text-sky-400 font-semibold">let</span> query = <span class="text-cyan-300">EntityQuery</span>(where: .has(<span class="text-sky-400">ZoewarePhysicsComponent</span>.self))
-        <span class="text-cyan-300 font-semibold">for</span> entity <span class="text-cyan-300 font-semibold">in</span> context.entities(matching: query) &#123;
-            entity.applyDepthMeshingOcclusion(latencyTolerance: <span class="text-sky-400">0.008</span>)
+<span class="text-[#ea580c] font-semibold">&#64;MainActor</span>
+<span class="text-indigo-600 font-semibold">public struct</span> <span class="text-slate-900 font-bold">VolumetricMeshSystem</span>: System &#123;
+    <span class="text-[#ea580c] font-semibold">public func</span> update(context: <span class="text-indigo-600">SceneUpdateContext</span>) &#123;
+        <span class="text-[#ea580c] font-semibold">let</span> query = <span class="text-indigo-600">EntityQuery</span>(where: .has(<span class="text-[#c2410c]">ZoewarePhysicsComponent</span>.self))
+        <span class="text-indigo-600 font-semibold">for</span> entity <span class="text-indigo-600 font-semibold">in</span> context.entities(matching: query) &#123;
+            entity.applyDepthMeshingOcclusion(latencyTolerance: <span class="text-[#ea580c]">0.008</span>)
         &#125;
     &#125;
 &#125;</code></pre>
@@ -1390,13 +1390,13 @@ edge_program.tune_for_target(<span class="text-sky-400 font-semibold">"qualcomm_
                     </div>
                   </div>
 
-                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-slate-900 text-slate-100 ring-2 ring-sky-400 font-code-badge shadow-sm' : 'p-5 rounded-xl bg-slate-900 text-slate-100 font-code-badge shadow-sm'" class="transition-all">
-                    <div class="flex items-center justify-between text-slate-400 pb-1 border-b border-slate-800">
-                      <span class="text-cyan-400 font-semibold">// qiskit_bell_solver.py</span>
-                      <span class="text-[11px]">QISKIT RUNTIME</span>
+                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] ring-2 ring-sky-400 font-code-badge shadow-sm' : 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] font-code-badge shadow-sm'" class="transition-all">
+                    <div class="flex items-center justify-between text-[#9a3412] pb-1 border-b border-[#fed7cc] font-semibold">
+                      <span class="text-[#c2410c]">// qiskit_bell_solver.py</span>
+                      <span class="text-[11px] text-slate-500">QISKIT RUNTIME</span>
                     </div>
-                    <pre class="mt-2 text-xs leading-relaxed"><code><span class="text-cyan-300 font-semibold">from</span> qiskit <span class="text-cyan-300 font-semibold">import</span> QuantumCircuit
-<span class="text-cyan-300 font-semibold">from</span> qiskit_ibm_runtime <span class="text-cyan-300 font-semibold">import</span> SamplerV2
+                    <pre class="mt-2 text-xs leading-relaxed font-mono"><code><span class="text-indigo-600 font-semibold">from</span> qiskit <span class="text-indigo-600 font-semibold">import</span> QuantumCircuit
+<span class="text-indigo-600 font-semibold">from</span> qiskit_ibm_runtime <span class="text-indigo-600 font-semibold">import</span> SamplerV2
 
 qc = QuantumCircuit(3)
 qc.h(0)
@@ -1404,7 +1404,7 @@ qc.cx(0, 1)
 qc.cx(0, 2)
 qc.measure_all()
 
-<span class="text-slate-400"># Execute on noise-mitigated quantum hardware</span>
+<span class="text-slate-500"># Execute on noise-mitigated quantum hardware</span>
 sampler = SamplerV2(mode=backend)
 job = sampler.run([qc])</code></pre>
                   </div>

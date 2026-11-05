@@ -141,41 +141,41 @@ import {YLABZ_PROJECTS, YLabZProject} from '../data/ylabz-data';
               <article
                 class="group relative flex flex-col justify-between rounded-3xl bg-white border border-slate-200 hover:border-sky-400 hover:shadow-2xl hover:shadow-sky-500/10 transition-all duration-300 shadow-sm overflow-hidden">
                 
-                <!-- 16:9 Cinematic Photographic Header -->
-                <div class="relative w-full aspect-[16/9] overflow-hidden bg-slate-950">
+                <!-- 16:9 Cinematic Photographic Header (Soft Coral Pastel Substrate) -->
+                <div class="relative w-full aspect-[16/9] overflow-hidden bg-[#fff0eb]">
                   <img
                     [src]="p.imageUrl"
                     [alt]="p.name"
                     referrerpolicy="no-referrer"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                  <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"></div>
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/90 via-[#ffebe6]/30 to-transparent"></div>
 
                   <!-- Badges overlay -->
                   <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
-                    <span class="px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-md border border-white/20 text-white font-mono text-xs font-semibold flex items-center gap-1.5">
-                      <span class="material-symbols-outlined text-[16px] text-sky-400">
+                    <span class="px-2.5 py-1 rounded-lg bg-[#fff2ee]/90 backdrop-blur-md border border-[#fed7cc] text-[#9a3412] font-mono text-xs font-semibold flex items-center gap-1.5 shadow-sm">
+                      <span class="material-symbols-outlined text-[16px] text-[#ea580c]">
                         {{ p.category === 'mobility' ? 'two_wheeler' : p.category === 'apparel' ? 'checkroom' : p.category === 'ai-apps' ? 'memory' : p.category === 'robotics' ? 'smart_toy' : p.category === 'agency' ? 'campaign' : 'medication' }}
                       </span>
                       {{ p.categoryLabel }}
                     </span>
 
                     <span [class]="p.status === 'In Production' 
-                      ? 'px-2.5 py-1 rounded-lg font-mono bg-emerald-950/80 text-emerald-300 border border-emerald-500/30 backdrop-blur-md font-semibold text-xs'
-                      : 'px-2.5 py-1 rounded-lg font-mono bg-sky-950/80 text-sky-300 border border-sky-500/30 backdrop-blur-md font-semibold text-xs'">
+                      ? 'px-2.5 py-1 rounded-lg font-mono bg-emerald-100/90 text-emerald-800 border border-emerald-300 backdrop-blur-md font-semibold text-xs shadow-sm'
+                      : 'px-2.5 py-1 rounded-lg font-mono bg-[#ffedea]/90 text-[#c2410c] border border-[#fecdd3] backdrop-blur-md font-semibold text-xs shadow-sm'">
                       {{ p.status }}
                     </span>
                   </div>
 
-                  <!-- Bottom Title Banner on Image -->
-                  <div class="absolute bottom-4 left-4 right-4 flex items-end justify-between text-white">
+                  <!-- Bottom Title Banner on Image with Soft Coral Contrast -->
+                  <div class="absolute bottom-4 left-4 right-4 flex items-end justify-between text-slate-900">
                     <div>
-                      <span class="block text-xs font-mono text-sky-300 font-semibold">{{ p.partnerOrEcosystem }}</span>
-                      <h3 class="text-2xl font-bold tracking-tight text-white font-display">
+                      <span class="block text-xs font-mono text-[#c2410c] font-semibold">{{ p.partnerOrEcosystem }}</span>
+                      <h3 class="text-2xl font-bold tracking-tight text-slate-900 font-display drop-shadow-sm">
                         {{ p.name }}
                       </h3>
                     </div>
                     @if (p.badge) {
-                      <span class="px-2.5 py-0.5 rounded bg-white/20 backdrop-blur-md text-white font-mono text-[11px] font-medium border border-white/20">
+                      <span class="px-2.5 py-0.5 rounded bg-[#fff4f1]/90 backdrop-blur-md text-[#9a3412] font-mono text-[11px] font-semibold border border-[#fed7cc] shadow-sm">
                         {{ p.badge }}
                       </span>
                     }
@@ -263,15 +263,15 @@ import {YLABZ_PROJECTS, YLabZProject} from '../data/ylabz-data';
                   <span class="text-slate-500"># Clone Y? Lab Z cross-platform template with submodules</span>
                 </div>
 
-                <div class="flex items-center justify-between p-4 rounded-xl bg-slate-900 text-slate-100 shadow-md">
+                <div class="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-[#fff5f2] via-[#ffebe6] to-[#fedcd3] text-slate-900 border border-[#fed7cc] shadow-sm">
                   <div class="flex items-center gap-3 overflow-x-auto">
-                    <span class="text-sky-400 font-bold select-none">$</span>
-                    <code class="text-slate-100 font-mono text-xs sm:text-sm whitespace-nowrap">{{ cloneCommand }}</code>
+                    <span class="text-[#ea580c] font-bold select-none">$</span>
+                    <code class="text-slate-900 font-mono text-xs sm:text-sm whitespace-nowrap font-medium">{{ cloneCommand }}</code>
                   </div>
                   <button
                     type="button"
                     (click)="copyCloneCommand()"
-                    class="ml-3 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white transition-all flex items-center gap-1.5 shrink-0 border border-slate-700">
+                    class="ml-3 px-3 py-1.5 rounded-lg bg-white hover:bg-[#fff0eb] text-[#9a3412] transition-all flex items-center gap-1.5 shrink-0 border border-[#fed7cc] shadow-sm">
                     <span class="material-symbols-outlined text-[16px]">{{ commandCopied() ? 'done' : 'content_copy' }}</span>
                     <span class="text-xs font-mono font-semibold">{{ commandCopied() ? 'COPIED!' : 'COPY' }}</span>
                   </button>
@@ -334,44 +334,44 @@ import {YLABZ_PROJECTS, YLabZProject} from '../data/ylabz-data';
         </section>
       </div>
 
-      <!-- INTERACTIVE PROJECT INSPECTION MODAL / DRAWER -->
+      <!-- INTERACTIVE PROJECT INSPECTION MODAL / DRAWER (SOFT CORAL PASTEL PALETTE) -->
       @if (activeProject()) {
-        <div class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-slate-950/80 backdrop-blur-md">
-          <div class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white border border-slate-200 shadow-2xl flex flex-col">
+        <div class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-rose-950/25 backdrop-blur-md">
+          <div class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white border border-[#fed7cc] shadow-2xl flex flex-col">
             
             <!-- Modal Header Image -->
-            <div class="relative w-full aspect-[21/9] sm:aspect-[16/7] overflow-hidden bg-slate-950">
+            <div class="relative w-full aspect-[21/9] sm:aspect-[16/7] overflow-hidden bg-[#fff0eb]">
               <img
                 [src]="activeProject()!.imageUrl"
                 [alt]="activeProject()!.name"
                 referrerpolicy="no-referrer"
                 class="w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/95 via-[#ffebe6]/40 to-transparent"></div>
 
               <!-- Close button -->
               <button
                 type="button"
                 (click)="closeProject()"
-                class="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/60 hover:bg-black/90 text-white flex items-center justify-center backdrop-blur-md border border-white/20 transition-all cursor-pointer">
+                class="absolute top-4 right-4 w-10 h-10 rounded-full bg-[#fff0eb]/90 hover:bg-white text-slate-800 flex items-center justify-center backdrop-blur-md border border-[#fed7cc] transition-all cursor-pointer shadow-md">
                 <span class="material-symbols-outlined text-[20px]">close</span>
               </button>
 
-              <div class="absolute bottom-4 left-6 right-6 flex items-end justify-between text-white">
+              <div class="absolute bottom-4 left-6 right-6 flex items-end justify-between text-slate-900">
                 <div>
                   <div class="flex items-center gap-2 mb-1">
-                    <span class="px-2.5 py-0.5 rounded bg-sky-500 text-white font-mono text-xs font-semibold">
+                    <span class="px-2.5 py-0.5 rounded bg-[#ea580c] text-white font-mono text-xs font-semibold">
                       {{ activeProject()!.categoryLabel }}
                     </span>
-                    <span class="font-mono text-xs text-sky-300 font-medium">
+                    <span class="font-mono text-xs text-[#c2410c] font-semibold">
                       {{ activeProject()!.partnerOrEcosystem }}
                     </span>
                   </div>
-                  <h2 class="text-3xl sm:text-4xl font-bold font-display text-white">
+                  <h2 class="text-3xl sm:text-4xl font-bold font-display text-slate-900 drop-shadow-sm">
                     {{ activeProject()!.name }}
                   </h2>
                 </div>
 
-                <span class="px-3 py-1 rounded-xl bg-white/20 backdrop-blur-md font-mono text-xs border border-white/20 font-bold">
+                <span class="px-3 py-1 rounded-xl bg-white/90 backdrop-blur-md font-mono text-xs border border-[#fed7cc] text-[#9a3412] font-bold shadow-sm">
                   {{ activeProject()!.status }}
                 </span>
               </div>
@@ -380,51 +380,51 @@ import {YLABZ_PROJECTS, YLabZProject} from '../data/ylabz-data';
             <!-- Modal Content -->
             <div class="p-6 sm:p-8 flex flex-col gap-6">
               <div>
-                <h4 class="text-lg font-semibold text-slate-900 mb-2">{{ activeProject()!.tagline }}</h4>
+                <h4 class="text-lg font-semibold text-[#c2410c] mb-2">{{ activeProject()!.tagline }}</h4>
                 <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
                   {{ activeProject()!.description }}
                 </p>
               </div>
 
               <!-- Key Engineering Highlights -->
-              <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200">
-                <span class="font-label-caps text-sky-700 font-bold uppercase tracking-wider block mb-3">KEY ARCHITECTURAL HIGHLIGHTS</span>
+              <div class="p-5 rounded-2xl bg-[#fff7f5] border border-[#fed7cc]">
+                <span class="font-label-caps text-[#c2410c] font-bold uppercase tracking-wider block mb-3">KEY ARCHITECTURAL HIGHLIGHTS</span>
                 <ul class="space-y-2 text-sm text-slate-700">
                   @for (hl of activeProject()!.highlights; track hl) {
                     <li class="flex items-start gap-2.5">
-                      <span class="material-symbols-outlined text-sky-600 text-[18px] mt-0.5 shrink-0">verified</span>
+                      <span class="material-symbols-outlined text-[#ea580c] text-[18px] mt-0.5 shrink-0">verified</span>
                       <span>{{ hl }}</span>
                     </li>
                   }
                 </ul>
               </div>
 
-              <!-- Live Interactive Telemetry Simulator for Project -->
-              <div class="p-5 rounded-2xl bg-slate-900 text-white flex flex-col gap-3">
-                <div class="flex items-center justify-between text-xs font-mono text-slate-400 border-b border-slate-800 pb-2">
-                  <span class="flex items-center gap-2 text-sky-400">
-                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <!-- Live Interactive Telemetry Simulator for Project (Soft Coral Pastel Palette) -->
+              <div class="p-5 rounded-2xl bg-gradient-to-br from-[#fff4f1] via-[#ffebe5] to-[#feddd4] text-slate-900 border border-[#fed7cc] flex flex-col gap-3 shadow-sm">
+                <div class="flex items-center justify-between text-xs font-mono text-[#9a3412] border-b border-[#fed7cc] pb-2 font-semibold">
+                  <span class="flex items-center gap-2 text-[#c2410c]">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
                     SIMULATED LIVE TELEMETRY STREAM
                   </span>
                   <span>NODE: PALO ALTO CLUSTER</span>
                 </div>
 
                 <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 font-mono text-center pt-1">
-                  <div class="p-3 rounded-xl bg-slate-800/80 border border-slate-700">
-                    <span class="text-[10px] text-slate-400 block uppercase">PING LATENCY</span>
-                    <span class="text-lg font-bold text-sky-400">1.8 ms</span>
+                  <div class="p-3 rounded-xl bg-white border border-[#fed7cc] shadow-xs">
+                    <span class="text-[10px] text-slate-500 block uppercase">PING LATENCY</span>
+                    <span class="text-lg font-bold text-[#ea580c]">1.8 ms</span>
                   </div>
-                  <div class="p-3 rounded-xl bg-slate-800/80 border border-slate-700">
-                    <span class="text-[10px] text-slate-400 block uppercase">KERNEL INTEGRITY</span>
-                    <span class="text-lg font-bold text-emerald-400">100% OK</span>
+                  <div class="p-3 rounded-xl bg-white border border-[#fed7cc] shadow-xs">
+                    <span class="text-[10px] text-slate-500 block uppercase">KERNEL INTEGRITY</span>
+                    <span class="text-lg font-bold text-emerald-600">100% OK</span>
                   </div>
-                  <div class="p-3 rounded-xl bg-slate-800/80 border border-slate-700">
-                    <span class="text-[10px] text-slate-400 block uppercase">BUFFER DRAIN</span>
-                    <span class="text-lg font-bold text-amber-400">0.02%</span>
+                  <div class="p-3 rounded-xl bg-white border border-[#fed7cc] shadow-xs">
+                    <span class="text-[10px] text-slate-500 block uppercase">BUFFER DRAIN</span>
+                    <span class="text-lg font-bold text-amber-600">0.02%</span>
                   </div>
-                  <div class="p-3 rounded-xl bg-slate-800/80 border border-slate-700">
-                    <span class="text-[10px] text-slate-400 block uppercase">PARALLEL THREADS</span>
-                    <span class="text-lg font-bold text-purple-400">32 CORES</span>
+                  <div class="p-3 rounded-xl bg-white border border-[#fed7cc] shadow-xs">
+                    <span class="text-[10px] text-slate-500 block uppercase">PARALLEL THREADS</span>
+                    <span class="text-lg font-bold text-indigo-600">32 CORES</span>
                   </div>
                 </div>
               </div>

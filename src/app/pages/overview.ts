@@ -92,22 +92,22 @@ export interface SubstrateTarget {
               </div>
             </div>
 
-            <!-- INSPIRATIONAL INNOVATION SHOWCASE REEL -->
-            <div class="mt-4 rounded-3xl bg-slate-900 text-white p-6 sm:p-8 lg:p-10 shadow-2xl relative overflow-hidden border border-slate-800">
-              <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/60 to-transparent z-10 pointer-events-none"></div>
+            <!-- INSPIRATIONAL INNOVATION SHOWCASE REEL (SOFT CORAL PASTEL PALETTE) -->
+            <div class="mt-4 rounded-3xl bg-gradient-to-br from-[#fff4f1] via-[#ffebe5] to-[#fedcd3] text-slate-900 p-6 sm:p-8 lg:p-10 shadow-xl relative overflow-hidden border border-[#fecdd3]">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#fff7f5]/95 via-[#ffece6]/85 to-transparent z-10 pointer-events-none"></div>
               
               <!-- Background Ambient Hero Photography -->
               <img
                 [src]="activeHighlight().imageUrl"
                 [alt]="activeHighlight().name"
                 referrerpolicy="no-referrer"
-                class="absolute inset-0 w-full h-full object-cover opacity-45 mix-blend-luminosity filter contrast-125 transition-all duration-700 scale-105" />
+                class="absolute inset-0 w-full h-full object-cover opacity-35 mix-blend-multiply filter contrast-110 transition-all duration-700 scale-105" />
 
               <div class="relative z-20 flex flex-col gap-8">
                 <!-- Showcase Selector Tabs -->
-                <div class="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-4">
-                  <div class="flex items-center gap-2 text-sky-400 font-mono text-xs uppercase tracking-widest font-semibold">
-                    <span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span>
+                <div class="flex flex-wrap items-center justify-between gap-4 border-b border-[#fed7cc] pb-4">
+                  <div class="flex items-center gap-2 text-[#c2410c] font-mono text-xs uppercase tracking-widest font-semibold">
+                    <span class="w-2 h-2 rounded-full bg-[#ea580c] animate-pulse"></span>
                     <span>FLAGSHIP INNOVATION SPOTLIGHT // PALO ALTO LABS</span>
                   </div>
 
@@ -117,8 +117,8 @@ export interface SubstrateTarget {
                         type="button"
                         (click)="selectHighlight(item)"
                         [class]="activeHighlight().id === item.id
-                          ? 'px-3.5 py-1.5 rounded-lg bg-sky-500 text-white font-mono text-xs font-semibold shadow-md shadow-sky-500/30 transition-all'
-                          : 'px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-slate-300 font-mono text-xs transition-all'">
+                          ? 'px-3.5 py-1.5 rounded-lg bg-[#ea580c] text-white font-mono text-xs font-semibold shadow-md shadow-orange-500/25 transition-all'
+                          : 'px-3.5 py-1.5 rounded-lg bg-white/80 hover:bg-white text-slate-700 border border-[#fed7cc] font-mono text-xs transition-all'">
                         {{ item.name }}
                       </button>
                     }
@@ -129,62 +129,62 @@ export interface SubstrateTarget {
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                   <div class="lg:col-span-7 flex flex-col gap-4">
                     <div class="flex items-center gap-3">
-                      <span class="px-3 py-1 rounded-full bg-sky-400/20 text-sky-300 border border-sky-400/30 font-mono text-xs font-semibold">
+                      <span class="px-3 py-1 rounded-full bg-[#ffedea] text-[#c2410c] border border-[#fecdd3] font-mono text-xs font-semibold">
                         {{ activeHighlight().category }}
                       </span>
-                      <span class="font-mono text-xs text-slate-400">{{ activeHighlight().badge }}</span>
+                      <span class="font-mono text-xs text-[#9a3412] font-medium">{{ activeHighlight().badge }}</span>
                     </div>
 
-                    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white font-display">
+                    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 font-display">
                       {{ activeHighlight().name }}
                     </h2>
-                    <p class="text-sky-300 text-lg font-medium">
+                    <p class="text-[#c2410c] text-lg font-semibold">
                       {{ activeHighlight().tagline }}
                     </p>
-                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base max-w-xl">
+                    <p class="text-slate-700 leading-relaxed text-sm sm:text-base max-w-xl">
                       {{ activeHighlight().description }}
                     </p>
 
                     <div class="flex flex-wrap items-center gap-6 pt-2">
                       <div class="flex flex-col">
-                        <span class="font-mono text-xs text-slate-400 uppercase tracking-wider">{{ activeHighlight().statLabel }}</span>
-                        <span class="text-2xl sm:text-3xl font-extrabold text-white font-mono text-sky-400">{{ activeHighlight().statValue }}</span>
+                        <span class="font-mono text-xs text-slate-500 uppercase tracking-wider">{{ activeHighlight().statLabel }}</span>
+                        <span class="text-2xl sm:text-3xl font-extrabold text-[#ea580c] font-mono">{{ activeHighlight().statValue }}</span>
                       </div>
-                      <div class="h-10 w-px bg-white/10"></div>
+                      <div class="h-10 w-px bg-[#fed7cc]"></div>
                       <div class="flex flex-col">
-                        <span class="font-mono text-xs text-slate-400 uppercase tracking-wider">HARDWARE FABRIC</span>
-                        <span class="text-sm font-semibold text-slate-200 font-mono">{{ activeHighlight().techSpec }}</span>
+                        <span class="font-mono text-xs text-slate-500 uppercase tracking-wider">HARDWARE FABRIC</span>
+                        <span class="text-sm font-semibold text-slate-800 font-mono">{{ activeHighlight().techSpec }}</span>
                       </div>
                     </div>
 
                     <div class="pt-4 flex items-center gap-4">
-                      <a [routerLink]="activeHighlight().link" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white text-slate-950 hover:bg-sky-50 font-semibold text-sm transition-all shadow-lg hover:scale-105">
+                      <a [routerLink]="activeHighlight().link" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#ea580c] text-white hover:bg-[#c2410c] font-semibold text-sm transition-all shadow-md shadow-orange-500/20 hover:scale-105">
                         <span>Inspect Tech Blueprint</span>
                         <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
                       </a>
                     </div>
                   </div>
 
-                  <!-- High-Res Interactive Visual Card -->
+                  <!-- High-Res Interactive Visual Card with Soft Coral Border -->
                   <div class="lg:col-span-5 flex flex-col gap-3">
-                    <div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden border border-white/20 shadow-2xl group">
+                    <div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden border border-[#fed7cc] shadow-lg group bg-[#fff4f1]">
                       <img
                         [src]="activeHighlight().imageUrl"
                         [alt]="activeHighlight().name"
                         referrerpolicy="no-referrer"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                      <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/85 via-transparent to-transparent"></div>
                       
-                      <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-xs">
-                        <span class="px-2 py-1 rounded bg-black/60 backdrop-blur-md border border-white/20 flex items-center gap-1.5">
-                          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                      <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between font-mono text-xs">
+                        <span class="px-2.5 py-1 rounded bg-[#fff0eb]/90 backdrop-blur-md border border-[#fed7cc] text-[#9a3412] font-semibold flex items-center gap-1.5 shadow-sm">
+                          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
                           {{ activeHighlight().badge }}
                         </span>
-                        <span class="text-sky-300 font-semibold">ZOEWAVE R&amp;D</span>
+                        <span class="text-[#9a3412] font-bold">ZOEWAVE R&amp;D</span>
                       </div>
                     </div>
 
-                    <div class="flex items-center justify-between px-2 text-xs font-mono text-slate-400">
+                    <div class="flex items-center justify-between px-2 text-xs font-mono text-slate-500">
                       <span>TELEMETRY: VERIFIED 2025</span>
                       <span>COLLAB: G.N.SEVEN DESIGN</span>
                     </div>
@@ -458,7 +458,7 @@ export interface SubstrateTarget {
                       alt="High precision futuristic circuit substrate with optical routing tracks illuminated in ice cyan and indigo light"
                       referrerpolicy="no-referrer"
                       src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo4YGQDwQgCctU4rVz4Mxqdls2j21Zgcqkyb436jyB1r3S59CIrOpgwUa27U1s_sdlfDIvYiOk2fl5JcVdLW3Slu0CIKUzKFz2svrdQJFEeFU5nOHoRtJhSR5JhL6zYqRKt5289LMaIkHBw3dGJa-NuWruX1QNkxoIgjATJL_WL4rnS8IOH26hu7bHzjmf_8KgFtge3w23eKDTLcA34P-S4EZJiJoZw-AM6kWY49j_" />
-                    <div class="absolute inset-0 bg-slate-900/40"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                       <span class="font-mono text-xs font-semibold text-white drop-shadow-md">MODULAR &amp; CHIPS</span>
                       <span class="px-2 py-0.5 rounded bg-orange-500/80 backdrop-blur-md text-white font-mono text-[10px] font-bold">MOJO &amp; MAX</span>
@@ -500,11 +500,11 @@ export interface SubstrateTarget {
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                       alt="AshBike e-bike prototype with cyan telemetry HUD and carbon fiber frame"
                       referrerpolicy="no-referrer"
-                      src="/assets/images/ashbike_showcase_1793913626360.jpg" />
-                    <div class="absolute inset-0 bg-slate-900/30"></div>
+                      src="/assets/images/coral_ashbike_1793915441529.jpg" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                       <span class="font-mono text-xs font-semibold text-white drop-shadow-md">ASHBIKE &amp; ROBOTICS</span>
-                      <span class="px-2 py-0.5 rounded bg-sky-500/80 backdrop-blur-md text-white font-mono text-[10px] font-bold">10 INITIATIVES</span>
+                      <span class="px-2 py-0.5 rounded bg-[#ea580c]/80 backdrop-blur-md text-white font-mono text-[10px] font-bold">10 INITIATIVES</span>
                     </div>
                   </div>
 
@@ -544,7 +544,7 @@ export interface SubstrateTarget {
                       alt="Futuristic software research scientist in high-tech laboratory surrounded by holographic spatial computing interfaces"
                       referrerpolicy="no-referrer"
                       src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwSwsKHHNdZBPaXz0yorygwsyGLz6DjP9eYEbrcJMY1bDu2-P3ovu-49q3gPiN-T21tHCcChtVV-fKasvro_z0WG15qLjwCVhh2yUFSZezbFvcBEk4IA_BsNlAc4XSOe4II3K4phFJ45TAhVCgnSx1lcaZoJQEkbiLbfdsPsf8Ld91pj8eFY2reC041MvVIv7imVyNRsauhBpm_Y6rbd5GJc_OZHVr0q6jRk7FkH" />
-                    <div class="absolute inset-0 bg-slate-900/40"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#ffdcd2]/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                       <span class="font-mono text-xs font-semibold text-white drop-shadow-md">PUBLICATIONS &amp; RFC</span>
                       <span class="px-2 py-0.5 rounded bg-purple-500/80 backdrop-blur-md text-white font-mono text-[10px] font-bold">8 ARTICLES</span>
@@ -639,7 +639,7 @@ export class OverviewComponent {
       tagline: 'Aggressive motorcycle ergonomics with on-bike AI motor torque curves',
       category: 'Smart Mobility',
       badge: 'G.N.Seven Carbon Chassis',
-      imageUrl: '/assets/images/ashbike_showcase_1793913626360.jpg',
+      imageUrl: '/assets/images/coral_ashbike_1793915441529.jpg',
       description: 'Revolutionizing the electric mobility market by marrying motorcycle ergonomics with real-time AI motor torque curves, battery thermal optimization, and integrated telemetry across Android & iOS.',
       statLabel: 'REAL-TIME TORQUE LATENCY',
       statValue: '2.4 ms',
@@ -652,7 +652,7 @@ export class OverviewComponent {
       tagline: 'Physiological Intelligent Clothing with conductive smart fabric sensors',
       category: 'Bio-Wearables',
       badge: 'Conductive Smart Knit',
-      imageUrl: '/assets/images/zoewear_apparel_1793913626652.jpg',
+      imageUrl: '/assets/images/coral_zoewear_1793915441647.jpg',
       description: 'Medical-grade continuous diagnostics woven seamlessly into everyday haute couture textiles. Knitted conductive thread feeds continuous PPG, ECG, and surface EMG into ultra-low-power microcontrollers.',
       statLabel: 'WASH CYCLE RESILIENCE',
       statValue: '100+ CYCLES',
@@ -665,7 +665,7 @@ export class OverviewComponent {
       tagline: 'Replacing Python with Mojo and replacing NVIDIA CUDA with MAX Engine',
       category: 'Accelerated AI',
       badge: 'Silicon Graph Compiler',
-      imageUrl: '/assets/images/modular_max_chip_1793913627933.jpg',
+      imageUrl: '/assets/images/coral_modular_max_1793915442661.jpg',
       description: 'Definitive escape from the Python GIL and NVIDIA CUDA monopoly. Compiles PyTorch and Mojo graphs to native machine code executing across NVIDIA, AMD ROCm, Apple Silicon Metal, and Intel AMX.',
       statLabel: 'EMPIRICAL SIMD ACCELERATION',
       statValue: '68,420x FASTER',
@@ -678,7 +678,7 @@ export class OverviewComponent {
       tagline: 'Adaptive AI robotics with stereo SLAM and human safety navigation',
       category: 'Physical AI',
       badge: 'Autonomous Spatial Agent',
-      imageUrl: '/assets/images/zoerobo_robot_1793913627219.jpg',
+      imageUrl: '/assets/images/coral_zoerobo_1793915442432.jpg',
       description: 'Autonomous robotic platforms engineered for healthcare facilities, residential perimeter security, and assisted living care. Designed to navigate complex dynamic human spaces with sub-centimeter accuracy.',
       statLabel: 'POSITIONING ACCURACY',
       statValue: '< 0.8 cm',
