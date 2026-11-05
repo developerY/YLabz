@@ -251,6 +251,35 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                       </div>
                     </div>
                   </div>
+
+                  <!-- Physical Hardware Incubations: AshBike & ZoeWear -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="rounded-xl overflow-hidden border border-slate-200 relative group aspect-[16/9]">
+                      <img
+                        src="/assets/images/ashbike_showcase_1793913626360.jpg"
+                        alt="AshBike e-bike prototype"
+                        referrerpolicy="no-referrer"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                      <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-xs">
+                        <span class="font-bold">AshBike E-Mobility</span>
+                        <span class="text-sky-300">Kotlin NDK</span>
+                      </div>
+                    </div>
+
+                    <div class="rounded-xl overflow-hidden border border-slate-200 relative group aspect-[16/9]">
+                      <img
+                        src="/assets/images/zoewear_apparel_1793913626652.jpg"
+                        alt="ZoeWear intelligent clothing with biosensors"
+                        referrerpolicy="no-referrer"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                      <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-xs">
+                        <span class="font-bold">ZoeWear PIC Apparel</span>
+                        <span class="text-sky-300">WearOS &amp; watchOS</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <!-- Right Column: Code & Architecture Stack -->
@@ -341,6 +370,34 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
                     <span class="material-symbols-outlined text-[15px] text-orange-600">open_in_new</span>
                     <span>modular.com</span>
                   </a>
+                </div>
+              </div>
+
+              <!-- Silicon Hardware Hero Banner for Modular MAX -->
+              <div class="relative w-full h-56 sm:h-72 overflow-hidden bg-slate-950 border-b border-slate-200 group">
+                <img
+                  src="/assets/images/modular_max_chip_1793913627933.jpg"
+                  alt="Modular MAX and Mojo laser etched glowing silicon chip processor"
+                  referrerpolicy="no-referrer"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90" />
+                <div class="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/50 to-transparent"></div>
+                <div class="absolute inset-0 flex items-center p-6 sm:p-10">
+                  <div class="max-w-xl flex flex-col gap-2">
+                    <span class="px-2.5 py-1 rounded bg-orange-500 text-white font-mono text-xs font-semibold self-start shadow-md shadow-orange-500/30">
+                      SILICON COMPILER REVOLUTION
+                    </span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white font-display">
+                      Unified Heterogeneous Acceleration
+                    </h3>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+                      Compiling PyTorch, ONNX, and Mojo graphs directly down to bare metal across NVIDIA Tensor Cores, AMD ROCm/CDNA, Apple Silicon Metal/ANE, and ARM CPUs.
+                    </p>
+                    <div class="flex items-center gap-4 mt-2 text-xs font-mono text-orange-400">
+                      <span>• ZERO CUDA LOCK-IN</span>
+                      <span>• 68,420x SIMD SPEEDUP</span>
+                      <span>• MLIR CODEGEN</span>
+                    </div>
+                  </div>
                 </div>
               </div>
 

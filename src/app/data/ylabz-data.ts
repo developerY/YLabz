@@ -9,6 +9,8 @@ export interface YLabZProject {
   techStack: string[];
   partnerOrEcosystem: string;
   status: 'In Production' | 'Active R&D' | 'Alpha Prototype' | 'Pilot Live';
+  imageUrl: string;
+  badge?: string;
 }
 
 export interface YLabZArticle {
@@ -22,6 +24,7 @@ export interface YLabZArticle {
   url: string;
   tags: string[];
   keyTakeaway: string;
+  imageUrl?: string;
 }
 
 export interface TechStackPillar {
@@ -242,7 +245,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["Kotlin NDK", "Swift CoreBluetooth", "Rust Embedded", "Python PyTorch"],
     partnerOrEcosystem: "ZoeWave Mobility & G.N.Seven",
-    status: "Active R&D"
+    status: "Active R&D",
+    imageUrl: "/assets/images/ashbike_showcase_1793913626360.jpg",
+    badge: "G.N.Seven Carbon Chassis"
   },
   {
     id: "zoewear",
@@ -259,7 +264,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["WearOS Health Tiles", "watchOS CoreMotion", "TensorFlow Lite", "BLE DMA"],
     partnerOrEcosystem: "ZoeWave Health & G.N.Seven",
-    status: "Pilot Live"
+    status: "Pilot Live",
+    imageUrl: "/assets/images/zoewear_apparel_1793913626652.jpg",
+    badge: "Conductive Smart Knit"
   },
   {
     id: "photodo",
@@ -276,7 +283,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["Jetpack Compose", "SwiftUI", "MediaPipe", "Core ML", "TFLite"],
     partnerOrEcosystem: "Y? LabZ Mobile & ZoeWave",
-    status: "In Production"
+    status: "In Production",
+    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-cGUs8k1pMh-_wypCoxaV01wEkoGReFg1dXRJfDY9FW3_gyiLCF4R0E7Yc-TWcIm-tPIlb9rJRQ03KAjCYEGBPZzFxZqXkSwM3Pm6P8_TjhKzqD-5RRcR8tpZvQYd2maVrxgXUkr_95sJyb4RhzvSDoXy1aCbOcXkfwdzMnuy5F1zNLLH89aFpeB_TBNLH0F5740RzvoA-AmaTtDxn4MOixwtj3pA-97hz1sb5j7O",
+    badge: "Vision AI + Voice"
   },
   {
     id: "zoerobo",
@@ -293,7 +302,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["Rust Robotics RS", "Python ROS2", "PyTorch Vision", "C++ Direct"],
     partnerOrEcosystem: "ZoeWave Robotics R&D",
-    status: "Alpha Prototype"
+    status: "Alpha Prototype",
+    imageUrl: "/assets/images/zoerobo_robot_1793913627219.jpg",
+    badge: "Autonomous Physical AI"
   },
   {
     id: "hummingbird",
@@ -310,7 +321,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["Kotlin Flow", "Swift Concurrency", "Scikit-Learn", "SHAP"],
     partnerOrEcosystem: "ZoeWave Bio-Lab",
-    status: "Active R&D"
+    status: "Active R&D",
+    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuChYbwLqF5_83tQqQeipBscaz6AwGKfz7qCUZ_G7_EyiuLS2uhO7XBkfpY-Xrpo0i-VCiBYucu5vwgHwVWpi1818qHvWtQQ0dqTFx124b5RPtO3jpsKPnHck-j7c-l4P8u9AbxQja4uU-B1_tta7CE0SR9iUz_zc5yD-zPHF9YeGloEFbGwTwIQUtp2IHcSY0I8l82h5rxisx4kimebW7Zn5iMPKvpDfEXvrKFmhH0V",
+    badge: "Bio-Micro-Dosing Lab"
   },
   {
     id: "rxdigita",
@@ -327,7 +340,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["Android Jetpack Compose", "iOS SwiftData", "Core ML", "FHIR API"],
     partnerOrEcosystem: "ZoeWave Health Systems",
-    status: "In Production"
+    status: "In Production",
+    imageUrl: "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tgoL7sUQYGh77ehUqsnXBAYoD3gHU6TKuV8IM9JPZqPrEQecTkB4P8nUJKV1TRAInWyU3ro59gGl8l75SEcfV7piO6KYu1ppncA-jyeEacdCpfn8csbg4F5274KJfShib9Ntsw_v3KQyWz0uWTWamrv_qW2atMzwzF7dCY1mGCn-gCLClyGBMDDLgmjboCh8XJz2SmmUofIYV8_5UqebCtiDTJuQ59EZaD58Kk=w1280",
+    badge: "Computer Vision Medication"
   },
   {
     id: "swift-ai",
@@ -344,7 +359,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["Python Gemini API", "Axum Rust Backend", "TypeScript", "Next/Angular"],
     partnerOrEcosystem: "Swift AI & YLabZ",
-    status: "In Production"
+    status: "In Production",
+    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuBCwSwsKHHNdZBPaXz0yorygwsyGLz6DjP9eYEbrcJMY1bDu2-P3ovu-49q3gPiN-T21tHCcChtVV-fKasvro_z0WG15qLjwCVhh2yUFSZezbFvcBEk4IA_BsNlAc4XSOe4II3K4phFJ45TAhVCgnSx1lcaZoJQEkbiLbfdsPsf8Ld91pj8eFY2reC041MvVIv7imVyNRsauhBpm_Y6rbd5GJc_OZHVr0q6jRk7FkH",
+    badge: "Multimodal Ad Engine"
   },
   {
     id: "micro-drone",
@@ -361,7 +378,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["Rust RS", "C++ NDK", "PyTorch Micro", "BLE Mesh"],
     partnerOrEcosystem: "Y? LabZ Drone Works",
-    status: "Active R&D"
+    status: "Active R&D",
+    imageUrl: "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vC9ct-qWVWnSNA4gBp_wULOenbLYJukd2JPB8rWssPz_lEe2Y91etushF-byBlAN2AHX4VBIiEmzrdxP80MZnVJnAHCTFSet1OKO9fugLXL-K1w7zJV3NAERMCr-xeaaquSCbjoIrTEJd37V-i-xDde4lnwDcFdFKfa9GWiylz5tKCXYqZHRU45_j5pfAJMlSc9XBmn2RJLywyjeTrq2H6Uh8c1xegiwPCgXHv=w1280",
+    badge: "Autonomous Indoor Sentry"
   },
   {
     id: "modular-max",
@@ -378,7 +397,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["Modular MAX Engine", "Mojo Compiler", "PyTorch 2.4", "Heterogeneous Metal/ROCm"],
     partnerOrEcosystem: "Modular & Y? LabZ AI Core",
-    status: "In Production"
+    status: "In Production",
+    imageUrl: "/assets/images/modular_max_chip_1793913627933.jpg",
+    badge: "Modular MAX Silicon"
   },
   {
     id: "mojo-tensor-kernel",
@@ -395,7 +416,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     ],
     techStack: ["Mojo SIMD", "Modular MAX", "MLIR / LLVM", "ZoeWear PIC Biosensors"],
     partnerOrEcosystem: "ZoeWave Bio-Lab & Modular",
-    status: "Pilot Live"
+    status: "Pilot Live",
+    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCo4YGQDwQgCctU4rVz4Mxqdls2j21Zgcqkyb436jyB1r3S59CIrOpgwUa27U1s_sdlfDIvYiOk2fl5JcVdLW3Slu0CIKUzKFz2svrdQJFEeFU5nOHoRtJhSR5JhL6zYqRKt5289LMaIkHBw3dGJa-NuWruX1QNkxoIgjATJL_WL4rnS8IOH26hu7bHzjmf_8KgFtge3w23eKDTLcA34P-S4EZJiJoZw-AM6kWY49j_",
+    badge: "68,420x SIMD Kernel"
   }
 ];
 

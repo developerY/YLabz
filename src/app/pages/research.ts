@@ -308,14 +308,27 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           @for (art of articles; track art.id) {
-            <div class="bg-white border border-slate-200 rounded-2xl p-6 lg:p-7 shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-md transition-all">
-              <div>
-                <div class="flex items-center justify-between mb-4">
-                  <span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-label-caps text-sky-700 font-semibold uppercase text-[10px]">
-                    {{ art.category }} • {{ art.date }}
-                  </span>
-                  <span class="font-code-badge text-slate-400">{{ art.readTime }}</span>
+            <div class="bg-white border border-slate-200 rounded-3xl overflow-hidden shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-xl transition-all">
+              @if (art.imageUrl) {
+                <div class="relative w-full aspect-[16/9] overflow-hidden bg-slate-900">
+                  <img
+                    [src]="art.imageUrl"
+                    [alt]="art.title"
+                    referrerpolicy="no-referrer"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
+                  <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white font-mono text-[11px]">
+                    <span class="px-2 py-0.5 rounded bg-black/60 backdrop-blur-md border border-white/20 text-sky-300">{{ art.category }}</span>
+                    <span>{{ art.date }}</span>
+                  </div>
                 </div>
+              }
+              <div class="p-6 lg:p-7 flex flex-col justify-between flex-1">
+                <div>
+                  <div class="flex items-center justify-between mb-3">
+                    <span class="font-code-badge text-sky-700 font-semibold">{{ art.publication }}</span>
+                    <span class="font-code-badge text-slate-400">{{ art.readTime }}</span>
+                  </div>
 
                 <h3 class="font-headline-sm text-slate-900 group-hover:text-sky-600 font-bold transition-colors mb-3">
                   {{ art.title }}
@@ -349,7 +362,8 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                 </a>
               </div>
             </div>
-          }
+          </div>
+        }
         </div>
       </section>
 
