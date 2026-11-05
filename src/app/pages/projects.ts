@@ -55,7 +55,7 @@ import {YLABZ_PROJECTS, YLabZProject} from '../data/ylabz-data';
               <input
                 type="text"
                 formControlName="query"
-                placeholder="Search projects (AshBike, ZoeWear, PhotoDo, ZoeRobo, RxDigita, languages)..."
+                placeholder="Search projects (AshBike, ZoeWear, PhotoDo, Modular MAX, Mojo, ZoeRobo)..."
                 class="w-full pl-10 pr-20 py-2.5 bg-slate-50 text-slate-900 text-sm placeholder:text-slate-400 rounded-xl focus:outline-none focus:ring-2 focus:ring-sky-500/40 border border-slate-200 transition-all font-mono" />
               <div class="absolute inset-y-0 right-0 pr-3 flex items-center gap-1 pointer-events-none">
                 <kbd class="px-1.5 py-0.5 rounded bg-white border border-slate-200 text-slate-400 font-mono text-[10px]">CTRL</kbd>
@@ -98,7 +98,7 @@ import {YLABZ_PROJECTS, YLabZProject} from '../data/ylabz-data';
                 [class]="selectedCategory() === 'ai-apps'
                   ? 'px-3.5 py-2 rounded-xl font-label-caps font-semibold tracking-wide bg-sky-600 text-white transition-all whitespace-nowrap shadow-sm shadow-sky-600/20'
                   : 'px-3.5 py-2 rounded-xl font-label-caps font-medium tracking-wide bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200 transition-all whitespace-nowrap'">
-                AI APPS (PHOTODO)
+                AI &amp; MODULAR (PHOTODO, MAX)
               </button>
 
               <button

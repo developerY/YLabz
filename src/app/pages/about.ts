@@ -41,7 +41,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
                 Based in Palo Alto, California, <strong>Y? Lab Z</strong> acts as an incubation and engineering engine. We bridge theoretical paradigms and production reality. Rather than building speculative slides or vendor-locked silos, our projects are tested directly on real hardware: from motorcycle-inspired AI e-bikes (<strong>AshBike</strong>) to physiological intelligent clothing (<strong>ZoeWear</strong>) and visual task intelligence (<strong>PhotoDo AI</strong>).
               </p>
               <p>
-                We maintain a disciplined, non-fragmented language policy: limiting our core production tools to <strong>Kotlin</strong> (Android), <strong>Swift</strong> (iOS &amp; visionOS), and <strong>Rust</strong> (Web, Robotics, Systems &amp; Quantum), powered by <strong>Python</strong> strictly as our dedicated machine learning and data science engine.
+                We maintain a disciplined, non-fragmented technology policy: limiting our core production languages to <strong>Kotlin</strong> (Android &amp; WearOS), <strong>Swift</strong> (iOS &amp; visionOS), and <strong>Rust</strong> (Web, Robotics, Systems &amp; Quantum), powered by <strong class="text-slate-900 font-semibold">Mojo</strong> from Modular as our definitive replacement for Python, and <strong class="text-slate-900 font-semibold">Modular MAX Engine</strong> as our hardware-agnostic replacement for NVIDIA CUDA.
               </p>
             </div>
 

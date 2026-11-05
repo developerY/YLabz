@@ -53,7 +53,7 @@ export interface SubstrateTarget {
                   </span>
                 </h1>
                 <p class="text-lg text-slate-600 max-w-2xl mt-2 leading-relaxed">
-                  Developing Cutting Edge Technology. Asking questions <span class="text-sky-600 font-semibold font-headline">“?”</span> relentlessly until reaching fundamental truth at <span class="text-sky-700 font-semibold font-headline">“Z”</span>. From our Palo Alto R&amp;D hub, we build on-device AI/ML, cross-platform mobile architectures, biosensors, and spatial computing runtimes.
+                  Developing Cutting Edge Technology. Asking questions <span class="text-sky-600 font-semibold font-headline">“?”</span> relentlessly until reaching fundamental truth at <span class="text-sky-700 font-semibold font-headline">“Z”</span>. From our Palo Alto R&amp;D hub, we build on-device AI/ML, cross-platform mobile architectures, biosensors, and spatial runtimes—accelerated by <strong class="text-slate-900 font-semibold">Mojo</strong> (our replacement for Python) and <strong class="text-slate-900 font-semibold">Modular MAX</strong> (our replacement for CUDA).
                 </p>
               </div>
 
@@ -67,37 +67,37 @@ export interface SubstrateTarget {
                   <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
                 </a>
 
-                <a routerLink="/research" class="w-full flex items-center justify-between px-5 py-3.5 rounded-lg bg-white hover:bg-slate-50 text-slate-900 font-medium text-base border border-slate-200 transition-all shadow-sm">
+                <a routerLink="/platforms" class="w-full flex items-center justify-between px-5 py-3.5 rounded-lg bg-white hover:bg-slate-50 text-slate-900 font-medium text-base border border-slate-200 transition-all shadow-sm">
                   <span class="flex items-center gap-2 text-slate-700">
-                    <span class="material-symbols-outlined text-[20px] text-sky-600">article</span>
-                    Read Articles &amp; Insights
+                    <span class="material-symbols-outlined text-[20px] text-orange-600">bolt</span>
+                    Mojo &amp; MAX Platform
                   </span>
-                  <span class="font-code-badge text-slate-400">YLabZ</span>
+                  <span class="font-code-badge text-orange-600 font-semibold">MODULAR</span>
                 </a>
               </div>
             </div>
 
-            <!-- CORE LANGUAGE STACK MATRIX STRIP (Kotlin, Swift, Rust, Python) -->
+            <!-- CORE LANGUAGE & ACCELERATOR STACK (Kotlin, Swift, Rust, Mojo, MAX Engine) -->
             <div class="mt-8 pt-6">
-              <div class="flex items-center justify-between mb-3">
-                <span class="font-label-caps text-slate-400 tracking-widest uppercase font-semibold">Disciplined Language Stack (3 Languages + 1 Scripting)</span>
-                <span class="font-code-badge text-sky-700 font-semibold">ZERO COMPROMISE ARCHITECTURE</span>
+              <div class="flex items-center justify-between mb-3 flex-wrap gap-2">
+                <span class="font-label-caps text-slate-400 tracking-widest uppercase font-semibold">Disciplined Stack: Kotlin, Swift, Rust, Mojo &amp; MAX (Modular)</span>
+                <span class="font-code-badge text-orange-600 font-semibold">ZERO VENDOR LOCK-IN</span>
               </div>
 
-              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5">
                 @for (item of languageStack; track item.language) {
-                  <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+                  <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-slate-300 transition-colors">
                     <div>
                       <div class="flex items-center justify-between mb-2">
-                        <span class="font-headline-sm text-slate-900 font-bold">{{ item.language }}</span>
-                        <span class="font-code-badge px-2 py-0.5 rounded bg-sky-50 text-sky-700 border border-sky-100 text-[10px]">{{ item.replaces }}</span>
+                        <span class="font-headline-sm text-slate-900 font-bold text-sm">{{ item.language }}</span>
+                        <span class="font-code-badge px-2 py-0.5 rounded bg-sky-50 text-sky-700 border border-sky-100 text-[10px] truncate max-w-[140px]">{{ item.replaces }}</span>
                       </div>
-                      <p class="text-xs text-sky-700 font-medium mb-2">{{ item.role }}</p>
+                      <p class="text-xs text-sky-700 font-medium mb-2 leading-snug">{{ item.role }}</p>
                       <ul class="text-[11px] text-slate-500 space-y-1 font-mono">
                         @for (tech of item.ecosystem.slice(0, 3); track tech) {
                           <li class="flex items-center gap-1.5 truncate">
-                            <span class="w-1 h-1 rounded-full bg-sky-500"></span>
-                            <span>{{ tech }}</span>
+                            <span class="w-1 h-1 rounded-full bg-sky-500 shrink-0"></span>
+                            <span class="truncate">{{ tech }}</span>
                           </li>
                         }
                       </ul>
