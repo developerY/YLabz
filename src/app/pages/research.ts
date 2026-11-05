@@ -1,5 +1,6 @@
 import {ChangeDetectionStrategy, Component, signal, OnDestroy} from '@angular/core';
 import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/forms';
+import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-data';
 
 @Component({
   selector: 'app-research',
@@ -18,25 +19,25 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
             <div class="flex items-center gap-3">
               <span class="inline-flex items-center gap-2 px-3 py-1 rounded bg-sky-50 text-sky-700 border border-sky-200 font-label-caps text-[11px] tracking-widest uppercase font-semibold">
                 <span class="w-1.5 h-1.5 rounded-full bg-sky-500 animate-ping"></span>
-                DISPATCH ARCHIVE • VOL 09
+                YLABZ ARTICLES &amp; RESEARCH DISPATCHES
               </span>
-              <span class="font-code-badge text-slate-500">DOC_REF::LT-2025-AX</span>
+              <span class="font-code-badge text-slate-500">MEDIUM // &#64;ZOEWAVE // YLABZ</span>
             </div>
 
             <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
               <div class="max-w-3xl">
                 <h1 class="font-display-hero text-slate-900 font-bold tracking-tight">
-                  Research, Philosophy &amp; Lab Updates
+                  Research, Philosophy &amp; Articles
                 </h1>
                 <p class="text-lg text-slate-600 mt-2 leading-relaxed">
-                  Deconstructing computing primitives through systematic fragmentation, open algorithmic proofs, and empirical prototypes across spatial canvas, low-latency neural fabrics, and distributed zero-knowledge runtimes.
+                  Technical publications, architectural manuals, and empirical benchmarks from Y? Lab Z: covering <strong class="text-slate-900 font-semibold">“Android &amp; iOS Dev Together”</strong>, Modern Android Development (MAD), edge neural quantization, and Lewis Thomas epistemology.
                 </p>
               </div>
 
               <div class="flex items-center gap-3 shrink-0">
                 <div class="flex flex-col items-end">
-                  <span class="font-code-badge text-sky-700 font-semibold">NODE: CRYPTO-US-EAST</span>
-                  <span class="font-code-badge text-slate-500 uppercase">SYS EPOCH: 8,421,093</span>
+                  <span class="font-code-badge text-sky-700 font-semibold">PALO ALTO R&amp;D HUB</span>
+                  <span class="font-code-badge text-slate-500 uppercase">PO BOX 51402, CA</span>
                 </div>
                 <div class="w-12 h-12 rounded-xl bg-white border border-slate-200 shadow-sm flex items-center justify-center text-sky-600">
                   <span class="material-symbols-outlined text-[24px]">terminal</span>
@@ -47,7 +48,7 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
         </div>
       </div>
 
-      <!-- SECTION 1: THE LEWIS THOMAS THESIS -->
+      <!-- SECTION 1: THE LEWIS THOMAS THESIS & INTERACTIVE OSCILLOSCOPE -->
       <section class="max-w-7xl mx-auto px-6 lg:px-12 py-10 w-full relative">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           <!-- Primary Thesis Narrative Block -->
@@ -78,13 +79,13 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
               <!-- Analytical Essay -->
               <div class="flex flex-col gap-4 text-slate-700 text-sm sm:text-base leading-relaxed">
                 <p>
-                  In seventeenth-century natural philosophy, scientific discovery was often jealously guarded in alchemical ciphers or posthumously revealed in monolithic treatises. The revolutionary catalyst that accelerated European science was not a sudden spike in human cognition, but an institutional substrate: the philosophical journal and the rapid distribution of verified, reproducible <em class="text-slate-900 font-medium not-italic bg-sky-100/70 px-1 rounded">fragments</em>.
+                  In seventeenth-century natural philosophy, scientific discovery was often jealously guarded in alchemical ciphers or posthumously revealed in monolithic treatises. The revolutionary catalyst that accelerated European science was an institutional substrate: the philosophical journal and the rapid distribution of verified, reproducible <em class="text-slate-900 font-medium not-italic bg-sky-100/70 px-1 rounded">fragments</em>.
                 </p>
                 <p>
-                  At <strong class="text-slate-900 font-semibold">Y? Lab Z</strong>, we assert that the modern lineage of Thomas's fragment mechanism is found neither in paywalled academic journals nor proprietary corporate slide decks. It thrives in the open git commit, the verified reproducible repository, the self-contained container image, and the public cryptographic artifact.
+                  At <strong class="text-slate-900 font-semibold">Y? Lab Z</strong>, we assert that the modern lineage of Thomas's fragment mechanism is found in the open git commit, the verified reproducible repository, the self-contained container image, and the public architectural guide.
                 </p>
                 <p>
-                  When a spatial matrix transformation or an INT8 quantized weight loader is pushed as an open repository, it is immediately absorbed by thousands of concurrent compilers worldwide. It is tested against strange edge architectures, pruned of parasitic cycles, and recombined into novel primitives within hours. The git diff is our peer review; deterministic compilation is our empirical verification.
+                  When an Android Jetpack Compose or Swift 6 concurrency pattern is published as an open blueprint, it is immediately absorbed by thousands of concurrent developers worldwide. The open repository is our peer review; deterministic compilation is our empirical verification.
                 </p>
               </div>
 
@@ -94,12 +95,12 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
                   <span class="font-label-caps text-slate-500 uppercase mt-1">Open Artifacts</span>
                 </div>
                 <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col items-center justify-center">
-                  <span class="font-headline-md text-sky-600 font-bold tracking-tight">&lt; 14ms</span>
-                  <span class="font-label-caps text-slate-500 uppercase mt-1">Spatial Sync TTF</span>
+                  <span class="font-headline-md text-sky-600 font-bold tracking-tight">31+</span>
+                  <span class="font-label-caps text-slate-500 uppercase mt-1">Android Stories</span>
                 </div>
                 <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col items-center justify-center">
-                  <span class="font-headline-md text-sky-700 font-bold tracking-tight">Zero-Paywall</span>
-                  <span class="font-label-caps text-slate-500 uppercase mt-1">Public Domain MIT</span>
+                  <span class="font-headline-md text-sky-700 font-bold tracking-tight">22+</span>
+                  <span class="font-label-caps text-slate-500 uppercase mt-1">iOS Stories</span>
                 </div>
               </div>
             </div>
@@ -177,7 +178,6 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
 
               <!-- Oscilloscope Visual Display Container -->
               <div class="relative w-full h-56 bg-slate-900 rounded-xl p-4 overflow-hidden flex flex-col justify-between mt-4 shadow-inner">
-                <!-- Matrix Grid -->
                 <div class="absolute inset-0 bg-[radial-gradient(circle,rgba(56,189,248,0.15)_1px,transparent_1px)] bg-[size:16px_16px] pointer-events-none"></div>
                 <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
                   <div class="w-full h-[1px] bg-sky-400"></div>
@@ -202,14 +202,12 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
                         <stop offset="100%" stop-color="#0284c7" stop-opacity="0.8"></stop>
                       </linearGradient>
                     </defs>
-                    <!-- Background ghost trail -->
                     <path
                       [attr.d]="waveTrailPath()"
                       fill="none"
                       opacity="0.3"
                       stroke="#38bdf8"
                       stroke-width="1"></path>
-                    <!-- Main Signal Line -->
                     <path
                       [attr.d]="wavePrimaryPath()"
                       fill="none"
@@ -279,166 +277,83 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxSBNZkYOC6iwJExEB1sCzXMVbxaJdaJGsFmradi6YrNEbZv8YtdtxbXKMNGIC1KxxBdmCx4xYJmNglPJo5LdxwIxWvbKtaNmiDqpVm7Ebh4RfaHBeIE5xINx3ANV9W7BHoV9xfiZ-jvyTZtMKBZ7zeWUK_8zZ8yGad5DSZFefA6qt5HRLa-co4U6QA49Twu2f0SWn_zaA-VQpN0IcOLjY6SvuRmVV-cl9SDw_4D1n" />
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
                 <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-[11px]">
-                  <span class="bg-slate-900/80 px-2.5 py-0.5 rounded-md backdrop-blur-sm border border-slate-700">CRYO-BAY 02 // RIG α</span>
+                  <span class="bg-slate-900/80 px-2.5 py-0.5 rounded-md backdrop-blur-sm border border-slate-700">PALO ALTO BENCH // RIG α</span>
                   <span class="text-sky-300 font-semibold">STABLE 11.2 mK</span>
                 </div>
               </div>
               <span class="text-xs text-slate-500 px-1 leading-relaxed">
-                Physical substrate bench where zero-knowledge fragments and quantum circuit simulators undergo continuous validation loops.
+                Physical substrate bench at Y? Lab Z where on-device ML benchmarks and zero-serialization protocols undergo empirical testing.
               </span>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- SECTION 2: CHRONOLOGICAL CHANGELOG & LAB DISPATCHES -->
+      <!-- SECTION 2: PUBLISHED YLABZ ARTICLES & TECHNICAL GUIDES -->
       <section class="max-w-7xl mx-auto px-6 lg:px-12 py-12 w-full">
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
           <div>
             <div class="flex items-center gap-2 mb-2">
-              <span class="material-symbols-outlined text-sky-600 text-[20px]">history_edu</span>
-              <span class="font-label-caps text-sky-700 font-semibold tracking-widest uppercase">DISPATCH RECORD</span>
+              <span class="material-symbols-outlined text-sky-600 text-[20px]">menu_book</span>
+              <span class="font-label-caps text-sky-700 font-semibold tracking-widest uppercase">TECHNICAL PUBLICATIONS</span>
             </div>
             <h2 class="font-headline-lg text-slate-900 font-bold tracking-tight">
-              Lab Timeline &amp; Recent Dispatches
+              Y? Lab Z Articles &amp; Architecture Guides
             </h2>
           </div>
           <p class="text-sm text-slate-600 max-w-md">
-            Granular record of architecture releases, peer-reviewed technical whitepapers, and verifiable benchmarking suites.
+            Directly from <a href="https://ylabz.com" target="_blank" rel="noopener noreferrer" class="text-sky-700 hover:underline font-semibold">ylabz.com</a> and our curated Medium publication collections.
           </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Dispatch 1 -->
-          <div class="bg-white border border-slate-200 rounded-2xl p-6 lg:p-7 shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-md transition-all">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-label-caps text-sky-700 font-semibold uppercase">Q1 2025 • RELEASE</span>
-                <span class="font-code-badge text-slate-400">REV::v2.4.0</span>
-              </div>
-              <h3 class="font-headline-sm text-slate-900 group-hover:text-sky-600 font-bold transition-colors mb-3">
-                Spatial XR &amp; visionOS 2.0 Polyhedron Engine
-              </h3>
-              <p class="text-slate-600 text-sm leading-relaxed mb-6">
-                Released a zero-latency volumetric mesh transformation bridge supporting bi-directional gaze synchronization between visionOS RealityKit and Android OpenXR runtime layers.
-              </p>
-              <div class="flex flex-wrap gap-2 mb-6">
-                <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 font-code-badge text-slate-700">Swift 6.0</span>
-                <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 font-code-badge text-slate-700">Metal 3</span>
-                <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 font-code-badge text-slate-700">RealityKit</span>
-                <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-code-badge text-sky-700 font-medium">OpenXR</span>
-              </div>
-            </div>
-            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
-              <div class="flex items-center gap-2 text-slate-500 font-code-badge text-xs">
-                <span class="material-symbols-outlined text-[16px] text-sky-600">folder_zip</span>
-                <span>tar.gz (42.8 MB)</span>
-              </div>
-              <button (click)="openDispatch(1)" class="inline-flex items-center gap-1 text-sm text-sky-600 hover:text-sky-800 font-semibold transition-colors">
-                <span>Inspect Blueprint</span>
-                <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
-              </button>
-            </div>
-          </div>
+          @for (art of articles; track art.id) {
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 lg:p-7 shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-md transition-all">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-label-caps text-sky-700 font-semibold uppercase text-[10px]">
+                    {{ art.category }} • {{ art.date }}
+                  </span>
+                  <span class="font-code-badge text-slate-400">{{ art.readTime }}</span>
+                </div>
 
-          <!-- Dispatch 2 -->
-          <div class="bg-white border border-slate-200 rounded-2xl p-6 lg:p-7 shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-md transition-all">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-label-caps text-sky-700 font-semibold uppercase">Q4 2024 • WHITEPAPER</span>
-                <span class="font-code-badge text-slate-400">PUB::YZ-WP-99</span>
-              </div>
-              <h3 class="font-headline-sm text-slate-900 group-hover:text-sky-600 font-bold transition-colors mb-3">
-                WearOS Compose Sub-Millisecond Heartbeat Fabric
-              </h3>
-              <p class="text-slate-600 text-sm leading-relaxed mb-6">
-                Published empirical thesis on deterministic state replication across wearable low-power microcontrollers and edge compute nodes utilizing custom protobuf over BLE 5.4.
-              </p>
-              <div class="flex flex-wrap gap-2 mb-6">
-                <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 font-code-badge text-slate-700">Jetpack Compose</span>
-                <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 font-code-badge text-slate-700">BLE 5.4</span>
-                <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-code-badge text-sky-700 font-medium">Protobuf v4</span>
-              </div>
-            </div>
-            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
-              <div class="flex items-center gap-2 text-slate-500 font-code-badge text-xs">
-                <span class="material-symbols-outlined text-[16px] text-sky-600">picture_as_pdf</span>
-                <span>PDF (18 Pages)</span>
-              </div>
-              <button (click)="openDispatch(2)" class="inline-flex items-center gap-1 text-sm text-sky-600 hover:text-sky-800 font-semibold transition-colors">
-                <span>Read Manuscript</span>
-                <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
-              </button>
-            </div>
-          </div>
+                <h3 class="font-headline-sm text-slate-900 group-hover:text-sky-600 font-bold transition-colors mb-3">
+                  {{ art.title }}
+                </h3>
 
-          <!-- Dispatch 3 -->
-          <div class="bg-white border border-slate-200 rounded-2xl p-6 lg:p-7 shadow-sm flex flex-col justify-between group hover:border-sky-300 hover:shadow-md transition-all">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-label-caps text-sky-700 font-semibold uppercase">Q3 2024 • BENCHMARK</span>
-                <span class="font-code-badge text-slate-400">SUITE::INT8-EDGE</span>
-              </div>
-              <h3 class="font-headline-sm text-slate-900 group-hover:text-sky-600 font-bold transition-colors mb-3">
-                Sub-Watt INT8 Neural Matrix Benchmarks
-              </h3>
-              <p class="text-slate-600 text-sm leading-relaxed mb-6">
-                Comparative performance telemetry across Apple Neural Engine, Snapdragon NPU, and Coral Tensor chips executing 7B parameter reasoning graphs at 2.4 watts dissipation.
-              </p>
-              <div class="flex flex-wrap gap-2 mb-6">
-                <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 font-code-badge text-slate-700">PyTorch 2.4</span>
-                <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 font-code-badge text-slate-700">ONNX Runtime</span>
-                <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-code-badge text-sky-700 font-medium">CoreML</span>
-              </div>
-            </div>
-            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
-              <div class="flex items-center gap-2 text-slate-500 font-code-badge text-xs">
-                <span class="material-symbols-outlined text-[16px] text-sky-600">query_stats</span>
-                <span>CSV Raw Datasets</span>
-              </div>
-              <button (click)="openDispatch(3)" class="inline-flex items-center gap-1 text-sm text-sky-600 hover:text-sky-800 font-semibold transition-colors">
-                <span>Query Datasets</span>
-                <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
-              </button>
-            </div>
-          </div>
-        </div>
+                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                  {{ art.summary }}
+                </p>
 
-        <!-- Extra Changelog Stream -->
-        <div class="mt-8 bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-          <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
-            <span class="font-label-caps text-slate-500 uppercase tracking-wider font-semibold">PREVIOUS CONTINUOUS DEPLOYS</span>
-            <span class="font-code-badge text-slate-400">HASH: b9e1a8..4f2</span>
-          </div>
-          <div class="divide-y divide-slate-100 flex flex-col gap-2">
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-2.5 rounded-lg hover:bg-slate-50 transition-colors">
-              <div class="flex items-center gap-3">
-                <span class="font-code-badge text-slate-400">2024-08-14</span>
-                <span class="text-sm text-slate-800 font-medium">Qiskit Hamiltonian simulation module merged to main branch</span>
-              </div>
-              <span class="font-code-badge text-sky-700 font-semibold">v1.9.4 • COMMITTED</span>
-            </div>
+                <div class="p-3 rounded-lg bg-slate-50 border border-slate-200/80 mb-5">
+                  <span class="font-mono text-[10px] text-slate-400 uppercase font-semibold block mb-1">ARCHITECTURAL TAKEAWAY</span>
+                  <p class="text-xs text-slate-700 font-medium leading-relaxed">{{ art.keyTakeaway }}</p>
+                </div>
 
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-2.5 rounded-lg hover:bg-slate-50 transition-colors">
-              <div class="flex items-center gap-3">
-                <span class="font-code-badge text-slate-400">2024-06-02</span>
-                <span class="text-sm text-slate-800 font-medium">Post-Quantum Lattice Kyber key exchange integration validated</span>
+                <div class="flex flex-wrap gap-1.5 mb-6">
+                  @for (t of art.tags; track t) {
+                    <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 font-code-badge text-slate-700 text-[11px]">{{ t }}</span>
+                  }
+                </div>
               </div>
-              <span class="font-label-caps text-sky-700 font-semibold bg-sky-50 px-2 py-0.5 rounded border border-sky-200 text-[10px]">NIST ROUND 4</span>
-            </div>
 
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-2.5 rounded-lg hover:bg-slate-50 transition-colors">
-              <div class="flex items-center gap-3">
-                <span class="font-code-badge text-slate-400">2024-03-29</span>
-                <span class="text-sm text-slate-800 font-medium">Initial Genesis Commit for Y? Lab Z cross-platform spatial substrate</span>
+              <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                <div class="flex items-center gap-1.5 text-slate-500 font-code-badge text-xs">
+                  <span class="material-symbols-outlined text-[16px] text-sky-600">article</span>
+                  <span>{{ art.publication }}</span>
+                </div>
+
+                <a [href]="art.url" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-sm text-sky-600 hover:text-sky-800 font-semibold transition-colors">
+                  <span>Read Article</span>
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                </a>
               </div>
-              <span class="font-code-badge text-slate-500 font-semibold">GENESIS-01</span>
             </div>
-          </div>
+          }
         </div>
       </section>
 
-      <!-- SECTION 3: ABOUT THE LABORATORY & FACULTY -->
+      <!-- SECTION 3: LEAD ARCHITECT & FACULTY (Siamak Ashrafi / developerY) -->
       <section class="max-w-7xl mx-auto px-6 lg:px-12 py-10 w-full">
         <div class="bg-white border border-slate-200 rounded-3xl p-8 lg:p-12 shadow-sm relative overflow-hidden">
           <div class="absolute -right-20 -bottom-20 w-96 h-96 bg-sky-100/60 blur-3xl pointer-events-none rounded-full"></div>
@@ -448,7 +363,7 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
             <div class="lg:col-span-7 flex flex-col gap-6">
               <div class="flex items-center gap-2">
                 <span class="w-2 h-2 rounded-full bg-sky-600"></span>
-                <span class="font-label-caps text-sky-700 tracking-widest uppercase font-semibold">LABORATORY MANIFESTO</span>
+                <span class="font-label-caps text-sky-700 tracking-widest uppercase font-semibold">LABORATORY LEADERSHIP</span>
               </div>
 
               <h2 class="font-display-hero text-slate-900 tracking-tight leading-tight font-bold">
@@ -457,7 +372,7 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
               </h2>
 
               <p class="text-slate-600 leading-relaxed text-base">
-                The lab name embodies our unyielding investigative doctrine. The question mark (<strong class="text-slate-900 font-semibold">‘?’</strong>) is our perpetual state of skepticism toward dogmatic consensus in hardware architecture and software runtimes. The letter (<strong class="text-slate-900 font-semibold">‘Z’</strong>) represents the terminal frontier—the final layer of the stack where quantum uncertainty and physical hardware limits collide.
+                Curated by <strong class="text-slate-900 font-semibold">Siamak (Ash) Ashrafi</strong> (known as <em>developerY</em> on GitHub), CTO at ZoeWave and founder of Y? LabZ. JavaOne Rock Star, multiple-time Amazon Code Ninja, patent holder, and international conference speaker.
               </p>
 
               <!-- Ethos Grid -->
@@ -465,37 +380,39 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
                 <div class="bg-slate-50 border border-slate-200 p-5 rounded-xl flex flex-col gap-2">
                   <div class="flex items-center gap-2 text-sky-600">
                     <span class="material-symbols-outlined text-[20px]">psychology</span>
-                    <span class="font-headline-sm text-[16px] text-slate-900 font-bold">Radical Inquiry</span>
+                    <span class="font-headline-sm text-[16px] text-slate-900 font-bold">Dual-Platform Thinking</span>
                   </div>
                   <p class="text-xs text-slate-600 leading-normal">
-                    Never accept an abstraction layer as immutable. We profile downwards through compilers to the silicon level.
+                    Building native Android &amp; iOS simultaneously ("in one thought"): Kotlin + Swift, Compose + SwiftUI, RoomDB + SwiftData.
                   </p>
                 </div>
 
                 <div class="bg-slate-50 border border-slate-200 p-5 rounded-xl flex flex-col gap-2">
                   <div class="flex items-center gap-2 text-sky-600">
                     <span class="material-symbols-outlined text-[20px]">share</span>
-                    <span class="font-headline-sm text-[16px] text-slate-900 font-bold">Sovereign Reproducibility</span>
+                    <span class="font-headline-sm text-[16px] text-slate-900 font-bold">Scientific Fragmentation</span>
                   </div>
                   <p class="text-xs text-slate-600 leading-normal">
-                    Every benchmark published must run deterministically on another machine without hidden telemetry secrets.
+                    Publishing atomic, reproducible blueprints and open-source crates rather than locked proprietary silos.
                   </p>
                 </div>
               </div>
 
-              <!-- Principal Investigator Signature Capsule -->
+              <!-- Principal Investigator Capsule -->
               <div class="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-slate-50 border border-slate-200 p-4 rounded-xl">
                 <div class="flex items-center gap-4">
                   <div class="w-12 h-12 rounded-xl bg-sky-100 border border-sky-200 flex items-center justify-center text-sky-700">
                     <span class="material-symbols-outlined text-[26px]">terminal</span>
                   </div>
                   <div class="flex flex-col">
-                    <span class="font-headline-sm text-slate-900 font-bold">developerY</span>
-                    <span class="text-xs text-slate-500">Lead Architect &amp; Research Faculty • Y? Lab Z</span>
+                    <span class="font-headline-sm text-slate-900 font-bold">{{ companyInfo.leadArchitect }}</span>
+                    <span class="text-xs text-slate-500">{{ companyInfo.leadTitle }}</span>
                   </div>
                 </div>
                 <div class="flex items-center gap-2">
-                  <span class="font-code-badge text-sky-700 bg-sky-50 border border-sky-200 px-2.5 py-1 rounded-md font-semibold">KEY: 0x9B28...12F</span>
+                  <a href="https://github.com/developerY" target="_blank" rel="noopener noreferrer" class="font-code-badge text-sky-700 bg-sky-50 border border-sky-200 px-3 py-1.5 rounded-md font-semibold hover:bg-sky-100 transition-colors">
+                    gh/developerY
+                  </a>
                 </div>
               </div>
             </div>
@@ -516,8 +433,8 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
                 </div>
                 <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-xl flex items-center justify-between border border-slate-200 shadow-sm">
                   <div class="flex flex-col">
-                    <span class="font-label-caps text-slate-900 font-bold">COLLABORATIVE MODEL</span>
-                    <span class="text-xs text-slate-500">Async RFCs • GitHub Monorepo • Public Benchmarks</span>
+                    <span class="font-label-caps text-slate-900 font-bold">R&amp;D @ ZOEWAVE</span>
+                    <span class="text-xs text-slate-500">Palo Alto • G.N.Seven Design • Public RFCs</span>
                   </div>
                   <span class="material-symbols-outlined text-sky-600 text-[20px]">handshake</span>
                 </div>
@@ -526,12 +443,12 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
               <!-- Metric Strip -->
               <div class="grid grid-cols-2 gap-3">
                 <div class="bg-slate-50 border border-slate-200 p-3.5 rounded-xl text-center">
-                  <span class="font-headline-md text-slate-900 font-bold">48+</span>
-                  <span class="block font-label-caps text-slate-500 uppercase mt-0.5">Verified Blueprints</span>
+                  <span class="font-headline-md text-slate-900 font-bold">53+</span>
+                  <span class="block font-label-caps text-slate-500 uppercase mt-0.5">Medium Publications</span>
                 </div>
                 <div class="bg-slate-50 border border-slate-200 p-3.5 rounded-xl text-center">
-                  <span class="font-headline-md text-sky-600 font-bold">3.8M</span>
-                  <span class="block font-label-caps text-slate-500 uppercase mt-0.5">Runtime Invocations</span>
+                  <span class="font-headline-md text-sky-600 font-bold">4 Languages</span>
+                  <span class="block font-label-caps text-slate-500 uppercase mt-0.5">Kotlin • Swift • Rust • Python</span>
                 </div>
               </div>
             </div>
@@ -539,7 +456,7 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
         </div>
       </section>
 
-      <!-- SECTION 4: COLLABORATIVE INQUIRY & SIGNED KEYS -->
+      <!-- SECTION 4: INQUIRY FORM -->
       <section class="max-w-7xl mx-auto px-6 lg:px-12 py-10 w-full mb-12">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
           <!-- Collaboration Form -->
@@ -549,7 +466,7 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
                 <div>
                   <span class="font-label-caps text-sky-700 tracking-widest uppercase font-semibold">DISCOVERY PROTOCOL</span>
                   <h3 class="font-headline-lg text-slate-900 font-bold tracking-tight mt-1">
-                    Collaborative Research Inquiry
+                    Collaborate with Y? Lab Z
                   </h3>
                 </div>
                 <div class="w-10 h-10 rounded-xl bg-sky-50 border border-sky-100 flex items-center justify-center text-sky-600">
@@ -567,60 +484,50 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
                       id="name"
                       type="text"
                       formControlName="name"
-                      placeholder="e.g. Dr. A. Vance // Max Planck"
+                      placeholder="e.g. Dr. A. Vance // Engineering Partner"
                       class="bg-slate-50 text-slate-900 text-sm px-4 py-3 rounded-xl border border-slate-200 outline-none focus:border-sky-500 focus:bg-white transition-all font-mono" />
                   </div>
 
                   <div class="flex flex-col gap-2">
                     <label class="font-label-caps text-slate-600 font-medium" for="email">
-                      SECURE CONTACT ENDPOINT *
+                      CONTACT EMAIL *
                     </label>
                     <input
                       id="email"
                       type="email"
                       formControlName="email"
-                      placeholder="vance@frontier-inst.org"
+                      placeholder="vance@partner.org"
                       class="bg-slate-50 text-slate-900 text-sm px-4 py-3 rounded-xl border border-slate-200 outline-none focus:border-sky-500 focus:bg-white transition-all font-mono" />
                   </div>
                 </div>
 
                 <div class="flex flex-col gap-2">
                   <label class="font-label-caps text-slate-600 font-medium" for="domain">
-                    TARGET RESEARCH DOMAIN
+                    YLABZ INITIATIVE OR AREA OF INTEREST
                   </label>
                   <select
                     id="domain"
                     formControlName="domain"
                     class="bg-slate-50 text-slate-900 text-sm px-4 py-3 rounded-xl border border-slate-200 outline-none focus:border-sky-500 focus:bg-white transition-all">
-                    <option value="spatial">Spatial Computing (visionOS / Android XR Substrates)</option>
-                    <option value="wearables">Wearables &amp; Micro-Telemetry Synchrony (WearOS / BLE)</option>
-                    <option value="neural">Sub-Watt Edge Neural Quantization (PyTorch / Metal)</option>
-                    <option value="quantum">Quantum Algorithm Simulation &amp; Hamiltonians (Qiskit)</option>
-                    <option value="crypto">Cryptographic Verification &amp; ZK Fabrics</option>
+                    <option value="mobility">AshBike Electric Mobility &amp; AI Torque Curves</option>
+                    <option value="apparel">ZoeWear Physiological Intelligent Clothing (PIC)</option>
+                    <option value="ai-apps">PhotoDo AI Visual Task Engine</option>
+                    <option value="robotics">ZoeRobo &amp; Autonomous Micro-Drones</option>
+                    <option value="health">Hummingbird Fuel Rx &amp; RxDigita Therapeutics</option>
+                    <option value="mobile-stack">Android &amp; iOS Modern Architecture (MAD / Swift 6)</option>
                   </select>
                 </div>
 
                 <div class="flex flex-col gap-2">
                   <label class="font-label-caps text-slate-600 font-medium" for="proposal">
-                    FRAGMENT HYPOTHESIS ‘?’ OR PROPOSAL BRIEF *
+                    PROJECT INQUIRY OR PROPOSAL BRIEF *
                   </label>
                   <textarea
                     id="proposal"
                     rows="4"
                     formControlName="proposal"
-                    placeholder="Outline the specific experimental bottleneck or compute fragment you want to co-investigate with Y? Lab Z..."
+                    placeholder="Outline your inquiry, collaboration interest, or technical requirements for Y? Lab Z..."
                     class="bg-slate-50 text-slate-900 text-sm px-4 py-3 rounded-xl border border-slate-200 outline-none focus:border-sky-500 focus:bg-white transition-all resize-none"></textarea>
-                </div>
-
-                <div class="flex items-center gap-3 pt-1">
-                  <input
-                    id="pgpCheck"
-                    type="checkbox"
-                    formControlName="pgpReceipt"
-                    class="w-4 h-4 rounded border-slate-300 text-sky-600 accent-sky-600" />
-                  <label for="pgpCheck" class="text-xs text-slate-600">
-                    Request dual-signed PGP cryptographic receipt for shared disclosures
-                  </label>
                 </div>
 
                 <div class="pt-2">
@@ -628,7 +535,7 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
                     type="submit"
                     [disabled]="collabForm.invalid"
                     class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-sky-600 hover:bg-sky-700 disabled:opacity-50 text-white font-medium text-sm transition-all shadow-md flex items-center justify-center gap-2">
-                    <span>Transmit Inquiry to developerY</span>
+                    <span>Transmit Inquiry to {{ companyInfo.email }}</span>
                     <span class="material-symbols-outlined text-[18px]">lock</span>
                   </button>
                 </div>
@@ -636,111 +543,75 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
 
               @if (formSubmitted()) {
                 <div class="mt-4 p-4 rounded-xl bg-sky-50 border border-sky-200 font-mono text-xs text-sky-800 leading-relaxed">
-                  &gt; PACKET ENCRYPTED &amp; DISPATCHED. HASH: 0x81FA...289C. AWAITING PEER REVIEW BY developerY.
+                  &gt; PACKET ENCRYPTED &amp; DISPATCHED. Transmission logged to developer&#64;ylabz.com. Awaiting team review.
                 </div>
               }
             </div>
           </div>
 
-          <!-- Right Column: Signed Keys & Whitepaper Downloads -->
+          <!-- Right Column: Palo Alto Office & Curated Reading Lists -->
           <div class="lg:col-span-5 flex flex-col gap-6">
-            <!-- Cryptographic Signed Key Card -->
+            <!-- Palo Alto Contact Card -->
             <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
               <div class="flex items-center justify-between pb-4 border-b border-slate-100">
                 <div class="flex items-center gap-2">
-                  <span class="material-symbols-outlined text-sky-600 text-[20px]">key</span>
-                  <span class="font-label-caps text-slate-900 uppercase tracking-wider font-semibold">CRYPTOGRAPHIC ATTESTATION</span>
+                  <span class="material-symbols-outlined text-sky-600 text-[20px]">location_on</span>
+                  <span class="font-label-caps text-slate-900 uppercase tracking-wider font-semibold">PALO ALTO HEADQUARTERS</span>
                 </div>
-                <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-code-badge text-sky-700 font-medium">ED25519</span>
+                <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 font-code-badge text-sky-700 font-medium">CALIFORNIA</span>
               </div>
 
-              <div class="flex flex-col gap-2 font-mono text-[11px] leading-relaxed bg-slate-50 border border-slate-200 p-4 rounded-xl overflow-x-auto text-slate-700 mt-4">
-                <span class="text-slate-400 font-semibold">-----BEGIN PGP PUBLIC KEY BLOCK-----</span>
-                <span class="text-slate-900">mQGNBF+b8WkBDADsR8/12...YZ-LAB-Z-MASTER-ED25519</span>
-                <span>FINGERPRINT: 4A91 8E3B F721 00C8 92DE CC81 B901 developerY</span>
-                <span class="text-sky-700 font-medium">TELEMETRY-AUTH: VALID THROUGH 2029-12-31</span>
-                <span class="text-slate-400 font-semibold">-----END PGP PUBLIC KEY BLOCK-----</span>
-              </div>
-
-              <div class="mt-4 flex items-center justify-between">
-                <button
-                  type="button"
-                  (click)="copyMasterKey()"
-                  class="px-3.5 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-800 font-code-badge text-xs transition-colors flex items-center gap-1.5 font-medium">
-                  <span class="material-symbols-outlined text-[14px] text-sky-600">content_copy</span>
-                  <span>{{ keyCopied() ? 'Copied to Clipboard!' : 'Copy Master Key' }}</span>
-                </button>
-                <span class="font-code-badge text-emerald-600 font-semibold flex items-center gap-1">
-                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                  SIG: NOMINAL
-                </span>
+              <div class="flex flex-col gap-2 font-mono text-xs leading-relaxed bg-slate-50 border border-slate-200 p-4 rounded-xl text-slate-700 mt-4">
+                <span class="text-slate-900 font-semibold">{{ companyInfo.name }} // R&amp;D &#64; ZoeWave</span>
+                <span>{{ companyInfo.address }}</span>
+                <span class="text-sky-700 font-medium">Contact: {{ companyInfo.email }}</span>
+                <span class="text-slate-500">Design: {{ companyInfo.designPartner }}</span>
               </div>
             </div>
 
-            <!-- Curated Whitepaper Downloads -->
+            <!-- Curated Medium Lists -->
             <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col gap-4">
               <div class="flex items-center justify-between pb-2 border-b border-slate-100">
                 <div class="flex items-center gap-2">
-                  <span class="material-symbols-outlined text-sky-600 text-[20px]">download</span>
-                  <span class="font-label-caps text-slate-900 uppercase tracking-wider font-semibold">CORE MANUSCRIPTS</span>
+                  <span class="material-symbols-outlined text-sky-600 text-[20px]">library_books</span>
+                  <span class="font-label-caps text-slate-900 uppercase tracking-wider font-semibold">CURATED MEDIUM LISTS</span>
                 </div>
-                <span class="font-code-badge text-sky-700 bg-sky-50 px-2 py-0.5 rounded border border-sky-200 font-semibold">OPEN ACCESS</span>
+                <span class="font-code-badge text-sky-700 bg-sky-50 px-2 py-0.5 rounded border border-sky-200 font-semibold">&#64;zoewave</span>
               </div>
 
               <div class="flex flex-col gap-2.5">
-                <button
-                  type="button"
-                  (click)="downloadPaper('manifesto')"
-                  class="w-full p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-300 hover:bg-sky-50/40 transition-all flex items-center justify-between text-left group">
+                <a href="https://medium.com/@zoewave" target="_blank" rel="noopener noreferrer" class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-300 hover:bg-sky-50/40 transition-all flex items-center justify-between group">
                   <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-colors">
-                      <span class="material-symbols-outlined text-[16px]">article</span>
-                    </div>
+                    <span class="material-symbols-outlined text-sky-600">smartphone</span>
                     <div class="flex flex-col">
-                      <span class="font-medium text-slate-900 text-sm group-hover:text-sky-600 transition-colors">
-                        The Systematic Fragment Manifesto
-                      </span>
-                      <span class="font-mono text-[11px] text-slate-500">YZ-WP-01 • 2.4 MB PDF • Lewis Thomas Thesis</span>
+                      <span class="font-medium text-slate-900 text-sm group-hover:text-sky-600">Android Dev | Curated by YLabZ</span>
+                      <span class="font-mono text-[11px] text-slate-500">~31 stories • Compose, Hilt, Room, MAD</span>
                     </div>
                   </div>
-                  <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 text-[18px] transition-colors">file_download</span>
-                </button>
+                  <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 text-[18px]">open_in_new</span>
+                </a>
 
-                <button
-                  type="button"
-                  (click)="downloadPaper('spatial')"
-                  class="w-full p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-300 hover:bg-sky-50/40 transition-all flex items-center justify-between text-left group">
+                <a href="https://medium.com/@zoewave" target="_blank" rel="noopener noreferrer" class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-300 hover:bg-sky-50/40 transition-all flex items-center justify-between group">
                   <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-colors">
-                      <span class="material-symbols-outlined text-[16px]">memory</span>
-                    </div>
+                    <span class="material-symbols-outlined text-sky-600">apple</span>
                     <div class="flex flex-col">
-                      <span class="font-medium text-slate-900 text-sm group-hover:text-sky-600 transition-colors">
-                        Spatial Volumetric Matrix Sync in visionOS 2
-                      </span>
-                      <span class="font-mono text-[11px] text-slate-500">YZ-WP-04 • 5.1 MB PDF • RealityKit &amp; OpenXR</span>
+                      <span class="font-medium text-slate-900 text-sm group-hover:text-sky-600">iOS Dev | Curated by YLabZ</span>
+                      <span class="font-mono text-[11px] text-slate-500">~22 stories • Swift, SwiftUI, SwiftData</span>
                     </div>
                   </div>
-                  <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 text-[18px] transition-colors">file_download</span>
-                </button>
+                  <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 text-[18px]">open_in_new</span>
+                </a>
 
-                <button
-                  type="button"
-                  (click)="downloadPaper('quantization')"
-                  class="w-full p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-300 hover:bg-sky-50/40 transition-all flex items-center justify-between text-left group">
+                <a href="https://medium.com/@zoewave" target="_blank" rel="noopener noreferrer" class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-300 hover:bg-sky-50/40 transition-all flex items-center justify-between group">
                   <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-colors">
-                      <span class="material-symbols-outlined text-[16px]">device_thermostat</span>
-                    </div>
+                    <span class="material-symbols-outlined text-sky-600">psychology</span>
                     <div class="flex flex-col">
-                      <span class="font-medium text-slate-900 text-sm group-hover:text-sky-600 transition-colors">
-                        Sub-Watt Neural Quantization at Silicon Limit
-                      </span>
-                      <span class="font-mono text-[11px] text-slate-500">YZ-WP-08 • 3.8 MB PDF • Edge Benchmarks</span>
+                      <span class="font-medium text-slate-900 text-sm group-hover:text-sky-600">AI / ML Dev on Mobile</span>
+                      <span class="font-mono text-[11px] text-slate-500">~11 stories • PyTorch, TFLite, Core ML</span>
                     </div>
                   </div>
-                  <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 text-[18px] transition-colors">file_download</span>
-                </button>
+                  <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 text-[18px]">open_in_new</span>
+                </a>
               </div>
             </div>
           </div>
@@ -750,21 +621,21 @@ import {ReactiveFormsModule, FormControl, FormGroup, Validators} from '@angular/
   `
 })
 export class ResearchComponent implements OnDestroy {
+  companyInfo = YLABZ_COMPANY_INFO;
+  articles: YLabZArticle[] = YLABZ_ARTICLES;
+
   collabForm = new FormGroup({
     name: new FormControl('', [Validators.required]),
     email: new FormControl('', [Validators.required, Validators.email]),
-    domain: new FormControl('spatial'),
-    proposal: new FormControl('', [Validators.required]),
-    pgpReceipt: new FormControl(false)
+    domain: new FormControl('mobility'),
+    proposal: new FormControl('', [Validators.required])
   });
 
   isHighFreq = signal<boolean>(false);
   amplitudeValue = signal<string>('0.942');
   fluxIndexVal = signal<string>('87.4');
-  keyCopied = signal<boolean>(false);
   formSubmitted = signal<boolean>(false);
 
-  // SVG Waveform generation signals
   wavePrimaryPath = signal<string>('M 0 50 Q 62.5 15 125 50 T 250 50 T 375 50 T 500 50');
   waveTrailPath = signal<string>('M 0 50 Q 60 20 125 50 T 250 50 T 375 50 T 500 50');
 
@@ -824,31 +695,14 @@ export class ResearchComponent implements OnDestroy {
     this.fluxIndexVal.set((88 + Math.random() * 8).toFixed(1));
   }
 
-  copyMasterKey() {
-    const key = '4A91 8E3B F721 00C8 92DE CC81 B901 developerY // ED25519';
-    navigator.clipboard?.writeText(key).then(() => {
-      this.keyCopied.set(true);
-      setTimeout(() => this.keyCopied.set(false), 2500);
-    });
-  }
-
   submitInquiry() {
     if (this.collabForm.valid) {
       this.formSubmitted.set(true);
       setTimeout(() => {
         this.collabForm.reset({
-          domain: 'spatial',
-          pgpReceipt: false
+          domain: 'mobility'
         });
       }, 500);
     }
-  }
-
-  downloadPaper(id: string) {
-    alert(`[Y? Lab Z Vault]: Generating cryptographic signature for ${id} manuscript... download initiated.`);
-  }
-
-  openDispatch(num: number) {
-    alert(`[Dispatch Archive]: Loading verified release bundle #${num}`);
   }
 }

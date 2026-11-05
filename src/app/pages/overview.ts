@@ -1,5 +1,6 @@
 import {ChangeDetectionStrategy, Component, signal} from '@angular/core';
 import {RouterLink} from '@angular/router';
+import {YLABZ_LANGUAGE_STACK, TechStackPillar} from '../data/ylabz-data';
 
 export interface SubstrateTarget {
   id: string;
@@ -38,6 +39,13 @@ export interface SubstrateTarget {
             <!-- Hero Headline & Core Thesis -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
               <div class="lg:col-span-8 flex flex-col gap-4">
+                <div class="flex items-center gap-2 text-sky-700 font-mono text-xs font-semibold tracking-wider">
+                  <span>PALO ALTO, CA</span>
+                  <span>•</span>
+                  <span>R&amp;D ENGINE &#64; ZOEWAVE</span>
+                  <span>•</span>
+                  <span>DESIGN BY G.N.SEVEN</span>
+                </div>
                 <h1 class="font-display-hero text-slate-900 tracking-tight leading-none">
                   Y? Lab Z!
                   <span class="block bg-gradient-to-r from-sky-600 via-cyan-600 to-indigo-600 bg-clip-text text-transparent mt-2 font-bold">
@@ -45,7 +53,7 @@ export interface SubstrateTarget {
                   </span>
                 </h1>
                 <p class="text-lg text-slate-600 max-w-2xl mt-2 leading-relaxed">
-                  Developing Cutting Edge Technology. Asking questions <span class="text-sky-600 font-semibold font-headline">“?”</span> relentlessly until reaching fundamental truth at <span class="text-sky-700 font-semibold font-headline">“Z”</span>. From quantum superposition to spatial neural runtime systems.
+                  Developing Cutting Edge Technology. Asking questions <span class="text-sky-600 font-semibold font-headline">“?”</span> relentlessly until reaching fundamental truth at <span class="text-sky-700 font-semibold font-headline">“Z”</span>. From our Palo Alto R&amp;D hub, we build on-device AI/ML, cross-platform mobile architectures, biosensors, and spatial computing runtimes.
                 </p>
               </div>
 
@@ -54,59 +62,48 @@ export interface SubstrateTarget {
                 <a routerLink="/projects" class="w-full flex items-center justify-between px-5 py-3.5 rounded-lg bg-sky-600 hover:bg-sky-700 text-white font-medium text-base transition-all shadow-[0_4px_16px_rgba(2,132,199,0.3)] hover:scale-[1.01] active:scale-[0.99]">
                   <span class="flex items-center gap-2">
                     <span class="material-symbols-outlined text-[20px]">terminal</span>
-                    Explore Blueprints
+                    Explore Projects &amp; Blueprints
                   </span>
                   <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
                 </a>
 
                 <a routerLink="/research" class="w-full flex items-center justify-between px-5 py-3.5 rounded-lg bg-white hover:bg-slate-50 text-slate-900 font-medium text-base border border-slate-200 transition-all shadow-sm">
                   <span class="flex items-center gap-2 text-slate-700">
-                    <span class="material-symbols-outlined text-[20px] text-sky-600">hub</span>
-                    Laboratory Inquiry
+                    <span class="material-symbols-outlined text-[20px] text-sky-600">article</span>
+                    Read Articles &amp; Insights
                   </span>
-                  <span class="font-code-badge text-slate-400">REQ_INIT</span>
+                  <span class="font-code-badge text-slate-400">YLabZ</span>
                 </a>
               </div>
             </div>
 
-            <!-- PLATFORM TAG PILL STRIP (Horizontal Precision HUD) -->
+            <!-- CORE LANGUAGE STACK MATRIX STRIP (Kotlin, Swift, Rust, Python) -->
             <div class="mt-8 pt-6">
               <div class="flex items-center justify-between mb-3">
-                <span class="font-label-caps text-slate-400 tracking-widest uppercase font-semibold">Substrate Matrix Architecture</span>
-                <span class="font-code-badge text-sky-700 font-semibold">7 CORE TARGETS CONNECTED</span>
+                <span class="font-label-caps text-slate-400 tracking-widest uppercase font-semibold">Disciplined Language Stack (3 Languages + 1 Scripting)</span>
+                <span class="font-code-badge text-sky-700 font-semibold">ZERO COMPROMISE ARCHITECTURE</span>
               </div>
 
-              <!-- Carousel / Strip Container -->
-              <div class="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-none">
-                @for (item of substrates; track item.id) {
-                  <button
-                    type="button"
-                    (click)="selectSubstrate(item)"
-                    [class]="selectedSubstrate().id === item.id 
-                      ? 'platform-pill shrink-0 flex items-center gap-2.5 px-4 py-2 rounded-lg bg-sky-50 border border-sky-300 transition-all text-sky-700 shadow-sm'
-                      : 'platform-pill shrink-0 flex items-center gap-2.5 px-4 py-2 rounded-lg bg-white hover:bg-sky-50/60 border border-slate-200 transition-all text-slate-800 shadow-sm'">
-                    <span class="w-2 h-2 rounded-full" [style.backgroundColor]="item.color"></span>
-                    <span class="font-code-badge font-semibold tracking-wide">{{ item.name }}</span>
-                    <span class="font-label-caps text-slate-600 px-1.5 py-0.5 rounded bg-slate-100 text-[10px]">{{ item.badge }}</span>
-                  </button>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                @for (item of languageStack; track item.language) {
+                  <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                      <div class="flex items-center justify-between mb-2">
+                        <span class="font-headline-sm text-slate-900 font-bold">{{ item.language }}</span>
+                        <span class="font-code-badge px-2 py-0.5 rounded bg-sky-50 text-sky-700 border border-sky-100 text-[10px]">{{ item.replaces }}</span>
+                      </div>
+                      <p class="text-xs text-sky-700 font-medium mb-2">{{ item.role }}</p>
+                      <ul class="text-[11px] text-slate-500 space-y-1 font-mono">
+                        @for (tech of item.ecosystem.slice(0, 3); track tech) {
+                          <li class="flex items-center gap-1.5 truncate">
+                            <span class="w-1 h-1 rounded-full bg-sky-500"></span>
+                            <span>{{ tech }}</span>
+                          </li>
+                        }
+                      </ul>
+                    </div>
+                  </div>
                 }
-              </div>
-
-              <!-- Dynamic Platform Micro-Descriptor Panel -->
-              <div class="mt-4 p-5 rounded-xl bg-white border border-slate-200 flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all shadow-sm">
-                <div class="flex items-center gap-3">
-                  <div class="w-10 h-10 rounded-lg bg-sky-50 border border-sky-200 flex items-center justify-center text-sky-600 shrink-0">
-                    <span class="material-symbols-outlined text-[22px]">memory</span>
-                  </div>
-                  <div>
-                    <p class="font-headline-sm text-slate-900 font-semibold">{{ selectedSubstrate().title }}</p>
-                    <p class="text-sm text-slate-600 mt-0.5">{{ selectedSubstrate().desc }}</p>
-                  </div>
-                </div>
-                <div class="flex items-center gap-3 shrink-0">
-                  <span class="font-code-badge text-slate-400">HOST: {{ selectedSubstrate().host }}</span>
-                  <span class="px-2.5 py-1 rounded-md bg-sky-50 border border-sky-200/80 font-code-badge text-sky-700 font-semibold">{{ selectedSubstrate().kernel }}</span>
-                </div>
               </div>
             </div>
           </div>
@@ -538,6 +535,7 @@ export interface SubstrateTarget {
 })
 export class OverviewComponent {
   samplingHz = signal<number>(50);
+  languageStack: TechStackPillar[] = YLABZ_LANGUAGE_STACK;
 
   substrates: SubstrateTarget[] = [
     {
