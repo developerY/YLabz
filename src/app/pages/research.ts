@@ -276,13 +276,13 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
               <div class="relative w-full h-44 rounded-xl overflow-hidden group border border-slate-200">
                 <img
                   class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  alt="High precision quantum computing cryogenic dilution refrigerator rig suspended in an obsidian dark room"
+                  alt="Authentic Quantum Computing and Rust PyO3 simulation diagram from YLabz"
                   referrerpolicy="no-referrer"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxSBNZkYOC6iwJExEB1sCzXMVbxaJdaJGsFmradi6YrNEbZv8YtdtxbXKMNGIC1KxxBdmCx4xYJmNglPJo5LdxwIxWvbKtaNmiDqpVm7Ebh4RfaHBeIE5xINx3ANV9W7BHoV9xfiZ-jvyTZtMKBZ7zeWUK_8zZ8yGad5DSZFefA6qt5HRLa-co4U6QA49Twu2f0SWn_zaA-VQpN0IcOLjY6SvuRmVV-cl9SDw_4D1n" />
+                  src="/assets/ylabz/quantum_computing_pyo3.png" />
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
                 <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-[11px]">
-                  <span class="bg-slate-900/90 px-2.5 py-0.5 rounded-md backdrop-blur-sm border border-slate-700 text-sky-300 font-semibold shadow-sm">PALO ALTO BENCH // RIG α</span>
-                  <span class="text-sky-300 font-bold">STABLE 11.2 mK</span>
+                  <span class="bg-slate-900/90 px-2.5 py-0.5 rounded-md backdrop-blur-sm border border-slate-700 text-sky-300 font-semibold shadow-sm">PALO ALTO BENCH // QUANTUM</span>
+                  <span class="text-sky-300 font-bold">PYO3 SIMULATOR</span>
                 </div>
               </div>
               <span class="text-xs text-slate-600 px-1 leading-relaxed">
@@ -441,13 +441,13 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
               <div class="relative w-full h-80 rounded-2xl overflow-hidden group shadow-sm border border-slate-200">
                 <img
                   class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  alt="Futuristic software research scientist in high-tech laboratory surrounded by holographic spatial computing interfaces"
+                  alt="Authentic YLabz multiplatform ecosystem architecture diagram"
                   referrerpolicy="no-referrer"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwSwsKHHNdZBPaXz0yorygwsyGLz6DjP9eYEbrcJMY1bDu2-P3ovu-49q3gPiN-T21tHCcChtVV-fKasvro_z0WG15qLjwCVhh2yUFSZezbFpvcBEk4IA_BsNlAc4XSOe4II3K4phFJ45TAhVCgnSx1lcaZoJQEkbiLbfdsPsf8Ld91pj8eFY2reC041MvVIv7imVyNRsauhBpm_Y6rbd5GJc_OZHVr0q6jRk7FkH" />
+                  src="/assets/ylabz/ylabz_multiplatform_diagram.png" />
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
                 <div class="absolute top-4 left-4">
                   <span class="px-2.5 py-1 rounded-md bg-white/90 backdrop-blur-md font-mono text-xs text-slate-900 uppercase font-bold border border-slate-200 shadow-sm">
-                    FACULTY HEAD // developerY
+                    AUTHENTIC YLABZ // MULTIPLATFORM
                   </span>
                 </div>
                 <div class="absolute bottom-4 left-4 right-4 bg-slate-900/90 backdrop-blur-md p-3.5 rounded-xl flex items-center justify-between border border-slate-700 shadow-md">

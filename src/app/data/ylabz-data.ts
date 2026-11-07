@@ -250,7 +250,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Kotlin NDK", "Swift CoreBluetooth", "Rust Embedded", "Python PyTorch"],
     partnerOrEcosystem: "ZoeWave Mobility & G.N.Seven",
     status: "Active R&D",
-    imageUrl: "/assets/images/coral_ashbike_1793915441529.jpg",
+    imageUrl: "/assets/ylabz/ashbike_portfolio.png",
     badge: "G.N.Seven Carbon Chassis",
     githubRepo: "https://github.com/developerY/AshBike",
     githubName: "developerY/AshBike"
@@ -271,7 +271,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["WearOS Health Tiles", "watchOS CoreMotion", "TensorFlow Lite", "BLE DMA"],
     partnerOrEcosystem: "ZoeWave Health & G.N.Seven",
     status: "Pilot Live",
-    imageUrl: "/assets/images/coral_zoewear_1793915441647.jpg",
+    imageUrl: "/assets/ylabz/wearos_biotelemetry.png",
     badge: "Conductive Smart Knit",
     githubRepo: "https://github.com/developerY/ZoeWear",
     githubName: "developerY/ZoeWear"
@@ -292,7 +292,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Jetpack Compose", "SwiftUI", "MediaPipe", "Core ML", "TFLite"],
     partnerOrEcosystem: "Y? LabZ Mobile & ZoeWave",
     status: "In Production",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-cGUs8k1pMh-_wypCoxaV01wEkoGReFg1dXRJfDY9FW3_gyiLCF4R0E7Yc-TWcIm-tPIlb9rJRQ03KAjCYEGBPZzFxZqXkSwM3Pm6P8_TjhKzqD-5RRcR8tpZvQYd2maVrxgXUkr_95sJyb4RhzvSDoXy1aCbOcXkfwdzMnuy5F1zNLLH89aFpeB_TBNLH0F5740RzvoA-AmaTtDxn4MOixwtj3pA-97hz1sb5j7O",
+    imageUrl: "/assets/ylabz/photodo_assistant.png",
     badge: "Vision AI + Voice",
     githubRepo: "https://github.com/developerY/AiFiXiT",
     githubName: "developerY/AiFiXiT"
@@ -334,7 +334,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Kotlin Flow", "Swift Concurrency", "Scikit-Learn", "SHAP"],
     partnerOrEcosystem: "ZoeWave Bio-Lab",
     status: "Active R&D",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuChYbwLqF5_83tQqQeipBscaz6AwGKfz7qCUZ_G7_EyiuLS2uhO7XBkfpY-Xrpo0i-VCiBYucu5vwgHwVWpi1818qHvWtQQ0dqTFx124b5RPtO3jpsKPnHck-j7c-l4P8u9AbxQja4uU-B1_tta7CE0SR9iUz_zc5yD-zPHF9YeGloEFbGwTwIQUtp2IHcSY0I8l82h5rxisx4kimebW7Zn5iMPKvpDfEXvrKFmhH0V",
+    imageUrl: "/assets/ylabz/aiml_neural_engine.png",
     badge: "Bio-Micro-Dosing Lab",
     githubRepo: "https://github.com/developerY/HummingbirdFuel",
     githubName: "developerY/HummingbirdFuel"
@@ -355,7 +355,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Android Jetpack Compose", "iOS SwiftData", "Core ML", "FHIR API"],
     partnerOrEcosystem: "ZoeWave Health Systems",
     status: "In Production",
-    imageUrl: "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tgoL7sUQYGh77ehUqsnXBAYoD3gHU6TKuV8IM9JPZqPrEQecTkB4P8nUJKV1TRAInWyU3ro59gGl8l75SEcfV7piO6KYu1ppncA-jyeEacdCpfn8csbg4F5274KJfShib9Ntsw_v3KQyWz0uWTWamrv_qW2atMzwzF7dCY1mGCn-gCLClyGBMDDLgmjboCh8XJz2SmmUofIYV8_5UqebCtiDTJuQ59EZaD58Kk=w1280",
+    imageUrl: "/assets/ylabz/aiml_edge_pipeline.png",
     badge: "Computer Vision Medication",
     githubRepo: "https://github.com/developerY/GoSwift",
     githubName: "developerY/GoSwift"
@@ -376,7 +376,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Python Gemini API", "Axum Rust Backend", "TypeScript", "Next/Angular"],
     partnerOrEcosystem: "Swift AI & YLabZ",
     status: "In Production",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuBCwSwsKHHNdZBPaXz0yorygwsyGLz6DjP9eYEbrcJMY1bDu2-P3ovu-49q3gPiN-T21tHCcChtVV-fKasvro_z0WG15qLjwCVhh2yUFSZezbFvcBEk4IA_BsNlAc4XSOe4II3K4phFJ45TAhVCgnSx1lcaZoJQEkbiLbfdsPsf8Ld91pj8eFY2reC041MvVIv7imVyNRsauhBpm_Y6rbd5GJc_OZHVr0q6jRk7FkH",
+    imageUrl: "/assets/ylabz/aiml_quantization_onnx.png",
     badge: "Multimodal Ad Engine",
     githubRepo: "https://github.com/developerY/VisionOStore",
     githubName: "developerY/VisionOStore"
@@ -397,7 +397,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Rust RS", "C++ NDK", "PyTorch Micro", "BLE Mesh"],
     partnerOrEcosystem: "Y? LabZ Drone Works",
     status: "Active R&D",
-    imageUrl: "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vC9ct-qWVWnSNA4gBp_wULOenbLYJukd2JPB8rWssPz_lEe2Y91etushF-byBlAN2AHX4VBIiEmzrdxP80MZnVJnAHCTFSet1OKO9fugLXL-K1w7zJV3NAERMCr-xeaaquSCbjoIrTEJd37V-i-xDde4lnwDcFdFKfa9GWiylz5tKCXYqZHRU45_j5pfAJMlSc9XBmn2RJLywyjeTrq2H6Uh8c1xegiwPCgXHv=w1280",
+    imageUrl: "/assets/ylabz/quantum_computing_pyo3.png",
     badge: "Autonomous Indoor Sentry",
     githubRepo: "https://github.com/developerY/Autonomous-Security-Micro-Drone",
     githubName: "developerY/Autonomous-Security-Micro-Drone"
@@ -439,7 +439,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Mojo SIMD", "Modular MAX", "MLIR / LLVM", "ZoeWear PIC Biosensors"],
     partnerOrEcosystem: "ZoeWave Bio-Lab & Modular",
     status: "Pilot Live",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCo4YGQDwQgCctU4rVz4Mxqdls2j21Zgcqkyb436jyB1r3S59CIrOpgwUa27U1s_sdlfDIvYiOk2fl5JcVdLW3Slu0CIKUzKFz2svrdQJFEeFU5nOHoRtJhSR5JhL6zYqRKt5289LMaIkHBw3dGJa-NuWruX1QNkxoIgjATJL_WL4rnS8IOH26hu7bHzjmf_8KgFtge3w23eKDTLcA34P-S4EZJiJoZw-AM6kWY49j_",
+    imageUrl: "/assets/ylabz/aiml_quantization_onnx.png",
     badge: "68,420x SIMD Kernel",
     githubRepo: "https://github.com/developerY/MojoMax",
     githubName: "developerY/MojoMax (SIMD)"
@@ -460,7 +460,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["WearOS Core", "watchOS CoreMotion", "TensorFlow Lite", "Scikit-learn"],
     partnerOrEcosystem: "YLabZ Bio-Wearables & ZoeWave",
     status: "Active R&D",
-    imageUrl: "/assets/images/coral_zoewear_1793915441647.jpg",
+    imageUrl: "/assets/ylabz/watchos_telemetry_health.png",
     badge: "Smartwatch Bio-Sensor AI",
     githubRepo: "https://github.com/developerY/ZoeWear",
     githubName: "developerY/ZoeWear"
@@ -481,7 +481,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Kotlin CameraX", "MediaPipe Vision", "BLE UART", "LEGO® Technic"],
     partnerOrEcosystem: "YLabZ Robotics & Open Hardware",
     status: "Alpha Prototype",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-cGUs8k1pMh-_wypCoxaV01wEkoGReFg1dXRJfDY9FW3_gyiLCF4R0E7Yc-TWcIm-tPIlb9rJRQ03KAjCYEGBPZzFxZqXkSwM3Pm6P8_TjhKzqD-5RRcR8tpZvQYd2maVrxgXUkr_95sJyb4RhzvSDoXy1aCbOcXkfwdzMnuy5F1zNLLH89aFpeB_TBNLH0F5740RzvoA-AmaTtDxn4MOixwtj3pA-97hz1sb5j7O",
+    imageUrl: "/assets/ylabz/aiml_edge_pipeline.png",
     badge: "Smartphone Vision Brain",
     githubRepo: "https://github.com/developerY/LEGO-Self-Driving-Car",
     githubName: "developerY/LEGO-Self-Driving-Car"
@@ -502,7 +502,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Rust Robotics RS", "ROS2", "PyTorch Edge", "C++ Kinematics"],
     partnerOrEcosystem: "YLabZ Physical AI & ZoeRobo",
     status: "Active R&D",
-    imageUrl: "/assets/images/coral_zoerobo_1793915442432.jpg",
+    imageUrl: "/assets/ylabz/ylabz_hero_system.png",
     badge: "Rust AI Assistive Dog",
     githubRepo: "https://github.com/developerY/BikeVision",
     githubName: "developerY/BikeVision"
@@ -523,7 +523,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["TensorFlow Pipeline", "Core ML", "SHAP / LIME", "OpenCV"],
     partnerOrEcosystem: "Swift AI & YLabZ Ad Tech",
     status: "Pilot Live",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCxSBNZkYOC6iwJExEB1sCzXMVbxaJdaJGsFmradi6YrNEbZv8YtdtxbXKMNGIC1KxxBdmCx4xYJmNglPJo5LdxwIxWvbKtaNmiDqpVm7Ebh4RfaHBeIE5xINx3ANV9W7BHoV9xfiZ-jvyTZtMKBZ7zeWUK_8zZ8yGad5DSZFefA6qt5HRLa-co4U6QA49Twu2f0SWn_zaA-VQpN0IcOLjY6SvuRmVV-cl9SDw_4D1n",
+    imageUrl: "/assets/ylabz/aiml_neural_engine.png",
     badge: "Privacy-First Vision Ad",
     githubRepo: "https://github.com/developerY/ComposeTemplate",
     githubName: "developerY/ComposeTemplate"
@@ -544,7 +544,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Python ML Pipeline", "Scikit-learn RF", "PyTables HDF5", "Android Touch"],
     partnerOrEcosystem: "YLabZ Consumer AI & ZoeWave",
     status: "Alpha Prototype",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuChYbwLqF5_83tQqQeipBscaz6AwGKfz7qCUZ_G7_EyiuLS2uhO7XBkfpY-Xrpo0i-VCiBYucu5vwgHwVWpi1818qHvWtQQ0dqTFx124b5RPtO3jpsKPnHck-j7c-l4P8u9AbxQja4uU-B1_tta7CE0SR9iUz_zc5yD-zPHF9YeGloEFbGwTwIQUtp2IHcSY0I8l82h5rxisx4kimebW7Zn5iMPKvpDfEXvrKFmhH0V",
+    imageUrl: "/assets/ylabz/aiml_quantization_onnx.png",
     badge: "Cinema Taste Engine",
     githubRepo: "https://github.com/developerY/ComposeTemplate",
     githubName: "developerY/ComposeTemplate"
@@ -565,7 +565,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["Pandas", "Scikit-learn KNN", "Plotly Visuals", "Docker AWS"],
     partnerOrEcosystem: "YLabZ Economic AI & Swift AI",
     status: "Pilot Live",
-    imageUrl: "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tgoL7sUQYGh77ehUqsnXBAYoD3gHU6TKuV8IM9JPZqPrEQecTkB4P8nUJKV1TRAInWyU3ro59gGl8l75SEcfV7piO6KYu1ppncA-jyeEacdCpfn8csbg4F5274KJfShib9Ntsw_v3KQyWz0uWTWamrv_qW2atMzwzF7dCY1mGCn-gCLClyGBMDDLgmjboCh8XJz2SmmUofIYV8_5UqebCtiDTJuQ59EZaD58Kk=w1280",
+    imageUrl: "/assets/ylabz/platforms_overview_stack.png",
     badge: "Local Business Engine",
     githubRepo: "https://github.com/developerY/VisionOStore",
     githubName: "developerY/VisionOStore"
@@ -586,7 +586,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["MediaPipe Vision", "Scikit-Learn", "SHAP Explanations", "Matter Protocol"],
     partnerOrEcosystem: "ZoeWear Health & YLabZ AI",
     status: "Active R&D",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCo4YGQDwQgCctU4rVz4Mxqdls2j21Zgcqkyb436jyB1r3S59CIrOpgwUa27U1s_sdlfDIvYiOk2fl5JcVdLW3Slu0CIKUzKFz2svrdQJFEeFU5nOHoRtJhSR5JhL6zYqRKt5289LMaIkHBw3dGJa-NuWruX1QNkxoIgjATJL_WL4rnS8IOH26hu7bHzjmf_8KgFtge3w23eKDTLcA34P-S4EZJiJoZw-AM6kWY49j_",
+    imageUrl: "/assets/ylabz/aiml_edge_pipeline.png",
     badge: "Smart Kitchen Health",
     githubRepo: "https://github.com/developerY/AiFiXiT",
     githubName: "developerY/AiFiXiT"
@@ -607,7 +607,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     techStack: ["ChatGPT LLM", "Jetpack Compose", "Kotlin", "Google Play Console"],
     partnerOrEcosystem: "YLabZ Labs & Medium @zoewave",
     status: "In Production",
-    imageUrl: "/public/assets/aistudio/Image_1_bf091442.png",
+    imageUrl: "/assets/ylabz/android_reference_manual.png",
     badge: "Published on Play Store",
     githubRepo: "https://github.com/developerY/ComposeTemplate",
     githubName: "developerY/ComposeTemplate"
@@ -714,7 +714,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://medium.com/@zoewave",
     tags: ["Kotlin", "Swift", "Architecture", "Compose", "SwiftUI"],
     keyTakeaway: "Decouple business models into pure language abstractions; map declarative UI paradigms 1:1 between Jetpack Compose and SwiftUI.",
-    imageUrl: "/public/assets/aistudio/Image_1_bf091442.png"
+    imageUrl: "/assets/ylabz/ylabz_multiplatform_diagram.png"
   },
   {
     id: "art-02",
@@ -727,7 +727,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://medium.com/@zoewave",
     tags: ["Mobile Future", "KMP", "Swift Concurrency", "Zero-Serialization"],
     keyTakeaway: "The winning paradigm avoids sluggish JavaScript bridges in favor of direct C++ JSI host objects or Kotlin Multiplatform native artifacts.",
-    imageUrl: "/public/assets/aistudio/Image_3_51c9b753.png"
+    imageUrl: "/assets/ylabz/platforms_overview_stack.png"
   },
   {
     id: "art-03",
@@ -740,7 +740,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://ylabz.com",
     tags: ["MAD", "Jetpack Compose", "Hilt", "RoomDB", "Architecture"],
     keyTakeaway: "Modularize by feature; keep ViewModels lean and UI state immutable via Kotlin StateFlow.",
-    imageUrl: "/assets/images/coral_frontier_lab_1793915443237.jpg"
+    imageUrl: "/assets/ylabz/android_mad_architecture.png"
   },
   {
     id: "art-04",
@@ -753,7 +753,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://medium.com/@zoewave",
     tags: ["PyTorch", "CoreML", "TFLite", "INT8 Quantization", "NPU"],
     keyTakeaway: "Do not ship FP32 weights to mobile phones. Quantize to INT8 with post-training calibration to drop latency by 80% with negligible loss in accuracy.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCo4YGQDwQgCctU4rVz4Mxqdls2j21Zgcqkyb436jyB1r3S59CIrOpgwUa27U1s_sdlfDIvYiOk2fl5JcVdLW3Slu0CIKUzKFz2svrdQJFEeFU5nOHoRtJhSR5JhL6zYqRKt5289LMaIkHBw3dGJa-NuWruX1QNkxoIgjATJL_WL4rnS8IOH26hu7bHzjmf_8KgFtge3w23eKDTLcA34P-S4EZJiJoZw-AM6kWY49j_"
+    imageUrl: "/assets/ylabz/aiml_quantization_onnx.png"
   },
   {
     id: "art-05",
@@ -766,7 +766,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://medium.com/@zoewave",
     tags: ["visionOS", "RealityKit", "Spatial Computing", "SwiftUI", "Polyspatial"],
     keyTakeaway: "Spatial interfaces must respect human eye biomechanics; never lock windows rigidly to head orientation.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-cGUs8k1pMh-_wypCoxaV01wEkoGReFg1dXRJfDY9FW3_gyiLCF4R0E7Yc-TWcIm-tPIlb9rJRQ03KAjCYEGBPZzFxZqXkSwM3Pm6P8_TjhKzqD-5RRcR8tpZvQYd2maVrxgXUkr_95sJyb4RhzvSDoXy1aCbOcXkfwdzMnuy5F1zNLLH89aFpeB_TBNLH0F5740RzvoA-AmaTtDxn4MOixwtj3pA-97hz1sb5j7O"
+    imageUrl: "/assets/ylabz/visionos_spatial_computing.png"
   },
   {
     id: "art-06",
@@ -779,7 +779,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://medium.com/@zoewave",
     tags: ["WearOS", "watchOS", "BLE", "Biosensors", "Battery Optimization"],
     keyTakeaway: "Use asynchronous hardware interrupts rather than continuous polling loops to achieve sub-0.2% battery drain per hour.",
-    imageUrl: "/assets/images/coral_zoewear_1793915441647.jpg"
+    imageUrl: "/assets/ylabz/wearos_biotelemetry.png"
   },
   {
     id: "art-07",
@@ -805,7 +805,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://medium.com/@zoewave",
     tags: ["MAX Engine", "CUDA", "Apple Silicon", "AMD ROCm", "Hardware Agnostic"],
     keyTakeaway: "MAX graph compilation delivers 2.8x to 4.2x higher throughput by auto-fusing memory-bound kernels, completely eliminating custom C++ CUDA boilerplate.",
-    imageUrl: "/assets/images/coral_modular_max_1793915442661.jpg"
+    imageUrl: "/assets/ylabz/aiml_neural_engine.png"
   },
   {
     id: "art-09",
@@ -818,7 +818,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://zoewave.medium.com/modern-android-app-e104693946e4",
     tags: ["MVI", "Compose Material 3", "Hilt", "Room", "Turbine", "CI/CD"],
     keyTakeaway: "Unidirectional data flow with an immutable intent channel (MVI) simplifies temporal tracking and delivers bulletproof unit testing.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuBCwSwsKHHNdZBPaXz0yorygwsyGLz6DjP9eYEbrcJMY1bDu2-P3ovu-49q3gPiN-T21tHCcChtVV-fKasvro_z0WG15qLjwCVhh2yUFSZezbFpvcBEk4IA_BsNlAc4XSOe4II3K4phFJ45TAhVCgnSx1lcaZoJQEkbiLbfdsPsf8Ld91pj8eFY2reC041MvVIv7imVyNRsauhBpm_Y6rbd5GJc_OZHVr0q6jRk7FkH"
+    imageUrl: "/assets/ylabz/android_compose_architecture.png"
   },
   {
     id: "art-10",
@@ -831,7 +831,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://ylabz.com/platforms/mobile/architecture",
     tags: ["SwiftData", "MVVM", "SwiftUI", "Paul Hegarty", "Mohammad Azam"],
     keyTakeaway: "SwiftData binds natively to SwiftUI views; shoehorning ViewModels creates unnecessary state synchronization layers.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-cGUs8k1pMh-_wypCoxaV01wEkoGReFg1dXRJfDY9FW3_gyiLCF4R0E7Yc-TWcIm-tPIlb9rJRQ03KAjCYEGBPZzFxZqXkSwM3Pm6P8_TjhKzqD-5RRcR8tpZvQYd2maVrxgXUkr_95sJyb4RhzvSDoXy1aCbOcXkfwdzMnuy5F1zNLLH89aFpeB_TBNLH0F5740RzvoA-AmaTtDxn4MOixwtj3pA-97hz1sb5j7O"
+    imageUrl: "/assets/ylabz/ios_architecture_manual.png"
   },
   {
     id: "art-11",
@@ -844,7 +844,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://zoewave.medium.com/ml-on-android-1ecc451625a6",
     tags: ["MediaPipe", "Gemini Nano", "AI Core", "Core ML", "TFLite", "On-Device"],
     keyTakeaway: "Use ML Kit/Core ML for rapid turnkey vision; pick TF Lite/Mojo when low-level INT8 quantization and custom hardware delegates are vital.",
-    imageUrl: "/assets/images/coral_modular_max_1793915442661.jpg"
+    imageUrl: "/assets/ylabz/aiml_edge_pipeline.png"
   },
   {
     id: "art-12",
@@ -857,7 +857,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://medium.com/@zoewave/ai-fixed-coding-9076db6a4a19",
     tags: ["GenAI", "ChatGPT", "Jetpack Compose", "Play Store", "AI Coding"],
     keyTakeaway: "Modern AI coding tools eliminate redundant boilerplate, allowing individual architects to develop complete native Android and iOS apps in parallel.",
-    imageUrl: "/public/assets/aistudio/Image_1_bf091442.png"
+    imageUrl: "/assets/ylabz/android_reference_manual.png"
   },
   {
     id: "art-13",
@@ -870,7 +870,7 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     url: "https://ylabz.com/platforms/mobile/architecture/kmp-rn",
     tags: ["KMP", "Native Dev", "GenAI", "Gradle", "Swift SPM", "Two Native Apps"],
     keyTakeaway: "Rather than taking on the cognitive load and build tooling overhead of KMP, building truly native on both platforms delivers uncompromised 1st-party performance and UX.",
-    imageUrl: "/assets/images/coral_ashbike_1793915441529.jpg"
+    imageUrl: "/assets/ylabz/ios_swiftui_diagram.png"
   }
 ];
 

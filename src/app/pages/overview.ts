@@ -368,9 +368,9 @@ export interface InnovationHighlight {
                   <div class="w-full h-44 rounded-xl overflow-hidden relative border border-slate-200 bg-slate-100">
                     <img
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                      alt="Modular MAX and Mojo hardware accelerator substrate"
+                      alt="Authentic YLabz multiplatform architecture stack diagram"
                       referrerpolicy="no-referrer"
-                      src="/assets/images/coral_modular_max_1793915442661.jpg" />
+                      src="/assets/ylabz/platforms_overview_stack.png" />
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                       <span class="font-mono text-xs font-semibold text-white drop-shadow-md">MODULAR &amp; CHIPS</span>
@@ -413,9 +413,9 @@ export interface InnovationHighlight {
                   <div class="w-full h-44 rounded-xl overflow-hidden relative border border-slate-200 bg-slate-100">
                     <img
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                      alt="AshBike e-bike prototype with carbon chassis"
+                      alt="Authentic AshBike e-bike prototype from YLabz"
                       referrerpolicy="no-referrer"
-                      src="/assets/images/coral_ashbike_1793915441529.jpg" />
+                      src="/assets/ylabz/ashbike_portfolio.png" />
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                       <span class="font-mono text-xs font-semibold text-white drop-shadow-md">ASHBIKE &amp; BLUEPRINTS</span>
@@ -458,9 +458,9 @@ export interface InnovationHighlight {
                   <div class="w-full h-44 rounded-xl overflow-hidden relative border border-slate-200 bg-slate-100">
                     <img
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                      alt="Y? Lab Z Frontier Lab research and publication environment"
+                      alt="Authentic YLabz multiplatform architecture diagram"
                       referrerpolicy="no-referrer"
-                      src="/assets/images/coral_frontier_lab_1793915443237.jpg" />
+                      src="/assets/ylabz/ylabz_multiplatform_diagram.png" />
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                       <span class="font-mono text-xs font-semibold text-white drop-shadow-md">ARTICLES &amp; THESIS</span>
@@ -560,7 +560,7 @@ export class OverviewComponent {
       tagline: 'Aggressive motorcycle ergonomics with on-bike AI motor torque curves',
       category: 'Smart Mobility',
       badge: 'G.N.Seven Carbon Chassis',
-      imageUrl: '/assets/images/coral_ashbike_1793915441529.jpg',
+      imageUrl: '/assets/ylabz/ashbike_portfolio.png',
       description: 'Revolutionizing the electric mobility market by marrying motorcycle ergonomics with real-time AI motor torque curves, battery thermal optimization, and integrated telemetry across Android & iOS.',
       statLabel: 'REAL-TIME TORQUE LATENCY',
       statValue: '2.4 ms',
@@ -575,7 +575,7 @@ export class OverviewComponent {
       tagline: 'Physiological Intelligent Clothing with conductive smart fabric sensors',
       category: 'Bio-Wearables',
       badge: 'Conductive Smart Knit',
-      imageUrl: '/assets/images/coral_zoewear_1793915441647.jpg',
+      imageUrl: '/assets/ylabz/wearos_biotelemetry.png',
       description: 'Medical-grade continuous diagnostics woven seamlessly into everyday haute couture textiles. Knitted conductive thread feeds continuous PPG, ECG, and surface EMG into ultra-low-power microcontrollers.',
       statLabel: 'WASH CYCLE RESILIENCE',
       statValue: '100+ CYCLES',

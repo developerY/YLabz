@@ -269,8 +269,8 @@ import {
                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div class="rounded-2xl overflow-hidden border border-slate-200 relative group aspect-[16/9] bg-slate-100 shadow-sm">
                       <img
-                        src="/assets/images/coral_ashbike_1793915441529.jpg"
-                        alt="AshBike e-bike prototype"
+                        src="/assets/ylabz/ashbike_portfolio.png"
+                        alt="Authentic AshBike prototype from YLabz"
                         referrerpolicy="no-referrer"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                       <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
@@ -282,13 +282,13 @@ import {
 
                     <div class="rounded-2xl overflow-hidden border border-slate-200 relative group aspect-[16/9] bg-slate-100 shadow-sm">
                       <img
-                        src="/assets/images/coral_zoewear_1793915441647.jpg"
-                        alt="ZoeWear intelligent clothing with biosensors"
+                        src="/assets/ylabz/wearos_watch_sensors.png"
+                        alt="Authentic WearOS watch telemetry from YLabz"
                         referrerpolicy="no-referrer"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                       <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
                       <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-xs">
-                        <span class="font-bold text-white drop-shadow">ZoeWear Smart Knit</span>
+                        <span class="font-bold text-white drop-shadow">ZoeWear Smart Sensors</span>
                         <span class="text-emerald-300 font-semibold drop-shadow">Swift + WearOS</span>
                       </div>
                     </div>
@@ -1370,27 +1370,21 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                   </div>
                 </div>
 
-                <!-- Right Column: Simulated Spatial HUD (Light Theme) -->
+                <!-- Right Column: Authentic visionOS Spatial Asset (Light Theme) -->
                 <div class="lg:col-span-5 flex flex-col gap-4">
-                  <div class="relative rounded-xl overflow-hidden bg-white border border-slate-200 h-64 p-5 flex flex-col justify-between shadow-sm">
-                    <div class="absolute inset-0 bg-[radial-gradient(#0284c7_1px,transparent_1px)] [background-size:16px_16px] opacity-15"></div>
-                    <div class="relative z-10 flex items-center justify-between">
-                      <div class="flex items-center gap-2">
-                        <span class="w-2.5 h-2.5 rounded-full bg-sky-500 animate-ping"></span>
-                        <span class="font-mono text-xs text-sky-700 font-semibold">STEREO_CANVAS_ACTIVE</span>
-                      </div>
-                      <span class="font-mono text-xs text-sky-700 font-semibold">FOV: 110° BINO</span>
+                  <div class="relative rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 h-64 group shadow-sm">
+                    <img
+                      src="/assets/ylabz/visionos_spatial_computing.png"
+                      alt="Authentic Apple Vision Pro and visionOS diagram from YLabz"
+                      referrerpolicy="no-referrer"
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"></div>
+                    <div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-slate-900/90 text-sky-300 font-mono text-[11px] font-bold border border-slate-700">
+                      AUTHENTIC YLABZ // VISIONOS SPATIAL
                     </div>
-
-                    <div class="relative z-10 mx-auto w-24 h-24 flex items-center justify-center">
-                      <div class="w-full h-full rounded-full border border-sky-400/50 animate-spin" style="animation-duration: 18s;"></div>
-                      <div class="absolute w-12 h-12 rounded-full border border-teal-500"></div>
-                      <span class="material-symbols-outlined text-sky-600 text-[22px]">filter_center_focus</span>
-                    </div>
-
-                    <div class="relative z-10 flex items-center justify-between font-mono text-[11px] text-slate-500">
-                      <span>HANDS: TRACKED [24-DOF]</span>
-                      <span class="text-sky-700 font-semibold">ZOEWARE_CORE::LOADED</span>
+                    <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between font-mono text-xs text-white">
+                      <span class="font-bold">Apple Vision Pro Lab</span>
+                      <span class="text-sky-300 font-semibold">RealityKit 4 &amp; Polyspatial</span>
                     </div>
                   </div>
 
@@ -1546,6 +1540,23 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                     <div class="pt-2 text-slate-500 text-[11px] flex justify-between border-t border-slate-100">
                       <span>STATE VECTOR: |Ψ⟩ = (|000⟩ + |111⟩)/√2</span>
                       <span class="text-sky-700 font-semibold">ENTANGLED</span>
+                    </div>
+                  </div>
+
+                  <!-- Authentic Quantum & PyO3 Rust Simulation Asset from YLabz.com -->
+                  <div class="relative rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 h-48 group shadow-sm">
+                    <img
+                      src="/assets/ylabz/quantum_computing_pyo3.png"
+                      alt="Authentic Quantum Computing and Rust PyO3 simulation diagram from YLabz"
+                      referrerpolicy="no-referrer"
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                    <div class="absolute top-2.5 left-3 px-2.5 py-0.5 rounded bg-slate-900/90 text-purple-300 font-mono text-[10px] font-bold border border-slate-700">
+                      AUTHENTIC YLABZ // QUANTUM PYO3
+                    </div>
+                    <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between font-mono text-xs text-white">
+                      <span class="font-bold">Rust PyO3 Quantum Engine</span>
+                      <span class="text-purple-300 font-semibold">128-Qubit State Sim</span>
                     </div>
                   </div>
 

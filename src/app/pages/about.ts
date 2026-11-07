@@ -29,7 +29,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             </p>
           </div>
 
-          <!-- Palo Alto Lab Facility Visual Showcase (Images Preserved with Precision High-Tech Frame) -->
+          <!-- Palo Alto Lab Facility Visual Showcase (Frontier Lab Office Visual) -->
           <div class="mt-8 relative w-full h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden border border-slate-200 shadow-md group bg-slate-100">
             <img
               src="/assets/images/coral_frontier_lab_1793915443237.jpg"
@@ -266,8 +266,8 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             <div class="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm flex flex-col group hover:border-amber-400 hover:shadow-md transition-all">
               <div class="aspect-[16/10] overflow-hidden relative bg-slate-100">
                 <img
-                  src="/assets/images/coral_ashbike_1793915441529.jpg"
-                  alt="AshBike e-bike prototype"
+                  src="/assets/ylabz/ashbike_portfolio.png"
+                  alt="Authentic AshBike e-bike prototype from YLabz"
                   referrerpolicy="no-referrer"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
@@ -286,8 +286,8 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             <div class="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm flex flex-col group hover:border-purple-400 hover:shadow-md transition-all">
               <div class="aspect-[16/10] overflow-hidden relative bg-slate-100">
                 <img
-                  src="/assets/images/coral_zoewear_1793915441647.jpg"
-                  alt="ZoeWear intelligent clothing"
+                  src="/assets/ylabz/wearos_biotelemetry.png"
+                  alt="Authentic ZoeWear bio-telemetry dashboard from YLabz"
                   referrerpolicy="no-referrer"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
@@ -306,8 +306,8 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             <div class="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm flex flex-col group hover:border-emerald-400 hover:shadow-md transition-all">
               <div class="aspect-[16/10] overflow-hidden relative bg-slate-100">
                 <img
-                  src="/assets/images/coral_zoerobo_1793915442432.jpg"
-                  alt="ZoeRobo autonomous robot"
+                  src="/assets/ylabz/ylabz_hero_system.png"
+                  alt="Authentic YLabz system architecture visual"
                   referrerpolicy="no-referrer"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
@@ -340,6 +340,40 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             <span class="px-3 py-1.5 rounded-xl bg-slate-100 border border-slate-200 text-slate-800 font-mono text-xs font-bold self-start sm:self-auto shadow-sm">
               9 INCUBATED COMPANIES
             </span>
+          </div>
+
+          <!-- Authentic G.N.Seven Design Blueprint from YLabz.com/about-us -->
+          <div class="relative w-full rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm p-4 sm:p-6 flex flex-col lg:flex-row items-center gap-6">
+            <div class="w-full lg:w-1/2 aspect-[16/10] rounded-2xl overflow-hidden border border-slate-200 bg-slate-100 relative group">
+              <img
+                src="/assets/ylabz/gnseven_design.png"
+                alt="Authentic G.N.Seven Design diagram from YLabz"
+                referrerpolicy="no-referrer"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
+              <div class="absolute bottom-3 left-3 px-3 py-1 rounded-lg bg-slate-900/90 text-white font-mono text-xs font-bold border border-slate-700 shadow-sm">
+                AUTHENTIC YLABZ // G.N.SEVEN DESIGN
+              </div>
+            </div>
+
+            <div class="w-full lg:w-1/2 flex flex-col gap-3">
+              <div class="flex items-center gap-2">
+                <span class="px-2.5 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-700 font-mono text-xs font-bold">CORE DESIGN PARTNER</span>
+                <span class="text-slate-400 font-mono text-xs">•</span>
+                <span class="font-mono text-xs text-slate-500">ZOEWAVE ECOSYSTEM</span>
+              </div>
+              <h3 class="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
+                G.N.Seven: Industrial &amp; Mechanical Design
+              </h3>
+              <p class="text-sm text-slate-600 leading-relaxed">
+                As showcased on YLabz.com, G.N.Seven serves as the aesthetic and physical engineering counterpart to YLabz software algorithms. From the motorcycle-inspired carbon monocoque of AshBike to physiological intelligent clothing patterns for ZoeWear, G.N.Seven crafts the physical form factor while YLabZ engineers the silicon and firmware.
+              </p>
+              <div class="flex flex-wrap items-center gap-2 pt-2 text-xs font-mono text-slate-700">
+                <span class="px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200">Carbon Fiber Chassis</span>
+                <span class="px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200">Ergonomic Form Factors</span>
+                <span class="px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200">Bio-Sensor Weaves</span>
+              </div>
+            </div>
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
