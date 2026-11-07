@@ -117,6 +117,15 @@ import {YLABZ_PROJECTS, YLabZProject} from '../data/ylabz-data';
                   : 'px-3.5 py-2 rounded-xl font-label-caps font-medium tracking-wide bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200 transition-all whitespace-nowrap'">
                 HEALTHCARE AI
               </button>
+
+              <button
+                type="button"
+                (click)="setCategory('agency')"
+                [class]="selectedCategory() === 'agency'
+                  ? 'px-3.5 py-2 rounded-xl font-label-caps font-semibold tracking-wide bg-sky-600 text-white transition-all whitespace-nowrap shadow-sm shadow-sky-600/20'
+                  : 'px-3.5 py-2 rounded-xl font-label-caps font-medium tracking-wide bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200 transition-all whitespace-nowrap'">
+                LOCAL &amp; AD TECH
+              </button>
             </div>
           </div>
         </div>

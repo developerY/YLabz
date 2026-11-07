@@ -1,6 +1,12 @@
 import {ChangeDetectionStrategy, Component, signal, computed} from '@angular/core';
 import {RouterLink} from '@angular/router';
-import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
+import {
+  MODULAR_PLATFORM_DATA,
+  YLABZ_MOBILE_FIRSTS,
+  YLABZ_ARCHITECTURE_COMPARISON,
+  YLABZ_CLEAN_ANDROID_STACK,
+  YLABZ_MOBILE_ML_ARSENAL
+} from '../data/ylabz-data';
 
 @Component({
   selector: 'app-platforms',
@@ -327,6 +333,144 @@ import {MODULAR_PLATFORM_DATA} from '../data/ylabz-data';
     &#125;
 &#125;</code></pre>
                   </div>
+                </div>
+              </div>
+
+              <!-- ARCHITECTURE DEEP DIVE: MVI VS MVVM VS MVP VS MVC (Direct from YLabz.com) -->
+              <div class="p-6 md:p-8 bg-[#fffbf9] border-t border-slate-200 flex flex-col gap-6">
+                <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-4">
+                  <div>
+                    <div class="flex items-center gap-2">
+                      <span class="font-mono text-xs font-bold text-[#ea580c] uppercase tracking-wider">YLABZ ARCHITECTURAL DIRECTIVE</span>
+                      <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] font-mono text-[11px] text-[#9a3412] font-semibold">FROM YLABZ.COM/PLATFORMS/MOBILE</span>
+                    </div>
+                    <h3 class="text-2xl font-bold font-display text-slate-900 tracking-tight mt-1">
+                      Not All Mobile Architectures Are The Same: The MVI Imperative
+                    </h3>
+                    <p class="text-sm text-slate-600 max-w-3xl mt-1.5 leading-relaxed">
+                      "Choosing the right architecture is crucial in mobile app development. Here is how YLabZ evaluates the evolutionary path from legacy MVC to immutable MVI."
+                    </p>
+                  </div>
+                  <span class="px-3 py-1.5 rounded-xl bg-white border border-[#fed7cc] text-[#9a3412] font-mono text-xs font-bold self-start lg:self-auto shadow-xs">
+                    PARADIGM: MVI + CLEAN ARCH
+                  </span>
+                </div>
+
+                <!-- Comparison Cards Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                  @for (arch of archComparison; track arch.pattern) {
+                    <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between"
+                         [class.ring-2]="arch.pattern.includes('MVI')"
+                         [class.ring-[#ea580c]]="arch.pattern.includes('MVI')">
+                      <div>
+                        <div class="flex items-center justify-between mb-2">
+                          <span class="font-bold text-slate-900 text-sm">{{ arch.pattern }}</span>
+                          @if (arch.pattern.includes('MVI')) {
+                            <span class="px-2 py-0.5 rounded bg-[#ea580c] text-white font-mono text-[10px] font-bold">CHOSEN</span>
+                          }
+                        </div>
+                        <p class="text-xs text-slate-600 leading-relaxed mb-4">{{ arch.verdict }}</p>
+                      </div>
+
+                      <div class="pt-3 border-t border-slate-100 flex flex-col gap-1 text-[11px] font-mono">
+                        <div class="flex justify-between"><span class="text-slate-400">Testability:</span><span class="font-bold text-slate-800">{{ arch.testability }}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Reactivity:</span><span class="font-bold text-slate-800">{{ arch.reactivity }}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">State:</span><span class="font-bold text-slate-800">{{ arch.stateIntegrity }}</span></div>
+                      </div>
+                    </div>
+                  }
+                </div>
+
+                <!-- KMP vs Native with GenAI Callout (Direct Quote from YLabz.com) -->
+                <div class="p-5 rounded-2xl bg-gradient-to-br from-[#fff7f5] via-[#ffebe6] to-[#feddd4] border border-[#fed7cc] flex flex-col md:flex-row md:items-center justify-between gap-4">
+                  <div class="flex items-start gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-white border border-[#fed7cc] flex items-center justify-center text-[#ea580c] shrink-0">
+                      <span class="material-symbols-outlined text-[22px]">smart_toy</span>
+                    </div>
+                    <div>
+                      <h4 class="font-bold text-slate-900 text-sm">
+                        KMP vs Truly Native: "With GenAI we can build both before most can figure out KMP Gradle ... LoL"
+                      </h4>
+                      <p class="text-xs text-slate-700 mt-1 leading-relaxed max-w-3xl">
+                        Direct from YLabz.com analysis: Generative AI tools (ChatGPT, Gemini) eliminate the repetitive boilerplate of multi-platform apps. Instead of wrestling with KMP Gradle complexity, experimental bridge bindings, and delayed iOS 1st-party APIs, YLabZ leverages AI to write idiomatic, 100% native Swift and Kotlin apps with maximum 120Hz platform fluidity.
+                      </p>
+                    </div>
+                  </div>
+                  <a href="https://ylabz.com/platforms/mobile/architecture/kmp-rn" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-[#fed7cc] text-[#9a3412] font-mono text-xs font-bold shrink-0 transition-colors">
+                    Read YLabz Essay
+                  </a>
+                </div>
+              </div>
+
+              <!-- MOBILE FIRSTS & TRACK RECORD (Direct from YLabz.com) -->
+              <div class="p-6 md:p-8 bg-white border-t border-slate-200 flex flex-col gap-6">
+                <div>
+                  <span class="font-mono text-xs font-bold text-sky-700 uppercase tracking-wider">PROVEN MOBILE TRACK RECORD</span>
+                  <h3 class="text-2xl font-bold font-display text-slate-900 tracking-tight mt-1">
+                    YLabZ / developerY Mobile Firsts
+                  </h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  @for (first of mobileFirsts; track first.platform) {
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
+                      <div>
+                        <div class="flex items-center justify-between mb-3">
+                          <h4 class="font-bold text-slate-900 text-base">{{ first.platform }}</h4>
+                          <span class="px-2.5 py-0.5 rounded-full bg-white border border-slate-200 text-sky-700 font-mono text-[10px] font-bold">
+                            {{ first.highlight }}
+                          </span>
+                        </div>
+                        <ul class="space-y-2 text-xs text-slate-600">
+                          @for (m of first.milestones; track m) {
+                            <li class="flex items-start gap-2">
+                              <span class="material-symbols-outlined text-sky-600 text-[16px] mt-0.5">verified</span>
+                              <span>{{ m }}</span>
+                            </li>
+                          }
+                        </ul>
+                      </div>
+                    </div>
+                  }
+                </div>
+              </div>
+
+              <!-- MOBILE ML ARSENAL: ANDROID & IOS (Direct from YLabz.com) -->
+              <div class="p-6 md:p-8 bg-[#fffbf9] border-t border-slate-200 flex flex-col gap-6">
+                <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+                  <div>
+                    <span class="font-mono text-xs font-bold text-[#ea580c] uppercase tracking-wider">ON-DEVICE ML ARSENAL</span>
+                    <h3 class="text-2xl font-bold font-display text-slate-900 tracking-tight mt-1">
+                      Demystifying Mobile Machine Learning: Multi-Tool Approach
+                    </h3>
+                    <p class="text-xs sm:text-sm text-slate-600 mt-1 max-w-2xl leading-relaxed">
+                      From YLabz.com: "When it comes to Android &amp; iOS, there is no one-size-fits-all solution for ML. Here is our calibrated multi-tool matrix."
+                    </p>
+                  </div>
+                  <span class="font-mono text-xs text-slate-500">PYTORCH · TENSORFLOW LITE · CORE ML · CREATEML</span>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  @for (arsenal of mobileMlArsenal; track arsenal.ecosystem) {
+                    <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col gap-3">
+                      <h4 class="font-bold text-slate-900 text-sm border-b border-slate-100 pb-2">
+                        {{ arsenal.ecosystem }}
+                      </h4>
+                      <div class="space-y-3">
+                        @for (tool of arsenal.tools; track tool.name) {
+                          <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col gap-1">
+                            <div class="flex items-center justify-between">
+                              <span class="font-bold text-slate-900 text-xs font-mono">{{ tool.name }}</span>
+                              <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-white border border-slate-200 text-sky-700 font-semibold">
+                                {{ tool.role }}
+                              </span>
+                            </div>
+                            <p class="text-[11px] text-slate-600 leading-relaxed">{{ tool.detail }}</p>
+                          </div>
+                        }
+                      </div>
+                    </div>
+                  }
                 </div>
               </div>
             </section>
@@ -1520,6 +1664,11 @@ job = sampler.run([qc])</code></pre>
 })
 export class PlatformsComponent {
   modularData = MODULAR_PLATFORM_DATA;
+  mobileFirsts = YLABZ_MOBILE_FIRSTS;
+  archComparison = YLABZ_ARCHITECTURE_COMPARISON;
+  cleanAndroidStack = YLABZ_CLEAN_ANDROID_STACK;
+  mobileMlArsenal = YLABZ_MOBILE_ML_ARSENAL;
+
   activeFilter = signal<'all' | 'modular' | 'mobile' | 'aiml' | 'spatial' | 'quantum'>('all');
   viewMode = signal<'specs' | 'code' | 'status'>('specs');
   cliCopied = signal<boolean>(false);

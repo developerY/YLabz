@@ -321,6 +321,170 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             </div>
           </div>
         </section>
+
+        <!-- ZOEWAVE INCUBATED VENTURES & PORTFOLIO (Directly from YLabz.com/about-us) -->
+        <section class="flex flex-col gap-6 pt-6 border-t border-slate-200">
+          <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+            <div>
+              <span class="font-mono text-xs font-bold text-[#ea580c] uppercase tracking-wider">STRATEGIC VENTURE PORTFOLIO</span>
+              <h2 class="font-headline-lg text-slate-900 font-bold tracking-tight mt-1">
+                ZoeWave &amp; YLabZ Companies
+              </h2>
+              <p class="text-xs sm:text-sm text-slate-600 mt-1 max-w-2xl leading-relaxed">
+                From YLabz.com: "ZoeWave oversees the strategic development of several innovative companies. Core R&amp;D at YLabZ — Core Design at G.N.Seven."
+              </p>
+            </div>
+            <span class="px-3 py-1.5 rounded-xl bg-white border border-[#fed7cc] text-[#9a3412] font-mono text-xs font-bold self-start sm:self-auto shadow-xs">
+              9 INCUBATED COMPANIES
+            </span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#fed7cc] hover:shadow-md transition-all group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-bold text-slate-900 text-base group-hover:text-[#ea580c] transition-colors">AshBike</span>
+                  <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] text-[#9a3412] font-mono text-[10px] font-bold">MOBILITY</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Revolutionizing the e-bike market with motorcycle-inspired aesthetics, carbon fiber unibody frames, and real-time AI torque curve optimization.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                <span>R&amp;D: YLabZ</span>
+                <span class="text-[#c2410c] font-semibold">G.N.Seven Design</span>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#fed7cc] hover:shadow-md transition-all group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-bold text-slate-900 text-base group-hover:text-[#ea580c] transition-colors">ZoeWear</span>
+                  <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] text-[#9a3412] font-mono text-[10px] font-bold">SMART APPAREL</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  At the intersection of fashion and tech: Physiological Intelligent Clothing (PIC) integrating knitted biosensors for medical-grade continuous diagnostics.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                <span>WearOS &amp; watchOS</span>
+                <span class="text-[#c2410c] font-semibold">PIC Biosensors</span>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#fed7cc] hover:shadow-md transition-all group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-bold text-slate-900 text-base group-hover:text-[#ea580c] transition-colors">ZoeRobo</span>
+                  <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] text-[#9a3412] font-mono text-[10px] font-bold">PHYSICAL AI</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Pioneering AI-powered robotics for healthcare, residential security, and personal assistance, adapting to human environments with sub-cm accuracy.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                <span>Rust &amp; ROS2</span>
+                <span class="text-[#c2410c] font-semibold">LiDAR &amp; SLAM</span>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#fed7cc] hover:shadow-md transition-all group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-bold text-slate-900 text-base group-hover:text-[#ea580c] transition-colors">Hummingbird Fuel Rx</span>
+                  <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] text-[#9a3412] font-mono text-[10px] font-bold">THERAPEUTICS</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Developing AI-powered micro-dosing applications for personalized health interventions, starting with caffeine for targeted circadian energy boosts.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                <span>Kotlin &amp; Swift</span>
+                <span class="text-[#c2410c] font-semibold">Micro-Dosing AI</span>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#fed7cc] hover:shadow-md transition-all group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-bold text-slate-900 text-base group-hover:text-[#ea580c] transition-colors">RxDigita</span>
+                  <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] text-[#9a3412] font-mono text-[10px] font-bold">HEALTH AI</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Streamlining medication management with voice or photo input, label reading, drug interaction alerts, and caregiver sync channels.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                <span>FHIR &amp; Core ML</span>
+                <span class="text-[#c2410c] font-semibold">Rx Adherence</span>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#fed7cc] hover:shadow-md transition-all group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-bold text-slate-900 text-base group-hover:text-[#ea580c] transition-colors">ZoeWare</span>
+                  <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] text-[#9a3412] font-mono text-[10px] font-bold">SPATIAL AR/VR</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Innovating in AR/VR for healthcare, clinical visualization, and educational immersion across Apple visionOS, Android XR, and Meta Quest.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                <span>RealityKit &amp; Polyspatial</span>
+                <span class="text-[#c2410c] font-semibold">Apple HQ Trained</span>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#fed7cc] hover:shadow-md transition-all group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-bold text-slate-900 text-base group-hover:text-[#ea580c] transition-colors">Swift AI Ad Agency</span>
+                  <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] text-[#9a3412] font-mono text-[10px] font-bold">AD TECH</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Harnessing generative AI models to deliver data-driven, hyper-personalized advertising and conversion optimization for global clients.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                <span>Multimodal GenAI</span>
+                <span class="text-[#c2410c] font-semibold">Zero-Cookie ROI</span>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#fed7cc] hover:shadow-md transition-all group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-bold text-slate-900 text-base group-hover:text-[#ea580c] transition-colors">Jag.U.R™ Utility Robot</span>
+                  <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] text-[#9a3412] font-mono text-[10px] font-bold">QUADRUPED AI</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Envisioning trusted companion robotics: an intelligent Rust-based assistive robot dog engineered to navigate rugged spaces and assist daily living.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                <span>Rust Robotics RS</span>
+                <span class="text-[#c2410c] font-semibold">Micro-Kinematics</span>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#fed7cc] hover:shadow-md transition-all group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-bold text-slate-900 text-base group-hover:text-[#ea580c] transition-colors">DrunkWatch</span>
+                  <span class="px-2 py-0.5 rounded bg-[#fff0eb] border border-[#fed7cc] text-[#9a3412] font-mono text-[10px] font-bold">WEARABLES AI</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Continuous smartwatch bio-telemetry assessing intoxication and transit suitability via gait cadence analysis and autonomic nervous monitoring.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                <span>WearOS &amp; watchOS</span>
+                <span class="text-[#c2410c] font-semibold">Sobriety Protection</span>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   `
