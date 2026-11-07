@@ -11,6 +11,8 @@ export interface YLabZProject {
   status: 'In Production' | 'Active R&D' | 'Alpha Prototype' | 'Pilot Live';
   imageUrl: string;
   badge?: string;
+  githubRepo?: string;
+  githubName?: string;
 }
 
 export interface YLabZArticle {
@@ -249,7 +251,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "ZoeWave Mobility & G.N.Seven",
     status: "Active R&D",
     imageUrl: "/assets/images/coral_ashbike_1793915441529.jpg",
-    badge: "G.N.Seven Carbon Chassis"
+    badge: "G.N.Seven Carbon Chassis",
+    githubRepo: "https://github.com/developerY/AshBike",
+    githubName: "developerY/AshBike"
   },
   {
     id: "zoewear",
@@ -268,7 +272,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "ZoeWave Health & G.N.Seven",
     status: "Pilot Live",
     imageUrl: "/assets/images/coral_zoewear_1793915441647.jpg",
-    badge: "Conductive Smart Knit"
+    badge: "Conductive Smart Knit",
+    githubRepo: "https://github.com/developerY/ZoeWear",
+    githubName: "developerY/ZoeWear"
   },
   {
     id: "photodo",
@@ -287,7 +293,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "Y? LabZ Mobile & ZoeWave",
     status: "In Production",
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-cGUs8k1pMh-_wypCoxaV01wEkoGReFg1dXRJfDY9FW3_gyiLCF4R0E7Yc-TWcIm-tPIlb9rJRQ03KAjCYEGBPZzFxZqXkSwM3Pm6P8_TjhKzqD-5RRcR8tpZvQYd2maVrxgXUkr_95sJyb4RhzvSDoXy1aCbOcXkfwdzMnuy5F1zNLLH89aFpeB_TBNLH0F5740RzvoA-AmaTtDxn4MOixwtj3pA-97hz1sb5j7O",
-    badge: "Vision AI + Voice"
+    badge: "Vision AI + Voice",
+    githubRepo: "https://github.com/developerY/AiFiXiT",
+    githubName: "developerY/AiFiXiT"
   },
   {
     id: "zoerobo",
@@ -306,7 +314,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "ZoeWave Robotics R&D",
     status: "Alpha Prototype",
     imageUrl: "/assets/images/coral_zoerobo_1793915442432.jpg",
-    badge: "Autonomous Physical AI"
+    badge: "Autonomous Physical AI",
+    githubRepo: "https://github.com/developerY/HoverBike",
+    githubName: "developerY/HoverBike"
   },
   {
     id: "hummingbird",
@@ -325,7 +335,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "ZoeWave Bio-Lab",
     status: "Active R&D",
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuChYbwLqF5_83tQqQeipBscaz6AwGKfz7qCUZ_G7_EyiuLS2uhO7XBkfpY-Xrpo0i-VCiBYucu5vwgHwVWpi1818qHvWtQQ0dqTFx124b5RPtO3jpsKPnHck-j7c-l4P8u9AbxQja4uU-B1_tta7CE0SR9iUz_zc5yD-zPHF9YeGloEFbGwTwIQUtp2IHcSY0I8l82h5rxisx4kimebW7Zn5iMPKvpDfEXvrKFmhH0V",
-    badge: "Bio-Micro-Dosing Lab"
+    badge: "Bio-Micro-Dosing Lab",
+    githubRepo: "https://github.com/developerY/HummingbirdFuel",
+    githubName: "developerY/HummingbirdFuel"
   },
   {
     id: "rxdigita",
@@ -344,7 +356,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "ZoeWave Health Systems",
     status: "In Production",
     imageUrl: "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tgoL7sUQYGh77ehUqsnXBAYoD3gHU6TKuV8IM9JPZqPrEQecTkB4P8nUJKV1TRAInWyU3ro59gGl8l75SEcfV7piO6KYu1ppncA-jyeEacdCpfn8csbg4F5274KJfShib9Ntsw_v3KQyWz0uWTWamrv_qW2atMzwzF7dCY1mGCn-gCLClyGBMDDLgmjboCh8XJz2SmmUofIYV8_5UqebCtiDTJuQ59EZaD58Kk=w1280",
-    badge: "Computer Vision Medication"
+    badge: "Computer Vision Medication",
+    githubRepo: "https://github.com/developerY/GoSwift",
+    githubName: "developerY/GoSwift"
   },
   {
     id: "swift-ai",
@@ -363,7 +377,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "Swift AI & YLabZ",
     status: "In Production",
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuBCwSwsKHHNdZBPaXz0yorygwsyGLz6DjP9eYEbrcJMY1bDu2-P3ovu-49q3gPiN-T21tHCcChtVV-fKasvro_z0WG15qLjwCVhh2yUFSZezbFvcBEk4IA_BsNlAc4XSOe4II3K4phFJ45TAhVCgnSx1lcaZoJQEkbiLbfdsPsf8Ld91pj8eFY2reC041MvVIv7imVyNRsauhBpm_Y6rbd5GJc_OZHVr0q6jRk7FkH",
-    badge: "Multimodal Ad Engine"
+    badge: "Multimodal Ad Engine",
+    githubRepo: "https://github.com/developerY/VisionOStore",
+    githubName: "developerY/VisionOStore"
   },
   {
     id: "micro-drone",
@@ -382,7 +398,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "Y? LabZ Drone Works",
     status: "Active R&D",
     imageUrl: "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vC9ct-qWVWnSNA4gBp_wULOenbLYJukd2JPB8rWssPz_lEe2Y91etushF-byBlAN2AHX4VBIiEmzrdxP80MZnVJnAHCTFSet1OKO9fugLXL-K1w7zJV3NAERMCr-xeaaquSCbjoIrTEJd37V-i-xDde4lnwDcFdFKfa9GWiylz5tKCXYqZHRU45_j5pfAJMlSc9XBmn2RJLywyjeTrq2H6Uh8c1xegiwPCgXHv=w1280",
-    badge: "Autonomous Indoor Sentry"
+    badge: "Autonomous Indoor Sentry",
+    githubRepo: "https://github.com/developerY/Autonomous-Security-Micro-Drone",
+    githubName: "developerY/Autonomous-Security-Micro-Drone"
   },
   {
     id: "modular-max",
@@ -401,7 +419,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "Modular & Y? LabZ AI Core",
     status: "In Production",
     imageUrl: "/assets/images/coral_modular_max_1793915442661.jpg",
-    badge: "Modular MAX Silicon"
+    badge: "Modular MAX Silicon",
+    githubRepo: "https://github.com/developerY/MojoMax",
+    githubName: "developerY/MojoMax"
   },
   {
     id: "mojo-tensor-kernel",
@@ -420,7 +440,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "ZoeWave Bio-Lab & Modular",
     status: "Pilot Live",
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCo4YGQDwQgCctU4rVz4Mxqdls2j21Zgcqkyb436jyB1r3S59CIrOpgwUa27U1s_sdlfDIvYiOk2fl5JcVdLW3Slu0CIKUzKFz2svrdQJFEeFU5nOHoRtJhSR5JhL6zYqRKt5289LMaIkHBw3dGJa-NuWruX1QNkxoIgjATJL_WL4rnS8IOH26hu7bHzjmf_8KgFtge3w23eKDTLcA34P-S4EZJiJoZw-AM6kWY49j_",
-    badge: "68,420x SIMD Kernel"
+    badge: "68,420x SIMD Kernel",
+    githubRepo: "https://github.com/developerY/MojoMax",
+    githubName: "developerY/MojoMax (SIMD)"
   },
   {
     id: "drunkwatch",
@@ -439,7 +461,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "YLabZ Bio-Wearables & ZoeWave",
     status: "Active R&D",
     imageUrl: "/assets/images/coral_zoewear_1793915441647.jpg",
-    badge: "Smartwatch Bio-Sensor AI"
+    badge: "Smartwatch Bio-Sensor AI",
+    githubRepo: "https://github.com/developerY/ZoeWear",
+    githubName: "developerY/ZoeWear"
   },
   {
     id: "lego-car",
@@ -458,7 +482,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "YLabZ Robotics & Open Hardware",
     status: "Alpha Prototype",
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-cGUs8k1pMh-_wypCoxaV01wEkoGReFg1dXRJfDY9FW3_gyiLCF4R0E7Yc-TWcIm-tPIlb9rJRQ03KAjCYEGBPZzFxZqXkSwM3Pm6P8_TjhKzqD-5RRcR8tpZvQYd2maVrxgXUkr_95sJyb4RhzvSDoXy1aCbOcXkfwdzMnuy5F1zNLLH89aFpeB_TBNLH0F5740RzvoA-AmaTtDxn4MOixwtj3pA-97hz1sb5j7O",
-    badge: "Smartphone Vision Brain"
+    badge: "Smartphone Vision Brain",
+    githubRepo: "https://github.com/developerY/LEGO-Self-Driving-Car",
+    githubName: "developerY/LEGO-Self-Driving-Car"
   },
   {
     id: "jagur-robot",
@@ -477,7 +503,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "YLabZ Physical AI & ZoeRobo",
     status: "Active R&D",
     imageUrl: "/assets/images/coral_zoerobo_1793915442432.jpg",
-    badge: "Rust AI Assistive Dog"
+    badge: "Rust AI Assistive Dog",
+    githubRepo: "https://github.com/developerY/BikeVision",
+    githubName: "developerY/BikeVision"
   },
   {
     id: "fapa",
@@ -496,7 +524,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "Swift AI & YLabZ Ad Tech",
     status: "Pilot Live",
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCxSBNZkYOC6iwJExEB1sCzXMVbxaJdaJGsFmradi6YrNEbZv8YtdtxbXKMNGIC1KxxBdmCx4xYJmNglPJo5LdxwIxWvbKtaNmiDqpVm7Ebh4RfaHBeIE5xINx3ANV9W7BHoV9xfiZ-jvyTZtMKBZ7zeWUK_8zZ8yGad5DSZFefA6qt5HRLa-co4U6QA49Twu2f0SWn_zaA-VQpN0IcOLjY6SvuRmVV-cl9SDw_4D1n",
-    badge: "Privacy-First Vision Ad"
+    badge: "Privacy-First Vision Ad",
+    githubRepo: "https://github.com/developerY/ComposeTemplate",
+    githubName: "developerY/ComposeTemplate"
   },
   {
     id: "soda-fountain",
@@ -515,7 +545,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "YLabZ Consumer AI & ZoeWave",
     status: "Alpha Prototype",
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuChYbwLqF5_83tQqQeipBscaz6AwGKfz7qCUZ_G7_EyiuLS2uhO7XBkfpY-Xrpo0i-VCiBYucu5vwgHwVWpi1818qHvWtQQ0dqTFx124b5RPtO3jpsKPnHck-j7c-l4P8u9AbxQja4uU-B1_tta7CE0SR9iUz_zc5yD-zPHF9YeGloEFbGwTwIQUtp2IHcSY0I8l82h5rxisx4kimebW7Zn5iMPKvpDfEXvrKFmhH0V",
-    badge: "Cinema Taste Engine"
+    badge: "Cinema Taste Engine",
+    githubRepo: "https://github.com/developerY/ComposeTemplate",
+    githubName: "developerY/ComposeTemplate"
   },
   {
     id: "small-biz-ai",
@@ -534,7 +566,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "YLabZ Economic AI & Swift AI",
     status: "Pilot Live",
     imageUrl: "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tgoL7sUQYGh77ehUqsnXBAYoD3gHU6TKuV8IM9JPZqPrEQecTkB4P8nUJKV1TRAInWyU3ro59gGl8l75SEcfV7piO6KYu1ppncA-jyeEacdCpfn8csbg4F5274KJfShib9Ntsw_v3KQyWz0uWTWamrv_qW2atMzwzF7dCY1mGCn-gCLClyGBMDDLgmjboCh8XJz2SmmUofIYV8_5UqebCtiDTJuQ59EZaD58Kk=w1280",
-    badge: "Local Business Engine"
+    badge: "Local Business Engine",
+    githubRepo: "https://github.com/developerY/VisionOStore",
+    githubName: "developerY/VisionOStore"
   },
   {
     id: "appliance-nutritionist",
@@ -553,7 +587,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "ZoeWear Health & YLabZ AI",
     status: "Active R&D",
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCo4YGQDwQgCctU4rVz4Mxqdls2j21Zgcqkyb436jyB1r3S59CIrOpgwUa27U1s_sdlfDIvYiOk2fl5JcVdLW3Slu0CIKUzKFz2svrdQJFEeFU5nOHoRtJhSR5JhL6zYqRKt5289LMaIkHBw3dGJa-NuWruX1QNkxoIgjATJL_WL4rnS8IOH26hu7bHzjmf_8KgFtge3w23eKDTLcA34P-S4EZJiJoZw-AM6kWY49j_",
-    badge: "Smart Kitchen Health"
+    badge: "Smart Kitchen Health",
+    githubRepo: "https://github.com/developerY/AiFiXiT",
+    githubName: "developerY/AiFiXiT"
   },
   {
     id: "ai-app-gen",
@@ -572,7 +608,9 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
     partnerOrEcosystem: "YLabZ Labs & Medium @zoewave",
     status: "In Production",
     imageUrl: "/public/assets/aistudio/Image_1_bf091442.png",
-    badge: "Published on Play Store"
+    badge: "Published on Play Store",
+    githubRepo: "https://github.com/developerY/ComposeTemplate",
+    githubName: "developerY/ComposeTemplate"
   }
 ];
 
@@ -835,3 +873,151 @@ export const YLABZ_ARTICLES: YLabZArticle[] = [
     imageUrl: "/assets/images/coral_ashbike_1793915441529.jpg"
   }
 ];
+
+export interface DeveloperYRepo {
+  name: string;
+  repo: string;
+  url: string;
+  description: string;
+  language: string;
+  languageColor: string;
+  category: 'Android' | 'iOS/visionOS' | 'AI/Modular' | 'Robotics' | 'Wearables';
+  badge: string;
+  featured: boolean;
+}
+
+export const DEVELOPER_Y_REPOSITORIES: DeveloperYRepo[] = [
+  {
+    name: "AshBike",
+    repo: "developerY/AshBike",
+    url: "https://github.com/developerY/AshBike",
+    description: "Production motorcycle-inspired e-bike telemetry and real-time dashboard companion app in Swift & SwiftUI with CoreBluetooth.",
+    language: "Swift",
+    languageColor: "#f97316",
+    category: "iOS/visionOS",
+    badge: "Swift 6 Concurrency",
+    featured: true
+  },
+  {
+    name: "MojoMax",
+    repo: "developerY/MojoMax",
+    url: "https://github.com/developerY/MojoMax",
+    description: "Modular MAX Engine and Mojo SIMD kernels benchmarked in Google Colab; hardware-agnostic CUDA replacement.",
+    language: "Mojo",
+    languageColor: "#ff4500",
+    category: "AI/Modular",
+    badge: "68,420x Speedup",
+    featured: true
+  },
+  {
+    name: "ComposeTemplate",
+    repo: "developerY/ComposeTemplate",
+    url: "https://github.com/developerY/ComposeTemplate",
+    description: "Enterprise Modern Android Development (MAD) template with MVI architecture, Jetpack Compose, and Coroutines Flow.",
+    language: "Kotlin",
+    languageColor: "#a855f7",
+    category: "Android",
+    badge: "MAD Best Practice",
+    featured: true
+  },
+  {
+    name: "BikeVision",
+    repo: "developerY/BikeVision",
+    url: "https://github.com/developerY/BikeVision",
+    description: "Apple Vision Pro spatial computing application built with RealityKit and SwiftUI for immersive cycling telemetry.",
+    language: "Swift / RealityKit",
+    languageColor: "#06b6d4",
+    category: "iOS/visionOS",
+    badge: "visionOS Spatial",
+    featured: true
+  },
+  {
+    name: "HoverBike",
+    repo: "developerY/HoverBike",
+    url: "https://github.com/developerY/HoverBike",
+    description: "Next-generation Android XR and spatial input telemetry prototype for advanced mobility and simulation.",
+    language: "Kotlin / XR",
+    languageColor: "#10b981",
+    category: "Android",
+    badge: "Android XR",
+    featured: true
+  },
+  {
+    name: "AiFiXiT",
+    repo: "developerY/AiFiXiT",
+    url: "https://github.com/developerY/AiFiXiT",
+    description: "Gemini multimodal vision and code fix assistant with on-device camera inference and Jetpack Compose UI.",
+    language: "Kotlin / Gemini",
+    languageColor: "#3b82f6",
+    category: "AI/Modular",
+    badge: "Gemini Multimodal",
+    featured: true
+  },
+  {
+    name: "VisionOStore",
+    repo: "developerY/VisionOStore",
+    url: "https://github.com/developerY/VisionOStore",
+    description: "Spatial 3D commerce showcase for Apple Vision Pro with RealityKit volumetric assets and interactive USDZ manipulation.",
+    language: "SwiftUI / visionOS",
+    languageColor: "#ec4899",
+    category: "iOS/visionOS",
+    badge: "Volumetric 3D",
+    featured: true
+  },
+  {
+    name: "GoSwift",
+    repo: "developerY/GoSwift",
+    url: "https://github.com/developerY/GoSwift",
+    description: "Idiomatic Swift 6 concurrency patterns, SwiftData persistence, and zero-race actor boundaries for iOS 18+.",
+    language: "Swift 6",
+    languageColor: "#f59e0b",
+    category: "iOS/visionOS",
+    badge: "Swift 6 Actors",
+    featured: true
+  },
+  {
+    name: "Autonomous-Security-Micro-Drone",
+    repo: "developerY/Autonomous-Security-Micro-Drone",
+    url: "https://github.com/developerY/Autonomous-Security-Micro-Drone",
+    description: "Lightweight indoor sentry drone flight controller and telemetry hub with optical flow and obstacle avoidance.",
+    language: "Rust / C++",
+    languageColor: "#ef4444",
+    category: "Robotics",
+    badge: "Autonomous Sentry",
+    featured: true
+  },
+  {
+    name: "LEGO-Self-Driving-Car",
+    repo: "developerY/LEGO-Self-Driving-Car",
+    url: "https://github.com/developerY/LEGO-Self-Driving-Car",
+    description: "Self-driving LEGO vehicle using smartphone camera and on-device MediaPipe vision for lane detection and control.",
+    language: "Kotlin / MediaPipe",
+    languageColor: "#8b5cf6",
+    category: "Robotics",
+    badge: "Phone Compute Brain",
+    featured: true
+  },
+  {
+    name: "HummingbirdFuel",
+    repo: "developerY/HummingbirdFuel",
+    url: "https://github.com/developerY/HummingbirdFuel",
+    description: "Precision metabolic micro-dosing calculator with circadian rhythm modeling and multivariate biosensor sync.",
+    language: "Kotlin / Python",
+    languageColor: "#06b6d4",
+    category: "Wearables",
+    badge: "Digital Therapeutics",
+    featured: true
+  },
+  {
+    name: "ZoeWear",
+    repo: "developerY/ZoeWear",
+    url: "https://github.com/developerY/ZoeWear",
+    description: "Physiological intelligent clothing companion and WearOS / watchOS sensor stream synchronization engine.",
+    language: "Kotlin / Swift",
+    languageColor: "#10b981",
+    category: "Wearables",
+    badge: "Bio-Wearables",
+    featured: true
+  }
+];
+
