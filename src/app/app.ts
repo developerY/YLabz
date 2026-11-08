@@ -11,8 +11,8 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
       <div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6">
         <!-- Brand Wordmark Zone -->
         <a routerLink="/" class="flex items-center gap-3.5 shrink-0 group">
-          <div class="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center group-hover:border-sky-500 group-hover:shadow-[0_0_20px_rgba(14,165,233,0.3)] transition-all">
-            <span class="material-symbols-outlined text-sky-400 text-[22px]">science</span>
+          <div class="h-12 px-2.5 py-1 rounded-xl overflow-hidden border border-slate-200 bg-white flex items-center justify-center group-hover:border-sky-500 shadow-xs transition-all">
+            <img src="/assets/aistudio/unnamed_44bf9102.jpg" alt="Y? Labz official logo" referrerpolicy="no-referrer" class="h-full w-auto object-contain" />
           </div>
           <div class="flex flex-col">
             <div class="flex items-center gap-2">
@@ -108,8 +108,8 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
           <!-- Laboratory Identity -->
           <div class="lg:col-span-2 flex flex-col gap-3.5">
             <div class="flex items-center gap-3">
-              <div class="w-8 h-8 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center shadow-sm">
-                <span class="material-symbols-outlined text-sky-400 text-[18px]">deployed_code</span>
+              <div class="h-10 px-2.5 py-1 rounded-xl overflow-hidden border border-slate-200 bg-white flex items-center justify-center shadow-xs">
+                <img src="/assets/aistudio/unnamed_44bf9102.jpg" alt="Y? Labz official logo" referrerpolicy="no-referrer" class="h-full w-auto object-contain" />
               </div>
               <span class="font-headline-sm text-slate-900 font-bold">Y? Lab Z</span>
               <span class="font-label-caps text-xs px-2.5 py-0.5 rounded-full bg-sky-50 text-sky-700 border border-sky-200 font-semibold">

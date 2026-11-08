@@ -189,6 +189,20 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
           </div>
 
           <div class="lg:col-span-4 flex flex-col gap-6">
+            <!-- Official Lab Logo Brand Card -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm flex flex-col gap-4">
+              <div class="flex items-center justify-between pb-2 border-b border-slate-200">
+                <span class="font-mono text-xs text-slate-500 font-bold uppercase tracking-wider">OFFICIAL LAB LOGO</span>
+                <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-800 font-mono text-[10px] font-bold">Y? LAB ᶻ</span>
+              </div>
+              <div class="w-full py-5 px-4 rounded-2xl bg-gradient-to-b from-white via-slate-50 to-white border border-slate-200 flex items-center justify-center">
+                <img src="/assets/aistudio/unnamed_44bf9102.jpg" alt="Y? Labz official logo" referrerpolicy="no-referrer" class="h-24 w-auto object-contain drop-shadow-xs" />
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                The official <strong class="text-slate-900">Y? Lab Z</strong> logo: embodying our methodology of asking questions (<span class="text-sky-600 font-bold">“?”</span>) until reaching fundamental truth at <span class="text-indigo-700 font-bold">“Z”</span>.
+              </p>
+            </div>
+
             <!-- Leadership Card -->
             <div class="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm flex flex-col gap-4">
               <div class="flex items-center gap-3">

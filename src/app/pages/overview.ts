@@ -52,12 +52,19 @@ export interface InnovationHighlight {
                   <span>•</span>
                   <span class="text-amber-700">G.N.SEVEN DESIGN</span>
                 </div>
-                <h1 class="font-display-hero text-slate-900 tracking-tight leading-none text-4xl sm:text-6xl font-black">
-                  Y? Lab Z!
-                  <span class="block bg-gradient-to-r from-sky-600 via-indigo-600 to-violet-600 bg-clip-text text-transparent mt-2">
-                    New Ideas for a New World.
-                  </span>
-                </h1>
+                <div class="flex items-center gap-4 sm:gap-5 flex-wrap">
+                  <div class="h-16 sm:h-20 px-3.5 py-1.5 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center justify-center shrink-0 hover:border-sky-400 transition-all">
+                    <img src="/assets/aistudio/unnamed_44bf9102.jpg" alt="Y? Labz official logo" referrerpolicy="no-referrer" class="h-full w-auto object-contain" />
+                  </div>
+                  <div>
+                    <h1 class="font-display-hero text-slate-900 tracking-tight leading-none text-4xl sm:text-6xl font-black">
+                      Y? Lab Z!
+                    </h1>
+                    <span class="block bg-gradient-to-r from-sky-600 via-indigo-600 to-violet-600 bg-clip-text text-transparent mt-2 text-2xl sm:text-4xl font-bold tracking-tight">
+                      New Ideas for a New World.
+                    </span>
+                  </div>
+                </div>
                 <p class="text-base sm:text-lg text-slate-600 max-w-2xl mt-2 leading-relaxed">
                   Developing cutting-edge technology by asking questions <span class="text-sky-600 font-bold font-headline">“?”</span> relentlessly until reaching fundamental truth at <span class="text-violet-700 font-bold font-headline">“Z”</span>. From our virtual headquarters in Palo Alto, California, we engineer physical AI, intelligent apparel, electric mobility, and on-device ML—accelerated by <strong class="text-amber-700 font-semibold">Mojo</strong> (our replacement for Python) and <strong class="text-indigo-700 font-semibold">Modular MAX</strong> (our replacement for CUDA).
                 </p>
