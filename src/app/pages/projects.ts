@@ -20,7 +20,7 @@ import {YLABZ_PROJECTS, YLabZProject, DEVELOPER_Y_REPOSITORIES, DeveloperYRepo} 
             <div class="flex flex-col max-w-3xl">
               <div class="flex flex-wrap items-center gap-2 mb-2.5">
                 <span class="inline-block w-2.5 h-2.5 rounded-full bg-sky-500 animate-pulse"></span>
-                <span class="font-label-caps uppercase text-sky-700 font-bold tracking-widest text-xs">Y? LAB Z // INITIATIVES &amp; OPEN REPOSITORIES</span>
+                <span class="font-label-caps uppercase text-sky-700 font-bold tracking-widest text-xs">Y? LAB Z // INITIATIVES &amp; SOURCE AVAILABLE REPOSITORIES</span>
                 <span class="font-code-badge text-purple-700 px-2.5 py-0.5 rounded-full bg-purple-50 border border-purple-200 text-[11px] font-semibold">
                   DEVELOPERY GITHUB ECOSYSTEM
                 </span>
@@ -281,7 +281,7 @@ import {YLABZ_PROJECTS, YLabZProject, DEVELOPER_Y_REPOSITORIES, DeveloperYRepo} 
           </div>
         </section>
 
-        <!-- DEDICATED DEVELOPERY OPEN-SOURCE REPOSITORIES HUB -->
+        <!-- DEDICATED DEVELOPERY SOURCE-AVAILABLE REPOSITORIES HUB -->
         <section class="max-w-7xl mx-auto px-6 lg:px-12 py-10 w-full relative z-10">
           <div class="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm relative overflow-hidden">
             <!-- Subtle glow -->
@@ -291,13 +291,13 @@ import {YLABZ_PROJECTS, YLabZProject, DEVELOPER_Y_REPOSITORIES, DeveloperYRepo} 
               <div class="flex flex-col gap-2">
                 <div class="flex items-center gap-2">
                   <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                  <span class="font-label-caps text-sky-700 font-bold uppercase tracking-widest text-xs">OPEN-SOURCE ARSENAL</span>
+                  <span class="font-label-caps text-sky-700 font-bold uppercase tracking-widest text-xs">SOURCE-AVAILABLE ARSENAL</span>
                   <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-700 font-mono text-[10px] font-semibold">
                     39+ REPOSITORIES
                   </span>
                 </div>
                 <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight font-display">
-                  developerY Open Source Repositories
+                  developerY Source Available Repositories
                 </h2>
                 <p class="text-sm text-slate-600 max-w-2xl leading-relaxed">
                   Real code repositories architected by developerY. Direct links to clone, fork, and inspect production Swift 6, Jetpack Compose MAD, visionOS RealityKit, and Mojo SIMD implementations.
@@ -318,7 +318,7 @@ import {YLABZ_PROJECTS, YLabZProject, DEVELOPER_Y_REPOSITORIES, DeveloperYRepo} 
 
             <!-- Repository Cards Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-6">
-              @for (repo of openSourceRepos; track repo.name) {
+              @for (repo of sourceAvailableRepos; track repo.name) {
                 <div class="p-5 rounded-2xl bg-slate-50/80 border border-slate-200 hover:border-sky-400 hover:bg-white hover:shadow-md transition-all flex flex-col justify-between group">
                   <div>
                     <div class="flex items-center justify-between mb-3">
@@ -622,7 +622,7 @@ export class ProjectsComponent {
   cloneCommand = 'git clone --recurse-submodules https://github.com/developerY/core.git';
 
   projects: YLabZProject[] = YLABZ_PROJECTS;
-  openSourceRepos: DeveloperYRepo[] = DEVELOPER_Y_REPOSITORIES;
+  sourceAvailableRepos: DeveloperYRepo[] = DEVELOPER_Y_REPOSITORIES;
 
   filteredProjects = computed(() => {
     const cat = this.selectedCategory();

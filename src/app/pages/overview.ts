@@ -85,7 +85,7 @@ export interface InnovationHighlight {
                     <span class="material-symbols-outlined text-[20px] text-violet-600">code</span>
                     <span>github.com/developerY</span>
                   </span>
-                  <span class="font-code-badge text-violet-700 font-semibold text-xs">OPEN CODE</span>
+                  <span class="font-code-badge text-violet-700 font-semibold text-xs">SOURCE AVAILABLE</span>
                 </a>
               </div>
             </div>
@@ -322,7 +322,7 @@ export interface InnovationHighlight {
               <!-- Stat Card 4 -->
               <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-emerald-400 hover:shadow-md transition-all flex flex-col justify-between group">
                 <div class="flex items-center justify-between mb-4">
-                  <span class="font-label-caps text-slate-500 uppercase font-semibold text-xs">Open Source Portfolio</span>
+                  <span class="font-label-caps text-slate-500 uppercase font-semibold text-xs">Source Available Portfolio</span>
                   <span class="p-2 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-700 material-symbols-outlined text-[20px]">code</span>
                 </div>
                 <div>
@@ -330,7 +330,7 @@ export interface InnovationHighlight {
                     39+ Repos
                   </div>
                   <p class="text-sm text-slate-600 mt-1.5 leading-relaxed">
-                    Open repositories on GitHub under developerY spanning Swift 6, Compose MVI, visionOS, and Mojo kernels.
+                    Source-available repositories on GitHub under developerY spanning Swift 6, Compose MVI, visionOS, and Mojo kernels.
                   </p>
                 </div>
                 <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between font-code-badge text-slate-500 text-xs">
@@ -508,7 +508,7 @@ export interface InnovationHighlight {
             <div class="flex flex-col gap-3 max-w-2xl">
               <div class="inline-flex items-center gap-2 self-start px-3 py-1 rounded-xl bg-slate-800 border border-slate-700 font-code-badge text-sky-400 font-semibold text-xs">
                 <span class="material-symbols-outlined text-[16px]">terminal</span>
-                <span>OPEN SOURCE REPOSITORIES · DEVELOPERY</span>
+                <span>SOURCE AVAILABLE REPOSITORIES · DEVELOPERY</span>
               </div>
 
               <h2 class="font-headline-lg text-white font-bold text-2xl sm:text-3xl">
@@ -516,7 +516,7 @@ export interface InnovationHighlight {
               </h2>
 
               <p class="text-slate-300 leading-relaxed text-base">
-                Every breakthrough developed at Y? Lab Z is backed by transparent benchmarking harnesses, open-source repositories, and verified engineering blueprints hosted on GitHub under developerY.
+                Every breakthrough developed at Y? Lab Z is backed by transparent benchmarking harnesses, source-available repositories, and verified engineering blueprints hosted on GitHub under developerY.
               </p>
 
               <div class="flex flex-wrap items-center gap-6 mt-2 pt-2 font-code-badge text-slate-400 text-xs">

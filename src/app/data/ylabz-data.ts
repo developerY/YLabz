@@ -479,7 +479,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
       "Modular LEGO® chassis adaptable for classroom and lab research"
     ],
     techStack: ["Kotlin CameraX", "MediaPipe Vision", "BLE UART", "LEGO® Technic"],
-    partnerOrEcosystem: "YLabZ Robotics & Open Hardware",
+    partnerOrEcosystem: "YLabZ Robotics & Source-Available Hardware",
     status: "Alpha Prototype",
     imageUrl: "/assets/ylabz/aiml_edge_pipeline.png",
     badge: "Smartphone Vision Brain",
@@ -497,7 +497,7 @@ export const YLABZ_PROJECTS: YLabZProject[] = [
       "Zero-cost abstraction inverse kinematics running on pure Rust micro-kernels",
       "Edge LiDAR and depth vision SLAM for rugged indoor and outdoor terrain navigation",
       "Voice intent recognition and natural companion follow-me tracking",
-      "Open-source modular firmware with distributed ROS2 bridge"
+      "Source-available modular firmware with distributed ROS2 bridge"
     ],
     techStack: ["Rust Robotics RS", "ROS2", "PyTorch Edge", "C++ Kinematics"],
     partnerOrEcosystem: "YLabZ Physical AI & ZoeRobo",

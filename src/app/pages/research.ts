@@ -86,17 +86,17 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                   In seventeenth-century natural philosophy, scientific discovery was often jealously guarded in alchemical ciphers or posthumously revealed in monolithic treatises. The revolutionary catalyst that accelerated European science was an institutional substrate: the philosophical journal and the rapid distribution of verified, reproducible <em class="text-sky-800 font-medium not-italic bg-sky-50 border border-sky-200 px-1.5 py-0.5 rounded">fragments</em>.
                 </p>
                 <p>
-                  At <strong class="text-slate-900 font-bold">Y? Lab Z</strong>, we assert that the modern lineage of Thomas's fragment mechanism is found in the open git commit, the verified reproducible repository, the self-contained container image, and the public architectural guide.
+                  At <strong class="text-slate-900 font-bold">Y? Lab Z</strong>, we assert that the modern lineage of Thomas's fragment mechanism is found in the source-available git commit, the verified reproducible repository, the self-contained container image, and the public architectural guide.
                 </p>
                 <p>
-                  When an Android Jetpack Compose or Swift 6 concurrency pattern is published as an open blueprint, it is immediately absorbed by thousands of concurrent developers worldwide. The open repository is our peer review; deterministic compilation is our empirical verification.
+                  When an Android Jetpack Compose or Swift 6 concurrency pattern is published as a source-available blueprint, it is immediately absorbed by thousands of concurrent developers worldwide. The source-available repository is our peer review; deterministic compilation is our empirical verification.
                 </p>
               </div>
 
               <div class="mt-8 pt-6 border-t border-slate-200 grid grid-cols-3 gap-4 text-center font-mono">
                 <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col items-center justify-center">
                   <span class="text-2xl font-bold text-sky-700 tracking-tight">100%</span>
-                  <span class="text-[11px] text-slate-500 uppercase font-semibold mt-1">Open Artifacts</span>
+                  <span class="text-[11px] text-slate-500 uppercase font-semibold mt-1">Available Artifacts</span>
                 </div>
                 <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col items-center justify-center">
                   <span class="text-2xl font-bold text-emerald-700 tracking-tight">31+</span>
@@ -411,7 +411,7 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                     <span class="text-[16px] text-slate-900 font-bold">Scientific Fragmentation</span>
                   </div>
                   <p class="text-xs text-slate-600 leading-normal">
-                    Publishing atomic, reproducible blueprints and open-source crates rather than locked proprietary silos.
+                    Publishing atomic, reproducible blueprints and source-available crates rather than locked proprietary silos.
                   </p>
                 </div>
               </div>

@@ -123,8 +123,8 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 
             <div class="flex flex-wrap items-center gap-3 pt-2">
               <div class="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-700 font-code-badge text-xs">
-                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                <span class="text-emerald-700 font-semibold">ONLINE: 12.4 mK CRYO</span>
+                <span class="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></span>
+                <span class="text-sky-700 font-semibold">ONLINE: 12.4 mK CRYO</span>
               </div>
               <div class="px-3 py-1.5 rounded-xl bg-slate-50 border border-slate-200 text-sky-700 font-code-badge text-xs font-semibold">
                 FIDELITY: 99.982%
@@ -148,27 +148,27 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
           <!-- Laboratory Links -->
           <div class="flex flex-col gap-2.5">
             <span class="font-label-caps text-slate-900 tracking-wider uppercase mb-1 font-semibold text-xs flex items-center gap-1.5">
-              <span class="w-1.5 h-1.5 rounded-full bg-violet-500"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-sky-600"></span>
               Active Blueprints
             </span>
-            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-violet-600 transition-colors">AshBike E-Mobility</a>
-            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-violet-600 transition-colors">ZoeWear Bio-Apparel</a>
-            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-violet-600 transition-colors">PhotoDo AI Multimodal</a>
-            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-violet-600 transition-colors">ZoeRobo Physical AI</a>
-            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-violet-600 transition-colors">All 17 Projects</a>
+            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-sky-600 transition-colors">AshBike E-Mobility</a>
+            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-sky-600 transition-colors">ZoeWear Bio-Apparel</a>
+            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-sky-600 transition-colors">PhotoDo AI Multimodal</a>
+            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-sky-600 transition-colors">ZoeRobo Physical AI</a>
+            <a routerLink="/projects" class="text-sm text-slate-600 hover:text-sky-600 transition-colors">All 17 Projects</a>
           </div>
 
-          <!-- Open Source Repositories & Governance -->
+          <!-- Source Available Repositories & Governance -->
           <div class="flex flex-col gap-2 font-code-badge">
             <span class="font-label-caps text-slate-900 tracking-wider uppercase mb-1 font-semibold text-xs flex items-center gap-1.5">
-              <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
-              Open Source Hub
+              <span class="w-1.5 h-1.5 rounded-full bg-slate-500"></span>
+              Source Available Hub
             </span>
-            <a href="https://github.com/developerY" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-amber-600 transition-colors flex items-center gap-1.5 text-xs">
+            <a href="https://github.com/developerY" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-sky-600 transition-colors flex items-center gap-1.5 text-xs">
               <span class="material-symbols-outlined text-[14px]">code</span>
               <span>github.com/developerY</span>
             </a>
-            <a href="https://medium.com/@zoewave" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-amber-600 transition-colors flex items-center gap-1.5 text-xs">
+            <a href="https://medium.com/@zoewave" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-sky-600 transition-colors flex items-center gap-1.5 text-xs">
               <span class="material-symbols-outlined text-[14px]">article</span>
               <span>medium.com/&#64;zoewave</span>
             </a>
@@ -184,7 +184,7 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
           <div class="flex items-center gap-6 font-code-badge">
             <a href="https://github.com/developerY" target="_blank" rel="noopener noreferrer" class="hover:text-slate-800 transition-colors">DEVELOPER_Y REPOSITORIES</a>
             <span class="hover:text-slate-800 transition-colors">ZOEWAVE R&amp;D</span>
-            <span class="text-emerald-600 font-semibold">LAB HIGH-TECH STATUS: ONLINE</span>
+            <span class="text-sky-700 font-semibold">LAB HIGH-TECH STATUS: ONLINE</span>
           </div>
         </div>
       </div>
