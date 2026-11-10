@@ -18,7 +18,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               <span class="font-mono text-xs text-sky-700 font-bold">Y? LAB Z</span>
               <span class="text-slate-400 font-mono">/</span>
               <span class="font-mono text-xs text-slate-500 uppercase tracking-wider font-semibold">About &amp; Updates</span>
-              <span class="px-2.5 py-0.5 rounded-lg bg-amber-50 border border-amber-200 text-amber-800 font-mono text-xs font-bold shadow-sm">VIRTUAL COMPANY // PALO ALTO, CA</span>
+              <span class="px-2.5 py-0.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-800 font-mono text-xs font-bold shadow-sm">VIRTUAL COMPANY // PALO ALTO, CA</span>
             </div>
 
             <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 tracking-tight">
@@ -68,7 +68,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             <div class="bg-white border border-slate-200 rounded-3xl p-8 lg:p-10 shadow-sm flex flex-col gap-6">
               <div class="flex items-center justify-between pb-3 border-b border-slate-200 flex-wrap gap-2">
                 <span class="font-mono text-xs text-sky-700 tracking-wider uppercase font-bold">FOUNDING PHILOSOPHY &amp; ETHOS</span>
-                <span class="px-2.5 py-0.5 rounded bg-amber-50 border border-amber-200 text-amber-800 font-mono text-[11px] font-bold">VIRTUAL COMPANY // PALO ALTO, CA</span>
+                <span class="px-2.5 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-800 font-mono text-[11px] font-bold">VIRTUAL COMPANY // PALO ALTO, CA</span>
               </div>
               <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight">
                 “Developing cutting edge technology. Asking questions ‘?’ relentlessly until reaching fundamental truth at ‘Z’.”
@@ -78,7 +78,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
                   As a <strong class="text-slate-900 font-bold">virtual company headquartered in Palo Alto, California</strong> (PO Box 51402), <strong class="text-sky-700 font-bold">Y? Lab Z</strong> acts as an agile incubation and engineering engine. We operate on a distributed, virtual-first model: uniting world-class mobile architects, robotics engineers, and systems researchers without physical boundaries. We bridge theoretical paradigms and production reality. Rather than building speculative slides or vendor-locked silos, our projects are tested directly on real hardware: from motorcycle-inspired AI e-bikes (<strong>AshBike</strong>) to physiological intelligent clothing (<strong>ZoeWear</strong>) and visual task intelligence (<strong>PhotoDo AI</strong>).
                 </p>
                 <p>
-                  We maintain a disciplined, non-fragmented technology policy: limiting our core production languages to <strong class="text-slate-900 font-bold">Kotlin</strong> (Android &amp; WearOS), <strong class="text-slate-900 font-bold">Swift</strong> (iOS &amp; visionOS), and <strong class="text-slate-900 font-bold">Rust</strong> (Web, Robotics, Systems &amp; Quantum), powered by <strong class="text-amber-700 font-bold">Mojo</strong> from Modular as our definitive replacement for Python, and <strong class="text-purple-700 font-bold">Modular MAX Engine</strong> as our hardware-agnostic replacement for NVIDIA CUDA.
+                  We maintain a disciplined, non-fragmented technology policy: limiting our core production languages to <strong class="text-slate-900 font-bold">Kotlin</strong> (Android &amp; WearOS), <strong class="text-slate-900 font-bold">Swift</strong> (iOS &amp; visionOS), and <strong class="text-slate-900 font-bold">Rust</strong> (Web, Robotics, Systems &amp; Quantum), powered by <strong class="text-slate-900 font-bold">Mojo</strong> from Modular as our definitive replacement for Python, and <strong class="text-sky-700 font-bold">Modular MAX Engine</strong> as our hardware-agnostic replacement for NVIDIA CUDA.
                 </p>
               </div>
 
@@ -116,13 +116,13 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             </div>
 
             <!-- PROMINENT FEATURE CARD: VIRTUAL COMPANY ARCHITECTURE & OPERATIONS -->
-            <div class="bg-gradient-to-br from-amber-50/60 via-white to-sky-50/40 border-2 border-amber-200 rounded-3xl p-8 lg:p-9 relative overflow-hidden shadow-sm">
-              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 border-b border-amber-200/80">
+            <div class="bg-gradient-to-br from-slate-50/60 via-white to-sky-50/40 border border-slate-200 rounded-3xl p-8 lg:p-9 relative overflow-hidden shadow-sm">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 border-b border-slate-200">
                 <div class="flex items-center gap-2.5">
-                  <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                  <span class="font-mono text-xs font-bold uppercase tracking-wider text-amber-800">VIRTUAL-FIRST ENTERPRISE</span>
+                  <span class="w-2.5 h-2.5 rounded-full bg-sky-500 animate-pulse"></span>
+                  <span class="font-mono text-xs font-bold uppercase tracking-wider text-slate-800">VIRTUAL-FIRST ENTERPRISE</span>
                 </div>
-                <span class="px-3 py-1.5 rounded-xl bg-white border border-amber-300 text-amber-900 font-mono text-xs font-bold shadow-sm">
+                <span class="px-3 py-1.5 rounded-xl bg-white border border-slate-300 text-slate-800 font-mono text-xs font-bold shadow-sm">
                   HEADQUARTERS: PO BOX 51402, PALO ALTO, CA
                 </span>
               </div>
@@ -132,7 +132,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
                   A Virtual Research Company Headquartered in Palo Alto, CA
                 </h3>
                 <p class="text-sm sm:text-base text-slate-600 leading-relaxed mt-2">
-                  Y? Lab Z operates as an agile, <strong class="text-slate-900">virtual-first company</strong>. While our corporate nexus, administrative registry, and mailing headquarters are anchored in <strong class="text-amber-800">Palo Alto, California</strong> via our central PO Box, our research fellows and engineering contributors collaborate across an asynchronous global network.
+                  Y? Lab Z operates as an agile, <strong class="text-slate-900">virtual-first company</strong>. While our corporate nexus, administrative registry, and mailing headquarters are anchored in <strong class="text-slate-900">Palo Alto, California</strong> via our central PO Box, our research fellows and engineering contributors collaborate across an asynchronous global network.
                 </p>
               </div>
 
@@ -151,9 +151,9 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
                   <span class="text-[11px] font-mono font-bold text-sky-700 mt-4 block">ZERO SILOS // 100% ASYNC</span>
                 </div>
 
-                <div class="bg-white rounded-2xl p-5 border border-slate-200 flex flex-col justify-between shadow-sm hover:border-purple-400 transition-all">
+                <div class="bg-white rounded-2xl p-5 border border-slate-200 flex flex-col justify-between shadow-sm hover:border-sky-400 transition-all">
                   <div>
-                    <div class="w-10 h-10 rounded-xl bg-purple-50 border border-purple-200 flex items-center justify-center text-purple-700 mb-3 shadow-xs">
+                    <div class="w-10 h-10 rounded-xl bg-sky-50 border border-sky-200 flex items-center justify-center text-sky-700 mb-3 shadow-xs">
                       <span class="material-symbols-outlined text-[20px]">memory</span>
                     </div>
                     <span class="font-bold text-slate-900 text-sm block mb-1">Virtual Simulation &amp; MAX</span>
@@ -161,12 +161,12 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
                       Cloud-hosted Modular MAX compilers and virtual device testbeds simulate Mojo kernels and on-device execution prior to physical silicon deployment.
                     </p>
                   </div>
-                  <span class="text-[11px] font-mono font-bold text-purple-700 mt-4 block">MODULAR MAX &amp; MOJO</span>
+                  <span class="text-[11px] font-mono font-bold text-sky-700 mt-4 block">MODULAR MAX &amp; MOJO</span>
                 </div>
 
-                <div class="bg-white rounded-2xl p-5 border border-slate-200 flex flex-col justify-between shadow-sm hover:border-amber-400 transition-all">
+                <div class="bg-white rounded-2xl p-5 border border-slate-200 flex flex-col justify-between shadow-sm hover:border-sky-400 transition-all">
                   <div>
-                    <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-800 mb-3 shadow-xs">
+                    <div class="w-10 h-10 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-700 mb-3 shadow-xs">
                       <span class="material-symbols-outlined text-[20px]">hub</span>
                     </div>
                     <span class="font-bold text-slate-900 text-sm block mb-1">Palo Alto Silicon Base</span>
@@ -174,16 +174,16 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
                       Physical hardware prototypes (AshBike, ZoeWear) and real-device telemetry benches are coordinated directly through our Palo Alto, California hub.
                     </p>
                   </div>
-                  <span class="text-[11px] font-mono font-bold text-amber-800 mt-4 block">PA, CA ANCHOR &amp; PO BOX</span>
+                  <span class="text-[11px] font-mono font-bold text-slate-800 mt-4 block">PA, CA ANCHOR &amp; PO BOX</span>
                 </div>
               </div>
 
-              <div class="mt-6 pt-5 border-t border-amber-200/80 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
+              <div class="mt-6 pt-5 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
                 <div class="flex items-center gap-2">
-                  <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                  <span class="w-2 h-2 rounded-full bg-sky-500"></span>
                   <span class="font-semibold text-slate-800">Virtual R&amp;D Organization Active Worldwide</span>
                 </div>
-                <span class="font-mono text-amber-800 font-bold">LEGAL &amp; CORPORATE NEXUS: PALO ALTO, CA 94303</span>
+                <span class="font-mono text-slate-700 font-bold">LEGAL &amp; CORPORATE NEXUS: PALO ALTO, CA 94303</span>
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
                 <img src="/assets/aistudio/unnamed_44bf9102.jpg" alt="Y? Labz official logo" referrerpolicy="no-referrer" class="h-24 w-auto object-contain drop-shadow-xs" />
               </div>
               <p class="text-xs text-slate-600 leading-relaxed">
-                The official <strong class="text-slate-900">Y? Lab Z</strong> logo: embodying our methodology of asking questions (<span class="text-sky-600 font-bold">“?”</span>) until reaching fundamental truth at <span class="text-indigo-700 font-bold">“Z”</span>.
+                The official <strong class="text-slate-900">Y? Lab Z</strong> logo: embodying our methodology of asking questions (<span class="text-sky-700 font-bold">“?”</span>) until reaching fundamental truth at <span class="text-slate-900 font-bold">“Z”</span>.
               </p>
             </div>
 
@@ -233,7 +233,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
             <div class="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm flex flex-col gap-4">
               <div class="flex items-center justify-between pb-2 border-b border-slate-200">
                 <span class="font-mono text-xs text-slate-500 font-bold">CORPORATE &amp; MAILING CONTACT</span>
-                <span class="px-2 py-0.5 rounded bg-amber-50 border border-amber-200 text-amber-800 font-mono text-[10px] font-bold">VIRTUAL COMPANY</span>
+                <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-800 font-mono text-[10px] font-bold">VIRTUAL COMPANY</span>
               </div>
               <ul class="space-y-2.5 text-xs font-mono text-slate-600">
                 <li class="flex items-start gap-2">
@@ -256,7 +256,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
                   <a href="https://ylabz.com" target="_blank" rel="noopener noreferrer" class="text-sky-700 font-semibold hover:underline">www.ylabz.com</a>
                 </li>
               </ul>
-              <div class="p-3 rounded-xl bg-amber-50 border border-amber-200 text-[11px] text-amber-900 leading-relaxed font-mono font-medium">
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-[11px] text-slate-700 leading-relaxed font-mono font-medium">
                 <strong>Operating Model:</strong> Virtual-first company headquartered via Palo Alto, CA PO Box, coordinating distributed researchers and hardware initiatives globally.
               </div>
             </div>
@@ -343,7 +343,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
         <section class="flex flex-col gap-6 pt-6 border-t border-slate-200">
           <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <div>
-              <span class="font-mono text-xs font-bold text-amber-800 uppercase tracking-wider">STRATEGIC VENTURE PORTFOLIO</span>
+              <span class="font-mono text-xs font-bold text-sky-700 uppercase tracking-wider">STRATEGIC VENTURE PORTFOLIO</span>
               <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight mt-1">
                 ZoeWave &amp; YLabZ Companies
               </h2>
@@ -391,11 +391,11 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-amber-400 hover:shadow-md transition-all group">
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sky-400 hover:shadow-md transition-all group">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="font-bold text-slate-900 text-base group-hover:text-amber-700 transition-colors">AshBike</span>
-                  <span class="px-2 py-0.5 rounded bg-amber-50 border border-amber-200 text-amber-800 font-mono text-[10px] font-bold">MOBILITY</span>
+                  <span class="font-bold text-slate-900 text-base group-hover:text-sky-700 transition-colors">AshBike</span>
+                  <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-700 font-mono text-[10px] font-bold">MOBILITY</span>
                 </div>
                 <p class="text-xs text-slate-600 leading-relaxed">
                   Revolutionizing the e-bike market with motorcycle-inspired aesthetics, carbon fiber unibody frames, and real-time AI torque curve optimization.
@@ -403,15 +403,15 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
               <div class="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>R&amp;D: YLabZ</span>
-                <span class="text-amber-700 font-semibold">G.N.Seven Design</span>
+                <span class="text-slate-800 font-semibold">G.N.Seven Design</span>
               </div>
             </div>
 
-            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-purple-400 hover:shadow-md transition-all group">
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sky-400 hover:shadow-md transition-all group">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="font-bold text-slate-900 text-base group-hover:text-purple-700 transition-colors">ZoeWear</span>
-                  <span class="px-2 py-0.5 rounded bg-purple-50 border border-purple-200 text-purple-700 font-mono text-[10px] font-bold">SMART APPAREL</span>
+                  <span class="font-bold text-slate-900 text-base group-hover:text-sky-700 transition-colors">ZoeWear</span>
+                  <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-700 font-mono text-[10px] font-bold">SMART APPAREL</span>
                 </div>
                 <p class="text-xs text-slate-600 leading-relaxed">
                   At the intersection of fashion and tech: Physiological Intelligent Clothing (PIC) integrating knitted biosensors for medical-grade continuous diagnostics.
@@ -419,15 +419,15 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
               <div class="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>WearOS &amp; watchOS</span>
-                <span class="text-purple-700 font-semibold">PIC Biosensors</span>
+                <span class="text-sky-700 font-semibold">PIC Biosensors</span>
               </div>
             </div>
 
-            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-emerald-400 hover:shadow-md transition-all group">
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sky-400 hover:shadow-md transition-all group">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="font-bold text-slate-900 text-base group-hover:text-emerald-700 transition-colors">ZoeRobo</span>
-                  <span class="px-2 py-0.5 rounded bg-emerald-50 border border-emerald-200 text-emerald-700 font-mono text-[10px] font-bold">PHYSICAL AI</span>
+                  <span class="font-bold text-slate-900 text-base group-hover:text-sky-700 transition-colors">ZoeRobo</span>
+                  <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-800 font-mono text-[10px] font-bold">PHYSICAL AI</span>
                 </div>
                 <p class="text-xs text-slate-600 leading-relaxed">
                   Pioneering AI-powered robotics for healthcare, residential security, and personal assistance, adapting to human environments with sub-cm accuracy.
@@ -435,7 +435,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
               <div class="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>Rust &amp; ROS2</span>
-                <span class="text-emerald-700 font-semibold">LiDAR &amp; SLAM</span>
+                <span class="text-slate-800 font-semibold">LiDAR &amp; SLAM</span>
               </div>
             </div>
 
@@ -455,11 +455,11 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
             </div>
 
-            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-teal-400 hover:shadow-md transition-all group">
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sky-400 hover:shadow-md transition-all group">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="font-bold text-slate-900 text-base group-hover:text-teal-700 transition-colors">RxDigita</span>
-                  <span class="px-2 py-0.5 rounded bg-teal-50 border border-teal-200 text-teal-700 font-mono text-[10px] font-bold">HEALTH AI</span>
+                  <span class="font-bold text-slate-900 text-base group-hover:text-sky-700 transition-colors">RxDigita</span>
+                  <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-700 font-mono text-[10px] font-bold">HEALTH AI</span>
                 </div>
                 <p class="text-xs text-slate-600 leading-relaxed">
                   Streamlining medication management with voice or photo input, label reading, drug interaction alerts, and caregiver sync channels.
@@ -467,15 +467,15 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
               <div class="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>FHIR &amp; Core ML</span>
-                <span class="text-teal-700 font-semibold">Rx Adherence</span>
+                <span class="text-sky-700 font-semibold">Rx Adherence</span>
               </div>
             </div>
 
-            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-purple-400 hover:shadow-md transition-all group">
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sky-400 hover:shadow-md transition-all group">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="font-bold text-slate-900 text-base group-hover:text-purple-700 transition-colors">ZoeWare</span>
-                  <span class="px-2 py-0.5 rounded bg-purple-50 border border-purple-200 text-purple-700 font-mono text-[10px] font-bold">SPATIAL AR/VR</span>
+                  <span class="font-bold text-slate-900 text-base group-hover:text-sky-700 transition-colors">ZoeWare</span>
+                  <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-700 font-mono text-[10px] font-bold">SPATIAL AR/VR</span>
                 </div>
                 <p class="text-xs text-slate-600 leading-relaxed">
                   Innovating in AR/VR for healthcare, clinical visualization, and educational immersion across Apple visionOS, Android XR, and Meta Quest.
@@ -483,15 +483,15 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
               <div class="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>RealityKit &amp; Polyspatial</span>
-                <span class="text-purple-700 font-semibold">Apple HQ Trained</span>
+                <span class="text-sky-700 font-semibold">Apple HQ Trained</span>
               </div>
             </div>
 
-            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-amber-400 hover:shadow-md transition-all group">
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sky-400 hover:shadow-md transition-all group">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="font-bold text-slate-900 text-base group-hover:text-amber-700 transition-colors">Swift AI Ad Agency</span>
-                  <span class="px-2 py-0.5 rounded bg-amber-50 border border-amber-200 text-amber-800 font-mono text-[10px] font-bold">AD TECH</span>
+                  <span class="font-bold text-slate-900 text-base group-hover:text-sky-700 transition-colors">Swift AI Ad Agency</span>
+                  <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-800 font-mono text-[10px] font-bold">AD TECH</span>
                 </div>
                 <p class="text-xs text-slate-600 leading-relaxed">
                   Harnessing generative AI models to deliver data-driven, hyper-personalized advertising and conversion optimization for global clients.
@@ -499,15 +499,15 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
               <div class="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>Multimodal GenAI</span>
-                <span class="text-amber-700 font-semibold">Zero-Cookie ROI</span>
+                <span class="text-slate-800 font-semibold">Zero-Cookie ROI</span>
               </div>
             </div>
 
-            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-orange-400 hover:shadow-md transition-all group">
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sky-400 hover:shadow-md transition-all group">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="font-bold text-slate-900 text-base group-hover:text-orange-700 transition-colors">Jag.U.R™ Utility Robot</span>
-                  <span class="px-2 py-0.5 rounded bg-orange-50 border border-orange-200 text-orange-800 font-mono text-[10px] font-bold">QUADRUPED AI</span>
+                  <span class="font-bold text-slate-900 text-base group-hover:text-sky-700 transition-colors">Jag.U.R™ Utility Robot</span>
+                  <span class="px-2 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-800 font-mono text-[10px] font-bold">QUADRUPED AI</span>
                 </div>
                 <p class="text-xs text-slate-600 leading-relaxed">
                   Envisioning trusted companion robotics: an intelligent Rust-based assistive robot dog engineered to navigate rugged spaces and assist daily living.
@@ -515,15 +515,15 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
               <div class="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>Rust Robotics RS</span>
-                <span class="text-orange-700 font-semibold">Micro-Kinematics</span>
+                <span class="text-slate-800 font-semibold">Micro-Kinematics</span>
               </div>
             </div>
 
-            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-rose-400 hover:shadow-md transition-all group">
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sky-400 hover:shadow-md transition-all group">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="font-bold text-slate-900 text-base group-hover:text-rose-700 transition-colors">DrunkWatch</span>
-                  <span class="px-2 py-0.5 rounded bg-rose-50 border border-rose-200 text-rose-700 font-mono text-[10px] font-bold">WEARABLES AI</span>
+                  <span class="font-bold text-slate-900 text-base group-hover:text-sky-700 transition-colors">DrunkWatch</span>
+                  <span class="px-2 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-700 font-mono text-[10px] font-bold">WEARABLES AI</span>
                 </div>
                 <p class="text-xs text-slate-600 leading-relaxed">
                   Continuous smartwatch bio-telemetry assessing intoxication and transit suitability via gait cadence analysis and autonomic nervous monitoring.
@@ -531,7 +531,7 @@ import {YLABZ_COMPANY_INFO, YLABZ_LANGUAGE_STACK} from '../data/ylabz-data';
               </div>
               <div class="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>WearOS &amp; watchOS</span>
-                <span class="text-rose-700 font-semibold">Sobriety Protection</span>
+                <span class="text-sky-700 font-semibold">Sobriety Protection</span>
               </div>
             </div>
           </div>

@@ -39,7 +39,7 @@ export interface InnovationHighlight {
               <span class="w-1 h-3 bg-slate-300 rounded-full"></span>
               <span class="font-code-badge text-slate-600 text-xs">VIRTUAL HQ · PALO ALTO, CA</span>
               <span class="w-1 h-3 bg-slate-300 rounded-full hidden sm:inline"></span>
-              <span class="font-code-badge text-violet-700 text-xs hidden sm:inline font-semibold">39+ REPOSITORIES</span>
+              <span class="font-code-badge text-slate-700 text-xs hidden sm:inline font-semibold">39+ REPOSITORIES</span>
             </div>
 
             <!-- Hero Headline & Core Thesis -->
@@ -48,9 +48,9 @@ export interface InnovationHighlight {
                 <div class="flex flex-wrap items-center gap-2 text-sky-700 font-mono text-xs font-semibold tracking-wider">
                   <span class="px-2.5 py-0.5 rounded bg-sky-50 border border-sky-200">PALO ALTO, CA</span>
                   <span>•</span>
-                  <span class="text-violet-700">ZOEWAVE R&amp;D ENGINE</span>
+                  <span class="text-slate-700">ZOEWAVE R&amp;D ENGINE</span>
                   <span>•</span>
-                  <span class="text-amber-700">G.N.SEVEN DESIGN</span>
+                  <span class="text-slate-700">G.N.SEVEN DESIGN</span>
                 </div>
                 <div class="flex items-center gap-4 sm:gap-5 flex-wrap">
                   <div class="h-16 sm:h-20 px-3.5 py-1.5 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center justify-center shrink-0 hover:border-sky-400 transition-all">
@@ -60,19 +60,19 @@ export interface InnovationHighlight {
                     <h1 class="font-display-hero text-slate-900 tracking-tight leading-none text-4xl sm:text-6xl font-black">
                       Y? Lab Z!
                     </h1>
-                    <span class="block bg-gradient-to-r from-sky-600 via-indigo-600 to-violet-600 bg-clip-text text-transparent mt-2 text-2xl sm:text-4xl font-bold tracking-tight">
+                    <span class="block bg-gradient-to-r from-sky-600 to-blue-700 bg-clip-text text-transparent mt-2 text-2xl sm:text-4xl font-bold tracking-tight">
                       New Ideas for a New World.
                     </span>
                   </div>
                 </div>
                 <p class="text-base sm:text-lg text-slate-600 max-w-2xl mt-2 leading-relaxed">
-                  Developing cutting-edge technology by asking questions <span class="text-sky-600 font-bold font-headline">“?”</span> relentlessly until reaching fundamental truth at <span class="text-violet-700 font-bold font-headline">“Z”</span>. From our virtual headquarters in Palo Alto, California, we engineer physical AI, intelligent apparel, electric mobility, and on-device ML—accelerated by <strong class="text-amber-700 font-semibold">Mojo</strong> (our replacement for Python) and <strong class="text-indigo-700 font-semibold">Modular MAX</strong> (our replacement for CUDA).
+                  Developing cutting-edge technology by asking questions <span class="text-sky-600 font-bold font-headline">“?”</span> relentlessly until reaching fundamental truth at <span class="text-slate-900 font-bold font-headline">“Z”</span>. From our virtual headquarters in Palo Alto, California, we engineer physical AI, intelligent apparel, electric mobility, and on-device ML—accelerated by <strong class="text-slate-900 font-semibold">Mojo</strong> (our replacement for Python) and <strong class="text-sky-800 font-semibold">Modular MAX</strong> (our replacement for CUDA).
                 </p>
               </div>
 
               <!-- Fast Terminal Dispatch Action -->
               <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-end">
-                <a routerLink="/projects" class="w-full flex items-center justify-between px-5 py-3.5 rounded-xl bg-gradient-to-r from-sky-600 to-indigo-600 hover:from-sky-500 hover:to-indigo-500 text-white font-medium text-base transition-all shadow-sm hover:shadow-md hover:scale-[1.01] active:scale-[0.99]">
+                <a routerLink="/projects" class="w-full flex items-center justify-between px-5 py-3.5 rounded-xl bg-gradient-to-r from-sky-600 to-blue-700 hover:from-sky-500 hover:to-blue-600 text-white font-medium text-base transition-all shadow-sm hover:shadow-md hover:scale-[1.01] active:scale-[0.99]">
                   <span class="flex items-center gap-2">
                     <span class="material-symbols-outlined text-[20px]">terminal</span>
                     <span>Explore Projects (17)</span>
@@ -80,12 +80,12 @@ export interface InnovationHighlight {
                   <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
                 </a>
 
-                <a href="https://github.com/developerY" target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-between px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 hover:text-slate-900 font-medium text-base border border-slate-300 hover:border-violet-500 transition-all shadow-sm">
+                <a href="https://github.com/developerY" target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-between px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 hover:text-slate-900 font-medium text-base border border-slate-300 hover:border-sky-500 transition-all shadow-sm">
                   <span class="flex items-center gap-2">
-                    <span class="material-symbols-outlined text-[20px] text-violet-600">code</span>
+                    <span class="material-symbols-outlined text-[20px] text-sky-700">code</span>
                     <span>github.com/developerY</span>
                   </span>
-                  <span class="font-code-badge text-violet-700 font-semibold text-xs">SOURCE AVAILABLE</span>
+                  <span class="font-code-badge text-slate-700 font-semibold text-xs">SOURCE AVAILABLE</span>
                 </a>
               </div>
             </div>
@@ -130,7 +130,7 @@ export interface InnovationHighlight {
                       <span class="px-3 py-1 rounded-full bg-sky-50 text-sky-700 border border-sky-200 font-mono text-xs font-semibold">
                         {{ activeHighlight().category }}
                       </span>
-                      <span class="font-mono text-xs text-violet-700 font-medium">{{ activeHighlight().badge }}</span>
+                      <span class="font-mono text-xs text-slate-600 font-medium">{{ activeHighlight().badge }}</span>
                     </div>
 
                     <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 font-display">
@@ -146,14 +146,14 @@ export interface InnovationHighlight {
                     <div class="flex flex-wrap items-center gap-6 pt-2">
                       <div class="flex flex-col">
                         <span class="font-mono text-xs text-slate-500 uppercase tracking-wider">{{ activeHighlight().statLabel }}</span>
-                        <span class="text-2xl sm:text-3xl font-extrabold text-sky-600 font-mono">
+                        <span class="text-2xl sm:text-3xl font-extrabold text-sky-700 font-mono">
                           {{ activeHighlight().statValue }}
                         </span>
                       </div>
                       <div class="h-10 w-px bg-slate-200"></div>
                       <div class="flex flex-col">
                         <span class="font-mono text-xs text-slate-500 uppercase tracking-wider">HARDWARE FABRIC</span>
-                        <span class="text-sm font-semibold text-violet-700 font-mono">{{ activeHighlight().techSpec }}</span>
+                        <span class="text-sm font-semibold text-slate-800 font-mono">{{ activeHighlight().techSpec }}</span>
                       </div>
                     </div>
 
@@ -212,7 +212,7 @@ export interface InnovationHighlight {
                   <span class="w-2 h-2 rounded-full bg-sky-500"></span>
                   Disciplined Stack: Kotlin, Swift, Rust, Mojo &amp; MAX Engine
                 </span>
-                <span class="font-code-badge text-amber-800 font-semibold bg-amber-50 border border-amber-200 px-2.5 py-0.5 rounded-full text-xs">
+                <span class="font-code-badge text-slate-700 font-semibold bg-slate-50 border border-slate-200 px-2.5 py-0.5 rounded-full text-xs">
                   ZERO VENDOR LOCK-IN
                 </span>
               </div>
@@ -227,7 +227,7 @@ export interface InnovationHighlight {
                           {{ item.replaces }}
                         </span>
                       </div>
-                      <p class="text-xs text-violet-700 font-medium mb-2 leading-snug">{{ item.role }}</p>
+                      <p class="text-xs text-sky-700 font-medium mb-2 leading-snug">{{ item.role }}</p>
                       <ul class="text-[11px] text-slate-600 space-y-1 font-mono">
                         @for (tech of item.ecosystem.slice(0, 3); track tech) {
                           <li class="flex items-center gap-1.5 truncate">
@@ -275,19 +275,19 @@ export interface InnovationHighlight {
                 </div>
                 <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between font-code-badge text-slate-500 text-xs">
                   <span>TARGET HARMONY</span>
-                  <span class="text-sky-600 font-semibold">100% NATIVE PERFORMANCE</span>
+                  <span class="text-sky-700 font-semibold">100% NATIVE PERFORMANCE</span>
                 </div>
               </div>
 
               <!-- Stat Card 2 -->
-              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-amber-400 hover:shadow-md transition-all flex flex-col justify-between group">
+              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-sky-400 hover:shadow-md transition-all flex flex-col justify-between group">
                 <div class="flex items-center justify-between mb-4">
                   <span class="font-label-caps text-slate-500 uppercase font-semibold text-xs">Mojo &amp; MAX Velocity</span>
-                  <span class="p-2 rounded-xl bg-amber-50 border border-amber-200 text-amber-700 material-symbols-outlined text-[20px]">bolt</span>
+                  <span class="p-2 rounded-xl bg-slate-50 border border-slate-200 text-slate-700 material-symbols-outlined text-[20px]">bolt</span>
                 </div>
                 <div>
-                  <div class="font-headline-lg text-amber-600 tracking-tight transition-colors flex items-baseline gap-1 font-extrabold text-3xl">
-                    68,420 <span class="font-headline-sm text-amber-700 text-base font-normal">x</span>
+                  <div class="font-headline-lg text-slate-900 tracking-tight transition-colors flex items-baseline gap-1 font-extrabold text-3xl">
+                    68,420 <span class="font-headline-sm text-sky-700 text-base font-normal">x</span>
                   </div>
                   <p class="text-sm text-slate-600 mt-1.5 leading-relaxed">
                     SIMD vector register acceleration replacing legacy Python GIL bottlenecks and proprietary CUDA silos.
@@ -295,19 +295,19 @@ export interface InnovationHighlight {
                 </div>
                 <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between font-code-badge text-slate-500 text-xs">
                   <span>MLIR JIT COMPILER</span>
-                  <span class="text-amber-700 font-semibold">ZERO-COST INTEROP</span>
+                  <span class="text-sky-700 font-semibold">ZERO-COST INTEROP</span>
                 </div>
               </div>
 
               <!-- Stat Card 3 -->
-              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-violet-400 hover:shadow-md transition-all flex flex-col justify-between group">
+              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-sky-400 hover:shadow-md transition-all flex flex-col justify-between group">
                 <div class="flex items-center justify-between mb-4">
                   <span class="font-label-caps text-slate-500 uppercase font-semibold text-xs">Spatial Compositor</span>
-                  <span class="p-2 rounded-xl bg-violet-50 border border-violet-200 text-violet-700 material-symbols-outlined text-[20px]">view_in_ar</span>
+                  <span class="p-2 rounded-xl bg-sky-50 border border-sky-200 text-sky-700 material-symbols-outlined text-[20px]">view_in_ar</span>
                 </div>
                 <div>
-                  <div class="font-headline-lg text-violet-600 tracking-tight transition-colors flex items-baseline gap-1 font-extrabold text-3xl">
-                    90 <span class="font-headline-sm text-violet-700 text-base font-normal">FPS</span>
+                  <div class="font-headline-lg text-slate-900 tracking-tight transition-colors flex items-baseline gap-1 font-extrabold text-3xl">
+                    90 <span class="font-headline-sm text-sky-700 text-base font-normal">FPS</span>
                   </div>
                   <p class="text-sm text-slate-600 mt-1.5 leading-relaxed">
                     Zero-frame-drop spatial rendering loop with RealityKit, predictive head-pose estimation, and sub-mm anchor accuracy.
@@ -315,18 +315,18 @@ export interface InnovationHighlight {
                 </div>
                 <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between font-code-badge text-slate-500 text-xs">
                   <span>MOTION-TO-PHOTON</span>
-                  <span class="text-violet-700 font-semibold">&lt; 11.2ms FIXED</span>
+                  <span class="text-sky-700 font-semibold">&lt; 11.2ms FIXED</span>
                 </div>
               </div>
 
               <!-- Stat Card 4 -->
-              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-emerald-400 hover:shadow-md transition-all flex flex-col justify-between group">
+              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-sky-400 hover:shadow-md transition-all flex flex-col justify-between group">
                 <div class="flex items-center justify-between mb-4">
                   <span class="font-label-caps text-slate-500 uppercase font-semibold text-xs">Source Available Portfolio</span>
-                  <span class="p-2 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-700 material-symbols-outlined text-[20px]">code</span>
+                  <span class="p-2 rounded-xl bg-slate-50 border border-slate-200 text-slate-700 material-symbols-outlined text-[20px]">code</span>
                 </div>
                 <div>
-                  <div class="font-headline-lg text-emerald-600 tracking-tight transition-colors font-extrabold text-3xl">
+                  <div class="font-headline-lg text-slate-900 tracking-tight transition-colors font-extrabold text-3xl">
                     39+ Repos
                   </div>
                   <p class="text-sm text-slate-600 mt-1.5 leading-relaxed">
@@ -335,7 +335,7 @@ export interface InnovationHighlight {
                 </div>
                 <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between font-code-badge text-slate-500 text-xs">
                   <span>GITHUB ECOSYSTEM</span>
-                  <span class="text-emerald-700 font-semibold">developerY</span>
+                  <span class="text-sky-700 font-semibold">developerY</span>
                 </div>
               </div>
             </div>
@@ -408,13 +408,13 @@ export interface InnovationHighlight {
               </div>
 
               <!-- Directory Card 2: Projects & Blueprints -->
-              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-violet-400 hover:shadow-md transition-all flex flex-col justify-between group">
+              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-sky-400 hover:shadow-md transition-all flex flex-col justify-between group">
                 <div class="flex flex-col gap-4">
                   <div class="flex items-center justify-between">
-                    <span class="font-code-badge text-violet-700 font-semibold px-2.5 py-0.5 rounded-full bg-violet-50 border border-violet-200 text-xs">
+                    <span class="font-code-badge text-sky-700 font-semibold px-2.5 py-0.5 rounded-full bg-sky-50 border border-sky-200 text-xs">
                       SEC_02 · 17 PROJECTS
                     </span>
-                    <span class="material-symbols-outlined text-slate-400 group-hover:text-violet-600 transition-colors text-[24px]">code_blocks</span>
+                    <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 transition-colors text-[24px]">code_blocks</span>
                   </div>
 
                   <div class="w-full h-44 rounded-xl overflow-hidden relative border border-slate-200 bg-slate-100">
@@ -426,12 +426,12 @@ export interface InnovationHighlight {
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                       <span class="font-mono text-xs font-semibold text-white drop-shadow-md">ASHBIKE &amp; BLUEPRINTS</span>
-                      <span class="px-2 py-0.5 rounded bg-violet-600 text-white font-mono text-[10px] font-bold">17 PROJECTS</span>
+                      <span class="px-2 py-0.5 rounded bg-slate-900 text-white font-mono text-[10px] font-bold">17 PROJECTS</span>
                     </div>
                   </div>
 
                   <div>
-                    <h3 class="font-headline-md text-slate-900 group-hover:text-violet-700 transition-colors font-bold text-lg">Projects &amp; Blueprints</h3>
+                    <h3 class="font-headline-md text-slate-900 group-hover:text-sky-700 transition-colors font-bold text-lg">Projects &amp; Blueprints</h3>
                     <p class="text-sm text-slate-600 mt-2 leading-relaxed">
                       Battle-tested implementations: AshBike e-bikes, ZoeWear smart knitwear, PhotoDo AI, ZoeRobo physical AI, and DrunkWatch.
                     </p>
@@ -445,7 +445,7 @@ export interface InnovationHighlight {
                 </div>
 
                 <div class="pt-6 mt-4 border-t border-slate-100">
-                  <a routerLink="/projects" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl bg-slate-50 hover:bg-violet-50 text-violet-700 font-headline-sm text-sm border border-slate-200 hover:border-violet-300 transition-all font-semibold">
+                  <a routerLink="/projects" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl bg-slate-50 hover:bg-sky-50 text-sky-700 font-headline-sm text-sm border border-slate-200 hover:border-sky-300 transition-all font-semibold">
                     <span>Inspect Projects</span>
                     <span class="material-symbols-outlined text-[18px]">chevron_right</span>
                   </a>
@@ -453,13 +453,13 @@ export interface InnovationHighlight {
               </div>
 
               <!-- Directory Card 3: Research & Insights -->
-              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-rose-400 hover:shadow-md transition-all flex flex-col justify-between group">
+              <div class="rounded-2xl p-6 bg-white border border-slate-200 shadow-sm hover:border-sky-400 hover:shadow-md transition-all flex flex-col justify-between group">
                 <div class="flex flex-col gap-4">
                   <div class="flex items-center justify-between">
-                    <span class="font-code-badge text-rose-700 font-semibold px-2.5 py-0.5 rounded-full bg-rose-50 border border-rose-200 text-xs">
+                    <span class="font-code-badge text-sky-700 font-semibold px-2.5 py-0.5 rounded-full bg-sky-50 border border-sky-200 text-xs">
                       SEC_03 · 13 ARTICLES
                     </span>
-                    <span class="material-symbols-outlined text-slate-400 group-hover:text-rose-600 transition-colors text-[24px]">menu_book</span>
+                    <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 transition-colors text-[24px]">menu_book</span>
                   </div>
 
                   <div class="w-full h-44 rounded-xl overflow-hidden relative border border-slate-200 bg-slate-100">
@@ -471,12 +471,12 @@ export interface InnovationHighlight {
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                       <span class="font-mono text-xs font-semibold text-white drop-shadow-md">ARTICLES &amp; THESIS</span>
-                      <span class="px-2 py-0.5 rounded bg-rose-600 text-white font-mono text-[10px] font-bold">13 ARTICLES</span>
+                      <span class="px-2 py-0.5 rounded bg-slate-900 text-white font-mono text-[10px] font-bold">13 ARTICLES</span>
                     </div>
                   </div>
 
                   <div>
-                    <h3 class="font-headline-md text-slate-900 group-hover:text-rose-700 transition-colors font-bold text-lg">Research &amp; Philosophy</h3>
+                    <h3 class="font-headline-md text-slate-900 group-hover:text-sky-700 transition-colors font-bold text-lg">Research &amp; Philosophy</h3>
                     <p class="text-sm text-slate-600 mt-2 leading-relaxed">
                       Technical whitepapers, “Android &amp; iOS Dev Together”, Lewis Thomas epistemology archive, and empirical benchmarks.
                     </p>
@@ -490,7 +490,7 @@ export interface InnovationHighlight {
                 </div>
 
                 <div class="pt-6 mt-4 border-t border-slate-100">
-                  <a routerLink="/research" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl bg-slate-50 hover:bg-rose-50 text-rose-700 font-headline-sm text-sm border border-slate-200 hover:border-rose-300 transition-all font-semibold">
+                  <a routerLink="/research" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl bg-slate-50 hover:bg-sky-50 text-sky-700 font-headline-sm text-sm border border-slate-200 hover:border-sky-300 transition-all font-semibold">
                     <span>Read Dispatches</span>
                     <span class="material-symbols-outlined text-[18px]">chevron_right</span>
                   </a>
@@ -524,11 +524,11 @@ export interface InnovationHighlight {
                   <span class="material-symbols-outlined text-[16px]">folder_open</span>
                   <span>39+ PUBLIC REPOSITORIES</span>
                 </div>
-                <div class="flex items-center gap-1.5 text-violet-300">
+                <div class="flex items-center gap-1.5 text-slate-300">
                   <span class="material-symbols-outlined text-[16px]">device_hub</span>
                   <span>SWIFT 6 &bull; KOTLIN MVI &bull; MOJO SIMD</span>
                 </div>
-                <div class="flex items-center gap-1.5 text-emerald-400">
+                <div class="flex items-center gap-1.5 text-sky-300">
                   <span class="material-symbols-outlined text-[16px]">verified</span>
                   <span>PALO ALTO VIRTUAL LAB</span>
                 </div>

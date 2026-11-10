@@ -99,11 +99,11 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                   <span class="text-[11px] text-slate-500 uppercase font-semibold mt-1">Available Artifacts</span>
                 </div>
                 <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col items-center justify-center">
-                  <span class="text-2xl font-bold text-emerald-700 tracking-tight">31+</span>
+                  <span class="text-2xl font-bold text-sky-700 tracking-tight">31+</span>
                   <span class="text-[11px] text-slate-500 uppercase font-semibold mt-1">Android Stories</span>
                 </div>
                 <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col items-center justify-center">
-                  <span class="text-2xl font-bold text-purple-700 tracking-tight">22+</span>
+                  <span class="text-2xl font-bold text-slate-900 tracking-tight">22+</span>
                   <span class="text-[11px] text-slate-500 uppercase font-semibold mt-1">iOS Stories</span>
                 </div>
               </div>
@@ -131,7 +131,7 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
 
                 <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col gap-2">
                   <div class="flex items-center justify-between">
-                    <span class="font-mono text-xs text-purple-700 font-bold">STAGE 02</span>
+                    <span class="font-mono text-xs text-sky-700 font-bold">STAGE 02</span>
                     <span class="material-symbols-outlined text-slate-400 text-[16px]">code</span>
                   </div>
                   <span class="text-slate-900 text-sm font-bold">Fragment Code</span>
@@ -140,7 +140,7 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
 
                 <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col gap-2">
                   <div class="flex items-center justify-between">
-                    <span class="font-mono text-xs text-emerald-700 font-bold">STAGE 03</span>
+                    <span class="font-mono text-xs text-sky-700 font-bold">STAGE 03</span>
                     <span class="material-symbols-outlined text-slate-400 text-[16px]">analytics</span>
                   </div>
                   <span class="text-slate-900 text-sm font-bold">Peer Telemetry</span>
@@ -149,7 +149,7 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
 
                 <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col gap-2">
                   <div class="flex items-center justify-between">
-                    <span class="font-mono text-xs text-amber-700 font-bold">STAGE 04</span>
+                    <span class="font-mono text-xs text-sky-700 font-bold">STAGE 04</span>
                     <span class="material-symbols-outlined text-slate-400 text-[16px]">check_circle</span>
                   </div>
                   <span class="text-slate-900 text-sm font-bold">Exhaustion ‘Z’</span>
@@ -223,8 +223,8 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                 <!-- Footer HUD -->
                 <div class="relative z-10 flex items-center justify-between text-slate-400 font-mono text-[11px]">
                   <span class="font-mono text-slate-300">TIMEBASE: {{ isHighFreq() ? '2.5μs/div' : '5.0μs/div' }}</span>
-                  <span class="text-emerald-400 flex items-center gap-1 font-mono font-semibold">
-                    <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                  <span class="text-sky-300 flex items-center gap-1 font-mono font-semibold">
+                    <span class="inline-block w-1.5 h-1.5 rounded-full bg-sky-400 animate-pulse"></span>
                     TRIG: POSITIVE_EDGE
                   </span>
                 </div>
@@ -247,10 +247,10 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                   <span class="text-[11px] text-slate-500 font-semibold">REPRODUCTIVE FIDELITY</span>
                   <div class="flex items-baseline justify-between">
                     <span class="text-lg font-bold text-slate-900">99.8%</span>
-                    <span class="text-xs text-emerald-700 font-bold">NOMINAL</span>
+                    <span class="text-xs text-sky-700 font-bold">NOMINAL</span>
                   </div>
                   <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden mt-1">
-                    <div class="bg-gradient-to-r from-emerald-500 to-teal-600 h-full w-[99%] rounded-full"></div>
+                    <div class="bg-gradient-to-r from-sky-500 to-blue-600 h-full w-[99%] rounded-full"></div>
                   </div>
                 </div>
               </div>
@@ -385,8 +385,8 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
               </div>
 
               <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight">
-                Asking questions <span class="text-sky-600">‘?’</span><br/>
-                till the end <span class="text-indigo-600">‘Z’!</span>
+                Asking questions <span class="text-sky-700">‘?’</span><br/>
+                till the end <span class="text-slate-900">‘Z’!</span>
               </h2>
 
               <p class="text-slate-600 leading-relaxed text-base">
@@ -406,7 +406,7 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                 </div>
 
                 <div class="bg-slate-50 border border-slate-200 p-5 rounded-xl flex flex-col gap-2">
-                  <div class="flex items-center gap-2 text-purple-700">
+                  <div class="flex items-center gap-2 text-sky-700">
                     <span class="material-symbols-outlined text-[20px]">share</span>
                     <span class="text-[16px] text-slate-900 font-bold">Scientific Fragmentation</span>
                   </div>
@@ -610,26 +610,26 @@ import {YLABZ_ARTICLES, YLABZ_COMPANY_INFO, YLabZArticle} from '../data/ylabz-da
                   <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 text-[18px]">open_in_new</span>
                 </a>
 
-                <a href="https://medium.com/@zoewave" target="_blank" rel="noopener noreferrer" class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-purple-400 hover:bg-white transition-all flex items-center justify-between group shadow-sm">
+                <a href="https://medium.com/@zoewave" target="_blank" rel="noopener noreferrer" class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-400 hover:bg-white transition-all flex items-center justify-between group shadow-sm">
                   <div class="flex items-center gap-3">
-                    <span class="material-symbols-outlined text-purple-600">apple</span>
+                    <span class="material-symbols-outlined text-sky-700">apple</span>
                     <div class="flex flex-col">
-                      <span class="font-bold text-slate-900 text-sm group-hover:text-purple-700">iOS Dev | Curated by YLabZ</span>
+                      <span class="font-bold text-slate-900 text-sm group-hover:text-sky-700">iOS Dev | Curated by YLabZ</span>
                       <span class="font-mono text-[11px] text-slate-500">~22 stories • Swift, SwiftUI, SwiftData</span>
                     </div>
                   </div>
-                  <span class="material-symbols-outlined text-slate-400 group-hover:text-purple-600 text-[18px]">open_in_new</span>
+                  <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 text-[18px]">open_in_new</span>
                 </a>
 
-                <a href="https://medium.com/@zoewave" target="_blank" rel="noopener noreferrer" class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-emerald-400 hover:bg-white transition-all flex items-center justify-between group shadow-sm">
+                <a href="https://medium.com/@zoewave" target="_blank" rel="noopener noreferrer" class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-400 hover:bg-white transition-all flex items-center justify-between group shadow-sm">
                   <div class="flex items-center gap-3">
-                    <span class="material-symbols-outlined text-emerald-600">psychology</span>
+                    <span class="material-symbols-outlined text-sky-700">psychology</span>
                     <div class="flex flex-col">
-                      <span class="font-bold text-slate-900 text-sm group-hover:text-emerald-700">AI / ML Dev on Mobile</span>
+                      <span class="font-bold text-slate-900 text-sm group-hover:text-sky-700">AI / ML Dev on Mobile</span>
                       <span class="font-mono text-[11px] text-slate-500">~11 stories • PyTorch, TFLite, Core ML</span>
                     </div>
                   </div>
-                  <span class="material-symbols-outlined text-slate-400 group-hover:text-emerald-600 text-[18px]">open_in_new</span>
+                  <span class="material-symbols-outlined text-slate-400 group-hover:text-sky-600 text-[18px]">open_in_new</span>
                 </a>
               </div>
             </div>

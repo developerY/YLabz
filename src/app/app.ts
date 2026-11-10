@@ -187,6 +187,13 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
             <span class="text-sky-700 font-semibold">LAB HIGH-TECH STATUS: ONLINE</span>
           </div>
         </div>
+
+        <!-- AI Co-Build Notice -->
+        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-center text-center">
+          <p class="text-xs text-slate-500 max-w-3xl leading-relaxed">
+            AI-assisted development in progress. Content may contain inaccuracies (including AI hallucinations) as we co-build, review, and continuously improve our websites.
+          </p>
+        </div>
       </div>
     </footer>
   `

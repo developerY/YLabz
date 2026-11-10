@@ -169,19 +169,19 @@ import {
                   </div>
                   <div class="flex flex-col">
                     <div class="flex items-center gap-2">
-                      <span class="font-label-caps text-cyan-400 font-bold">TRACK 01 // LAYER 2 MOBILE CORE</span>
-                      <span class="font-code-badge px-2 py-0.5 rounded-full bg-cyan-950/80 border border-cyan-500/30 text-cyan-300 text-xs">RELEASE PROTOCOL 4.2</span>
+                      <span class="font-label-caps text-sky-700 font-bold">TRACK 01 // LAYER 2 MOBILE CORE</span>
+                      <span class="font-code-badge px-2 py-0.5 rounded-full bg-sky-50 border border-sky-200 text-sky-700 text-xs">RELEASE PROTOCOL 4.2</span>
                     </div>
-                    <h2 class="font-headline-lg text-white tracking-tight mt-1 font-bold">
+                    <h2 class="font-headline-lg text-slate-900 tracking-tight mt-1 font-bold">
                       Unified Mobile &amp; Wearable Ecosystems
                     </h2>
                   </div>
                 </div>
 
                 <div class="flex items-center gap-2 flex-wrap">
-                  <span class="px-2.5 py-1 rounded-xl bg-purple-50 border border-purple-200 font-code-badge text-purple-700 font-medium text-xs">Kotlin 2.1</span>
-                  <span class="px-2.5 py-1 rounded-xl bg-orange-50 border border-orange-200 font-code-badge text-orange-700 font-medium text-xs">Swift 6 Strict Concurrency</span>
-                  <span class="px-2.5 py-1 rounded-xl bg-sky-50 border border-sky-200 font-code-badge text-sky-700 font-medium text-xs">React Native Fabric (JSI)</span>
+                  <span class="px-2.5 py-1 rounded-xl bg-slate-100 border border-slate-200 font-code-badge text-slate-800 font-medium text-xs">Kotlin 2.1</span>
+                  <span class="px-2.5 py-1 rounded-xl bg-sky-50 border border-sky-200 font-code-badge text-sky-700 font-medium text-xs">Swift 6 Strict Concurrency</span>
+                  <span class="px-2.5 py-1 rounded-xl bg-slate-50 border border-slate-200 font-code-badge text-slate-800 font-medium text-xs">React Native Fabric (JSI)</span>
                 </div>
               </div>
 
@@ -197,22 +197,22 @@ import {
                     <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col gap-3">
                       <div class="flex items-center justify-between">
                         <div class="flex items-center gap-2">
-                          <span class="material-symbols-outlined text-purple-600 text-[20px]">smart_display</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[20px]">smart_display</span>
                           <span class="font-headline-sm text-slate-900 text-base font-semibold">Android &amp; WearOS</span>
                         </div>
-                        <span class="font-label-caps text-purple-700 font-bold text-xs">NDK LEVEL 35</span>
+                        <span class="font-label-caps text-sky-700 font-bold text-xs">NDK LEVEL 35</span>
                       </div>
                       <ul class="flex flex-col gap-2 text-xs text-slate-600">
                         <li class="flex items-start gap-2">
-                          <span class="material-symbols-outlined text-sky-600 text-[16px] mt-0.5">check_circle</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[16px] mt-0.5">check_circle</span>
                           <span><strong class="text-slate-900">Jetpack Compose &amp; Glance:</strong> Zero-reflection declarative runtime tuned for 120Hz surfaces.</span>
                         </li>
                         <li class="flex items-start gap-2">
-                          <span class="material-symbols-outlined text-sky-600 text-[16px] mt-0.5">check_circle</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[16px] mt-0.5">check_circle</span>
                           <span><strong class="text-slate-900">WearOS Health Tile Fabric:</strong> Real-time PPG / ECG interrupt pipelines with micro-wake lock throttling.</span>
                         </li>
                         <li class="flex items-start gap-2">
-                          <span class="material-symbols-outlined text-sky-600 text-[16px] mt-0.5">check_circle</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[16px] mt-0.5">check_circle</span>
                           <span><strong class="text-slate-900">Staged Canary Rollouts:</strong> Deterministic binary hashing with automated crash dump triage.</span>
                         </li>
                       </ul>
@@ -222,22 +222,22 @@ import {
                     <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col gap-3">
                       <div class="flex items-center justify-between">
                         <div class="flex items-center gap-2">
-                          <span class="material-symbols-outlined text-orange-600 text-[20px]">watch</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[20px]">watch</span>
                           <span class="font-headline-sm text-slate-900 text-base font-semibold">iOS &amp; watchOS</span>
                         </div>
-                        <span class="font-label-caps text-orange-700 font-bold text-xs">SWIFT ACTORS</span>
+                        <span class="font-label-caps text-sky-700 font-bold text-xs">SWIFT ACTORS</span>
                       </div>
                       <ul class="flex flex-col gap-2 text-xs text-slate-600">
                         <li class="flex items-start gap-2">
-                          <span class="material-symbols-outlined text-orange-600 text-[16px] mt-0.5">check_circle</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[16px] mt-0.5">check_circle</span>
                           <span><strong class="text-slate-900">Swift 6 Concurrency:</strong> Compile-time data-race safety across distributed thread pools.</span>
                         </li>
                         <li class="flex items-start gap-2">
-                          <span class="material-symbols-outlined text-orange-600 text-[16px] mt-0.5">check_circle</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[16px] mt-0.5">check_circle</span>
                           <span><strong class="text-slate-900">watchOS Extended Runtimes:</strong> Background core-motion continuous telemetry buffering.</span>
                         </li>
                         <li class="flex items-start gap-2">
-                          <span class="material-symbols-outlined text-orange-600 text-[16px] mt-0.5">check_circle</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[16px] mt-0.5">check_circle</span>
                           <span><strong class="text-slate-900">visionOS Bridge:</strong> Native RealityKit window sharing and volumetric spatial anchors.</span>
                         </li>
                       </ul>
@@ -247,7 +247,7 @@ import {
                   <!-- Telemetry Bar -->
                   <div [class]="viewMode() === 'status' ? 'p-4 rounded-2xl bg-sky-50 border-2 border-sky-500 shadow-sm' : 'p-4 rounded-2xl bg-slate-50 border border-slate-200'" class="flex flex-wrap items-center justify-between gap-4 transition-all">
                     <div class="flex items-center gap-3">
-                      <span class="material-symbols-outlined text-sky-600 text-[22px]">speed</span>
+                      <span class="material-symbols-outlined text-sky-700 text-[22px]">speed</span>
                       <div>
                         <div class="font-label-caps text-slate-500 text-[10px]">SHARED LOGIC RETENTION</div>
                         <div class="font-code-badge text-slate-900 font-semibold text-xs">88.4% KMP Codebase Density</div>
@@ -260,7 +260,7 @@ import {
                       </div>
                       <div>
                         <div class="font-label-caps text-slate-500 text-[10px]">CRASH FREEDOM</div>
-                        <div class="font-code-badge text-emerald-700 font-medium text-xs">99.991% SLA</div>
+                        <div class="font-code-badge text-slate-900 font-semibold text-xs">99.991% SLA</div>
                       </div>
                     </div>
                   </div>
@@ -276,7 +276,7 @@ import {
                       <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
                       <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-xs">
                         <span class="font-bold text-white drop-shadow">AshBike E-Mobility</span>
-                        <span class="text-orange-300 font-semibold drop-shadow">Kotlin NDK</span>
+                        <span class="text-slate-200 font-semibold drop-shadow">Kotlin NDK</span>
                       </div>
                     </div>
 
@@ -289,7 +289,7 @@ import {
                       <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
                       <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-mono text-xs">
                         <span class="font-bold text-white drop-shadow">ZoeWear Smart Sensors</span>
-                        <span class="text-emerald-300 font-semibold drop-shadow">Swift + WearOS</span>
+                        <span class="text-slate-200 font-semibold drop-shadow">Swift + WearOS</span>
                       </div>
                     </div>
                   </div>
@@ -321,18 +321,18 @@ import {
                     </div>
                   </div>
 
-                  <!-- Code block (Soft Coral Pastel Palette) -->
-                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] ring-2 ring-orange-400 font-code-badge overflow-x-auto shadow-sm' : 'p-5 rounded-xl bg-gradient-to-br from-[#fff7f5] to-[#ffebe6] text-slate-800 border border-[#fed7cc] font-code-badge overflow-x-auto shadow-sm'" class="transition-all">
-                    <div class="flex items-center justify-between text-[#9a3412] pb-2 border-b border-[#fed7cc] font-semibold">
-                      <span class="text-[#ea580c]">// KotlinActorBridge.kt</span>
-                      <span class="text-[11px] text-slate-500">THREAD: PINNED_CORE</span>
+                  <!-- Code block (Clean Dark Slate Palette) -->
+                  <div [class]="viewMode() === 'code' ? 'p-5 rounded-xl bg-slate-900 text-slate-100 border border-slate-800 ring-2 ring-sky-500 font-code-badge overflow-x-auto shadow-sm' : 'p-5 rounded-xl bg-slate-900 text-slate-100 border border-slate-800 font-code-badge overflow-x-auto shadow-sm'" class="transition-all">
+                    <div class="flex items-center justify-between text-sky-400 pb-2 border-b border-slate-800 font-semibold">
+                      <span class="text-sky-400">// KotlinActorBridge.kt</span>
+                      <span class="text-[11px] text-slate-400">THREAD: PINNED_CORE</span>
                     </div>
-                    <pre class="mt-2 text-xs leading-relaxed font-mono"><code><span class="text-[#ea580c] font-semibold">&#64;OptIn</span>(DelicateCoroutinesApi::class)
-<span class="text-indigo-600 font-semibold">class</span> <span class="text-slate-900 font-bold">TelemetryStreamer</span>(
-    <span class="text-slate-500">private val</span> nativeBridge: <span class="text-[#c2410c] font-semibold">CppJsiDirectTunnel</span>
+                    <pre class="mt-2 text-xs leading-relaxed font-mono"><code><span class="text-sky-300 font-semibold">&#64;OptIn</span>(DelicateCoroutinesApi::class)
+<span class="text-sky-400 font-semibold">class</span> <span class="text-white font-bold">TelemetryStreamer</span>(
+    <span class="text-slate-400">private val</span> nativeBridge: <span class="text-sky-300 font-semibold">CppJsiDirectTunnel</span>
 ) &#123;
-    <span class="text-[#ea580c] font-semibold">val</span> sharedBuffer = <span class="text-[#c2410c]">PinnedByteArray</span>(capacity = 4096)
-    <span class="text-[#ea580c] font-semibold">suspend fun</span> dispatchFrame(data: <span class="text-indigo-600">SensorPacket</span>) &#123;
+    <span class="text-sky-400 font-semibold">val</span> sharedBuffer = <span class="text-slate-200">PinnedByteArray</span>(capacity = 4096)
+    <span class="text-sky-400 font-semibold">suspend fun</span> dispatchFrame(data: <span class="text-sky-300">SensorPacket</span>) &#123;
         nativeBridge.zeroCopyDispatch(
             handle = sharedBuffer.address,
             vectorLength = data.tensorStride
@@ -447,7 +447,7 @@ import {
               <div class="p-6 md:p-8 bg-slate-50/70 border-t border-slate-200 flex flex-col gap-6">
                 <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
                   <div>
-                    <span class="font-mono text-xs font-bold text-amber-700 uppercase tracking-wider">ON-DEVICE ML ARSENAL</span>
+                    <span class="font-mono text-xs font-bold text-sky-700 uppercase tracking-wider">ON-DEVICE ML ARSENAL</span>
                     <h3 class="text-2xl font-bold font-display text-slate-900 tracking-tight mt-1">
                       Demystifying Mobile Machine Learning: Multi-Tool Approach
                     </h3>
@@ -486,17 +486,17 @@ import {
 
           <!-- PILLAR: MODULAR PLATFORM (MOJO & MAX ENGINE) -->
           @if (activeFilter() === 'all' || activeFilter() === 'modular') {
-            <section class="flex flex-col rounded-3xl bg-white border border-slate-200 shadow-md overflow-hidden ring-1 ring-orange-200">
+            <section class="flex flex-col rounded-3xl bg-white border border-slate-200 shadow-md overflow-hidden ring-1 ring-slate-200">
               <!-- Top Banner / Header -->
               <div class="p-6 md:p-8 bg-slate-50 border-b border-slate-200 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
                 <div class="flex items-start gap-4">
-                  <div class="w-12 h-12 rounded-2xl bg-orange-50 border border-orange-200 flex items-center justify-center text-orange-600 shrink-0 shadow-sm">
+                  <div class="w-12 h-12 rounded-2xl bg-sky-50 border border-sky-200 flex items-center justify-center text-sky-700 shrink-0 shadow-sm">
                     <span class="material-symbols-outlined text-[26px]">bolt</span>
                   </div>
                   <div class="flex flex-col">
                     <div class="flex items-center gap-2 flex-wrap">
-                      <span class="font-label-caps text-orange-700 font-bold">TRACK 02 · MODULAR INNOVATION</span>
-                      <span class="font-code-badge px-2.5 py-0.5 rounded-full bg-orange-50 border border-orange-200 text-orange-700 font-semibold text-[11px]">MOJO + MAX ENGINE</span>
+                      <span class="font-label-caps text-sky-700 font-bold">TRACK 02 · MODULAR INNOVATION</span>
+                      <span class="font-code-badge px-2.5 py-0.5 rounded-full bg-sky-50 border border-sky-200 text-sky-700 font-semibold text-[11px]">MOJO + MAX ENGINE</span>
                       <span class="font-code-badge px-2 py-0.5 rounded-full bg-slate-100 border border-slate-200 text-slate-600 text-[11px]">MODULAR.COM</span>
                     </div>
                     <h2 class="font-headline-lg text-slate-900 tracking-tight mt-1 font-bold">
@@ -506,8 +506,8 @@ import {
                 </div>
 
                 <div class="flex items-center gap-2 flex-wrap">
-                  <span class="px-2.5 py-1 rounded-xl bg-orange-50 border border-orange-200 font-code-badge text-orange-700 font-semibold text-xs">68,420x Mojo Speedup</span>
-                  <span class="px-2.5 py-1 rounded-xl bg-purple-50 border border-purple-200 font-code-badge text-purple-700 font-semibold text-xs">Zero CUDA Lock-In</span>
+                  <span class="px-2.5 py-1 rounded-xl bg-slate-100 border border-slate-200 font-code-badge text-slate-800 font-semibold text-xs">68,420x Mojo Speedup</span>
+                  <span class="px-2.5 py-1 rounded-xl bg-sky-50 border border-sky-200 font-code-badge text-sky-700 font-semibold text-xs">Zero CUDA Lock-In</span>
                   <a
                     href="https://github.com/developerY/MojoMax"
                     target="_blank"
@@ -526,7 +526,7 @@ import {
                 </div>
                 <div class="flex items-center gap-3 shrink-0">
                   <a href="https://modular.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-700 border border-slate-200 font-code-badge text-xs transition-colors">
-                    <span class="material-symbols-outlined text-[15px] text-orange-600">open_in_new</span>
+                    <span class="material-symbols-outlined text-[15px] text-sky-700">open_in_new</span>
                     <span>modular.com</span>
                   </a>
                 </div>
@@ -542,7 +542,7 @@ import {
                 <div class="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/60 to-transparent"></div>
                 <div class="absolute inset-0 flex items-center p-6 sm:p-10">
                   <div class="max-w-xl flex flex-col gap-2">
-                    <span class="px-2.5 py-1 rounded-xl bg-orange-600 text-white font-mono text-xs font-bold self-start shadow-sm">
+                    <span class="px-2.5 py-1 rounded-xl bg-sky-700 text-white font-mono text-xs font-bold self-start shadow-sm">
                       SILICON COMPILER REVOLUTION
                     </span>
                     <h3 class="text-2xl sm:text-3xl font-extrabold text-white font-display">
@@ -551,7 +551,7 @@ import {
                     <p class="text-slate-200 text-xs sm:text-sm leading-relaxed">
                       Compiling PyTorch, ONNX, and Mojo graphs directly down to bare metal across NVIDIA Tensor Cores, AMD ROCm/CDNA, Apple Silicon Metal/ANE, and ARM CPUs.
                     </p>
-                    <div class="flex flex-wrap items-center gap-4 mt-2 text-xs font-mono text-orange-300 font-semibold">
+                    <div class="flex flex-wrap items-center gap-4 mt-2 text-xs font-mono text-slate-300 font-semibold">
                       <span>• ZERO CUDA LOCK-IN</span>
                       <span>• 68,420x SIMD SPEEDUP</span>
                       <span>• MLIR CODEGEN</span>
@@ -569,7 +569,7 @@ import {
                     [class]="activeModularTab() === 'mojo'
                       ? 'px-3.5 py-2 rounded-xl font-code-badge text-xs font-bold bg-slate-900 text-white shadow-sm flex items-center gap-2'
                       : 'px-3.5 py-2 rounded-xl font-code-badge text-xs text-slate-700 hover:text-slate-900 bg-white border border-slate-200 transition-all flex items-center gap-2'">
-                    <span class="w-2 h-2 rounded-full" [class]="activeModularTab() === 'mojo' ? 'bg-orange-400' : 'bg-orange-500'"></span>
+                    <span class="w-2 h-2 rounded-full" [class]="activeModularTab() === 'mojo' ? 'bg-sky-400' : 'bg-sky-500'"></span>
                     01 · MOJO (PYTHON REPLACEMENT)
                   </button>
 
@@ -579,7 +579,7 @@ import {
                     [class]="activeModularTab() === 'max'
                       ? 'px-3.5 py-2 rounded-xl font-code-badge text-xs font-bold bg-slate-900 text-white shadow-sm flex items-center gap-2'
                       : 'px-3.5 py-2 rounded-xl font-code-badge text-xs text-slate-700 hover:text-slate-900 bg-white border border-slate-200 transition-all flex items-center gap-2'">
-                    <span class="w-2 h-2 rounded-full" [class]="activeModularTab() === 'max' ? 'bg-purple-400' : 'bg-purple-500'"></span>
+                    <span class="w-2 h-2 rounded-full" [class]="activeModularTab() === 'max' ? 'bg-sky-400' : 'bg-sky-500'"></span>
                     02 · MAX ENGINE (CUDA REPLACEMENT)
                   </button>
 
@@ -599,13 +599,13 @@ import {
                     [class]="activeModularTab() === 'benchmarks'
                       ? 'px-3.5 py-2 rounded-xl font-code-badge text-xs font-bold bg-slate-900 text-white shadow-sm flex items-center gap-2'
                       : 'px-3.5 py-2 rounded-xl font-code-badge text-xs text-slate-700 hover:text-slate-900 bg-white border border-slate-200 transition-all flex items-center gap-2'">
-                    <span class="w-2 h-2 rounded-full" [class]="activeModularTab() === 'benchmarks' ? 'bg-emerald-400' : 'bg-emerald-500'"></span>
+                    <span class="w-2 h-2 rounded-full" [class]="activeModularTab() === 'benchmarks' ? 'bg-sky-400' : 'bg-sky-500'"></span>
                     04 · SPEEDUP SIMULATOR
                   </button>
                 </div>
 
                 <div class="flex items-center gap-2 text-xs font-mono text-slate-500">
-                  <span class="material-symbols-outlined text-[16px] text-orange-600">memory</span>
+                  <span class="material-symbols-outlined text-[16px] text-sky-700">memory</span>
                   <span>STATUS: COMPILED &amp; VERIFIED</span>
                 </div>
               </div>
@@ -617,7 +617,7 @@ import {
                   <div class="lg:col-span-7 flex flex-col gap-6">
                     <div>
                       <div class="flex items-center gap-2 mb-1">
-                        <span class="font-mono text-xs uppercase tracking-widest text-orange-700 font-bold">SYSTEMS LANGUAGE FOR AI</span>
+                        <span class="font-mono text-xs uppercase tracking-widest text-sky-700 font-bold">SYSTEMS LANGUAGE FOR AI</span>
                         <span class="font-mono text-slate-400">•</span>
                         <span class="font-mono text-xs text-slate-500">ZERO GIL BOTTLENECK</span>
                       </div>
@@ -632,10 +632,10 @@ import {
                     <!-- 4 Pillars Grid -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                       @for (pillar of modularData.mojo.pillars; track pillar.title) {
-                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-orange-300 transition-all flex flex-col gap-1.5 shadow-sm">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-300 transition-all flex flex-col gap-1.5 shadow-sm">
                           <div class="flex items-center justify-between">
                             <span class="text-slate-900 text-sm font-semibold">{{ pillar.title }}</span>
-                            <span class="material-symbols-outlined text-orange-600 text-[18px]">check_circle</span>
+                            <span class="material-symbols-outlined text-sky-700 text-[18px]">check_circle</span>
                           </div>
                           <p class="text-xs text-slate-600 leading-relaxed">{{ pillar.detail }}</p>
                         </div>
@@ -645,52 +645,52 @@ import {
                     <!-- Python vs Mojo Contrast Cards -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <!-- Legacy CPython Flaws -->
-                      <div class="p-4 rounded-xl bg-red-50 border border-red-200 flex flex-col gap-2">
-                        <div class="flex items-center justify-between text-red-700 font-semibold text-xs font-mono">
+                      <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-2">
+                        <div class="flex items-center justify-between text-slate-900 font-semibold text-xs font-mono">
                           <span>LEGACY CPYTHON TRAP</span>
-                          <span class="material-symbols-outlined text-red-600 text-[18px]">cancel</span>
+                          <span class="material-symbols-outlined text-slate-500 text-[18px]">cancel</span>
                         </div>
-                        <ul class="text-xs text-red-800 space-y-1.5 font-mono">
+                        <ul class="text-xs text-slate-700 space-y-1.5 font-mono">
                           <li class="flex items-start gap-1.5">
-                            <span class="text-red-500">•</span>
+                            <span class="text-slate-400">•</span>
                             <span>GIL binds multi-core CPUs to 1 active execution thread</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-red-500">•</span>
+                            <span class="text-slate-400">•</span>
                             <span>Dynamic object boxing causes massive heap allocations</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-red-500">•</span>
+                            <span class="text-slate-400">•</span>
                             <span>GC sweep spikes latency across real-time sensor loops</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-red-500">•</span>
+                            <span class="text-slate-400">•</span>
                             <span>Requires writing brittle C++/CUDA bindings for speed</span>
                           </li>
                         </ul>
                       </div>
 
                       <!-- Mojo Breakthrough -->
-                      <div class="p-4 rounded-xl bg-emerald-50 border border-emerald-200 flex flex-col gap-2">
-                        <div class="flex items-center justify-between text-emerald-800 font-semibold text-xs font-mono">
+                      <div class="p-4 rounded-xl bg-sky-50 border border-sky-200 flex flex-col gap-2">
+                        <div class="flex items-center justify-between text-sky-900 font-semibold text-xs font-mono">
                           <span>MOJO PRODUCTION GUARANTEES</span>
-                          <span class="material-symbols-outlined text-emerald-600 text-[18px]">verified</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[18px]">verified</span>
                         </div>
-                        <ul class="text-xs text-emerald-800 space-y-1.5 font-mono">
+                        <ul class="text-xs text-slate-700 space-y-1.5 font-mono">
                           <li class="flex items-start gap-1.5">
-                            <span class="text-emerald-600">•</span>
+                            <span class="text-sky-700">•</span>
                             <span>True SIMD parallelism saturation across all CPU/GPU cores</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-emerald-600">•</span>
+                            <span class="text-sky-700">•</span>
                             <span>Static type checking with zero-cost value abstractions</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-emerald-600">•</span>
+                            <span class="text-sky-700">•</span>
                             <span>Compile-time ownership (borrowed, inout) with 0 GC pauses</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-emerald-600">•</span>
+                            <span class="text-sky-700">•</span>
                             <span>Single language: prototype and ship bare-metal in Mojo</span>
                           </li>
                         </ul>
@@ -703,7 +703,7 @@ import {
                     <!-- Benchmarks Card -->
                     <div class="p-5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-3">
                       <div class="flex items-center justify-between">
-                        <span class="font-mono text-xs uppercase tracking-wider text-orange-700 font-bold">EMPIRICAL SPEEDUP METRICS</span>
+                        <span class="font-mono text-xs uppercase tracking-wider text-sky-700 font-bold">EMPIRICAL SPEEDUP METRICS</span>
                         <span class="font-mono text-[11px] text-slate-500">HARDWARE: AMD / APPLE M4</span>
                       </div>
 
@@ -712,11 +712,11 @@ import {
                           <div class="p-3 rounded-lg bg-white border border-slate-200 flex flex-col gap-1.5 shadow-xs">
                             <div class="flex items-center justify-between text-slate-900 font-semibold">
                               <span class="truncate">{{ bm.task }}</span>
-                              <span class="px-2 py-0.5 rounded bg-orange-50 text-orange-700 border border-orange-200 font-bold">{{ bm.speedup }}</span>
+                              <span class="px-2 py-0.5 rounded bg-sky-50 text-sky-700 border border-sky-200 font-bold">{{ bm.speedup }}</span>
                             </div>
                             <div class="flex items-center justify-between text-[11px] text-slate-500">
-                              <span class="line-through text-red-500">{{ bm.legacy }}</span>
-                              <span class="text-emerald-700 font-semibold">{{ bm.modular }}</span>
+                              <span class="line-through text-slate-400">{{ bm.legacy }}</span>
+                              <span class="text-slate-900 font-semibold">{{ bm.modular }}</span>
                             </div>
                           </div>
                         }
@@ -725,16 +725,16 @@ import {
 
                     <!-- Interactive Mojo Code Block (Clean Dark Code on Light Theme) -->
                     <div class="p-5 rounded-xl bg-slate-900 text-slate-100 border border-slate-800 font-mono shadow-md flex flex-col justify-between">
-                      <div class="flex items-center justify-between text-orange-400 pb-2 border-b border-slate-800 font-semibold">
-                        <span class="text-orange-400 font-semibold flex items-center gap-2">
-                          <span class="w-2.5 h-2.5 rounded-full bg-orange-500 animate-pulse"></span>
+                      <div class="flex items-center justify-between text-sky-300 pb-2 border-b border-slate-800 font-semibold">
+                        <span class="text-slate-200 font-semibold flex items-center gap-2">
+                          <span class="w-2.5 h-2.5 rounded-full bg-sky-500 animate-pulse"></span>
                           {{ modularData.mojo.codeSample.filename }}
                         </span>
                         <button
                           type="button"
                           (click)="copyCode('mojo', modularData.mojo.codeSample.code)"
-                          class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-xs text-orange-300 border border-orange-500/40 flex items-center gap-1.5 transition-colors shadow-sm">
-                          <span class="material-symbols-outlined text-[14px] text-orange-400">
+                          class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-xs text-sky-300 border border-sky-500/40 flex items-center gap-1.5 transition-colors shadow-sm">
+                          <span class="material-symbols-outlined text-[14px] text-sky-400">
                             {{ copiedCodeKey() === 'mojo' ? 'check' : 'content_copy' }}
                           </span>
                           <span>{{ copiedCodeKey() === 'mojo' ? 'Copied!' : 'Copy Mojo' }}</span>
@@ -745,29 +745,29 @@ import {
 <span class="text-sky-400 font-semibold">from</span> sys.info <span class="text-sky-400 font-semibold">import</span> simdwidthof
 
 <span class="text-slate-500"># Direct SIMD vector mapping in Mojo (replaces slow Python loops)</span>
-<span class="text-orange-400 font-semibold">alias</span> type = DType.float32
-<span class="text-orange-400 font-semibold">alias</span> nelts = simdwidthof[type]()
+<span class="text-sky-400 font-semibold">alias</span> type = DType.float32
+<span class="text-sky-400 font-semibold">alias</span> nelts = simdwidthof[type]()
 
-<span class="text-orange-400 font-semibold">fn</span> <span class="text-amber-300 font-bold">fast_matmul_kernel</span>[M: Int, N: Int, K: Int](
+<span class="text-sky-400 font-semibold">fn</span> <span class="text-white font-bold">fast_matmul_kernel</span>[M: Int, N: Int, K: Int](
     C: UnsafePointer[Scalar[type]],
     A: UnsafePointer[Scalar[type]],
     B: UnsafePointer[Scalar[type]]
 ):
-    <span class="text-purple-400 font-semibold">&#64;parameter</span>
-    <span class="text-orange-400 font-semibold">fn</span> calc_row(m: Int):
-        <span class="text-purple-400 font-semibold">for</span> k <span class="text-purple-400 font-semibold">in</span> range(K):
-            <span class="text-purple-400 font-semibold">&#64;parameter</span>
-            <span class="text-orange-400 font-semibold">fn</span> calc_tile[simd_width: Int](n: Int):
-                <span class="text-orange-400 font-semibold">var</span> a_val = A.load(m * K + k)
-                <span class="text-orange-400 font-semibold">var</span> b_vec = B.load[width=simd_width](k * N + n)
-                <span class="text-orange-400 font-semibold">var</span> c_vec = C.load[width=simd_width](m * N + n)
+    <span class="text-sky-300 font-semibold">&#64;parameter</span>
+    <span class="text-sky-400 font-semibold">fn</span> calc_row(m: Int):
+        <span class="text-sky-300 font-semibold">for</span> k <span class="text-sky-300 font-semibold">in</span> range(K):
+            <span class="text-sky-300 font-semibold">&#64;parameter</span>
+            <span class="text-sky-400 font-semibold">fn</span> calc_tile[simd_width: Int](n: Int):
+                <span class="text-sky-400 font-semibold">var</span> a_val = A.load(m * K + k)
+                <span class="text-sky-400 font-semibold">var</span> b_vec = B.load[width=simd_width](k * N + n)
+                <span class="text-sky-400 font-semibold">var</span> c_vec = C.load[width=simd_width](m * N + n)
                 C.store(m * N + n, c_vec + a_val * b_vec)
             vectorize[calc_tile, nelts](N)
     parallelize[calc_row](M, M)</code></pre>
 
                       <div class="mt-3 pt-2 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-400 font-mono">
                         <span>TARGET: MLIR VECTOR REGISTER</span>
-                        <span class="text-emerald-400 font-bold">NO GIL • 1,565x FASTER</span>
+                        <span class="text-white font-bold">NO GIL • 1,565x FASTER</span>
                       </div>
                     </div>
                   </div>
@@ -781,7 +781,7 @@ import {
                   <div class="lg:col-span-7 flex flex-col gap-6">
                     <div>
                       <div class="flex items-center gap-2 mb-1">
-                        <span class="font-mono text-xs uppercase tracking-widest text-purple-700 font-bold">HETEROGENEOUS GRAPH COMPILER</span>
+                        <span class="font-mono text-xs uppercase tracking-widest text-sky-700 font-bold">HETEROGENEOUS GRAPH COMPILER</span>
                         <span class="font-mono text-slate-400">•</span>
                         <span class="font-mono text-xs text-slate-500">ZERO SILICON LOCK-IN</span>
                       </div>
@@ -796,18 +796,18 @@ import {
                     <!-- Heterogeneous Hardware Matrix Cards -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                       @for (hw of modularData.max.hardwareMatrix; track hw.vendor) {
-                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-purple-300 transition-all flex flex-col justify-between shadow-sm">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-sky-300 transition-all flex flex-col justify-between shadow-sm">
                           <div>
                             <div class="flex items-center justify-between mb-1">
                               <span class="text-slate-900 text-sm font-semibold">{{ hw.vendor }}</span>
-                              <span class="px-2 py-0.5 rounded bg-purple-50 text-purple-700 border border-purple-200 font-bold font-mono text-[11px]">{{ hw.speedup }}</span>
+                              <span class="px-2 py-0.5 rounded bg-sky-50 text-sky-700 border border-sky-200 font-bold font-mono text-[11px]">{{ hw.speedup }}</span>
                             </div>
-                            <p class="text-xs text-purple-700 font-mono mb-1 font-semibold">{{ hw.chips }}</p>
+                            <p class="text-xs text-slate-800 font-mono mb-1 font-semibold">{{ hw.chips }}</p>
                             <p class="text-xs text-slate-600">{{ hw.status }}</p>
                           </div>
                           <div class="mt-3 pt-2 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-500">
                             <span>CUDA Lock-in:</span>
-                            <span class="text-emerald-700 font-semibold">ELIMINATED</span>
+                            <span class="text-slate-900 font-semibold">ELIMINATED</span>
                           </div>
                         </div>
                       }
@@ -816,52 +816,52 @@ import {
                     <!-- CUDA vs MAX Contrast Cards -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <!-- Proprietary CUDA Lock-in Flaws -->
-                      <div class="p-4 rounded-xl bg-red-50 border border-red-200 flex flex-col gap-2">
-                        <div class="flex items-center justify-between text-red-700 font-semibold text-xs font-mono">
+                      <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-2">
+                        <div class="flex items-center justify-between text-slate-900 font-semibold text-xs font-mono">
                           <span>PROPRIETARY CUDA LIMITS</span>
-                          <span class="material-symbols-outlined text-red-600 text-[18px]">lock</span>
+                          <span class="material-symbols-outlined text-slate-500 text-[18px]">lock</span>
                         </div>
-                        <ul class="text-xs text-red-800 space-y-1.5 font-mono">
+                        <ul class="text-xs text-slate-700 space-y-1.5 font-mono">
                           <li class="flex items-start gap-1.5">
-                            <span class="text-red-500">•</span>
+                            <span class="text-slate-400">•</span>
                             <span>Hard-locked to NVIDIA silicon: fails on AMD and Apple M-series</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-red-500">•</span>
+                            <span class="text-slate-400">•</span>
                             <span>Thousands of lines of dense, brittle CUDA C++ templates</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-red-500">•</span>
+                            <span class="text-slate-400">•</span>
                             <span>Driver matrix version mismatches (CUDA 11 vs 12 vs cuDNN)</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-red-500">•</span>
+                            <span class="text-slate-400">•</span>
                             <span>Separate serving stacks: TensorRT vs vLLM vs Triton</span>
                           </li>
                         </ul>
                       </div>
 
                       <!-- Modular MAX Engine Guarantees -->
-                      <div class="p-4 rounded-xl bg-purple-50 border border-purple-200 flex flex-col gap-2">
-                        <div class="flex items-center justify-between text-purple-800 font-semibold text-xs font-mono">
+                      <div class="p-4 rounded-xl bg-sky-50 border border-sky-200 flex flex-col gap-2">
+                        <div class="flex items-center justify-between text-sky-900 font-semibold text-xs font-mono">
                           <span>MODULAR MAX ADVANTAGES</span>
-                          <span class="material-symbols-outlined text-purple-600 text-[18px]">verified</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[18px]">verified</span>
                         </div>
-                        <ul class="text-xs text-purple-900 space-y-1.5 font-mono">
+                        <ul class="text-xs text-slate-700 space-y-1.5 font-mono">
                           <li class="flex items-start gap-1.5">
-                            <span class="text-purple-600">•</span>
+                            <span class="text-sky-700">•</span>
                             <span>Compile once: runs on NVIDIA, AMD, Apple Silicon, Intel, ARM</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-purple-600">•</span>
+                            <span class="text-sky-700">•</span>
                             <span>Automated kernel fusion eliminates memory-bandwidth bottlenecks</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-purple-600">•</span>
+                            <span class="text-sky-700">•</span>
                             <span>Write custom ops in Mojo instead of custom C++ CUDA kernels</span>
                           </li>
                           <li class="flex items-start gap-1.5">
-                            <span class="text-purple-600">•</span>
+                            <span class="text-sky-700">•</span>
                             <span>Single enterprise binary serving PyTorch, ONNX, and Mojo</span>
                           </li>
                         </ul>
@@ -873,13 +873,13 @@ import {
                   <div class="lg:col-span-5 flex flex-col gap-4">
                     <!-- Key Pillars of MAX Engine -->
                     <div class="p-5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-3">
-                      <span class="font-mono text-xs uppercase tracking-wider text-purple-700 font-bold">MAX COMPILER ARCHITECTURE</span>
+                      <span class="font-mono text-xs uppercase tracking-wider text-sky-700 font-bold">MAX COMPILER ARCHITECTURE</span>
                       <div class="space-y-2.5">
                         @for (p of modularData.max.pillars; track p.title) {
                           <div class="p-3 rounded-lg bg-white border border-slate-200 flex flex-col gap-1 shadow-xs">
                             <div class="flex items-center justify-between">
                               <span class="text-slate-900 text-xs font-semibold">{{ p.title }}</span>
-                              <span class="material-symbols-outlined text-purple-600 text-[16px]">tune</span>
+                              <span class="material-symbols-outlined text-sky-700 text-[16px]">tune</span>
                             </div>
                             <p class="text-[11px] text-slate-600 leading-relaxed">{{ p.detail }}</p>
                           </div>
@@ -889,16 +889,16 @@ import {
 
                     <!-- Interactive MAX Pipeline Code Block (Clean Dark Code on Light Theme) -->
                     <div class="p-5 rounded-xl bg-slate-900 text-slate-100 border border-slate-800 font-mono shadow-md flex flex-col justify-between">
-                      <div class="flex items-center justify-between text-purple-300 pb-2 border-b border-slate-800 font-semibold">
-                        <span class="text-purple-300 font-semibold flex items-center gap-2">
-                          <span class="w-2.5 h-2.5 rounded-full bg-purple-500 animate-pulse"></span>
+                      <div class="flex items-center justify-between text-sky-300 pb-2 border-b border-slate-800 font-semibold">
+                        <span class="text-slate-200 font-semibold flex items-center gap-2">
+                          <span class="w-2.5 h-2.5 rounded-full bg-sky-500 animate-pulse"></span>
                           {{ modularData.max.codeSample.filename }}
                         </span>
                         <button
                           type="button"
                           (click)="copyCode('max', modularData.max.codeSample.code)"
-                          class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-xs text-purple-300 border border-purple-500/40 flex items-center gap-1.5 transition-colors shadow-sm">
-                          <span class="material-symbols-outlined text-[14px] text-purple-400">
+                          class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-xs text-sky-300 border border-sky-500/40 flex items-center gap-1.5 transition-colors shadow-sm">
+                          <span class="material-symbols-outlined text-[14px] text-sky-400">
                             {{ copiedCodeKey() === 'max' ? 'check' : 'content_copy' }}
                           </span>
                           <span>{{ copiedCodeKey() === 'max' ? 'Copied!' : 'Copy MAX' }}</span>
@@ -909,27 +909,27 @@ import {
 <span class="text-sky-400 font-semibold">from</span> max.graph <span class="text-sky-400 font-semibold">import</span> Graph, Tensor, Type, ops
 
 <span class="text-slate-500"># Compiles deep learning graphs directly without NVIDIA CUDA</span>
-<span class="text-purple-400 font-semibold">fn</span> <span class="text-amber-300 font-bold">build_max_graph</span>() -> Graph:
-    <span class="text-orange-400 font-semibold">var</span> graph = Graph(<span class="text-emerald-400 font-medium">"ylabz_vision_transformer"</span>)
-    <span class="text-orange-400 font-semibold">var</span> input_tensor = graph.add_input(Type(DType.float32, 1, 3, 224, 224))
+<span class="text-sky-400 font-semibold">fn</span> <span class="text-white font-bold">build_max_graph</span>() -> Graph:
+    <span class="text-sky-300 font-semibold">var</span> graph = Graph(<span class="text-slate-200 font-medium">"ylabz_vision_transformer"</span>)
+    <span class="text-sky-300 font-semibold">var</span> input_tensor = graph.add_input(Type(DType.float32, 1, 3, 224, 224))
     
     <span class="text-slate-500"># Auto-fused attention &amp; layer norm across any target silicon</span>
-    <span class="text-orange-400 font-semibold">var</span> normalized = ops.layer_norm(input_tensor, epsilon=1e-5)
-    <span class="text-orange-400 font-semibold">var</span> attention = ops.scaled_dot_product_attention(
+    <span class="text-sky-300 font-semibold">var</span> normalized = ops.layer_norm(input_tensor, epsilon=1e-5)
+    <span class="text-sky-300 font-semibold">var</span> attention = ops.scaled_dot_product_attention(
         query=normalized, key=normalized, value=normalized
     )
-    <span class="text-orange-400 font-semibold">var</span> logits = ops.dense(attention, out_features=1000)
+    <span class="text-sky-300 font-semibold">var</span> logits = ops.dense(attention, out_features=1000)
     graph.output(logits)
-    <span class="text-purple-400 font-semibold">return</span> graph
+    <span class="text-sky-400 font-semibold">return</span> graph
 
-<span class="text-purple-400 font-semibold">fn</span> <span class="text-amber-300 font-bold">main</span>() raises:
-    <span class="text-orange-400 font-semibold">var</span> session = InferenceSession()
-    <span class="text-orange-400 font-semibold">var</span> model = session.load(build_max_graph())
-    print(<span class="text-emerald-400 font-medium">"MAX: Compiled to native silicon without CUDA"</span>)</code></pre>
+<span class="text-sky-400 font-semibold">fn</span> <span class="text-white font-bold">main</span>() raises:
+    <span class="text-sky-300 font-semibold">var</span> session = InferenceSession()
+    <span class="text-sky-300 font-semibold">var</span> model = session.load(build_max_graph())
+    print(<span class="text-slate-200 font-medium">"MAX: Compiled to native silicon without CUDA"</span>)</code></pre>
 
                       <div class="mt-3 pt-2 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-400 font-mono">
                         <span>TARGET: HETEROGENEOUS ACCELERATOR</span>
-                        <span class="text-purple-400 font-bold">ZERO CUDA BOILERPLATE</span>
+                        <span class="text-sky-300 font-bold">ZERO CUDA BOILERPLATE</span>
                       </div>
                     </div>
                   </div>
@@ -954,8 +954,8 @@ import {
                     <!-- Stage 1 -->
                     <div class="p-5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-2 relative shadow-xs">
                       <div class="flex items-center justify-between">
-                        <span class="font-mono text-xs text-orange-700 font-bold">STAGE 01</span>
-                        <span class="material-symbols-outlined text-orange-600 text-[20px]">code</span>
+                        <span class="font-mono text-xs text-sky-700 font-bold">STAGE 01</span>
+                        <span class="material-symbols-outlined text-sky-600 text-[20px]">code</span>
                       </div>
                       <h4 class="text-slate-900 text-sm font-semibold">Model Frontend</h4>
                       <p class="text-xs text-slate-600 leading-relaxed">PyTorch 2.4, TorchScript, ONNX graphs, or high-performance Mojo custom operator kernels.</p>
@@ -967,8 +967,8 @@ import {
                     <!-- Stage 2 -->
                     <div class="p-5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-2 relative shadow-xs">
                       <div class="flex items-center justify-between">
-                        <span class="font-mono text-xs text-purple-700 font-bold">STAGE 02</span>
-                        <span class="material-symbols-outlined text-purple-600 text-[20px]">hub</span>
+                        <span class="font-mono text-xs text-sky-700 font-bold">STAGE 02</span>
+                        <span class="material-symbols-outlined text-sky-600 text-[20px]">hub</span>
                       </div>
                       <h4 class="text-slate-900 text-sm font-semibold">MAX Graph Compiler</h4>
                       <p class="text-xs text-slate-600 leading-relaxed">Dead-code elimination, constant folding, automatic operator fusion (MHA + LayerNorm), zero-copy memory layout.</p>
@@ -993,12 +993,12 @@ import {
                     <!-- Stage 4 -->
                     <div class="p-5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-2 relative shadow-xs">
                       <div class="flex items-center justify-between">
-                        <span class="font-mono text-xs text-emerald-700 font-bold">STAGE 04</span>
-                        <span class="material-symbols-outlined text-emerald-600 text-[20px]">memory</span>
+                        <span class="font-mono text-xs text-sky-700 font-bold">STAGE 04</span>
+                        <span class="material-symbols-outlined text-sky-600 text-[20px]">memory</span>
                       </div>
                       <h4 class="text-slate-900 text-sm font-semibold">Native Silicon Execution</h4>
                       <p class="text-xs text-slate-600 leading-relaxed">Direct machine binary dispatching to NVIDIA Tensor Cores, Apple Silicon Metal/ANE, AMD CDNA, Intel AMX, or ARM NEON.</p>
-                      <div class="mt-auto font-mono text-[10px] text-emerald-700 bg-emerald-50 p-2 rounded border border-emerald-200 font-semibold">
+                      <div class="mt-auto font-mono text-[10px] text-sky-700 bg-sky-50 p-2 rounded border border-sky-200 font-semibold">
                         Zero CUDA dependency!
                       </div>
                     </div>
@@ -1025,7 +1025,7 @@ import {
                 <div class="p-6 md:p-8 flex flex-col gap-8">
                   <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
                     <div>
-                      <span class="font-mono text-xs uppercase tracking-widest text-emerald-700 font-bold">INTERACTIVE LATENCY SIMULATOR</span>
+                      <span class="font-mono text-xs uppercase tracking-widest text-sky-700 font-bold">INTERACTIVE LATENCY SIMULATOR</span>
                       <h3 class="text-2xl font-bold text-slate-900 tracking-tight mt-1">
                         Compare Python + CUDA vs Mojo + MAX Engine
                       </h3>
@@ -1053,11 +1053,11 @@ import {
                   <!-- Telemetry Metric Cards -->
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <!-- Legacy Stack -->
-                    <div class="p-6 rounded-2xl bg-white border border-red-200 shadow-sm flex flex-col justify-between">
+                    <div class="p-6 rounded-2xl bg-white border border-slate-300 shadow-sm flex flex-col justify-between">
                       <div>
                         <div class="flex items-center justify-between mb-2">
-                          <span class="font-mono text-xs uppercase tracking-wider text-red-700 font-bold">LEGACY AI STACK</span>
-                          <span class="material-symbols-outlined text-red-600 text-[20px]">speed</span>
+                          <span class="font-mono text-xs uppercase tracking-wider text-slate-700 font-bold">LEGACY AI STACK</span>
+                          <span class="material-symbols-outlined text-slate-600 text-[20px]">speed</span>
                         </div>
                         <h4 class="text-slate-900 text-base font-semibold">Python + C++ CUDA</h4>
                         <p class="text-xs text-slate-500 font-mono mt-1">CPython GIL + PyTorch TorchScript</p>
@@ -1067,67 +1067,67 @@ import {
                         <div class="text-slate-900 text-4xl font-bold font-mono">
                           {{ calculatedLatencyLegacy() }} <span class="text-base text-slate-500 font-normal">ms</span>
                         </div>
-                        <span class="text-xs text-red-700 font-mono font-medium block mt-1">Bound by kernel launch &amp; memory copies</span>
+                        <span class="text-xs text-slate-600 font-mono font-medium block mt-1">Bound by kernel launch &amp; memory copies</span>
                       </div>
 
                       <div class="pt-4 border-t border-slate-100 space-y-2 font-mono text-xs text-slate-600">
                         <div class="flex justify-between"><span>Compute Efficiency:</span><span class="text-slate-900 font-semibold">28.4% TFLOPS</span></div>
                         <div class="flex justify-between"><span>VRAM Footprint:</span><span class="text-slate-900 font-semibold">14.8 GB</span></div>
-                        <div class="flex justify-between"><span>Silicon Target:</span><span class="text-red-700 font-semibold">NVIDIA Only</span></div>
+                        <div class="flex justify-between"><span>Silicon Target:</span><span class="text-slate-700 font-semibold">NVIDIA Only</span></div>
                       </div>
                     </div>
 
                     <!-- Modular Stack -->
-                    <div class="p-6 rounded-2xl bg-white border border-emerald-300 shadow-sm ring-1 ring-emerald-200 flex flex-col justify-between">
+                    <div class="p-6 rounded-2xl bg-white border border-sky-300 shadow-sm ring-1 ring-sky-200 flex flex-col justify-between">
                       <div>
                         <div class="flex items-center justify-between mb-2">
-                          <span class="font-mono text-xs uppercase tracking-wider text-emerald-700 font-bold">MODULAR AI STACK</span>
-                          <span class="material-symbols-outlined text-emerald-600 text-[20px]">bolt</span>
+                          <span class="font-mono text-xs uppercase tracking-wider text-sky-700 font-bold">MODULAR AI STACK</span>
+                          <span class="material-symbols-outlined text-sky-600 text-[20px]">bolt</span>
                         </div>
                         <h4 class="text-slate-900 text-base font-semibold">Mojo + MAX Engine</h4>
-                        <p class="text-xs text-emerald-700 font-mono mt-1">MLIR Graph Compiler + SIMD Tiling</p>
+                        <p class="text-xs text-sky-700 font-mono mt-1">MLIR Graph Compiler + SIMD Tiling</p>
                       </div>
 
                       <div class="my-6">
-                        <div class="text-emerald-600 text-4xl font-bold font-mono">
+                        <div class="text-sky-700 text-4xl font-bold font-mono">
                           {{ calculatedLatencyModular() }} <span class="text-base text-slate-500 font-normal">ms</span>
                         </div>
-                        <span class="text-xs text-emerald-700 font-mono font-medium block mt-1">Zero-copy shared buffers &amp; fused attention</span>
+                        <span class="text-xs text-sky-700 font-mono font-medium block mt-1">Zero-copy shared buffers &amp; fused attention</span>
                       </div>
 
                       <div class="pt-4 border-t border-slate-100 space-y-2 font-mono text-xs text-slate-600">
-                        <div class="flex justify-between"><span>Compute Efficiency:</span><span class="text-emerald-700 font-bold">89.2% TFLOPS</span></div>
-                        <div class="flex justify-between"><span>VRAM Footprint:</span><span class="text-emerald-700 font-bold">5.2 GB (-65%)</span></div>
-                        <div class="flex justify-between"><span>Silicon Target:</span><span class="text-emerald-700 font-bold">Any Hardware</span></div>
+                        <div class="flex justify-between"><span>Compute Efficiency:</span><span class="text-sky-700 font-bold">89.2% TFLOPS</span></div>
+                        <div class="flex justify-between"><span>VRAM Footprint:</span><span class="text-sky-700 font-bold">5.2 GB (-65%)</span></div>
+                        <div class="flex justify-between"><span>Silicon Target:</span><span class="text-sky-700 font-bold">Any Hardware</span></div>
                       </div>
                     </div>
 
-                    <!-- Net Improvement Card (Light Amber / Orange) -->
-                    <div class="p-6 rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 border border-orange-200 shadow-sm flex flex-col justify-between font-mono">
+                    <!-- Net Improvement Card -->
+                    <div class="p-6 rounded-2xl bg-gradient-to-br from-slate-50 to-sky-50 border border-slate-200 shadow-sm flex flex-col justify-between font-mono">
                       <div>
-                        <span class="font-mono text-[10px] uppercase tracking-wider text-orange-700 font-bold">PRODUCTION DELTA</span>
+                        <span class="font-mono text-[10px] uppercase tracking-wider text-sky-700 font-bold">PRODUCTION DELTA</span>
                         <h4 class="text-slate-900 text-base font-bold mt-1">Verified Acceleration</h4>
                         <p class="text-xs text-slate-600 mt-1">Tested on real YLabZ model graphs</p>
                       </div>
 
                       <div class="my-6">
-                        <div class="text-orange-600 text-5xl font-extrabold">
+                        <div class="text-slate-900 text-5xl font-extrabold">
                           {{ calculatedSpeedupRatio() }}
                         </div>
                         <span class="text-xs text-slate-600 block mt-1">Throughput multiplier at batch {{ batchSize() }}</span>
                       </div>
 
-                      <div class="pt-4 border-t border-orange-200/80 space-y-2 text-xs text-slate-700 font-medium">
+                      <div class="pt-4 border-t border-slate-200 space-y-2 text-xs text-slate-700 font-medium">
                         <div class="flex items-center gap-2">
-                          <span class="material-symbols-outlined text-emerald-600 text-[16px]">check</span>
+                          <span class="material-symbols-outlined text-sky-600 text-[16px]">check</span>
                           <span>Zero proprietary CUDA drivers</span>
                         </div>
                         <div class="flex items-center gap-2">
-                          <span class="material-symbols-outlined text-emerald-600 text-[16px]">check</span>
+                          <span class="material-symbols-outlined text-sky-600 text-[16px]">check</span>
                           <span>No CPython GIL contention</span>
                         </div>
                         <div class="flex items-center gap-2">
-                          <span class="material-symbols-outlined text-emerald-600 text-[16px]">check</span>
+                          <span class="material-symbols-outlined text-sky-600 text-[16px]">check</span>
                           <span>100% portable hardware execution</span>
                         </div>
                       </div>
@@ -1184,16 +1184,16 @@ import {
                     <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-2 shadow-xs">
                       <div class="flex items-center justify-between">
                         <span class="text-slate-900 text-base font-semibold">TensorFlow</span>
-                        <span class="material-symbols-outlined text-teal-600 text-[18px]">memory</span>
+                        <span class="material-symbols-outlined text-sky-700 text-[18px]">memory</span>
                       </div>
                       <p class="text-xs text-slate-600">TFLite delegate binding for Apple Neural Engine (CoreML) and Qualcomm Hexagon.</p>
-                      <div class="mt-auto font-mono text-xs text-teal-700 font-medium">INT8 Post-Training</div>
+                      <div class="mt-auto font-mono text-xs text-sky-700 font-medium">INT8 Post-Training</div>
                     </div>
 
                     <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-2 shadow-xs">
                       <div class="flex items-center justify-between">
                         <span class="text-slate-900 text-base font-semibold">Scikit-Learn</span>
-                        <span class="material-symbols-outlined text-sky-600 text-[18px]">auto_graph</span>
+                        <span class="material-symbols-outlined text-sky-700 text-[18px]">auto_graph</span>
                       </div>
                       <p class="text-xs text-slate-600">Low-overhead random forest and gradient-boosted ensembles for real-time sensor anomaly sweeps.</p>
                       <div class="mt-auto font-mono text-xs text-sky-700 font-medium">Tree-Lite C Export</div>
@@ -1204,14 +1204,14 @@ import {
                     <span class="font-mono text-xs text-slate-500 uppercase tracking-wider font-semibold">On-Device Inference Pipelines</span>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                       <div class="flex items-start gap-3 p-3.5 rounded-lg bg-white border border-slate-200 shadow-xs">
-                        <span class="material-symbols-outlined text-sky-600 text-[20px] mt-0.5">visibility</span>
+                        <span class="material-symbols-outlined text-sky-700 text-[20px] mt-0.5">visibility</span>
                         <div>
                           <h4 class="text-slate-900 text-sm font-semibold">On-Device Neural Vision</h4>
                           <p class="text-xs text-slate-600 mt-1">Zero-latency human keypoint tracking, depth-map estimation, and surface classification running at 60 FPS on mobile NPUs.</p>
                         </div>
                       </div>
                       <div class="flex items-start gap-3 p-3.5 rounded-lg bg-white border border-slate-200 shadow-xs">
-                        <span class="material-symbols-outlined text-teal-600 text-[20px] mt-0.5">forum</span>
+                        <span class="material-symbols-outlined text-sky-700 text-[20px] mt-0.5">forum</span>
                         <div>
                           <h4 class="text-slate-900 text-sm font-semibold">Local SLM Execution</h4>
                           <p class="text-xs text-slate-600 mt-1">Phi-3 / Gemma-2B quantized to 3.8-bit AWQ executing with zero server-side telemetry or connectivity requirements.</p>
@@ -1274,7 +1274,7 @@ import {
 model = <span class="text-white font-bold">VisionBackboneTransformer</span>()
 quantized_prog = torch.export.export(model, example_inputs)
 edge_program = _export.to_edge(quantized_prog)
-edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualcomm_htp"</span>, int8_relaxed=<span class="text-orange-400">True</span>)</code></pre>
+edge_program.tune_for_target(<span class="text-sky-300 font-semibold">"qualcomm_htp"</span>, int8_relaxed=<span class="text-sky-300">True</span>)</code></pre>
                   </div>
                 </div>
               </div>
@@ -1330,22 +1330,22 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                       <div class="flex flex-col gap-1.5">
                         <div class="flex items-center justify-between">
                           <span class="text-slate-900 text-base font-semibold">Apple visionOS</span>
-                          <span class="material-symbols-outlined text-teal-600 text-[18px]">eye_tracking</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[18px]">eye_tracking</span>
                         </div>
                         <p class="text-xs text-slate-600">RealityKit 4 dynamic lighting, eye gaze intents, and Metal 3 shaders.</p>
                       </div>
-                      <div class="font-mono text-xs text-teal-700 font-medium">Sub-20ms Delay</div>
+                      <div class="font-mono text-xs text-sky-700 font-medium">Sub-20ms Delay</div>
                     </div>
 
                     <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-between gap-3 shadow-xs">
                       <div class="flex flex-col gap-1.5">
                         <div class="flex items-center justify-between">
                           <span class="text-slate-900 text-base font-semibold">Meta Quest 3</span>
-                          <span class="material-symbols-outlined text-purple-600 text-[18px]">view_in_ar</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[18px]">view_in_ar</span>
                         </div>
-                        <p class="text-xs text-slate-600">Direct integration with <strong class="text-purple-700">zoeware.com</strong> interactive spatial modules &amp; physics.</p>
+                        <p class="text-xs text-slate-600">Direct integration with <strong class="text-slate-900">zoeware.com</strong> interactive spatial modules &amp; physics.</p>
                       </div>
-                      <div class="font-mono text-xs text-purple-700 font-medium">OpenXR Low-Level</div>
+                      <div class="font-mono text-xs text-sky-700 font-medium">OpenXR Low-Level</div>
                     </div>
                   </div>
 
@@ -1396,12 +1396,12 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                     <pre class="mt-2 text-xs leading-relaxed font-mono"><code><span class="text-sky-400 font-semibold">import</span> RealityKit
 <span class="text-sky-400 font-semibold">import</span> SpatialPhysicsEngine
 
-<span class="text-orange-400 font-semibold">&#64;MainActor</span>
+<span class="text-sky-300 font-semibold">&#64;MainActor</span>
 <span class="text-sky-400 font-semibold">public struct</span> <span class="text-white font-bold">VolumetricMeshSystem</span>: System &#123;
-    <span class="text-orange-400 font-semibold">public func</span> update(context: <span class="text-sky-400">SceneUpdateContext</span>) &#123;
-        <span class="text-orange-400 font-semibold">let</span> query = <span class="text-sky-400">EntityQuery</span>(where: .has(<span class="text-amber-300">ZoewarePhysicsComponent</span>.self))
+    <span class="text-sky-300 font-semibold">public func</span> update(context: <span class="text-sky-400">SceneUpdateContext</span>) &#123;
+        <span class="text-sky-300 font-semibold">let</span> query = <span class="text-sky-400">EntityQuery</span>(where: .has(<span class="text-white font-bold">ZoewarePhysicsComponent</span>.self))
         <span class="text-sky-400 font-semibold">for</span> entity <span class="text-sky-400 font-semibold">in</span> context.entities(matching: query) &#123;
-            entity.applyDepthMeshingOcclusion(latencyTolerance: <span class="text-orange-400">0.008</span>)
+            entity.applyDepthMeshingOcclusion(latencyTolerance: <span class="text-sky-300">0.008</span>)
         &#125;
     &#125;
 &#125;</code></pre>
@@ -1416,13 +1416,13 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
             <section class="flex flex-col rounded-3xl bg-white border border-slate-200 shadow-md overflow-hidden">
               <div class="p-6 md:p-8 bg-slate-50 border-b border-slate-200 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
                 <div class="flex items-start gap-4">
-                  <div class="w-12 h-12 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-purple-600 shrink-0 shadow-sm">
+                  <div class="w-12 h-12 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-sky-700 shrink-0 shadow-sm">
                     <span class="material-symbols-outlined text-[26px]">hub</span>
                   </div>
                   <div class="flex flex-col">
                     <div class="flex items-center gap-2">
-                      <span class="font-mono text-xs uppercase tracking-widest text-purple-700 font-bold">TRACK 05 · CRYPTOGRAPHY &amp; QUANTUM</span>
-                      <span class="font-mono text-xs px-2 py-0.5 rounded bg-purple-50 border border-purple-200 text-purple-700">QISKIT &amp; ZK-SNARK FABRIC</span>
+                      <span class="font-mono text-xs uppercase tracking-widest text-sky-700 font-bold">TRACK 05 · CRYPTOGRAPHY &amp; QUANTUM</span>
+                      <span class="font-mono text-xs px-2 py-0.5 rounded bg-sky-50 border border-sky-200 text-sky-700">QISKIT &amp; ZK-SNARK FABRIC</span>
                     </div>
                     <h2 class="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight mt-1">
                       Decentralized Primitives &amp; Quantum Simulation
@@ -1431,9 +1431,9 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                 </div>
 
                 <div class="flex items-center gap-2 flex-wrap">
-                  <span class="px-2.5 py-1 rounded bg-purple-50 border border-purple-200 font-mono text-xs text-purple-700 font-medium">Qiskit Runtime v1.2</span>
-                  <span class="px-2.5 py-1 rounded bg-purple-50 border border-purple-200 font-mono text-xs text-purple-700 font-medium">Cirq 1.4</span>
-                  <span class="px-2.5 py-1 rounded bg-purple-50 border border-purple-200 font-mono text-xs text-purple-700 font-medium">Halo2 / Plonky3</span>
+                  <span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-mono text-xs text-sky-700 font-medium">Qiskit Runtime v1.2</span>
+                  <span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-mono text-xs text-sky-700 font-medium">Cirq 1.4</span>
+                  <span class="px-2.5 py-1 rounded bg-sky-50 border border-sky-200 font-mono text-xs text-sky-700 font-medium">Halo2 / Plonky3</span>
                 </div>
               </div>
 
@@ -1448,15 +1448,15 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                     <div class="p-5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-3 shadow-xs">
                       <div class="flex items-center justify-between">
                         <span class="text-slate-900 text-base font-semibold">Decentralized Primitives</span>
-                        <span class="material-symbols-outlined text-purple-600 text-[20px]">token</span>
+                        <span class="material-symbols-outlined text-sky-700 text-[20px]">token</span>
                       </div>
                       <ul class="flex flex-col gap-2 text-xs text-slate-600">
                         <li class="flex items-start gap-2">
-                          <span class="material-symbols-outlined text-purple-600 text-[16px] mt-0.5">verified_user</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[16px] mt-0.5">verified_user</span>
                           <span><strong class="text-slate-900">Zero-Knowledge Proofs:</strong> Sub-second client-side proof generation using recursive Halo2 gates.</span>
                         </li>
                         <li class="flex items-start gap-2">
-                          <span class="material-symbols-outlined text-purple-600 text-[16px] mt-0.5">verified_user</span>
+                          <span class="material-symbols-outlined text-sky-700 text-[16px] mt-0.5">verified_user</span>
                           <span><strong class="text-slate-900">Audited Smart Contracts:</strong> Formally verified EVM and SVM state channels with zero reentrancy surface.</span>
                         </li>
                       </ul>
@@ -1480,9 +1480,9 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                     </div>
                   </div>
 
-                  <div class="p-4 rounded-xl bg-purple-50 border border-purple-200 flex flex-wrap items-center justify-between gap-4 transition-all shadow-xs">
+                  <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-wrap items-center justify-between gap-4 transition-all shadow-xs">
                     <div class="flex items-center gap-3">
-                      <span class="material-symbols-outlined text-purple-600 text-[22px]">memory_alt</span>
+                      <span class="material-symbols-outlined text-sky-700 text-[22px]">memory_alt</span>
                       <div>
                         <div class="font-mono text-xs text-slate-500">CIRCUIT DEPTH OPTIMIZER</div>
                         <div class="font-mono text-slate-900 font-semibold">128-Qubit State Simulator</div>
@@ -1495,7 +1495,7 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                       </div>
                       <div>
                         <div class="text-[11px] text-slate-500">ZK-PROVE SPEED</div>
-                        <div class="text-xs text-purple-700 font-bold">318 ms</div>
+                        <div class="text-xs text-sky-700 font-bold">318 ms</div>
                       </div>
                     </div>
                   </div>
@@ -1505,14 +1505,14 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                 <div class="lg:col-span-5 flex flex-col gap-4">
                   <div class="p-5 rounded-xl bg-white border border-slate-200 flex flex-col gap-3 font-mono shadow-sm">
                     <div class="flex items-center justify-between pb-2 border-b border-slate-100 text-xs">
-                      <span class="text-purple-700 font-semibold">// GHZ_3QUBIT_CIRCUIT.QC</span>
+                      <span class="text-sky-700 font-semibold">// GHZ_3QUBIT_CIRCUIT.QC</span>
                       <span class="text-slate-500">FIDELITY: OPTIMAL</span>
                     </div>
 
                     <div class="flex flex-col gap-3 py-2 text-slate-800 text-[13px]">
                       <div class="flex items-center gap-2">
                         <span class="text-slate-500 w-8">q[0]:</span>
-                        <span class="px-2 py-0.5 rounded bg-purple-600 text-white font-bold shadow-sm">H</span>
+                        <span class="px-2 py-0.5 rounded bg-sky-600 text-white font-bold shadow-sm">H</span>
                         <span class="h-[1px] w-6 bg-slate-300"></span>
                         <span class="w-3 h-3 rounded-full bg-sky-500"></span>
                         <span class="h-[1px] flex-1 bg-slate-300"></span>
@@ -1523,7 +1523,7 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                       <div class="flex items-center gap-2">
                         <span class="text-slate-500 w-8">q[1]:</span>
                         <span class="h-[1px] w-12 bg-slate-300"></span>
-                        <span class="px-2 py-0.5 rounded bg-purple-100 text-purple-700 border border-purple-200 font-bold">X</span>
+                        <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-800 border border-slate-200 font-bold">X</span>
                         <span class="h-[1px] flex-1 bg-slate-300"></span>
                         <span class="h-[1px] w-6 bg-slate-300"></span>
                         <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-800 border border-slate-200">M</span>
@@ -1531,7 +1531,7 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                       <div class="flex items-center gap-2">
                         <span class="text-slate-500 w-8">q[2]:</span>
                         <span class="h-[1px] w-24 bg-slate-300"></span>
-                        <span class="px-2 py-0.5 rounded bg-purple-100 text-purple-700 border border-purple-200 font-bold">X</span>
+                        <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-800 border border-slate-200 font-bold">X</span>
                         <span class="h-[1px] flex-1 bg-slate-300"></span>
                         <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-800 border border-slate-200">M</span>
                       </div>
@@ -1551,18 +1551,18 @@ edge_program.tune_for_target(<span class="text-orange-400 font-semibold">"qualco
                       referrerpolicy="no-referrer"
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
-                    <div class="absolute top-2.5 left-3 px-2.5 py-0.5 rounded bg-slate-900/90 text-purple-300 font-mono text-[10px] font-bold border border-slate-700">
+                    <div class="absolute top-2.5 left-3 px-2.5 py-0.5 rounded bg-slate-900/90 text-sky-300 font-mono text-[10px] font-bold border border-slate-700">
                       AUTHENTIC YLABZ // QUANTUM PYO3
                     </div>
                     <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between font-mono text-xs text-white">
                       <span class="font-bold">Rust PyO3 Quantum Engine</span>
-                      <span class="text-purple-300 font-semibold">128-Qubit State Sim</span>
+                      <span class="text-sky-300 font-semibold">128-Qubit State Sim</span>
                     </div>
                   </div>
 
                   <div class="p-5 rounded-xl bg-slate-900 text-slate-100 border border-slate-800 font-mono shadow-md">
-                    <div class="flex items-center justify-between text-purple-300 pb-1 border-b border-slate-800 font-semibold text-xs">
-                      <span class="text-purple-300">// qiskit_bell_solver.py</span>
+                    <div class="flex items-center justify-between text-sky-300 pb-1 border-b border-slate-800 font-semibold text-xs">
+                      <span class="text-sky-300">// qiskit_bell_solver.py</span>
                       <span class="text-[11px] text-slate-500">QISKIT RUNTIME</span>
                     </div>
                     <pre class="mt-2 text-xs leading-relaxed font-mono"><code><span class="text-sky-400 font-semibold">from</span> qiskit <span class="text-sky-400 font-semibold">import</span> QuantumCircuit
@@ -1621,14 +1621,14 @@ job = sampler.run([qc])</code></pre>
                   </tr>
                   <tr class="hover:bg-slate-50/80 transition-colors">
                     <td class="py-3.5 px-4 text-slate-900 text-[15px] font-semibold flex items-center gap-2">
-                      <span class="w-2 h-2 rounded-full bg-teal-500"></span>
+                      <span class="w-2 h-2 rounded-full bg-sky-500"></span>
                       AI / Neural Quantization
                     </td>
                     <td class="py-3.5 px-4 text-xs text-slate-600">Apple ANE, Qualcomm Hexagon, WebGPU</td>
                     <td class="py-3.5 px-4 text-xs text-slate-900 font-semibold">&lt; 14.1 ms (INT8 Tensor)</td>
                     <td class="py-3.5 px-4 text-xs">Pinned Tensor DMA Memory</td>
                     <td class="py-3.5 px-4 text-xs">On-Device Isolated Weight Encapsulation</td>
-                    <td class="py-3.5 px-4 text-right text-xs text-teal-700 font-bold">LIVE</td>
+                    <td class="py-3.5 px-4 text-right text-xs text-sky-700 font-bold">LIVE</td>
                   </tr>
                   <tr class="hover:bg-slate-50/80 transition-colors">
                     <td class="py-3.5 px-4 text-slate-900 text-[15px] font-semibold flex items-center gap-2">
@@ -1643,14 +1643,14 @@ job = sampler.run([qc])</code></pre>
                   </tr>
                   <tr class="hover:bg-slate-50/80 transition-colors">
                     <td class="py-3.5 px-4 text-slate-900 text-[15px] font-semibold flex items-center gap-2">
-                      <span class="w-2 h-2 rounded-full bg-purple-500"></span>
+                      <span class="w-2 h-2 rounded-full bg-sky-500"></span>
                       Blockchain &amp; Quantum Sim
                     </td>
                     <td class="py-3.5 px-4 text-xs text-slate-600">EVM/SVM, Cryo-Rigs, IBM Eagle Sim</td>
                     <td class="py-3.5 px-4 text-xs text-slate-900 font-semibold">&lt; 318 ms (ZK SNARK)</td>
                     <td class="py-3.5 px-4 text-xs">State Vector Linear Memory</td>
                     <td class="py-3.5 px-4 text-xs">Lattice-512 &amp; Dilithium PQC Primitives</td>
-                    <td class="py-3.5 px-4 text-right text-xs text-purple-700 font-bold">LIVE</td>
+                    <td class="py-3.5 px-4 text-right text-xs text-sky-700 font-bold">LIVE</td>
                   </tr>
                 </tbody>
               </table>
